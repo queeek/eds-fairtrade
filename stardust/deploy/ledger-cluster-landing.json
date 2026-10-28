@@ -1,0 +1,20 @@
+{
+  "/ch-de": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T17:49:23.861Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de-de": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T18:18:29.122Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

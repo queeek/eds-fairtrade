@@ -1,0 +1,11 @@
+{
+  "/en/products/fairtrade-products": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T15:40:54.548Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,1731 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-28T12:09:19.931Z",
+    "stardustVersion": "0.36.0",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/css/site.css",
+      "stardust/current/pages/*.json",
+      "stardust/current/pages/*.html (component class census)"
+    ],
+    "synthesizedInputs": []
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T12:09:19.931Z",
+  "title": "Design System: Fairtrade International (current state)",
+  "extensions": {
+    "colorMeta": {
+      "skyblue": {
+        "role": "primary",
+        "displayName": "Sky Blue",
+        "canonical": "#0fc0fc",
+        "tonalRamp": [
+          "#035e7c",
+          "#0eade3",
+          "#0fc0fc",
+          "#6fd9fd",
+          "rgba(15,192,252,.25)"
+        ],
+        "rampSource": "site.css .Button.*.color-skyblue hover/active/dark-theme/disabled values (observed, not synthesized)"
+      },
+      "leafgreen": {
+        "role": "secondary",
+        "displayName": "Leaf Green",
+        "canonical": "#d4ff47",
+        "tonalRamp": [
+          "#4f5d18",
+          "#aacc39",
+          "#d4ff47",
+          "#e5ff91",
+          "rgba(212,255,71,.25)"
+        ],
+        "rampSource": "site.css .Button.*.color-leafgreen"
+      },
+      "eggplant": {
+        "role": "tertiary",
+        "displayName": "Eggplant",
+        "canonical": "#7b1dab"
+      },
+      "nightsky": {
+        "role": "tertiary",
+        "displayName": "Night Sky",
+        "canonical": "#001b6e"
+      },
+      "flower": {
+        "role": "accent",
+        "displayName": "Flower",
+        "canonical": "#ff4571",
+        "note": "SVG bubble fill; not in computed census"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1e1e1e"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff"
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#f4f4f4"
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#dadada"
+      },
+      "stone": {
+        "role": "neutral",
+        "displayName": "Stone",
+        "canonical": "#787878"
+      },
+      "link-hover": {
+        "role": "state",
+        "displayName": "Deep Sky",
+        "canonical": "#035e7c"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "PageLead / hero titles, quote-lg; Alegreya Sans 900."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "h3 teaser/card titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Exo 2 running text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Button labels, Exo 2 700."
+      }
+    },
+    "shadows": [
+      {
+        "name": "control-lift",
+        "value": "0 4px 8px rgba(30,30,30,0.1)",
+        "purpose": "Accordion headers and carousel controls (census ×28)."
+      },
+      {
+        "name": "overlay",
+        "value": "0 8px 12px 0 rgba(0,0,0,0.15)",
+        "purpose": "Overlay panels (.Overlay--inner)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-colour",
+        "value": "color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out",
+        "purpose": "Button state transitions (.Button)."
+      }
+    ],
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "background": "#0fc0fc",
+          "color": "#1e1e1e",
+          "borderRadius": "100px",
+          "height": "48px",
+          "padding": "0 32px",
+          "fontWeight": 700,
+          "fontSize": "18px",
+          "border": "2px solid transparent",
+          "shadow": null,
+          "hoverDelta": "background #0fc0fc → #0eade3, border → #035e7c (census hover ×8)",
+          "variants": {
+            "color-leafgreen": {
+              "background": "#d4ff47",
+              "hover": "#aacc39",
+              "borderHover": "#4f5d18"
+            }
+          },
+          "source": "site.css .Button.variant-primary(.color-skyblue|.color-leafgreen)"
+        },
+        "secondary": {
+          "background": "transparent",
+          "color": "#1e1e1e",
+          "border": "2px solid #0fc0fc | #d4ff47 | #fff",
+          "borderRadius": "100px",
+          "height": "48px",
+          "padding": "0 32px",
+          "fontWeight": 700,
+          "hoverDelta": "background → 25% tint of border colour (census hover ×15 leafgreen, ×8 skyblue)",
+          "source": "site.css .Button.variant-secondary.color-*"
+        },
+        "tertiary": {
+          "background": "transparent",
+          "fontSize": "16px",
+          "fontWeight": 700,
+          "source": "site.css .Button.variant-tertiary (text link with icon)"
+        },
+        "icon": {
+          "borderRadius": "100%",
+          "source": "site.css .Button.variant-icon-primary/secondary"
+        }
+      },
+      "dualCTAPattern": null,
+      "links": {
+        "color": "#7b1dab",
+        "hover": "#035e7c",
+        "source": ".Richtext a{color:#7b1dab}; census hover link ×10"
+      },
+      "cards": {
+        "background": "#ffffff",
+        "borderRadius": "16px",
+        "padding": null,
+        "shadow": null,
+        "border": null,
+        "source": ".ProductTeaser{background-color:#fff;border-radius:1pc}; InfoTeaser image radius 12px (census mode)"
+      },
+      "inputs": {
+        "borderRadius": "100px",
+        "padding": "16px 24px",
+        "border": "0 (pill wrapper)",
+        "focusRing": null,
+        "source": ".Input--fieldWrapper{border-radius:75pt}; .Input--field{border:0;padding:1pc 24px}"
+      },
+      "tags": {
+        "borderRadius": "16px",
+        "padding": "4px 12px",
+        "source": ".Tag{border-radius:1pc;padding:4px 9pt}"
+      },
+      "transitions": "color/background-color/border-color .2s ease-in-out (.Button)"
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "12px",
+        "secondary": "16px",
+        "pill": "100px",
+        "circle": "100%",
+        "primarySources": [
+          "ch-de"
+        ],
+        "occurrences": {
+          "12px": 274,
+          "16px": 160,
+          "100%": 132,
+          "100px": 91,
+          "120px": 8
+        },
+        "cssEvidence": {
+          "12px": ".PageHeroSlide--media{border-radius:9pt}",
+          "16px": ".ProductTeaser{border-radius:1pc}; .Tag{border-radius:1pc}",
+          "100px": ".Button.variant-primary/secondary{border-radius:75pt}; .Input--fieldWrapper{border-radius:75pt}",
+          "100%": ".Button.variant-icon-*; .Input--iconWrapper"
+        }
+      },
+      "shadows": [
+        {
+          "value": "0 4px 8px rgba(30,30,30,0.1)",
+          "uses": "accordion headers, carousel controls",
+          "count": 28,
+          "sources": [
+            "ch-de",
+            "de-de"
+          ],
+          "cssEvidence": ".Accordion--header; .Carousel--control-next/previous"
+        },
+        {
+          "value": "0 8px 12px 0 rgba(0,0,0,0.15)",
+          "uses": "overlay panels (site.css .Overlay--inner; not in census)"
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(rgb(0, 27, 110) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+          "uses": "hard-stop split band (top third colour, rest white) behind page-lead/hero",
+          "count": 2,
+          "sources": [
+            "en-products-fairtrade_products-cocoa"
+          ]
+        },
+        {
+          "value": "linear-gradient(rgb(212, 255, 71) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+          "uses": "hard-stop split band (top third colour, rest white) behind page-lead/hero",
+          "count": 2,
+          "sources": [
+            "en-why-fairtrade-what-we-do-key-benefits"
+          ]
+        }
+      ],
+      "patterns": [
+        {
+          "name": "number-fact-bubble",
+          "evidence": "NumberFact with organic blob Bubble (.Bubble.color-flower #ff4571 ×9, .color-eggplant #7b1dab ×2) on en, de-de, ch-de, en-products-fairtrade_products-cocoa"
+        },
+        {
+          "name": "wave-divider",
+          "evidence": ".Wave SVG section divider (color-leafgreen ×5, monochrome-100 ×4, skyblue ×1) on 7 of 9 pages"
+        },
+        {
+          "name": "colour-theme-bands",
+          "evidence": "PageLead / PageHeroCarousel / TeaserGrid take theme-leafgreen | theme-skyblue | theme-nightsky | theme-white | theme-grey"
+        },
+        {
+          "name": "hero-carousel",
+          "evidence": "PageHeroCarousel (swiper) with rounded 12px media and pill CTA on en, de-de, ch-de"
+        },
+        {
+          "name": "card-grid",
+          "evidence": "FilteredTeaserGrid/TeaserGrid of InfoTeaser cards on en, de-de, ch-de, en-get-involved-press-centre, en-products-fairtrade_products"
+        },
+        {
+          "name": "pill-buttons",
+          "evidence": ".Button.variant-primary/secondary border-radius 100px, height 48px (3pc), padding 0 32px"
+        },
+        {
+          "name": "footer-mega",
+          "evidence": "Footer with 3 FooterLinkList columns + social + newsletter on 9/9 pages"
+        },
+        {
+          "name": "nav-mega",
+          "evidence": "TopbarDesktopFlyout mega-flyouts (4 EN / 5 DE) on 9/9 pages"
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "What is Fairtrade?",
+      "heroSubcopy": "For more than three decades, Fairtrade has been making an impact on the way trade works.",
+      "heroImage": {
+        "url": "https://www.fairtrade.net/content/dam/fairtrade/global/what-is-fairtrade/Karen%20Roses%2C%20Ravine%20Roses%20Kenya%202020_edited.jpg",
+        "renditionUrl": "https://www.fairtrade.net/content/dam/fairtrade/global/what-is-fairtrade/Karen%20Roses%2C%20Ravine%20Roses%20Kenya%202020_edited.jpg/_jcr_content/renditions/16x9_768w.webp",
+        "alt": "",
+        "source": "img",
+        "domPath": ".PageHeroCarousel .PageHeroSlide.swiper-slide-active .PageHeroSlide--media img",
+        "localPath": null,
+        "rect": {
+          "width": 719,
+          "height": 478
+        },
+        "note": "first (active) hero slide; pages/en.json media.imgs[1] 719x478; largest non-logo image in first viewport per screenshot; rect.top not captured"
+      },
+      "heroMedium": null,
+      "primaryCTALabel": "Find out more",
+      "ctaSamples": [
+        "Find out more",
+        "Read more",
+        "Key benefits",
+        "To all news",
+        "Learn more",
+        "Mehr erfahren",
+        "Jetzt entdecken",
+        "Jetzt anmelden"
+      ],
+      "navItems": [
+        "Why Fairtrade",
+        "Products",
+        "For Business",
+        "Get Involved"
+      ],
+      "footerHeadings": [
+        "About Fairtrade International",
+        "How we operate globally",
+        "Other information",
+        "Social Links",
+        "Newsletter"
+      ],
+      "firstParagraph": "For more than three decades, Fairtrade has been making an impact on the way trade works.",
+      "locales": {
+        "de-de": {
+          "heroHeadline": "Fairtrade: Fairness im Fokus!",
+          "firstParagraph": "Fairtrade steht für fairen Handel, bessere Preise und menschenwürdige Arbeitsbedingungen. Wir setzen uns für eine gerechte Zukunft ein – für Bäuerinnen und Bauern, Arbeiterinnen und Arbeiter und für dich."
+        },
+        "ch-de": {
+          "heroHeadline": "Fairtrade verbindet",
+          "firstParagraph": "Fairtrade steht für fairen Handel, bessere Preise und menschenwürdige Arbeitsbedingungen. Wir setzen uns für eine gerechte Zukunft ein – für Bäuer:innen, Arbeiter:innen und für dich."
+        }
+      },
+      "tone": {
+        "guess": "professional-warm",
+        "evidence": "EN: question-led section heads ('Do you want to know the basics?'), mission framing ('making an impact on the way trade works'); DE/CH address the reader informally with du/dein ('Du suchst nach Produkten…', 'Dein Einsatz für den fairen Handel zählt'); producer testimonials in first person"
+      },
+      "voiceTable": {
+        "ctaFrequency": [
+          {
+            "label": "Get Involved",
+            "total": 6,
+            "pageCount": 6,
+            "pages": [
+              "en",
+              "en-why-fairtrade-what-we-do-key-benefits",
+              "en-products-fairtrade_products",
+              "en-products-fairtrade_products-cocoa",
+              "en-get-involved-press-centre",
+              "en-search-results"
+            ]
+          },
+          {
+            "label": "Contact us",
+            "total": 6,
+            "pageCount": 6,
+            "pages": [
+              "en",
+              "en-why-fairtrade-what-we-do-key-benefits",
+              "en-products-fairtrade_products",
+              "en-products-fairtrade_products-cocoa",
+              "en-get-involved-press-centre",
+              "en-search-results"
+            ]
+          },
+          {
+            "label": "Click here",
+            "total": 6,
+            "pageCount": 6,
+            "pages": [
+              "en",
+              "en-why-fairtrade-what-we-do-key-benefits",
+              "en-products-fairtrade_products",
+              "en-products-fairtrade_products-cocoa",
+              "en-get-involved-press-centre",
+              "en-search-results"
+            ]
+          },
+          {
+            "label": "Mehr erfahren",
+            "total": 4,
+            "pageCount": 2,
+            "pages": [
+              "de-de",
+              "ch-de"
+            ]
+          },
+          {
+            "label": "Find out more",
+            "total": 2,
+            "pageCount": 2,
+            "pages": [
+              "en",
+              "en-products-fairtrade_products-cocoa"
+            ]
+          },
+          {
+            "label": "Read more",
+            "total": 2,
+            "pageCount": 2,
+            "pages": [
+              "en",
+              "en-why-fairtrade-what-we-do-key-benefits"
+            ]
+          },
+          {
+            "label": "Fairtrade products",
+            "total": 2,
+            "pageCount": 2,
+            "pages": [
+              "en-products-fairtrade_products",
+              "en-products-fairtrade_products-cocoa"
+            ]
+          },
+          {
+            "label": "Wer wir sind",
+            "total": 2,
+            "pageCount": 2,
+            "pages": [
+              "de-de",
+              "ch-de"
+            ]
+          }
+        ],
+        "headingFrequency": [],
+        "headingFrequencyNote": "no heading text repeats on ≥3 pages (max 2: DE/CH shared AccordionSection heads 'Fairtrade in Kürze', 'Wer wir sind', 'Was wir tun', 'Was wir fordern', 'Mehrwert durch Fairtrade')",
+        "toneMetrics": {
+          "headingsTotal": 117,
+          "headingsUppercasePercent": 0,
+          "distinctHeadings": 109,
+          "distinctCtaLabels": 240
+        }
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 9,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Why Fairtrade",
+          "Products",
+          "For Business",
+          "Get Involved",
+          "Search",
+          "GLOBAL • EN"
+        ],
+        "localeVariants": {
+          "de-de": [
+            "Was ist Fairtrade?",
+            "Produkte",
+            "Für Unternehmen",
+            "Mach mit!",
+            "Newsroom"
+          ],
+          "ch-de": [
+            "Was ist Fairtrade?",
+            "Produkte",
+            "Für Unternehmen",
+            "Mach mit!"
+          ]
+        },
+        "exampleSlug": "en",
+        "exampleSelector": "header .Topbar",
+        "examplePages": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products",
+          "en-products-fairtrade_products-cocoa",
+          "en-get-involved-press-centre",
+          "en-search-results",
+          "de-de",
+          "de-de-produkte-produktfinder",
+          "ch-de"
+        ],
+        "parts": [
+          "Topbar--logo",
+          "TopbarMainNavigation + TopbarDesktopFlyout mega menu",
+          "TopbarSearch",
+          "LocaleSelector",
+          "TopbarMetaMenu",
+          "MobileMenu"
+        ]
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 9,
+        "headingSequence": [
+          "About Fairtrade International",
+          "How we operate globally",
+          "Other information",
+          "Social Links",
+          "Newsletter"
+        ],
+        "ctaLabels": [
+          "Click here"
+        ],
+        "localeVariants": {
+          "de-de": [
+            "Über Fairtrade Deutschland",
+            "Service & Kontakt",
+            "Recht & Compliance",
+            "Social Media Kanäle",
+            "Newsletter für Konsument*innen und Aktive / Jetzt anmelden"
+          ],
+          "ch-de": [
+            "Über Fairtrade Max Havelaar",
+            "Service & Kontakt",
+            "Recht & Compliance",
+            "Social Links",
+            "Newsletter / Jetzt anmelden"
+          ]
+        },
+        "exampleSlug": "en",
+        "exampleSelector": ".Footer",
+        "examplePages": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products",
+          "en-products-fairtrade_products-cocoa",
+          "en-get-involved-press-centre",
+          "en-search-results",
+          "de-de",
+          "de-de-produkte-produktfinder",
+          "ch-de"
+        ]
+      },
+      {
+        "name": "breadcrumbs",
+        "kind": "breadcrumb",
+        "occurrences": 5,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Home"
+        ],
+        "exampleSlug": "en-products-fairtrade_products-cocoa",
+        "exampleSelector": ".Breadcrumbs",
+        "examplePages": [
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products",
+          "en-products-fairtrade_products-cocoa",
+          "en-get-involved-press-centre",
+          "de-de-produkte-produktfinder"
+        ],
+        "evidence": "ctas begin 'Home / … / page title'"
+      },
+      {
+        "name": "wave-divider",
+        "kind": "other",
+        "occurrences": 7,
+        "exampleSlug": "en",
+        "exampleSelector": ".Wave",
+        "examplePages": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products",
+          "en-products-fairtrade_products-cocoa",
+          "en-get-involved-press-centre",
+          "de-de",
+          "ch-de"
+        ]
+      },
+      {
+        "name": "number-fact-teaser",
+        "kind": "other",
+        "occurrences": 4,
+        "exampleSlug": "en",
+        "exampleSelector": ".NumberFactTeaser[data-module=number-fact-teaser]",
+        "examplePages": [
+          "en",
+          "de-de",
+          "ch-de",
+          "en-products-fairtrade_products-cocoa"
+        ]
+      },
+      {
+        "name": "news-teaser-grid",
+        "kind": "other",
+        "occurrences": 5,
+        "exampleSlug": "en-get-involved-press-centre",
+        "exampleSelector": ".FilteredTeaserGrid .InfoTeaser",
+        "examplePages": [
+          "en",
+          "de-de",
+          "ch-de",
+          "en-get-involved-press-centre",
+          "en-products-fairtrade_products"
+        ]
+      }
+    ],
+    "modules": [
+      {
+        "id": "candidate-page-hero-carousel",
+        "name": "page-hero-carousel",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "source class PageHeroCarousel/PageHeroSlide (swiper) — 3 slides en, 5 de-de, 9 ch-de; theme-skyblue ×2, theme-leafgreen ×1",
+        "slots": [
+          {
+            "name": "slides[]",
+            "type": "group",
+            "required": true
+          },
+          {
+            "name": "slide.image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "slide.title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "slide.text",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "slide.cta",
+            "type": "link",
+            "required": false
+          },
+          {
+            "name": "theme",
+            "type": "enum(skyblue|leafgreen|nightsky)",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".PageHeroCarousel"
+          },
+          {
+            "slug": "de-de",
+            "selector": ".PageHeroCarousel"
+          },
+          {
+            "slug": "ch-de",
+            "selector": ".PageHeroCarousel"
+          }
+        ]
+      },
+      {
+        "id": "candidate-page-lead",
+        "name": "page-lead title band",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "PageLead on 7/9 pages; theme-leafgreen ×3, theme-white no-gap ×3 (landing/press), theme-nightsky ×1 (cocoa); hard-stop gradient band (33.33%) on key-benefits/cocoa",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text (h1, 72px desktop)",
+            "required": true
+          },
+          {
+            "name": "lead",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "theme",
+            "type": "enum(leafgreen|nightsky|white)",
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en-why-fairtrade-what-we-do-key-benefits",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "en-products-fairtrade_products",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "en-products-fairtrade_products-cocoa",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "en-get-involved-press-centre",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "de-de",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "de-de-produkte-produktfinder",
+            "selector": ".PageLead"
+          },
+          {
+            "slug": "ch-de",
+            "selector": ".PageLead"
+          }
+        ]
+      },
+      {
+        "id": "candidate-number-fact-teaser",
+        "name": "number-fact-teaser",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "NumberFact + organic Bubble blob (color-flower #ff4571 ×9, eggplant ×2); e.g. '1,824 producer organisations in 68 countries'",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          },
+          {
+            "name": "facts[]",
+            "type": "group",
+            "required": true
+          },
+          {
+            "name": "fact.number",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "fact.label",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "fact.color",
+            "type": "enum(flower|eggplant)",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".NumberFactTeaser[data-module=number-fact-teaser]"
+          },
+          {
+            "slug": "de-de",
+            "selector": ".NumberFactTeaser[data-module=number-fact-teaser]"
+          },
+          {
+            "slug": "ch-de",
+            "selector": ".NumberFactTeaser[data-module=number-fact-teaser]"
+          },
+          {
+            "slug": "en-products-fairtrade_products-cocoa",
+            "selector": ".NumberFactTeaser[data-module=number-fact-teaser]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-info-teaser-grid",
+        "name": "news / info teaser cards (FilteredTeaserGrid)",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "InfoTeaser ×4 en, ×19 press-centre, ×17 products, ×4 de-de/ch-de; headings prefixed with category pretitle",
+        "slots": [
+          {
+            "name": "cards[]",
+            "type": "group",
+            "required": true
+          },
+          {
+            "name": "card.image",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "card.date",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "card.pretitle",
+            "type": "text (category tag e.g. 'Press releases', 'Fairtrade news', 'Product pages')",
+            "required": false
+          },
+          {
+            "name": "card.title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "card.text",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "card.tags[]",
+            "type": "tag",
+            "required": false
+          },
+          {
+            "name": "card.cta",
+            "type": "link ('Read more')",
+            "required": false
+          },
+          {
+            "name": "filter",
+            "type": "tags",
+            "required": false
+          },
+          {
+            "name": "loadMore",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".FilteredTeaserGrid .TeaserGrid .InfoTeaser"
+          },
+          {
+            "slug": "de-de",
+            "selector": ".FilteredTeaserGrid .TeaserGrid .InfoTeaser"
+          },
+          {
+            "slug": "ch-de",
+            "selector": ".FilteredTeaserGrid .TeaserGrid .InfoTeaser"
+          },
+          {
+            "slug": "en-get-involved-press-centre",
+            "selector": ".FilteredTeaserGrid .TeaserGrid .InfoTeaser"
+          },
+          {
+            "slug": "en-products-fairtrade_products",
+            "selector": ".FilteredTeaserGrid .TeaserGrid .InfoTeaser"
+          }
+        ]
+      },
+      {
+        "id": "candidate-product-teaser",
+        "name": "product card grid / carousel",
+        "status": "candidate",
+        "confidence": "speculative",
+        "signal": "ProductTeaser ×24 ch-de (carousel), ×25 Produktfinder (grid); white card, radius 16px",
+        "slots": [
+          {
+            "name": "cards[]",
+            "type": "group",
+            "required": true
+          },
+          {
+            "name": "card.image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "card.brand",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "card.name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "card.cta",
+            "type": "link ('Mehr erfahren')",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "ch-de",
+            "selector": ".ProductTeaserGrid .ProductTeaser, .ProductTeaserCarousel .ProductTeaser"
+          },
+          {
+            "slug": "de-de-produkte-produktfinder",
+            "selector": ".ProductTeaserGrid .ProductTeaser, .ProductTeaserCarousel .ProductTeaser"
+          }
+        ]
+      },
+      {
+        "id": "candidate-text-image",
+        "name": "image / text row",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "TextImage on 5 pages (theme-grey #f4f4f4 ×4)",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "text",
+            "type": "richtext",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          },
+          {
+            "name": "theme",
+            "type": "enum(grey|white)",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".TextImage"
+          },
+          {
+            "slug": "de-de",
+            "selector": ".TextImage"
+          },
+          {
+            "slug": "ch-de",
+            "selector": ".TextImage"
+          },
+          {
+            "slug": "en-products-fairtrade_products-cocoa",
+            "selector": ".TextImage"
+          },
+          {
+            "slug": "en-why-fairtrade-what-we-do-key-benefits",
+            "selector": ".TextImage"
+          }
+        ]
+      },
+      {
+        "id": "candidate-accordion-section",
+        "name": "accordion section",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "AccordionSection on 4 pages ('Find what you are looking for', 'Fairtrade in Kürze', 'Useful resources'); Accordion header shadow 0 4px 8px rgba(30,30,30,.1); single Accordion also on Produktfinder",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "items[]",
+            "type": "group",
+            "required": true
+          },
+          {
+            "name": "item.heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "item.body",
+            "type": "richtext",
+            "required": true
+          },
+          {
+            "name": "item.cta",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".AccordionSection .Accordion"
+          },
+          {
+            "slug": "de-de",
+            "selector": ".AccordionSection .Accordion"
+          },
+          {
+            "slug": "ch-de",
+            "selector": ".AccordionSection .Accordion"
+          },
+          {
+            "slug": "en-get-involved-press-centre",
+            "selector": ".AccordionSection .Accordion"
+          }
+        ]
+      },
+      {
+        "id": "candidate-navigation-teasers",
+        "name": "navigation teaser pair",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "'Fairtrade-Produktfinder / Jetzt entdecken', 'Fairtrade-Code (& FLO-ID) / Mehr erfahren' — DE/CH locales only",
+        "slots": [
+          {
+            "name": "items[]",
+            "type": "group",
+            "required": true
+          },
+          {
+            "name": "item.title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "item.cta",
+            "type": "link",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "de-de",
+            "selector": ".NavigationTeasers .NavigationTeaser"
+          },
+          {
+            "slug": "ch-de",
+            "selector": ".NavigationTeasers .NavigationTeaser"
+          },
+          {
+            "slug": "de-de-produkte-produktfinder",
+            "selector": ".NavigationTeasers .NavigationTeaser"
+          }
+        ]
+      },
+      {
+        "id": "candidate-cta-section",
+        "name": "single CTA row",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "centred button after a grid: 'To all news', 'Alle News entdecken', 'Load more', 'Find out more', 'Mehr Informationen zu Fairtrade-Produkten'",
+        "slots": [
+          {
+            "name": "cta",
+            "type": "link",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".CTASection"
+          },
+          {
+            "slug": "ch-de",
+            "selector": ".CTASection"
+          },
+          {
+            "slug": "en-get-involved-press-centre",
+            "selector": ".CTASection"
+          },
+          {
+            "slug": "en-products-fairtrade_products-cocoa",
+            "selector": ".CTASection"
+          },
+          {
+            "slug": "de-de-produkte-produktfinder",
+            "selector": ".CTASection"
+          }
+        ]
+      },
+      {
+        "id": "candidate-testimonial-quote",
+        "name": "testimonial quote",
+        "status": "candidate",
+        "confidence": "speculative",
+        "signal": "quote-marked headings inside RichtextSection: en '\"Fairtrade has changed my life…\"', cocoa '“Cocoa is very important…” — Dah Oho, cocoa farmer at ECAKOG'; key-benefits has a 'Testimonials' TextImage; CSS .t-quote / .t-quote-lg (40/72px 900)",
+        "slots": [
+          {
+            "name": "quote",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "attribution",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".RichtextSection .Richtext h2/h3 (quote-marked heading)"
+          },
+          {
+            "slug": "en-products-fairtrade_products-cocoa",
+            "selector": ".RichtextSection .Richtext h2/h3 (quote-marked heading)"
+          }
+        ]
+      },
+      {
+        "id": "candidate-search-box",
+        "name": "search box + results",
+        "status": "candidate",
+        "confidence": "speculative",
+        "signal": "TopbarSearch overlay in header on 9/9 pages; GET search form (search-results.html?q=); Produktfinder faceted form with 752 fields, Pagination, NoResult",
+        "slots": [
+          {
+            "name": "query",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "results[]",
+            "type": "group",
+            "required": true
+          },
+          {
+            "name": "result.title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "result.url",
+            "type": "link",
+            "required": false
+          },
+          {
+            "name": "facets[]",
+            "type": "checkbox (facet-brand, facet-deMainCategory, facet-organic)",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en-search-results",
+            "selector": ".TopbarSearch / .SearchResults / .ProductFinder"
+          },
+          {
+            "slug": "de-de-produkte-produktfinder",
+            "selector": ".TopbarSearch / .SearchResults / .ProductFinder"
+          }
+        ]
+      },
+      {
+        "id": "candidate-wave-divider",
+        "name": "wave section divider",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "SVG wave (Wave--desktop / Wave--mobile 40px) coloured by .Wave.color-*",
+        "slots": [
+          {
+            "name": "color",
+            "type": "enum(leafgreen|skyblue|monochrome-100)",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".Wave"
+          },
+          {
+            "slug": "en-why-fairtrade-what-we-do-key-benefits",
+            "selector": ".Wave"
+          },
+          {
+            "slug": "en-products-fairtrade_products",
+            "selector": ".Wave"
+          },
+          {
+            "slug": "en-products-fairtrade_products-cocoa",
+            "selector": ".Wave"
+          },
+          {
+            "slug": "en-get-involved-press-centre",
+            "selector": ".Wave"
+          },
+          {
+            "slug": "de-de",
+            "selector": ".Wave"
+          },
+          {
+            "slug": "ch-de",
+            "selector": ".Wave"
+          }
+        ]
+      },
+      {
+        "id": "candidate-richtext-section",
+        "name": "rich-text section",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "RichtextSection; links #7b1dab",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "body",
+            "type": "richtext",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en",
+            "selector": ".RichtextSection .Richtext"
+          },
+          {
+            "slug": "en-why-fairtrade-what-we-do-key-benefits",
+            "selector": ".RichtextSection .Richtext"
+          },
+          {
+            "slug": "en-products-fairtrade_products-cocoa",
+            "selector": ".RichtextSection .Richtext"
+          },
+          {
+            "slug": "en-get-involved-press-centre",
+            "selector": ".RichtextSection .Richtext"
+          },
+          {
+            "slug": "de-de",
+            "selector": ".RichtextSection .Richtext"
+          },
+          {
+            "slug": "de-de-produkte-produktfinder",
+            "selector": ".RichtextSection .Richtext"
+          }
+        ]
+      },
+      {
+        "id": "candidate-breadcrumbs",
+        "name": "breadcrumbs",
+        "status": "candidate",
+        "confidence": "high",
+        "signal": "Breadcrumbs on 5 interior pages (Home / … / current)",
+        "slots": [
+          {
+            "name": "items[]",
+            "type": "link",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "en-why-fairtrade-what-we-do-key-benefits",
+            "selector": ".Breadcrumbs"
+          },
+          {
+            "slug": "en-products-fairtrade_products",
+            "selector": ".Breadcrumbs"
+          },
+          {
+            "slug": "en-products-fairtrade_products-cocoa",
+            "selector": ".Breadcrumbs"
+          },
+          {
+            "slug": "en-get-involved-press-centre",
+            "selector": ".Breadcrumbs"
+          },
+          {
+            "slug": "de-de-produkte-produktfinder",
+            "selector": ".Breadcrumbs"
+          }
+        ]
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1920px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1920px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1920,
+          "via": "other",
+          "selector": "div.FilteredTeaserGrid > div.TeaserGrid.small > div.TeaserGrid--inner > ul.TeaserGrid--grid",
+          "pages": [
+            "https://www.fairtrade.net/en/products/Fairtrade_products.html",
+            "https://www.fairtrade.net/en/search-results.html?q=coffee"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "other",
+          "selector": "#maincontainer-0aa6dbea62 > div.pageherocarousel.is-visible > div.PageHeroCarousel.theme-skyblue > div.PageHeroCarousel--grid",
+          "pages": [
+            "https://www.fairtrade.net/en.html",
+            "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+            "https://www.fairtrade.net/en/products/Fairtrade_products.html",
+            "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 731,
+          "via": "fixed",
+          "selector": "div.PageLead.theme-leafgreen > div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+          "pages": [
+            "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 612,
+          "via": "max-width",
+          "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-flower",
+          "pages": [
+            "https://www.fairtrade.net/en.html",
+            "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 585,
+          "via": "fixed",
+          "selector": "div.RichtextSection > div.Richtext > h3 > i",
+          "pages": [
+            "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 555,
+          "via": "fixed",
+          "selector": "div.PageLead.theme-leafgreen > div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+          "pages": [
+            "https://www.fairtrade.net/en/products/Fairtrade_products.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 522,
+          "via": "fixed",
+          "selector": "div.TextImage--grid > div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+          "pages": [
+            "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 482,
+          "via": "fixed",
+          "selector": "div.PageHeroSlide--inner > div.PageHeroSlide--content > div.PageHeroSlide--content-inner > h2.PageHeroSlide--title",
+          "pages": [
+            "https://www.fairtrade.net/en.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 437,
+          "via": "fixed",
+          "selector": "#maincontainer-0aa6dbea62 > div.numberfactteaser.is-visible > div.NumberFactTeaser > div.NumberFactTeaser--content",
+          "pages": [
+            "https://www.fairtrade.net/en.html",
+            "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 317,
+          "via": "fixed",
+          "selector": "div.TextImage--grid > div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+          "pages": [
+            "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 257,
+          "via": "fixed",
+          "selector": "div.TextImage--grid > div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+          "pages": [
+            "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 0,
+          "selector": "#maincontainer-0aa6dbea62 > div.pageherocarousel.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 1,
+          "selector": "#maincontainer-0aa6dbea62 > div.numberfactteaser.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 2,
+          "selector": "#maincontainer-0aa6dbea62 > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 3,
+          "selector": "#maincontainer-0aa6dbea62 > div.teasergrid.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 4,
+          "selector": "#maincontainer-0aa6dbea62 > div.ctasection.is-visible",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 5,
+          "selector": "#maincontainer-0aa6dbea62 > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 6,
+          "selector": "#maincontainer-0aa6dbea62 > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 7,
+          "selector": "#maincontainer-0aa6dbea62 > div.numberfactteaser.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 8,
+          "selector": "#maincontainer-0aa6dbea62 > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 9,
+          "selector": "#maincontainer-0aa6dbea62 > div.ctasection.is-visible",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/en.html",
+          "section": 10,
+          "selector": "#maincontainer-0aa6dbea62 > div.accordion.panelcontainer",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+          "section": 0,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.page-lead.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+          "section": 1,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+          "section": 2,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.singleimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+          "section": 3,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+          "section": 4,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+          "section": 5,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.singleimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+          "section": 6,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+          "section": 7,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+          "section": 8,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products.html",
+          "section": 0,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.page-lead.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products.html",
+          "section": 1,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.teasergrid.is-visible",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 0,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.page-lead.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 1,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 2,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 3,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.numberfactteaser.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 4,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 5,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 6,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.singleimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 7,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 8,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 9,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 10,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "section": 11,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.ctasection.is-visible",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/en/search-results.html?q=coffee",
+          "section": 0,
+          "selector": "#maincontainer-5b90d21b9d > div.search-results.is-visible > div.SearchResults > div.SearchResults--head",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/en/search-results.html?q=coffee",
+          "section": 1,
+          "selector": "#maincontainer-5b90d21b9d > div.search-results.is-visible > div.SearchResults > div.SearchResults--count",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/en/search-results.html?q=coffee",
+          "section": 2,
+          "selector": "#maincontainer-5b90d21b9d > div.search-results.is-visible > div.SearchResults > ul.SearchResults--list",
+          "px": null
+        }
+      ],
+      "capRegister": [
+        "shellMaxWidth differs between archetypes: fluid (https://www.fairtrade.net/en.html), fluid (https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html), 1920 (https://www.fairtrade.net/en/products/Fairtrade_products.html), fluid (https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html), 1920 (https://www.fairtrade.net/en/search-results.html?q=coffee)"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-28T12:14:02.259Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.fairtrade.net/en.html",
+          "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+          "https://www.fairtrade.net/en/products/Fairtrade_products.html",
+          "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+          "https://www.fairtrade.net/en/search-results.html?q=coffee"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button (skyblue)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Pill CTA, Sky Blue fill, ink label.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Find out more</a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;height:48px;padding:0 32px;border:2px solid transparent;border-radius:100px;background:#0fc0fc;color:#1e1e1e;font:700 18px/1 'Exo 2',system-ui;text-decoration:none;transition:color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out}.ds-btn-primary:hover{background:#0eade3;border-color:#035e7c}.ds-btn-primary:focus-visible{outline:2px solid #035e7c;outline-offset:2px}"
+    },
+    {
+      "name": "Primary Button (leafgreen)",
+      "kind": "button",
+      "refersTo": "button-primary-leafgreen",
+      "description": "Pill CTA, Leaf Green fill.",
+      "html": "<a class=\"ds-btn-leaf\" href=\"#\">Key benefits</a>",
+      "css": ".ds-btn-leaf{display:inline-flex;align-items:center;height:48px;padding:0 32px;border:2px solid transparent;border-radius:100px;background:#d4ff47;color:#1e1e1e;font:700 18px/1 'Exo 2',system-ui;text-decoration:none;transition:background-color .2s ease-in-out,border-color .2s ease-in-out}.ds-btn-leaf:hover{background:#aacc39;border-color:#4f5d18}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined pill; hover fills 25% tint.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">To all news</a>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;height:48px;padding:0 32px;border:2px solid #0fc0fc;border-radius:100px;background:transparent;color:#1e1e1e;font:700 18px/1 'Exo 2',system-ui;text-decoration:none;transition:background-color .2s ease-in-out,border-color .2s ease-in-out}.ds-btn-secondary:hover{background:rgba(15,192,252,.25);border-color:#0eade3}"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Pill search field.",
+      "html": "<label class=\"ds-input\"><input placeholder=\"Search\"></label>",
+      "css": ".ds-input{display:inline-flex;border-radius:100px;border:1px solid #dadada;background:#fff;overflow:hidden}.ds-input input{border:0;padding:16px 24px;font:400 18px/1.6 'Exo 2',system-ui;color:#1e1e1e;background:transparent}.ds-input:focus-within{border-color:#035e7c}"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Category tag on teaser cards.",
+      "html": "<span class=\"ds-tag\">Press releases</span>",
+      "css": ".ds-tag{display:inline-block;padding:4px 12px;border-radius:16px;background:#f4f4f4;color:#1e1e1e;font:400 15px/1.6 'Exo 2',system-ui}"
+    },
+    {
+      "name": "Info Teaser Card",
+      "kind": "card",
+      "refersTo": "card-info-teaser",
+      "description": "News / press teaser: image, date + category, title, text, Read more.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-img\"></div><p class=\"ds-card-meta\">05.10.26 · Press releases</p><h3>Fairtrade raises Minimum Price for bananas amid soaring costs for farmers</h3><a href=\"#\">Read more</a></article>",
+      "css": ".ds-card{max-width:409px;font-family:'Exo 2',system-ui;color:#1e1e1e}.ds-card-img{aspect-ratio:409/314;border-radius:12px;background:#dadada}.ds-card-meta{font-size:15px;margin:12px 0 4px}.ds-card h3{font:900 24px/1.1 'Alegreya Sans',system-ui;margin:0 0 12px}.ds-card a{color:#1e1e1e;font-weight:700}.ds-card a:hover{color:#035e7c}"
+    },
+    {
+      "name": "Number Fact Bubble",
+      "kind": "custom",
+      "refersTo": "number-fact",
+      "description": "Big number on an organic blob (flower pink).",
+      "html": "<div class=\"ds-fact\"><strong>1,824</strong><span>producer organisations in 68 countries</span></div>",
+      "css": ".ds-fact{display:grid;place-items:center;text-align:center;width:320px;aspect-ratio:1;border-radius:46% 54% 42% 58%/55% 45% 55% 45%;background:#ff4571;color:#1e1e1e;padding:40px}.ds-fact strong{font:900 72px/1 'Alegreya Sans',system-ui}.ds-fact span{font:700 18px/1.3 'Exo 2',system-ui}",
+      "note": "blob shape approximated with border-radius; source draws it as an SVG .Bubble"
+    }
+  ],
+  "narrative": {
+    "northStar": "Bright market stall on white paper",
+    "overview": "The live site is a white-ground, ink-text editorial system punctuated by flat blocks of two saturated brand colours, Sky Blue `#0fc0fc` and Leaf Green `#d4ff47`. Those two colours fill hero carousels, page-lead title bands, wave dividers and pill buttons. Heavy Alegreya Sans 900 headlines sit over Exo 2 body copy at 18px/1.6. The one organic shape is the pink \"flower\" (`#ff4571`) blob behind number facts. Everything else is pills (100px), 12px-rounded photography, and 16px-rounded cards and tags.\n\nContent runs as a vertical stack of AEM components: PageLead or PageHeroCarousel, then RichtextSection, TextImage, NumberFactTeaser, FilteredTeaserGrid, AccordionSection and CTASection, with SVG waves between colour changes. The pattern is the same on all three locales (EN global, DE-DE, CH-DE). Only the copy, navigation labels and some modules differ by locale (NavigationTeasers and ProductTeaser appear only in DE/CH).",
+    "keyCharacteristics": [
+      "Two-brand-colour system (Sky Blue + Leaf Green) on white. Eggplant `#7b1dab` is used only for text links. Night Sky `#001b6e` is an occasional dark band.",
+      "Ultra-black display type (Alegreya Sans 900, 72/48/32px) over a sans body (Exo 2, 18px/1.6).",
+      "Pill buttons and inputs (100px radius, 48px tall), 12px-rounded media, and 16px cards and tags.",
+      "Organic blob number facts and SVG wave dividers are the signature motifs.",
+      "Elevation is almost absent. A single soft shadow `0 4px 8px rgba(30,30,30,.1)` sits on accordion headers and carousel controls."
+    ],
+    "rules": [
+      {
+        "name": "The Flat Field Rule",
+        "body": "Brand colour appears as solid fields: bands, pills and blobs. The only gradients are hard-stop splits (`linear-gradient(#d4ff47 33.33%, #fff 33.33%)`) that make a band end one-third of the way down.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do keep headlines in Alegreya Sans 900 at 72/48/32px, line-height 1.1, mixed case.",
+      "Do set running text in Exo 2 18px/1.6 in ink `#1e1e1e` on white.",
+      "Do use pill buttons (100px radius, 48px height, 0 32px padding) in Sky Blue `#0fc0fc` or Leaf Green `#d4ff47` with ink labels.",
+      "Do round photography at 12px and cards and tags at 16px.",
+      "Do join colour bands with the SVG wave, and present key figures on the organic blob."
+    ],
+    "donts": [
+      "Don't add drop shadows to cards. The site's only shadow (`0 4px 8px rgba(30,30,30,.1)`) is for accordion headers and carousel controls.",
+      "Don't use soft gradients. The only gradients are hard-stop 33.33% split bands.",
+      "Don't put white text on Sky Blue or Leaf Green fills. Labels on those fills are ink `#1e1e1e`."
+    ]
+  }
+}

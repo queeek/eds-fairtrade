@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "exo-2-fallback",
+        "createdAt": "2026-10-28T13:57:08.604Z",
+        "reason": "deploy skill step 4: metric-matched local fallback face for the self-hosted Exo 2 brand font"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "alegreya-sans-fallback",
+        "createdAt": "2026-10-28T13:57:08.614Z",
+        "reason": "deploy skill step 4: metric-matched local fallback face for the self-hosted Alegreya Sans brand font"
+      }
+    ]
+  }
+}

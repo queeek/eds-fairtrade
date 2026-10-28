@@ -1,0 +1,1399 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-28T12:07:45.881Z",
+    "stardustVersion": "0.36.0",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_crawl-log.json",
+      "stardust/current/css/site.css",
+      "stardust/current/assets/fonts/fonts.json",
+      "stardust/current/pages/en.json",
+      "stardust/current/pages/en-why-fairtrade-what-we-do-key-benefits.json",
+      "stardust/current/pages/en-products-fairtrade_products.json",
+      "stardust/current/pages/en-products-fairtrade_products-cocoa.json",
+      "stardust/current/pages/en-get-involved-press-centre.json",
+      "stardust/current/pages/en-search-results.json",
+      "stardust/current/pages/de-de.json",
+      "stardust/current/pages/de-de-produkte-produktfinder.json",
+      "stardust/current/pages/ch-de.json",
+      "stardust/current/pages/en.html (header slice, component class census)",
+      "https://www.fairtrade.net/content/dam/fairtrade/global/logo/fairtrade-international.svg"
+    ],
+    "synthesizedInputs": [],
+    "notes": [
+      "Palette capped at 8 census clusters; dropped: #e8e8e8 (border, 98), #0fc0fc40 (25% skyblue tint, surface, 67), #1e1e1ebf (75% black overlay, 80), #545454 (12), #1e1e1e80 (6), #ffffff80 (1).",
+      "Census did not register #ff4571 ('flower') because it is painted as an SVG currentColor fill (.Bubble.color-flower{color:#ff4571}); it colours 9 NumberFact bubbles on en/de-de/ch-de and is visually prominent in the en screenshot. Also defined but not in census: #ff8000 tangerine, #09fbd3 mint (KeyFact illustrations; mint is the dark-theme button hover).",
+      "Census aggregate.logo.source='none'; the logo was located as <img> in header a.Topbar--logo (en.html) and downloaded.",
+      "Census iconFont families=['swiper-icons'] with 0 glyphs used — swiper carousel arrow font, not a brand icon font; site icons are inline SVG sprites. iconFont set to null.",
+      "No home-vs-cross-page radius divergence: 12px is both count mode and area mode.",
+      "EN home (en) has no <h1>: hero headline 'What is Fairtrade?' is an h2 slide title; de-de/ch-de landings carry an h1 in a PageLead band.",
+      "Heading type scale: computed levels h1 72 → h2 48 → h3 32 → h4 20; CSS utility scale .t-headline-xxl..xxs is 56/48/40/32/24/20/16 (8px steps at desktop).",
+      "Brand-review --primary resolves (per template colour-resolution rule: saturated & max channel <240) to #7b1dab eggplant because skyblue #0fc0fc and leafgreen #d4ff47 exceed max-channel 240; the live site's visual anchors are skyblue and leafgreen.",
+      "voiceTable.ctaFrequency excludes header/footer chrome labels (nav items, footer links, aria-suffixed buttons; any non-closed-list label on ≥3 pages); raw top entries were footer links (Impressum, Instagram, LinkedIn ×9). Closed-list labels are always kept.",
+      "Spacing scale read from site.css declaration frequency (padding/gap/margin), not from the census (census carries no spacing histogram); containerMaxWidth and gridGap not measured."
+    ]
+  },
+  "site": {
+    "name": "Fairtrade International",
+    "tagline": null,
+    "originUrl": "https://www.fairtrade.net",
+    "locales": [
+      {
+        "locale": "GLOBAL-EN",
+        "root": "/en.html",
+        "siteName": "Fairtrade International"
+      },
+      {
+        "locale": "DE-DE",
+        "root": "/de-de.html",
+        "siteName": "Fairtrade Deutschland",
+        "titleEvidence": "de-de title"
+      },
+      {
+        "locale": "CH-DE",
+        "root": "/ch-de.html",
+        "siteName": "Fairtrade Max Havelaar Schweiz",
+        "titleEvidence": "ch-de title"
+      }
+    ],
+    "taglineNote": "no og:description / meta description captured on any page"
+  },
+  "origins": [
+    {
+      "origin": "https://www.fairtrade.net",
+      "role": "primary",
+      "pagesCaptured": 9,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "sourceSelector": "header .Topbar--logo .Topbar--logo--icon img",
+    "url": "https://www.fairtrade.net/content/dam/fairtrade/global/logo/fairtrade-international.svg",
+    "localPath": "stardust/current/assets/logo.svg",
+    "format": "svg",
+    "intrinsicWidth": 80,
+    "intrinsicHeight": 80,
+    "renderedSize": {
+      "<640px": "56x56",
+      ">=640px": "80x80 (5pc)"
+    },
+    "cssEvidence": ".Topbar--logo--icon{height:56px;width:56px} @media(width>=640px){height:5pc;width:5pc}",
+    "fills": [
+      "#0FC0FC",
+      "#1E1E1E",
+      "#787878",
+      "#D4FF47"
+    ],
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "variantsCaptured": [
+      "fairtrade-international.svg (all locales use the same header img src in en.html; de-de/ch-de not separately verified)"
+    ]
+  },
+  "favicon": {
+    "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/favicon.svg",
+    "localPath": "stardust/current/assets/favicon.svg",
+    "format": "svg",
+    "intrinsicWidth": 400,
+    "intrinsicHeight": 400,
+    "source": "_crawl-log.json#favicon"
+  },
+  "palette": [
+    {
+      "role": "text-primary",
+      "value": "#1e1e1e",
+      "occurrences": 1684,
+      "usedAs": [
+        "text"
+      ],
+      "usedAsCounts": {
+        "text": 1204,
+        "link": 166,
+        "button-text": 81,
+        "heading": 233
+      },
+      "sourceSelectors": [
+        "li:nth-of-type(1) > button",
+        "div > h1",
+        "li:nth-of-type(1) > a"
+      ],
+      "sources": [
+        "en-search-results",
+        "en-get-involved-press-centre",
+        "ch-de"
+      ],
+      "cssEvidence": "site.css body{color:#1e1e1e}; .Button{color:#1e1e1e}"
+    },
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 684,
+      "usedAs": [
+        "text",
+        "background",
+        "border"
+      ],
+      "usedAsCounts": {
+        "text": 504,
+        "background": 124,
+        "button-background": 22,
+        "link": 2,
+        "border": 2,
+        "button-border": 2,
+        "button-text": 18,
+        "heading": 10
+      },
+      "sourceSelectors": [
+        "div:nth-of-type(2) > span",
+        "div > h2",
+        "div:nth-of-type(2) > div:nth-of-type(1)"
+      ],
+      "sources": [
+        "en-get-involved-press-centre",
+        "en",
+        "de-de-produkte-produktfinder"
+      ],
+      "note": "cluster includes rgb(244,244,244) (#f4f4f4, .TextImage.theme-grey / .Wave.color-monochrome-100) — kept verbatim per palette rule"
+    },
+    {
+      "role": "secondary",
+      "value": "#d4ff47",
+      "occurrences": 254,
+      "usedAs": [
+        "background",
+        "border"
+      ],
+      "usedAsCounts": {
+        "background": 201,
+        "button-background": 17,
+        "border": 18,
+        "button-border": 18
+      },
+      "sourceSelectors": [
+        "div > strong",
+        "div > a",
+        "div:nth-of-type(2) > div"
+      ],
+      "sources": [
+        "en-search-results",
+        "ch-de",
+        "de-de"
+      ],
+      "name": "leafgreen",
+      "cssEvidence": ".Button.variant-primary.color-leafgreen --background-color:#d4ff47 (hover #aacc39, border-hover #4f5d18); .PageLead --background-color:#d4ff47; .Wave.color-leafgreen; .TeaserGrid.theme-leafgreen"
+    },
+    {
+      "role": "accent-1",
+      "value": "#7b1dab",
+      "occurrences": 226,
+      "usedAs": [
+        "text"
+      ],
+      "usedAsCounts": {
+        "link": 112,
+        "text": 114
+      },
+      "sourceSelectors": [
+        "div:nth-of-type(1) > a",
+        "p:nth-of-type(2) > a"
+      ],
+      "sources": [
+        "en-search-results",
+        "en-why-fairtrade-what-we-do-key-benefits",
+        "en-get-involved-press-centre"
+      ],
+      "name": "eggplant",
+      "cssEvidence": ".Richtext a{color:#7b1dab}; .Bubble.color-eggplant; .NoResult--icon"
+    },
+    {
+      "role": "border",
+      "value": "#dadada",
+      "occurrences": 180,
+      "usedAs": [
+        "border"
+      ],
+      "usedAsCounts": {
+        "border": 166,
+        "button-border": 14
+      },
+      "sourceSelectors": [
+        "li:nth-of-type(1) > a",
+        "div:nth-of-type(1) > div",
+        "li:nth-of-type(7) > a"
+      ],
+      "sources": [
+        "de-de-produkte-produktfinder",
+        "ch-de",
+        "en-get-involved-press-centre"
+      ]
+    },
+    {
+      "role": "primary",
+      "value": "#0fc0fc",
+      "occurrences": 147,
+      "usedAs": [
+        "background",
+        "border"
+      ],
+      "usedAsCounts": {
+        "background": 81,
+        "button-background": 36,
+        "border": 20,
+        "button-border": 10
+      },
+      "sourceSelectors": [
+        "div > a",
+        "div:nth-of-type(1) > div",
+        "div:nth-of-type(2) > div"
+      ],
+      "sources": [
+        "de-de",
+        "en",
+        "ch-de"
+      ],
+      "name": "skyblue",
+      "cssEvidence": ".Button.variant-primary.color-skyblue --background-color:#0fc0fc (hover #0eade3, border-hover #035e7c); .theme-skyblue{--background-color:#0fc0fc}; PageHeroCarousel.theme-skyblue",
+      "roleBasis": "most-frequent button-background (36) per palette heuristic"
+    },
+    {
+      "role": "text-secondary",
+      "value": "#787878",
+      "occurrences": 90,
+      "usedAs": [
+        "text"
+      ],
+      "usedAsCounts": {
+        "text": 90
+      },
+      "sourceSelectors": [
+        "a > div:nth-of-type(2)",
+        "div:nth-of-type(2) > strong"
+      ],
+      "sources": [
+        "de-de-produkte-produktfinder",
+        "ch-de",
+        "en"
+      ]
+    },
+    {
+      "role": "accent-2",
+      "value": "#001b6e",
+      "occurrences": 26,
+      "usedAs": [
+        "background",
+        "border"
+      ],
+      "usedAsCounts": {
+        "background": 24,
+        "border": 2
+      },
+      "sourceSelectors": [
+        "nav",
+        "li:nth-of-type(1) > a",
+        "div > div"
+      ],
+      "sources": [
+        "en-products-fairtrade_products-cocoa",
+        "de-de-produkte-produktfinder",
+        "en"
+      ],
+      "name": "nightsky",
+      "cssEvidence": ".PageLead.theme-nightsky / .PageHeroCarousel.theme-nightsky --background-color:#001b6e; checked Checkbox/Radio fill"
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Alegreya Sans",
+      "stack": "Alegreya Sans, system-ui",
+      "weights": [
+        900,
+        800
+      ],
+      "sizes": [
+        "72px",
+        "48px",
+        "32px",
+        "20px"
+      ],
+      "levels": {
+        "h1": {
+          "fontSize": 72,
+          "fontWeight": "900",
+          "count": 8,
+          "score": 458.21
+        },
+        "h2": {
+          "fontSize": 48,
+          "fontWeight": "900",
+          "count": 26,
+          "score": 550.69
+        },
+        "h3": {
+          "fontSize": 32,
+          "fontWeight": "900",
+          "count": 11,
+          "score": 238.8
+        },
+        "h4": {
+          "fontSize": 20,
+          "fontWeight": "800",
+          "count": 4,
+          "score": 80
+        }
+      },
+      "lineHeights": [
+        1.1,
+        0.875
+      ],
+      "letterSpacing": [],
+      "sourceSelectors": [
+        ".t-headline-xxl/.t-headline-xl/.t-headline-l/.t-headline-m/.t-headline-s",
+        ".PageLead--title",
+        ".t-quote-lg"
+      ],
+      "censusCounts": {
+        "family": "Alegreya Sans",
+        "count": 211,
+        "headings": 211,
+        "text": 0,
+        "buttons": 0
+      },
+      "cssUtilityScale": {
+        "t-headline-xxl": "56px/900/1.1",
+        "t-headline-xl": "48px/900/1.1",
+        "t-headline-l": "40px/900/1.1",
+        "t-headline-m": "32px/900/1.1",
+        "t-headline-s": "24px/900/1.1",
+        "t-headline-xs": "20px",
+        "t-headline-xxs": "16px",
+        "t-quote": "40px/900/1.1",
+        "t-quote-lg": "72px/900/0.875"
+      }
+    },
+    "bodyFamily": {
+      "name": "Exo 2",
+      "stack": "Exo 2, system-ui",
+      "weights": [
+        400,
+        700,
+        600
+      ],
+      "sizes": [
+        "18px",
+        "17px",
+        "20px",
+        "15px",
+        "13px"
+      ],
+      "lineHeights": [
+        1.6,
+        1
+      ],
+      "letterSpacing": [],
+      "sourceSelectors": [
+        "body",
+        "p (.t-body-m 17px)",
+        ".Button (18px/700/1)"
+      ],
+      "censusCounts": {
+        "family": "Exo 2",
+        "count": 331,
+        "headings": 32,
+        "text": 194,
+        "buttons": 105
+      },
+      "note": "Exo 2 also sets 32 headings in the census (small tiers); body rule: body{font-family:Exo 2,system-ui;font-size:18px;line-height:1.6}"
+    },
+    "monoFamily": null,
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.5,
+        1.5,
+        1.6
+      ],
+      "matchedScale": null,
+      "basis": "computed per-level representatives (weighted score) h1 72/900, h2 48/900, h3 32/900, h4 20/800 from _computed-styles.json#aggregate.type.levels"
+    },
+    "sizeHistogram": [
+      {
+        "px": 72,
+        "count": 8,
+        "headings": 8,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 64,
+        "count": 9,
+        "headings": 9,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 48,
+        "count": 34,
+        "headings": 34,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 40,
+        "count": 18,
+        "headings": 18,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 32,
+        "count": 41,
+        "headings": 41,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 24,
+        "count": 22,
+        "headings": 15,
+        "text": 7,
+        "buttons": 0
+      },
+      {
+        "px": 20,
+        "count": 39,
+        "headings": 32,
+        "text": 7,
+        "buttons": 0
+      },
+      {
+        "px": 18,
+        "count": 313,
+        "headings": 86,
+        "text": 130,
+        "buttons": 97
+      },
+      {
+        "px": 17,
+        "count": 50,
+        "headings": 0,
+        "text": 50,
+        "buttons": 0
+      },
+      {
+        "px": 16,
+        "count": 8,
+        "headings": 0,
+        "text": 0,
+        "buttons": 8
+      }
+    ],
+    "weightHistogram": [
+      {
+        "weight": "400",
+        "count": 288,
+        "headings": 86,
+        "text": 180,
+        "buttons": 22
+      },
+      {
+        "weight": "900",
+        "count": 125,
+        "headings": 125,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "weight": "700",
+        "count": 83,
+        "headings": 0,
+        "text": 0,
+        "buttons": 83
+      },
+      {
+        "weight": "800",
+        "count": 32,
+        "headings": 32,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "weight": "600",
+        "count": 14,
+        "headings": 0,
+        "text": 14,
+        "buttons": 0
+      }
+    ],
+    "loadStrategy": "swap",
+    "files": [
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-100-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 100,
+        "style": "normal",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-100-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-100-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 100,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-100-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-300-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 300,
+        "style": "normal",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-300-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-300-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 300,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-300-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-400-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-400-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-400-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-400-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-500-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 500,
+        "style": "normal",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-500-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-500-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 500,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-500-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-700-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-700-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-700-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-700-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-800-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 800,
+        "style": "normal",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-800-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-800-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 800,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-800-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-900-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 900,
+        "style": "normal",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-900-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-900-normal.woff2",
+        "family": "Alegreya Sans",
+        "weight": 900,
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-900-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-100-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 100,
+        "style": "italic",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-100-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-100-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 100,
+        "style": "italic",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-100-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-300-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 300,
+        "style": "italic",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-300-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-300-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 300,
+        "style": "italic",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-300-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-400-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 400,
+        "style": "italic",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-400-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-400-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 400,
+        "style": "italic",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-400-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-500-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 500,
+        "style": "italic",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-500-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-500-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 500,
+        "style": "italic",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-500-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-700-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 700,
+        "style": "italic",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-700-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-700-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 700,
+        "style": "italic",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-700-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-800-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 800,
+        "style": "italic",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-800-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-800-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 800,
+        "style": "italic",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-800-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-ext-900-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 900,
+        "style": "italic",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-ext-900-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/alegreya-sans-latin-900-italic.woff2",
+        "family": "Alegreya Sans",
+        "weight": 900,
+        "style": "italic",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/alegreya-sans-latin-900-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Alegreya Sans (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/exo-2-latin-ext-wght-normal.woff2",
+        "family": "Exo 2",
+        "weight": "100 900",
+        "style": "normal",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/exo-2-latin-ext-wght-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Exo 2 (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/exo-2-latin-wght-normal.woff2",
+        "family": "Exo 2",
+        "weight": "100 900",
+        "style": "normal",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/exo-2-latin-wght-normal.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Exo 2 (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/exo-2-latin-ext-wght-italic.woff2",
+        "family": "Exo 2",
+        "weight": "100 900",
+        "style": "italic",
+        "unicodeRange": "latin-ext",
+        "localPath": "stardust/current/assets/fonts/exo-2-latin-ext-wght-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Exo 2 (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      },
+      {
+        "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/fonts/exo-2-latin-wght-italic.woff2",
+        "family": "Exo 2",
+        "weight": "100 900",
+        "style": "italic",
+        "unicodeRange": "latin",
+        "localPath": "stardust/current/assets/fonts/exo-2-latin-wght-italic.woff2",
+        "sourceCssRule": "stardust/current/css/site.css @font-face font-family:Exo 2 (font-display:swap)",
+        "licensingFlag": "open",
+        "license": "SIL OFL"
+      }
+    ]
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "scale": [
+      4,
+      8,
+      12,
+      16,
+      18,
+      20,
+      24,
+      32,
+      36,
+      40,
+      48,
+      64,
+      80
+    ],
+    "sectionPadding": "64px",
+    "sectionPaddingEvidence": ".AccordionSection{padding-block:4pc;padding-inline:18px}",
+    "containerMaxWidth": null,
+    "gridGap": null,
+    "evidence": "site.css padding/gap/margin declaration frequency: 24px×195, 16px(1pc)×141, 20px×94, 32px(2pc)×78, 40px×64, 48px(3pc)×53, 80px(5pc)×45, 64px(4pc)×42, 12px(9pt)×41"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "12px",
+      "secondary": "16px",
+      "pill": "100px",
+      "circle": "100%",
+      "primarySources": [
+        "ch-de"
+      ],
+      "occurrences": {
+        "12px": 274,
+        "16px": 160,
+        "100%": 132,
+        "100px": 91,
+        "120px": 8
+      },
+      "cssEvidence": {
+        "12px": ".PageHeroSlide--media{border-radius:9pt}",
+        "16px": ".ProductTeaser{border-radius:1pc}; .Tag{border-radius:1pc}",
+        "100px": ".Button.variant-primary/secondary{border-radius:75pt}; .Input--fieldWrapper{border-radius:75pt}",
+        "100%": ".Button.variant-icon-*; .Input--iconWrapper"
+      }
+    },
+    "shadows": [
+      {
+        "value": "0 4px 8px rgba(30,30,30,0.1)",
+        "uses": "accordion headers, carousel controls",
+        "count": 28,
+        "sources": [
+          "ch-de",
+          "de-de"
+        ],
+        "cssEvidence": ".Accordion--header; .Carousel--control-next/previous"
+      },
+      {
+        "value": "0 8px 12px 0 rgba(0,0,0,0.15)",
+        "uses": "overlay panels (site.css .Overlay--inner; not in census)"
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgb(0, 27, 110) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+        "uses": "hard-stop split band (top third colour, rest white) behind page-lead/hero",
+        "count": 2,
+        "sources": [
+          "en-products-fairtrade_products-cocoa"
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(212, 255, 71) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+        "uses": "hard-stop split band (top third colour, rest white) behind page-lead/hero",
+        "count": 2,
+        "sources": [
+          "en-why-fairtrade-what-we-do-key-benefits"
+        ]
+      }
+    ],
+    "patterns": [
+      {
+        "name": "number-fact-bubble",
+        "evidence": "NumberFact with organic blob Bubble (.Bubble.color-flower #ff4571 ×9, .color-eggplant #7b1dab ×2) on en, de-de, ch-de, en-products-fairtrade_products-cocoa"
+      },
+      {
+        "name": "wave-divider",
+        "evidence": ".Wave SVG section divider (color-leafgreen ×5, monochrome-100 ×4, skyblue ×1) on 7 of 9 pages"
+      },
+      {
+        "name": "colour-theme-bands",
+        "evidence": "PageLead / PageHeroCarousel / TeaserGrid take theme-leafgreen | theme-skyblue | theme-nightsky | theme-white | theme-grey"
+      },
+      {
+        "name": "hero-carousel",
+        "evidence": "PageHeroCarousel (swiper) with rounded 12px media and pill CTA on en, de-de, ch-de"
+      },
+      {
+        "name": "card-grid",
+        "evidence": "FilteredTeaserGrid/TeaserGrid of InfoTeaser cards on en, de-de, ch-de, en-get-involved-press-centre, en-products-fairtrade_products"
+      },
+      {
+        "name": "pill-buttons",
+        "evidence": ".Button.variant-primary/secondary border-radius 100px, height 48px (3pc), padding 0 32px"
+      },
+      {
+        "name": "footer-mega",
+        "evidence": "Footer with 3 FooterLinkList columns + social + newsletter on 9/9 pages"
+      },
+      {
+        "name": "nav-mega",
+        "evidence": "TopbarDesktopFlyout mega-flyouts (4 EN / 5 DE) on 9/9 pages"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#0fc0fc",
+        "color": "#1e1e1e",
+        "borderRadius": "100px",
+        "height": "48px",
+        "padding": "0 32px",
+        "fontWeight": 700,
+        "fontSize": "18px",
+        "border": "2px solid transparent",
+        "shadow": null,
+        "hoverDelta": "background #0fc0fc → #0eade3, border → #035e7c (census hover ×8)",
+        "variants": {
+          "color-leafgreen": {
+            "background": "#d4ff47",
+            "hover": "#aacc39",
+            "borderHover": "#4f5d18"
+          }
+        },
+        "source": "site.css .Button.variant-primary(.color-skyblue|.color-leafgreen)"
+      },
+      "secondary": {
+        "background": "transparent",
+        "color": "#1e1e1e",
+        "border": "2px solid #0fc0fc | #d4ff47 | #fff",
+        "borderRadius": "100px",
+        "height": "48px",
+        "padding": "0 32px",
+        "fontWeight": 700,
+        "hoverDelta": "background → 25% tint of border colour (census hover ×15 leafgreen, ×8 skyblue)",
+        "source": "site.css .Button.variant-secondary.color-*"
+      },
+      "tertiary": {
+        "background": "transparent",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "source": "site.css .Button.variant-tertiary (text link with icon)"
+      },
+      "icon": {
+        "borderRadius": "100%",
+        "source": "site.css .Button.variant-icon-primary/secondary"
+      }
+    },
+    "dualCTAPattern": null,
+    "links": {
+      "color": "#7b1dab",
+      "hover": "#035e7c",
+      "source": ".Richtext a{color:#7b1dab}; census hover link ×10"
+    },
+    "cards": {
+      "background": "#ffffff",
+      "borderRadius": "16px",
+      "padding": null,
+      "shadow": null,
+      "border": null,
+      "source": ".ProductTeaser{background-color:#fff;border-radius:1pc}; InfoTeaser image radius 12px (census mode)"
+    },
+    "inputs": {
+      "borderRadius": "100px",
+      "padding": "16px 24px",
+      "border": "0 (pill wrapper)",
+      "focusRing": null,
+      "source": ".Input--fieldWrapper{border-radius:75pt}; .Input--field{border:0;padding:1pc 24px}"
+    },
+    "tags": {
+      "borderRadius": "16px",
+      "padding": "4px 12px",
+      "source": ".Tag{border-radius:1pc;padding:4px 9pt}"
+    },
+    "transitions": "color/background-color/border-color .2s ease-in-out (.Button)"
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 9,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Why Fairtrade",
+        "Products",
+        "For Business",
+        "Get Involved",
+        "Search",
+        "GLOBAL • EN"
+      ],
+      "localeVariants": {
+        "de-de": [
+          "Was ist Fairtrade?",
+          "Produkte",
+          "Für Unternehmen",
+          "Mach mit!",
+          "Newsroom"
+        ],
+        "ch-de": [
+          "Was ist Fairtrade?",
+          "Produkte",
+          "Für Unternehmen",
+          "Mach mit!"
+        ]
+      },
+      "exampleSlug": "en",
+      "exampleSelector": "header .Topbar",
+      "examplePages": [
+        "en",
+        "en-why-fairtrade-what-we-do-key-benefits",
+        "en-products-fairtrade_products",
+        "en-products-fairtrade_products-cocoa",
+        "en-get-involved-press-centre",
+        "en-search-results",
+        "de-de",
+        "de-de-produkte-produktfinder",
+        "ch-de"
+      ],
+      "parts": [
+        "Topbar--logo",
+        "TopbarMainNavigation + TopbarDesktopFlyout mega menu",
+        "TopbarSearch",
+        "LocaleSelector",
+        "TopbarMetaMenu",
+        "MobileMenu"
+      ]
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 9,
+      "headingSequence": [
+        "About Fairtrade International",
+        "How we operate globally",
+        "Other information",
+        "Social Links",
+        "Newsletter"
+      ],
+      "ctaLabels": [
+        "Click here"
+      ],
+      "localeVariants": {
+        "de-de": [
+          "Über Fairtrade Deutschland",
+          "Service & Kontakt",
+          "Recht & Compliance",
+          "Social Media Kanäle",
+          "Newsletter für Konsument*innen und Aktive / Jetzt anmelden"
+        ],
+        "ch-de": [
+          "Über Fairtrade Max Havelaar",
+          "Service & Kontakt",
+          "Recht & Compliance",
+          "Social Links",
+          "Newsletter / Jetzt anmelden"
+        ]
+      },
+      "exampleSlug": "en",
+      "exampleSelector": ".Footer",
+      "examplePages": [
+        "en",
+        "en-why-fairtrade-what-we-do-key-benefits",
+        "en-products-fairtrade_products",
+        "en-products-fairtrade_products-cocoa",
+        "en-get-involved-press-centre",
+        "en-search-results",
+        "de-de",
+        "de-de-produkte-produktfinder",
+        "ch-de"
+      ]
+    },
+    {
+      "name": "breadcrumbs",
+      "kind": "breadcrumb",
+      "occurrences": 5,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Home"
+      ],
+      "exampleSlug": "en-products-fairtrade_products-cocoa",
+      "exampleSelector": ".Breadcrumbs",
+      "examplePages": [
+        "en-why-fairtrade-what-we-do-key-benefits",
+        "en-products-fairtrade_products",
+        "en-products-fairtrade_products-cocoa",
+        "en-get-involved-press-centre",
+        "de-de-produkte-produktfinder"
+      ],
+      "evidence": "ctas begin 'Home / … / page title'"
+    },
+    {
+      "name": "wave-divider",
+      "kind": "other",
+      "occurrences": 7,
+      "exampleSlug": "en",
+      "exampleSelector": ".Wave",
+      "examplePages": [
+        "en",
+        "en-why-fairtrade-what-we-do-key-benefits",
+        "en-products-fairtrade_products",
+        "en-products-fairtrade_products-cocoa",
+        "en-get-involved-press-centre",
+        "de-de",
+        "ch-de"
+      ]
+    },
+    {
+      "name": "number-fact-teaser",
+      "kind": "other",
+      "occurrences": 4,
+      "exampleSlug": "en",
+      "exampleSelector": ".NumberFactTeaser[data-module=number-fact-teaser]",
+      "examplePages": [
+        "en",
+        "de-de",
+        "ch-de",
+        "en-products-fairtrade_products-cocoa"
+      ]
+    },
+    {
+      "name": "news-teaser-grid",
+      "kind": "other",
+      "occurrences": 5,
+      "exampleSlug": "en-get-involved-press-centre",
+      "exampleSelector": ".FilteredTeaserGrid .InfoTeaser",
+      "examplePages": [
+        "en",
+        "de-de",
+        "ch-de",
+        "en-get-involved-press-centre",
+        "en-products-fairtrade_products"
+      ]
+    }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "What is Fairtrade?",
+    "heroSubcopy": "For more than three decades, Fairtrade has been making an impact on the way trade works.",
+    "heroImage": {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/global/what-is-fairtrade/Karen%20Roses%2C%20Ravine%20Roses%20Kenya%202020_edited.jpg",
+      "renditionUrl": "https://www.fairtrade.net/content/dam/fairtrade/global/what-is-fairtrade/Karen%20Roses%2C%20Ravine%20Roses%20Kenya%202020_edited.jpg/_jcr_content/renditions/16x9_768w.webp",
+      "alt": "",
+      "source": "img",
+      "domPath": ".PageHeroCarousel .PageHeroSlide.swiper-slide-active .PageHeroSlide--media img",
+      "localPath": null,
+      "rect": {
+        "width": 719,
+        "height": 478
+      },
+      "note": "first (active) hero slide; pages/en.json media.imgs[1] 719x478; largest non-logo image in first viewport per screenshot; rect.top not captured"
+    },
+    "heroMedium": null,
+    "primaryCTALabel": "Find out more",
+    "ctaSamples": [
+      "Find out more",
+      "Read more",
+      "Key benefits",
+      "To all news",
+      "Learn more",
+      "Mehr erfahren",
+      "Jetzt entdecken",
+      "Jetzt anmelden"
+    ],
+    "navItems": [
+      "Why Fairtrade",
+      "Products",
+      "For Business",
+      "Get Involved"
+    ],
+    "footerHeadings": [
+      "About Fairtrade International",
+      "How we operate globally",
+      "Other information",
+      "Social Links",
+      "Newsletter"
+    ],
+    "firstParagraph": "For more than three decades, Fairtrade has been making an impact on the way trade works.",
+    "locales": {
+      "de-de": {
+        "heroHeadline": "Fairtrade: Fairness im Fokus!",
+        "firstParagraph": "Fairtrade steht für fairen Handel, bessere Preise und menschenwürdige Arbeitsbedingungen. Wir setzen uns für eine gerechte Zukunft ein – für Bäuerinnen und Bauern, Arbeiterinnen und Arbeiter und für dich."
+      },
+      "ch-de": {
+        "heroHeadline": "Fairtrade verbindet",
+        "firstParagraph": "Fairtrade steht für fairen Handel, bessere Preise und menschenwürdige Arbeitsbedingungen. Wir setzen uns für eine gerechte Zukunft ein – für Bäuer:innen, Arbeiter:innen und für dich."
+      }
+    },
+    "tone": {
+      "guess": "professional-warm",
+      "evidence": "EN: question-led section heads ('Do you want to know the basics?'), mission framing ('making an impact on the way trade works'); DE/CH address the reader informally with du/dein ('Du suchst nach Produkten…', 'Dein Einsatz für den fairen Handel zählt'); producer testimonials in first person"
+    }
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Get Involved",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products",
+          "en-products-fairtrade_products-cocoa",
+          "en-get-involved-press-centre",
+          "en-search-results"
+        ]
+      },
+      {
+        "label": "Contact us",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products",
+          "en-products-fairtrade_products-cocoa",
+          "en-get-involved-press-centre",
+          "en-search-results"
+        ]
+      },
+      {
+        "label": "Click here",
+        "total": 6,
+        "pageCount": 6,
+        "pages": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products",
+          "en-products-fairtrade_products-cocoa",
+          "en-get-involved-press-centre",
+          "en-search-results"
+        ]
+      },
+      {
+        "label": "Mehr erfahren",
+        "total": 4,
+        "pageCount": 2,
+        "pages": [
+          "de-de",
+          "ch-de"
+        ]
+      },
+      {
+        "label": "Find out more",
+        "total": 2,
+        "pageCount": 2,
+        "pages": [
+          "en",
+          "en-products-fairtrade_products-cocoa"
+        ]
+      },
+      {
+        "label": "Read more",
+        "total": 2,
+        "pageCount": 2,
+        "pages": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits"
+        ]
+      },
+      {
+        "label": "Fairtrade products",
+        "total": 2,
+        "pageCount": 2,
+        "pages": [
+          "en-products-fairtrade_products",
+          "en-products-fairtrade_products-cocoa"
+        ]
+      },
+      {
+        "label": "Wer wir sind",
+        "total": 2,
+        "pageCount": 2,
+        "pages": [
+          "de-de",
+          "ch-de"
+        ]
+      }
+    ],
+    "headingFrequency": [],
+    "headingFrequencyNote": "no heading text repeats on ≥3 pages (max 2: DE/CH shared AccordionSection heads 'Fairtrade in Kürze', 'Wer wir sind', 'Was wir tun', 'Was wir fordern', 'Mehrwert durch Fairtrade')",
+    "toneMetrics": {
+      "headingsTotal": 117,
+      "headingsUppercasePercent": 0,
+      "distinctHeadings": 109,
+      "distinctCtaLabels": 240
+    }
+  },
+  "crossPromo": {
+    "detected": false,
+    "anchorHeading": null,
+    "cluster": null,
+    "pages": null,
+    "pageCount": null,
+    "totalPages": 9
+  },
+  "register": "brand",
+  "imagery": {
+    "imgsTotal": 93,
+    "emptyAlt": 66,
+    "genericAlt": 0
+  }
+}

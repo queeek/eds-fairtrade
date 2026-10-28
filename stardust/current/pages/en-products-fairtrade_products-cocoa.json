@@ -1,0 +1,553 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-28T11:56:03.488Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "en-products-fairtrade_products-cocoa",
+  "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-28T11:56:03.488Z",
+  "finalUrl": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+  "title": "Cocoa",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Cocoa"
+    },
+    {
+      "tag": "h2",
+      "text": "The cocoa industry"
+    },
+    {
+      "tag": "h2",
+      "text": "Our interactive cocoa dashboard"
+    },
+    {
+      "tag": "h2",
+      "text": "Fast facts"
+    },
+    {
+      "tag": "h3",
+      "text": "Current challenges"
+    },
+    {
+      "tag": "h3",
+      "text": "“Cocoa is very important for me and my family. For me, Fairtrade ensures fair trade in cocoa. The goal is to create a win-win situation for all sides.”"
+    },
+    {
+      "tag": "h3",
+      "text": "Dah Oho, cocoa farmer at ECAKOG, Ivory Coast"
+    },
+    {
+      "tag": "h2",
+      "text": "Fairtrade West Africa Cocoa Programme dashboard"
+    },
+    {
+      "tag": "h3",
+      "text": "How Fairtrade makes a difference"
+    },
+    {
+      "tag": "h2",
+      "text": "Sankofa - Where Forest Restoration and Farmer Prosperity Grow Together"
+    },
+    {
+      "tag": "h4",
+      "text": "Fairtrade cocoa is good for people, planet and business."
+    }
+  ],
+  "body": [
+    "Cocoa is the product behind the sweetest of treats: chocolate. Except there’s a bitter reality at the heart of this highly prized commodity – the cocoa farmers around the world who often struggle to make a living.",
+    "Some six million people worldwide depend on cocoa farming for their livelihood. Cocoa is farmed in hot and humid parts of the world, predominantly West Africa, Latin America and South-East Asia. Côte d’Ivoire is the largest producer and exporter globally.",
+    "Cocoa farming is hard work. The ripe cocoa pods are harvested from the tree and split open to reveal the wet beans inside. These are then fermented for up to seven days, and then carefully dried. The beans are cleaned, packed and transported. Despite all this effort, many cocoa farmers live in poverty despite the cocoa sector being a billion-dollar industry.",
+    "+711K MT of Fairtrade cocoa was produced in 2023",
+    "398 Fairtrade certified cocoa producer organisations in 2023",
+    "€57 million in Fairtrade Premium earned by cocoa producers in 2023",
+    "Here are a few facts about Fairtrade cocoa you should know.",
+    "There are many hurdles facing the long-term sustainability of the cocoa sector. That includes widespread poverty, deforestation, gender inequality, child labour and forced labour. Low incomes. This prevents farmers from investing in and developing their farms, continuing the cycle of poverty.",
+    "Gender inequality. Women cocoa farmers in some producer countries often have limited access to resources and are discriminated against.",
+    "Child labour has increased. According to a 2020 report, more than 1.5 million children aged five to 17 have been found to be working on cocoa farms in Côte d'Ivoire and Ghana.",
+    "Power in the chocolate industry is highly concentrated. That means cocoa farmers have little influence on the price they are paid for what they grow.",
+    "The climate crisis is affecting cocoa farms. Unpredictable weather patterns, along with diseases and pests, are impacting cocoa production.",
+    "Deforestation due to limited control over pricing and the need for cocoa, which can see farms expand into forested areas. The industry's imbalance exacerbates environmental and economic strains for farmers. Deforestation also further contributes to the climate crisis.",
+    "If we want to enjoy a future where chocolate isn’t just a rare luxury, the cocoa business needs to change. There are over 450,000 Fairtrade cocoa farmers representing almost a quarter of all farmers and workers.",
+    "Decent livelihoods. Fairtrade’s living income strategy is pushing for a livelihood that covers cocoa farmers’ business costs and enough for basic human rights, such as nutritious food and education for their children. Fairtrade cocoa farmers have the security net of the Fairtrade Minimum Price for what they grow, for when market prices drop. Organic production is incentivised with a higher Minimum Price. Farmers also receive the Fairtrade Premium, which they choose how to invest, for example replacing old cocoa trees.",
+    "Protecting young people. A programme is supporting Fairtrade certified cocoa cooperatives in Côte d'Ivoire and Ghana to strengthen prevention and remediation of child labour and forced labour.",
+    "Sourcing. Fairtrade works with key industry players so that they can source large volumes of sustainably produced cocoa. This means more benefits for farmers.",
+    "Gender equity. This recognises that greater opportunities for women benefit everyone. Fairtrade Africa’s Women’s School of Leadership has seen young women promoted as leaders in cocoa cooperatives.",
+    "Stronger together. By supporting smallholder farmers to join together into cooperatives and associations, farmers can negotiate better terms of trade and reach more markets. An evaluation of our West African cooperative support programme found partcipating coopatives had increased professionalisation, accountability and transparency.",
+    "Protecting forests: The Fairtrade Standards for cocoa align with requirements in the EUDR, including a cut-off date that exceeds the EUDR requirement, requiring geolocation data, and risk assessments and mitigation requirements. Read more.",
+    "Climate resilience. Via specific programmes and standards criteria Fairtrade works with farmers to adapt to unpredictable weather patterns, mitigate environmental risks, and build a more resilient cocoa industry."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Home",
+      "href": "https://www.fairtrade.net/en.html"
+    },
+    {
+      "label": "Fairtrade products",
+      "href": "https://www.fairtrade.net/en/products/Fairtrade_products.html"
+    },
+    {
+      "label": "Cocoa",
+      "href": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html"
+    },
+    {
+      "label": "Back to Homepage",
+      "href": "https://www.fairtrade.net/en.html"
+    },
+    {
+      "label": "Why Fairtrade",
+      "href": null
+    },
+    {
+      "label": "Products",
+      "href": null
+    },
+    {
+      "label": "For Business",
+      "href": null
+    },
+    {
+      "label": "Get Involved",
+      "href": null
+    },
+    {
+      "label": "Search Open the search box",
+      "href": null
+    },
+    {
+      "label": "GLOBAL • EN Open or close the locale selector. The currently selected locale is GLOBAL-EN.",
+      "href": null
+    },
+    {
+      "label": "Open Open the meta menu",
+      "href": null
+    },
+    {
+      "label": "Explore the Cocoa Dashboard",
+      "href": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa/fairtrade-cocoa-dashboard.html"
+    },
+    {
+      "label": "Explore the West Africa Cocoa Programme dashboard",
+      "href": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa/west-africa-cocoa-programme-dashboard.html"
+    },
+    {
+      "label": "Read more.",
+      "href": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/deforestation.html"
+    },
+    {
+      "label": "Find out more",
+      "href": "https://www.fairtrade.net/en/for-business/benefits-of-being-certified.html"
+    },
+    {
+      "label": "GLOBAL • EN Open or close the locale selector. The currently selected locale is GLOBAL-EN.",
+      "href": null
+    },
+    {
+      "label": "About us",
+      "href": "https://www.fairtrade.net/en/about/about-fairtrade-international.html"
+    },
+    {
+      "label": "Our strategy",
+      "href": "https://www.fairtrade.net/en/about/our-strategy.html"
+    },
+    {
+      "label": "Annual Report",
+      "href": "https://www.fairtrade.net/en/get-involved/library/2025-annual-report.html"
+    },
+    {
+      "label": "Governance & Board",
+      "href": "https://www.fairtrade.net/en/about/governance-and-board.html"
+    },
+    {
+      "label": "Opportunities",
+      "href": "https://www.fairtrade.net/en/about/opportunities.html"
+    },
+    {
+      "label": "Human Rights Remediation Policy",
+      "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/library/Fairtrade-intl-human-rights-remediation-policy-2026.pdf"
+    },
+    {
+      "label": "Fairtrade global network",
+      "href": "https://www.fairtrade.net/en/about/fairtrade-global-network.html"
+    },
+    {
+      "label": "Fairtrade organisations around the world",
+      "href": "https://www.fairtrade.net/en/about/fairtrade-global-network/fairtrade-organisations.html"
+    },
+    {
+      "label": "Producer networks",
+      "href": "https://www.fairtrade.net/en/about/fairtrade-global-network/producer-networks.html"
+    },
+    {
+      "label": "Contact us",
+      "href": "https://www.fairtrade.net/en/about/fairtrade-global-network/fairtrade-organisations.html"
+    },
+    {
+      "label": "Marks misuse",
+      "href": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/how-does-the-label-work/report-misuse-of--the-fairtrade-mark.html"
+    },
+    {
+      "label": "Fairtrade sourcing",
+      "href": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/fairtrade-sourcing.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "https://www.fairtrade.net/en/about/faq.html"
+    },
+    {
+      "label": "Compliance at Fairtrade",
+      "href": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/how-fairtrade-works-/Compliance-at-fairtrade.html"
+    },
+    {
+      "label": "Whistleblower portal",
+      "href": "https://fairtrade.integrityline.com/"
+    },
+    {
+      "label": "Privacy policy",
+      "href": "https://www.fairtrade.net/en/about/governance-and-board/privacy-policy.html"
+    },
+    {
+      "label": "Impressum",
+      "href": "https://www.fairtrade.net/en/about/governance-and-board/impressum.html"
+    },
+    {
+      "label": "Social Links",
+      "href": "https://www.facebook.com/fairtrade"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/fairtradeofficial/"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/fairtrade-international-flo-/?originalSubdomain=de"
+    },
+    {
+      "label": "Click here",
+      "href": "https://confirmsubscription.com/h/r/B7B6655272524E04"
+    }
+  ],
+  "links": [
+    "https://www.fairtrade.net/en.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+    "https://www.fairtrade.net/en/why-fairtrade/what-we-do.html",
+    "https://www.fairtrade.net/en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+    "https://www.fairtrade.net/en/why-fairtrade/what-we-do/how-fairtrade-works-.html",
+    "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+    "https://www.fairtrade.net/en/why-fairtrade/what-we-do/theory-of-change.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/deforestation.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/workers-rights.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/mitigating-risks.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/forced-labour.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/child-protection.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/gender-equality.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/hredd.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+    "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+    "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it.html",
+    "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+    "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards.html",
+    "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/advocacy.html",
+    "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/our-projects-and-programmes.html",
+    "https://www.fairtrade.net/en/why-fairtrade/impact.html",
+    "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-.html",
+    "https://www.fairtrade.net/en/why-fairtrade/impact/key-figures-at-a-glance.html",
+    "https://www.fairtrade.net/en/why-fairtrade/impact/how-we-measure-impact-.html",
+    "https://impactmap.fairtrade.net/",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/Bananas.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/gold.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/coffee.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/Cotton.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/Flowers.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/Fruits-juices.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/Herbs-spices.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/Honey.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/Nuts-oils.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/wine.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/vegetables.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/tea.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/sugar.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/textiles.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/sports-balls.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/rice.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/quinoa.html",
+    "https://www.fairtrade.net/en/for-business/benefits-of-being-certified.html",
+    "https://www.fairtrade.net/en/for-business/benefits-of-being-certified/consumer-trends.html",
+    "https://www.fairtrade.net/en/for-business/benefits-of-being-certified/fairtrade-and-the-eu-empowering-consumers-directive.html",
+    "https://www.fairtrade.net/en/for-business/benefits-of-being-certified/business-success-stories.html",
+    "https://www.fairtrade.net/en/for-business/benefits-of-being-certified/benefits-for-business.html",
+    "https://www.fairtrade.net/en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+    "https://www.fairtrade.net/en/for-business/how-to-get-involved.html",
+    "https://www.fairtrade.net/en/for-business/how-to-get-involved/get-certified.html",
+    "https://www.fairtrade.net/en/for-business/how-to-get-involved/Get-licensed.html",
+    "https://www.fairtrade.net/en/for-business/how-to-get-involved/apply-to-become-a-licensee.html",
+    "https://www.fairtrade.net/en/for-business/how-to-get-involved/licensee-resources.html",
+    "https://www.fairtrade.net/en/for-business/how-to-get-involved/get-certified-as-a-producer.html",
+    "https://www.fairtrade.net/en/for-business/eudr-support-for-smes.html",
+    "https://www.fairtrade.net/en/get-involved/news.html",
+    "https://www.fairtrade.net/en/get-involved/library.html",
+    "https://www.fairtrade.net/en/get-involved/Press-centre.html",
+    "https://www.fairtrade.net/en/get-involved/fairtrade-ambassadors.html",
+    "https://www.fairtrade.net/en/about/opportunities.html",
+    "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards/fairtrade-minimum-price-and-premium-information.html",
+    "https://www.fairtrade.net/en/about/overview-of-fairtrade-producers.html",
+    "https://www.fairtrade.net/africa-en/products/fairtrade-products/cocoa.html",
+    "https://www.fairtrade.net/at-de/produkte/fairtrade-produkte/kakao.html",
+    "https://www.fairtrade.net/be-fr/nos-produits-Fairtrade/nos-produits-Fairtrade/cacao.html",
+    "https://www.fairtrade.net/be-nl.html",
+    "https://www.fairtrade.net/bg-bg/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/ca-en/products/all-products/cocoa.html",
+    "https://www.fairtrade.net/ca-fr/produits-et-fillieres/filieres-fairtrade/cacao-equitable.html",
+    "https://clac-comerciojusto.org/",
+    "https://www.fairtrade.net/hr-hr/donesite-fairtrade-na-vase-trziste.html",
+    "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/cacao-equitable.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/kakao.html",
+    "https://www.fairtrade.net/gr-el/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/hu-hu/hozza-el-a-fairtrade-et-az-on-piacara.html",
+    "https://www.fairtrade.net/iberica-es.html",
+    "https://www.fairtrade.net/iberica-pt.html",
+    "https://www.fairtrade.net/ie-en/products/fairtrade-products/cocoa.html",
+    "https://www.fairtrade.net/it-it.html",
+    "https://www.fairtrade.net/jp-jp/products/fairtrade-products/cocoa.html",
+    "https://www.fairtrade.net/kr-ko.html",
+    "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/mt-mt/iggib-fairtrade-fis-suq-tieg-ek.html",
+    "https://www.fairtrade.net/napp-en.html",
+    "https://www.fairtrade.net/nl-nl/producten/fairtrade-producten/Cacao.html",
+    "https://www.fairtrade.net/no-no.html",
+    "https://www.fairtrade.net/pl-pl.html",
+    "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+    "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html",
+    "https://www.fairtrade.net/se-sv/produkter/produkter/kakao.html",
+    "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/kakao.html",
+    "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/cacao-equitable.html",
+    "https://www.fairtrade.net/uk-en.html",
+    "https://www.fairtrade.net/us-en.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa/fairtrade-cocoa-dashboard.html",
+    "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa/west-africa-cocoa-programme-dashboard.html",
+    "https://www.fairtrade.net/en/about/about-fairtrade-international.html",
+    "https://www.fairtrade.net/en/about/our-strategy.html",
+    "https://www.fairtrade.net/en/get-involved/library/2025-annual-report.html",
+    "https://www.fairtrade.net/en/about/governance-and-board.html",
+    "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/get-involved/library/Fairtrade-intl-human-rights-remediation-policy-2026.pdf",
+    "https://www.fairtrade.net/en/about/fairtrade-global-network.html",
+    "https://www.fairtrade.net/en/about/fairtrade-global-network/fairtrade-organisations.html",
+    "https://www.fairtrade.net/en/about/fairtrade-global-network/producer-networks.html",
+    "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/how-does-the-label-work/report-misuse-of--the-fairtrade-mark.html",
+    "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/fairtrade-sourcing.html",
+    "https://www.fairtrade.net/en/about/faq.html",
+    "https://www.fairtrade.net/en/why-fairtrade/what-we-do/how-fairtrade-works-/Compliance-at-fairtrade.html",
+    "https://fairtrade.integrityline.com/",
+    "https://www.fairtrade.net/en/about/governance-and-board/privacy-policy.html",
+    "https://www.fairtrade.net/en/about/governance-and-board/impressum.html",
+    "https://www.facebook.com/fairtrade",
+    "https://www.instagram.com/fairtradeofficial/",
+    "https://www.linkedin.com/company/fairtrade-international-flo-/?originalSubdomain=de",
+    "https://confirmsubscription.com/h/r/B7B6655272524E04"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/global/logo/fairtrade-international.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/global/products/cocoa/Untitled%20design%20%2822%29.png/_jcr_content/renditions/21x9_1440w.webp",
+        "alt": "cocoa pod",
+        "w": 750,
+        "h": 575
+      },
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/global/products/cocoa/VV_CAYAT%20-%20IVORY%20COAST%20-%20COCOA_Mohamed%20ALY%20Diabatae%20%282%29.jpg/_jcr_content/renditions/16x9_1280w.webp",
+        "alt": "",
+        "w": 941,
+        "h": 627
+      }
+    ],
+    "allImgCount": 8,
+    "cssBackgrounds": [],
+    "modals": [
+      "Close the locale selector. Go to a local website Choose a country or region and a language Fairtrade International Search for a country, region or language Clear the value of the input Africa English Austria Deutsch Belgium Français Nederlands Bulgaria Bulgarian Canada English French CLAC Spanish Croatia Croatian France Français Germany Deutsch Greece Greek Hungary Hungarian Iberica Español Português Ireland Fairtrade Ireland Italy Italiano Japan 日本語 Korea 한국어 Malta English Maltese NAPP English Netherlands Dutch Norway Norsk Poland Polski Romania Romanian Slovenia Slovenian Sweden Svensk Switzerland Deutsch Français United Kingdom English United States english Sorry, no match found!"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--topbar-height": "104px",
+    "--swiper-theme-color": "#007aff"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 11,
+    "mainTextLen": 6292,
+    "realImageCount": 3,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.fairtrade.net",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.fairtrade.net/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/eFjo_1PKCmgDC9/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 61,
+        "hits": 1,
+        "example": "https://api.usercentrics.eu/settings/eFjo_1PKCmgDC9/latest/languages.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/eFjo_1PKCmgDC9/latest/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 8601,
+        "hits": 1,
+        "example": "https://api.usercentrics.eu/settings/eFjo_1PKCmgDC9/latest/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 4876,
+        "hits": 1,
+        "example": "https://api.usercentrics.eu/translations/translations-en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/en",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 11376,
+        "hits": 1,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/en",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "app.usercentrics.eu",
+        "count": 13
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 4,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/en-products-fairtrade_products-cocoa.png",
+  "renderedHtml": "pages/en-products-fairtrade_products-cocoa.html",
+  "slots": {
+    "pageType": "program",
+    "breadcrumbs": [
+      "Home",
+      "Fairtrade products",
+      "Cocoa"
+    ],
+    "program-headline": "Cocoa",
+    "summary": "Cocoa is the product behind the sweetest of treats: chocolate. Except there’s a bitter reality at the heart of this highly prized commodity – the cocoa farmers around the world who often struggle to make a living.",
+    "feature-grid": [
+      "The cocoa industry",
+      "Our interactive cocoa dashboard",
+      "Fast facts",
+      "Fairtrade West Africa Cocoa Programme dashboard",
+      "Sankofa - Where Forest Restoration and Farmer Prosperity Grow Together"
+    ],
+    "numberFacts": [
+      "+711K MT of Fairtrade cocoa was produced in 2023",
+      "398 Fairtrade certified cocoa producer organisations in 2023"
+    ],
+    "quotes": [
+      "“Cocoa is very important for me and my family. For me, Fairtrade ensures fair trade in cocoa. The goal is to create a win-win situation for all sides.”"
+    ],
+    "cta-band": [
+      "Explore the Cocoa Dashboard",
+      "Read more.",
+      "Find out more"
+    ],
+    "_source": "derived from headings[], body[], ctas[] of this file"
+  }
+}

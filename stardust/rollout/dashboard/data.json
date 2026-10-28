@@ -1,0 +1,215 @@
+{
+  "generatedAt": "2026-10-28T19:44:00.674Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.fairtrade.net/",
+    "liveHost": "main--bdafc086--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 9,
+    "prototyped": 9,
+    "deployed": 9,
+    "optimised": 7
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 2,
+    "optimised": 7
+  },
+  "pages": [
+    {
+      "slug": "ch-de",
+      "path": "/ch-de",
+      "stage": "optimised",
+      "templateId": "landing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-de",
+      "path": "/de-de",
+      "stage": "optimised",
+      "templateId": "landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-de-produkte-produktfinder",
+      "path": "/de-de/produkte/produktfinder",
+      "stage": "optimised",
+      "templateId": "search",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en",
+      "path": "/en",
+      "stage": "deployed",
+      "templateId": "en",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-get-involved-press-centre",
+      "path": "/en/get-involved/press-centre",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-products-fairtrade_products",
+      "path": "/en/products/fairtrade-products",
+      "stage": "optimised",
+      "templateId": "en-products-fairtrade_products",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-products-fairtrade_products-cocoa",
+      "path": "/en/products/fairtrade-products/cocoa",
+      "stage": "deployed",
+      "templateId": "en-products-fairtrade_products-cocoa",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "en-search-results",
+      "path": "/en/search-results",
+      "stage": "optimised",
+      "templateId": "en-search-results",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-why-fairtrade-what-we-do-key-benefits",
+      "path": "/en/why-fairtrade/what-we-do/key-benefits",
+      "stage": "optimised",
+      "templateId": "en-why-fairtrade-what-we-do-key-benefits",
+      "isTemplate": true,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "en",
+      "archetype": "en",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "en-products-fairtrade_products",
+      "archetype": "en-products-fairtrade_products",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-products-fairtrade_products-cocoa",
+      "archetype": "en-products-fairtrade_products-cocoa",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "en-search-results",
+      "archetype": "en-search-results",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-why-fairtrade-what-we-do-key-benefits",
+      "archetype": "en-why-fairtrade-what-we-do-key-benefits",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "landing",
+      "archetype": "ch-de",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "en-get-involved-press-centre",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "search",
+      "archetype": "de-de-produkte-produktfinder",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    }
+  ],
+  "blocks": {
+    "total": 8,
+    "converted": 8
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      55,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 2
+    },
+    "byAutofix": {}
+  }
+}

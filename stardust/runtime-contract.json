@@ -1,0 +1,14 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "blockWrapper": "div.<name>-wrapper > div.<name>.block[data-block-name]; section gains .<name>-container",
+  "buttonClasses": "a.button + .primary (strong) / .secondary (em) / .accent (strong+em), in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "wrapTextNodes": true,
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "widgetAutoBlocks": true,
+  "chrome": "header/footer blocks load /nav and /footer fragments; nav/footer metadata overrides; locale trees /de-de and /ch-de load /<locale>/nav and /<locale>/footer",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "probedAt": "2026-10-28"
+}

@@ -1,0 +1,11 @@
+{
+  "/ch-de/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T18:36:54.236Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

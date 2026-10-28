@@ -1,0 +1,233 @@
+/* number-fact-teaser — live NumberFactTeaser / NumberFact / Bubble (values lifted, en.css) */
+.number-fact-teaser .nft-grid {
+  padding-block: 64px;
+  row-gap: 48px;
+}
+
+@media (width >= 768px) {
+  .number-fact-teaser .nft-grid {
+    column-gap: 24px;
+  }
+}
+
+@media (width >= 1024px) {
+  .number-fact-teaser .nft-grid {
+    padding-block: 80px;
+  }
+}
+
+.number-fact-teaser .nft-slider {
+  display: grid;
+  position: relative;
+}
+
+@media (width >= 768px) {
+  .number-fact-teaser .nft-grid > .nft-slider {
+    grid-column: span 6;
+  }
+}
+
+@media (width >= 1024px) {
+  .number-fact-teaser .nft-grid > .nft-slider {
+    grid-column: span 7;
+  }
+}
+
+.number-fact-teaser .nft-slider .ft-button {
+  position: absolute;
+}
+
+.number-fact-teaser .slider-prev {
+  left: -12px;
+  place-self: center start;
+}
+
+.number-fact-teaser .slider-next {
+  place-self: center end;
+  right: -12px;
+}
+
+@media (width >= 768px) {
+  .number-fact-teaser .nft-slider .ft-button {
+    display: none;
+  }
+}
+
+.number-fact-teaser .nft-items {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.number-fact-teaser .nft-items::-webkit-scrollbar {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .number-fact-teaser .nft-items {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 120px;
+  }
+}
+
+.number-fact-teaser .nft-item {
+  min-width: 100%;
+  scroll-snap-align: start;
+}
+
+/* the intro (section head) */
+.number-fact-teaser .nft-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (width >= 768px) {
+  .number-fact-teaser .nft-grid > .nft-content {
+    align-items: start;
+    aspect-ratio: 5 / 7;
+    grid-column: span 6;
+    justify-content: center;
+    max-height: 612px;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+  }
+}
+
+@media (width >= 1024px) {
+  .number-fact-teaser .nft-grid > .nft-content {
+    grid-column: span 5;
+    padding: 16px;
+  }
+}
+
+.number-fact-teaser .nft-label {
+  color: var(--ft-label);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.number-fact-teaser .nft-title {
+  font-family: var(--ft-font-head);
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.number-fact-teaser .nft-title :is(h1, h2, h3) {
+  font: inherit;
+  margin: 0;
+}
+
+.number-fact-teaser .nft-text {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+@media (width >= 768px) {
+  .number-fact-teaser .nft-title {
+    text-align: left;
+  }
+}
+
+@media (width >= 1024px) {
+  .number-fact-teaser :is(.nft-label, .nft-text) {
+    font-size: 18px;
+  }
+
+  .number-fact-teaser .nft-title {
+    font-size: 48px;
+  }
+}
+
+/* the live CTA is a flex item of the intro column (no line box) */
+.number-fact-teaser .nft-cta {
+  margin-top: 8px;
+}
+
+.number-fact-teaser .nft-cta p {
+  display: flex;
+}
+
+/* NumberFact */
+.number-fact-teaser .number-fact {
+  display: grid;
+  margin: 0 auto;
+  max-width: 612px;
+  position: relative;
+}
+
+.number-fact-teaser .bubble {
+  color: var(--ft-flower);
+}
+
+.number-fact-teaser.eggplant .bubble {
+  color: var(--ft-eggplant);
+}
+
+.number-fact-teaser.eggplant .number-fact {
+  color: #fff;
+}
+
+.number-fact-teaser .bubble svg {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.number-fact-teaser .number-fact-content {
+  display: grid;
+  gap: 12px;
+  inset: 0;
+  padding: 16px 32px;
+  place-content: center;
+  position: absolute;
+  text-align: center;
+}
+
+@media (width >= 1024px) {
+  .number-fact-teaser .number-fact-content {
+    gap: 24px;
+    padding: 24px 64px;
+  }
+}
+
+.number-fact-teaser .number {
+  font-family: var(--ft-font-head);
+  font-size: clamp(72px, 20.61vw, 136px);
+  font-weight: 900;
+  line-height: 0.875;
+  margin-bottom: 0.15em;
+}
+
+.number-fact-teaser .fact {
+  font-family: var(--ft-font-head);
+  font-size: clamp(24px, 4.85vw, 32px);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+/* live: the fact text box itself carries the inline padding */
+.number-fact-teaser .fact p {
+  padding-inline: 12px;
+}
+
+@media (width >= 768px) {
+  .number-fact-teaser .number {
+    font-size: clamp(72px, 11.93vw, 136px);
+  }
+
+  .number-fact-teaser .fact {
+    font-size: clamp(24px, 2.81vw, 32px);
+  }
+}

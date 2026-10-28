@@ -1,0 +1,181 @@
+/* accordion — live AccordionSection / Accordion (values lifted, en.css) */
+.accordion .accordion-grid {
+  padding-block: 64px;
+}
+
+@media (width >= 768px) {
+  .accordion .accordion-grid > * {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (width >= 1024px) {
+  .accordion .accordion-grid {
+    padding-block: 80px;
+  }
+
+  .accordion .accordion-grid > * {
+    grid-column: 4 / -4;
+  }
+}
+
+.accordion .accordion-section-title {
+  font-family: var(--ft-font-head);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.accordion .accordion-section-title :is(h1, h2, h3) {
+  font: inherit;
+  margin: 0;
+}
+
+@media (width >= 1024px) {
+  .accordion .accordion-section-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+.accordion .accordion-panel {
+  --header-gap: 12px;
+  --header-padding: 16px 8px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.accordion .accordion-panel::after {
+  background-color: rgb(30 30 30 / 10%);
+  content: "";
+  height: 2px;
+  inset: auto 0 0;
+  position: absolute;
+}
+
+.accordion .accordion-header {
+  align-items: center;
+  box-shadow: 0 4px 8px rgb(30 30 30 / 10%);
+  display: flex;
+  flex-direction: row;
+  gap: var(--header-gap);
+  padding: var(--header-padding);
+  position: relative;
+  width: 100%;
+}
+
+.accordion .accordion-toggle {
+  cursor: pointer;
+  height: 100%;
+  inset: 0 auto auto 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.accordion .ft-button.accordion-chevron {
+  align-self: start;
+  flex: 0 0 auto;
+  transform-origin: center;
+  transition: rotate 0.3s ease-in-out, background-color var(--ease), border-color var(--ease);
+}
+
+.accordion .accordion-toggle:is(:hover, :focus-visible) ~ .ft-button.accordion-chevron {
+  background-color: var(--ft-skyblue-hover);
+  border-color: var(--ft-petrol);
+}
+
+.accordion .accordion-panel.is-open .ft-button.accordion-chevron {
+  rotate: 0.5turn;
+}
+
+.accordion .accordion-title {
+  font-family: var(--ft-font-body);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.1;
+  transition: color var(--ease);
+}
+
+.accordion .accordion-title :is(h2, h3, h4) {
+  font: inherit;
+  margin: 0;
+}
+
+.accordion .accordion-toggle:is(:hover, :focus-visible) ~ .accordion-title {
+  color: var(--ft-petrol);
+}
+
+.accordion .accordion-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease-in-out;
+}
+
+.accordion .accordion-panel.is-open .accordion-body {
+  grid-template-rows: 1fr;
+}
+
+.accordion .accordion-content-wrapper {
+  overflow: hidden;
+  transition: visibility 0.3s ease-in-out;
+  visibility: hidden;
+}
+
+.accordion .accordion-panel.is-open .accordion-content-wrapper {
+  visibility: visible;
+}
+
+.accordion .accordion-content {
+  padding: 16px 16px 32px;
+}
+
+@media (width >= 1024px) {
+  .accordion .accordion-content {
+    padding: 24px 16px 40px;
+  }
+}
+
+/* live Richtext (the live box opens with an empty h4: 0 height + 16px margin) */
+.accordion .accordion-text {
+  padding-top: 16px;
+}
+
+.accordion .accordion-text :is(p, ul, ol) {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.accordion .accordion-text > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 1024px) {
+  .accordion .accordion-text :is(p, ul, ol) {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+/* live Button variant-tertiary (inline-block: the underline sits under the label) */
+.accordion .accordion-cta a:any-link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.accordion .accordion-cta a:any-link::after {
+  background-color: var(--ft-skyblue);
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  scale: 1 0.5;
+  transform-origin: bottom;
+  transition: background-color var(--ease), scale var(--ease);
+}

@@ -1,0 +1,848 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-28T11:56:14.022Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "de-de-produkte-produktfinder",
+  "url": "https://www.fairtrade.net/de-de/produkte/Produktfinder.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-28T11:56:14.022Z",
+  "finalUrl": "https://www.fairtrade.net/de-de/produkte/Produktfinder.html",
+  "title": "Fairtrade Produktfinder | Fairtrade Deutschland",
+  "description": "Mit unserem Produktfinder findest du Fairtrade-zertifizierte Artikel verschiedener Hersteller  ► Entdecke die Vielfalt fairer Produkte!",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Fairtrade Produkt-Finder"
+    }
+  ],
+  "body": [
+    "Welche Fairtrade-Produkte gibt es und wo kann man Fairtrade-Produkte kaufen? Auf dieser Seite findest du sie, nach Produktkategorie und Hersteller sortiert.",
+    "BAD BOYZ SOCCER Merchandising 841-843 Mehr erfahren",
+    "Aqua Verde Aqua Verde Coconutwater 0,33L DE/EN/FR/NL/PL Mehr erfahren",
+    "Aqua Verde Aqua Verde Coconutwater 1L DE/EN/FR/NL/PL/SE/DK/ES Mehr erfahren",
+    "Topolino Kinder Mädchen T-shirt 876545 Mehr erfahren",
+    "Oro de Cacao Napolitains dark, 100 Pzt Cacao Fruit, 1kg Mehr erfahren",
+    "Vogeley Bio Kochpudding Schokolade FT Mehr erfahren",
+    "Minor Original Tafel Mehr erfahren",
+    "YiGGA Kinder Jungen Sweatshirt 875331 Mehr erfahren",
+    "Yigga Kinder Jungen Sweatshirt 875337 Mehr erfahren",
+    "Minor Merry Christmas Box Mehr erfahren",
+    "Novas Gran Reserva Novas Chardonnay 2025 Mehr erfahren",
+    "Adobe Reserva Adobe Sauvignon Blanc 2026 Mehr erfahren",
+    "Adobe Reserva Adobe Chardonnay 2026 Mehr erfahren",
+    "Minor Himbeere (5 x 22g) Mehr erfahren",
+    "Munz Munz Glückskäfer Bottle 150g Mehr erfahren",
+    "REWE Beste Wahl RBW Massive Kugeln AVM 180g im Netz Mehr erfahren",
+    "Topolino Kinder Mädchen T-Shirt_875016 Mehr erfahren",
+    "Minor Original Bottle 150g Mehr erfahren",
+    "REWE Bio Rewe Bio Kakao Nibs Mehr erfahren",
+    "REWE Beste Wahl RBW Schoko Kugeln mit Pistazien Creme 100g Mehr erfahren",
+    "REWE Beste Wahl RBW Schoko Kugeln mit Speculoo Creme 100g Mehr erfahren",
+    "Douceur Douceur Weihnachtsfiguren Reiterbeutel Herz Mehr erfahren",
+    "Douceur Douceur Kugeln mit Milchcreme 180g im Netz Mehr erfahren",
+    "Yigga Kinder Mädchen Sweatshirt 875380 Mehr erfahren",
+    "...",
+    "299",
+    "Disclaimer: Bitte beachte, dass sich dieses Verzeichnis noch in der Entwicklung befindet und Daten aus verschiedenen internen Quellen miteinander verknüpft. Es ist noch nicht vollständig und kann in seltenen Fällen nicht korrekt sein. Nach der Löschung eines Zertifikats kann die Organisation noch eine Zeitlang im Verzeichnis bleiben."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Home",
+      "href": "https://www.fairtrade.net/de-de.html"
+    },
+    {
+      "label": "Zurück zur Startseite",
+      "href": "https://www.fairtrade.net/de-de.html"
+    },
+    {
+      "label": "Was ist Fairtrade?",
+      "href": null
+    },
+    {
+      "label": "Produkte",
+      "href": null
+    },
+    {
+      "label": "Für Unternehmen",
+      "href": null
+    },
+    {
+      "label": "Mach mit!",
+      "href": null
+    },
+    {
+      "label": "Newsroom",
+      "href": null
+    },
+    {
+      "label": "Suche Öffnen Sie das Suchfeld",
+      "href": null
+    },
+    {
+      "label": "DE • DE Öffnen oder schließen Sie den Sprachauswahl. Die derzeit ausgewählte Sprache ist DE-DE.",
+      "href": null
+    },
+    {
+      "label": "Über uns Öffnen Sie das Meta-Menü",
+      "href": null
+    },
+    {
+      "label": "Marke",
+      "href": null
+    },
+    {
+      "label": "Kategorie",
+      "href": null
+    },
+    {
+      "label": "Bio",
+      "href": null
+    },
+    {
+      "label": "BAD BOYZ SOCCER Merchandising 841-843 Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.171947.html"
+    },
+    {
+      "label": "Aqua Verde Aqua Verde Coconutwater 0,33L DE/EN/FR/NL/PL Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170800.html"
+    },
+    {
+      "label": "Aqua Verde Aqua Verde Coconutwater 1L DE/EN/FR/NL/PL/SE/DK/ES Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170802.html"
+    },
+    {
+      "label": "Topolino Kinder Mädchen T-shirt 876545 Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168970.html"
+    },
+    {
+      "label": "Oro de Cacao Napolitains dark, 100 Pzt Cacao Fruit, 1kg Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168116.html"
+    },
+    {
+      "label": "Vogeley Bio Kochpudding Schokolade FT Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170471.html"
+    },
+    {
+      "label": "Minor Original Tafel Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168354.html"
+    },
+    {
+      "label": "YiGGA Kinder Jungen Sweatshirt 875331 Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.164877.html"
+    },
+    {
+      "label": "Yigga Kinder Jungen Sweatshirt 875337 Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.166180.html"
+    },
+    {
+      "label": "Minor Merry Christmas Box Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168515.html"
+    },
+    {
+      "label": "Novas Gran Reserva Novas Chardonnay 2025 Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170577.html"
+    },
+    {
+      "label": "Adobe Reserva Adobe Sauvignon Blanc 2026 Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170493.html"
+    },
+    {
+      "label": "Adobe Reserva Adobe Chardonnay 2026 Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170494.html"
+    },
+    {
+      "label": "Minor Himbeere (5 x 22g) Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.167149.html"
+    },
+    {
+      "label": "Munz Munz Glückskäfer Bottle 150g Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170318.html"
+    },
+    {
+      "label": "REWE Beste Wahl RBW Massive Kugeln AVM 180g im Netz Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.165822.html"
+    },
+    {
+      "label": "Topolino Kinder Mädchen T-Shirt_875016 Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.164473.html"
+    },
+    {
+      "label": "Minor Original Bottle 150g Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170320.html"
+    },
+    {
+      "label": "REWE Bio Rewe Bio Kakao Nibs Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.145417.html"
+    },
+    {
+      "label": "REWE Beste Wahl RBW Schoko Kugeln mit Pistazien Creme 100g Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.165824.html"
+    },
+    {
+      "label": "REWE Beste Wahl RBW Schoko Kugeln mit Speculoo Creme 100g Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.165825.html"
+    },
+    {
+      "label": "Douceur Douceur Weihnachtsfiguren Reiterbeutel Herz Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.166586.html"
+    },
+    {
+      "label": "Douceur Douceur Kugeln mit Milchcreme 180g im Netz Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.166435.html"
+    },
+    {
+      "label": "Yigga Kinder Mädchen Sweatshirt 875380 Mehr erfahren",
+      "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.164883.html"
+    },
+    {
+      "label": "1",
+      "href": "#1"
+    },
+    {
+      "label": "2",
+      "href": "#2"
+    },
+    {
+      "label": "3",
+      "href": "#3"
+    },
+    {
+      "label": "4",
+      "href": "#4"
+    },
+    {
+      "label": "5",
+      "href": "#5"
+    },
+    {
+      "label": "299",
+      "href": "#299"
+    },
+    {
+      "label": "Vorherige",
+      "href": null
+    },
+    {
+      "label": "Nächste",
+      "href": null
+    },
+    {
+      "label": "Mehr Informationen zu Fairtrade-Produkten",
+      "href": "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte.html"
+    },
+    {
+      "label": "DE • DE Öffnen oder schließen Sie den Sprachauswahl. Die derzeit ausgewählte Sprache ist DE-DE.",
+      "href": null
+    },
+    {
+      "label": "Über Fairtrade Deutschland",
+      "href": "https://www.fairtrade.net/de-de/meta/ueber-fairtrade-deutschland.html"
+    },
+    {
+      "label": "Newsroom",
+      "href": "https://www.fairtrade.net/de-de/meta/Newsroom.html"
+    },
+    {
+      "label": "Jobs & Karriere",
+      "href": "https://www.fairtrade.net/de-de/meta/Karriere.html"
+    },
+    {
+      "label": "Kontakt",
+      "href": "https://www.fairtrade.net/de-de/footer/Kontakt.html"
+    },
+    {
+      "label": "Presse",
+      "href": "https://www.fairtrade.net/de-de/meta/Newsroom/Presse.html"
+    },
+    {
+      "label": "FAQ",
+      "href": "https://www.fairtrade.net/de-de/footer/faq.html"
+    },
+    {
+      "label": "Mediathek",
+      "href": "https://mediathek.fairtrade-deutschland.de/fairtrade/UserContentStart.aspx"
+    },
+    {
+      "label": "Impressum",
+      "href": "https://www.fairtrade.net/de-de/footer/ImpressumImpressum.html"
+    },
+    {
+      "label": "Datenschutz",
+      "href": "https://www.fairtrade.net/de-de/footer/datenschutz.html"
+    },
+    {
+      "label": "Compliance und Transparenz",
+      "href": "https://www.fairtrade.net/de-de/footer/Compliance.html"
+    },
+    {
+      "label": "Beschwerde einreichen",
+      "href": "https://www.fairtrade.net/de-de/footer/beschwerde-oder-hinweise-einreichen-nach-dem-hinweisgeberschutzg.html"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/fairtradede/"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/12801728/"
+    },
+    {
+      "label": "Social Links",
+      "href": "https://www.facebook.com/fairtrade.deutschland"
+    },
+    {
+      "label": "TikTok",
+      "href": "https://www.tiktok.com/@fairtradegermany"
+    },
+    {
+      "label": "Youtube",
+      "href": "https://www.youtube.com/user/FairtradeDeutschland"
+    },
+    {
+      "label": "Jetzt anmelden",
+      "href": "https://www.fairtrade.net/de-de/footer/Newsletter-Anmeldung.html"
+    }
+  ],
+  "links": [
+    "https://www.fairtrade.net/de-de.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/unsere-arbeit-im-ueberblick.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/unsere-arbeit-im-ueberblick/das-ist-fairtrade.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/unsere-arbeit-im-ueberblick/so-funktioniert-fairtrade.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/unsere-arbeit-im-ueberblick/grundsaetze-des-fairen-Handels.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/unsere-arbeit-im-ueberblick/vorteile-von-fairtrade.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/unsere-arbeit-im-ueberblick/massnahmen-und-wirkung-fairtrade.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Arbeitsschwerpunkte.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Arbeitsschwerpunkte/kinderrechte.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Arbeitsschwerpunkte/klimawandel-und-umwelt.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Arbeitsschwerpunkte/Geschlechtergerechtigkeit.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Arbeitsschwerpunkte/Menschenwuerdiger-Lebensunterhalt.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Arbeitsschwerpunkte/staerkung-von-kleinbauern.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Arbeitsschwerpunkte/arbeiterrechte.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Arbeitsschwerpunkte/fairtrade-nachhaltigkeitsziele.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/der-fairtrade-ansatz.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/der-fairtrade-ansatz/Fairtrade-Siegel.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/der-fairtrade-ansatz/fairtrade-standards.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/der-fairtrade-ansatz/Politische-Arbeit.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/der-fairtrade-ansatz/Projekte-und-Programme.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Wirkung.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Wirkung/Produzenten-Storys.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Wirkung/zahlen-und-fakten.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Wirkung/So-messen-wir-unsere-Wirkung.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Wirkung/fairtrade-studie.html",
+    "https://www.fairtrade.net/de-de/Was-ist-Fairtrade/Wirkung/impact-map.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/kaffee.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/kakao.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/bananen.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/Blumen.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/Baumwolle.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/zucker.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/Textilien.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/tee.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/Fruechte_Saefte.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/honig.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/gold.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/wein.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/Reis.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/sportbaelle.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/Nuesse-Oele.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/kraeuter-und-gewuerze.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder.html",
+    "https://www.fairtrade.net/de-de/produkte/fairtrade-code.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Ihr-Weg-zum-Fairtrade-Siegel.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Ihr-Weg-zum-Fairtrade-Siegel/Lebensmittelhandel-und-Drogerie.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Ihr-Weg-zum-Fairtrade-Siegel/fairtrade-hersteller-und-haendler.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Ihr-Weg-zum-Fairtrade-Siegel/Floristik.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Ihr-Weg-zum-Fairtrade-Siegel/Textil-und-Mode.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Ihr-Weg-zum-Fairtrade-Siegel/Juweliere.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Ihr-Weg-zum-Fairtrade-Siegel/roasted-fair-kleinroesterein.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Ihr-Weg-zum-Fairtrade-Siegel/ausser-haus-markt.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Ihr-Weg-zum-Fairtrade-Siegel/oeffentliche-Beschaffung.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Mehr-Erfolg-mit-Fairtrade.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Mehr-Erfolg-mit-Fairtrade/EUDR-support.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Mehr-Erfolg-mit-Fairtrade/Starkes-Siegel.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Mehr-Erfolg-mit-Fairtrade/Erfolgreiche-Vermarktung.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Mehr-Erfolg-mit-Fairtrade/fairtrade-fuer-lieferketten.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Mehr-Erfolg-mit-Fairtrade/EU-Verordnungen-in-Fairtrade-Lieferketten.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Mehr-Erfolg-mit-Fairtrade/Wirkung-vertiefen.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Mehr-Erfolg-mit-Fairtrade/HREDD-Support-Fund.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/Mehr-Erfolg-mit-Fairtrade/Partner-Day.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/fairtrade-partner-werden.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/fairtrade-partner-werden/lizenzgebuehren.html",
+    "https://www.fairtrade.net/de-de/fuer-unternehmen/newsletter-fuer-unternehmen.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Aktionen-und-Kampagnen.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Aktionen-und-Kampagnen/faires-fruehstueck.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Aktionen-und-Kampagnen/faire-woche.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Aktionen-und-Kampagnen/Fairtrade_Awards_2026.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Aktionen-und-Kampagnen/POS_Challenge.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Aktionen-und-Kampagnen/wir-alle-sind-fairtrade.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Aktionen-und-Kampagnen/Fashion_Revolution1.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Aktionen-und-Kampagnen/Fairbruary.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Aktionen-und-Kampagnen/sweet-revolution.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Weitere-Moeglichkeiten-fuer-Engagement.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Weitere-Moeglichkeiten-fuer-Engagement/Community-Kampagnen.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Weitere-Moeglichkeiten-fuer-Engagement/FairActivists.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Weitere-Moeglichkeiten-fuer-Engagement/Fairtrade-Referent-innen.html",
+    "https://www.fairtrade.net/de-de/mach-mit/Weitere-Moeglichkeiten-fuer-Engagement/Appell-Landwirtschaft-braucht-Fairness.html",
+    "https://www.fairtrade.net/de-de/meta/Newsroom/News.html",
+    "https://www.fairtrade.net/de-de/meta/Newsroom/Presse.html",
+    "https://www.fairtrade.net/de-de/meta/ueber-fairtrade-deutschland.html",
+    "https://www.fairtrade.net/de-de/meta/Karriere.html",
+    "https://www.fairtrade.net/de-de/meta/Newsroom.html",
+    "https://mediathek.fairtrade-deutschland.de/fairtrade/UserContentStart.aspx",
+    "https://www.fairtrade.net/de-de/Suche.html",
+    "https://www.fairtrade.net/en.html",
+    "https://www.fairtrade.net/africa-en.html",
+    "https://www.fairtrade.net/at-de.html",
+    "https://www.fairtrade.net/be-fr.html",
+    "https://www.fairtrade.net/be-nl.html",
+    "https://www.fairtrade.net/bg-bg/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/ca-en.html",
+    "https://www.fairtrade.net/ca-fr.html",
+    "https://clac-comerciojusto.org/",
+    "https://www.fairtrade.net/hr-hr/donesite-fairtrade-na-vase-trziste.html",
+    "https://www.fairtrade.net/maxhavelaarfrance-fr.html",
+    "https://www.fairtrade.net/gr-el/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/hu-hu/hozza-el-a-fairtrade-et-az-on-piacara.html",
+    "https://www.fairtrade.net/iberica-es.html",
+    "https://www.fairtrade.net/iberica-pt.html",
+    "https://www.fairtrade.net/ie-en.html",
+    "https://www.fairtrade.net/it-it.html",
+    "https://www.fairtrade.net/jp-jp.html",
+    "https://www.fairtrade.net/kr-ko.html",
+    "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/mt-mt/iggib-fairtrade-fis-suq-tieg-ek.html",
+    "https://www.fairtrade.net/napp-en.html",
+    "https://www.fairtrade.net/nl-nl.html",
+    "https://www.fairtrade.net/no-no.html",
+    "https://www.fairtrade.net/pl-pl.html",
+    "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+    "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html",
+    "https://www.fairtrade.net/se-sv.html",
+    "https://www.fairtrade.net/ch-de.html",
+    "https://www.fairtrade.net/ch-fr.html",
+    "https://www.fairtrade.net/uk-en.html",
+    "https://www.fairtrade.net/us-en.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.171947.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170800.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170802.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168970.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168116.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170471.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168354.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.164877.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.166180.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168515.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170577.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170493.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170494.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.167149.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170318.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.165822.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.164473.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170320.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.145417.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.165824.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.165825.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.166586.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.166435.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.164883.html",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder.html#1",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder.html#2",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder.html#3",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder.html#4",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder.html#5",
+    "https://www.fairtrade.net/de-de/produkte/Produktfinder.html#299",
+    "https://www.fairtrade.net/de-de/footer/Kontakt.html",
+    "https://www.fairtrade.net/de-de/footer/faq.html",
+    "https://www.fairtrade.net/de-de/footer/ImpressumImpressum.html",
+    "https://www.fairtrade.net/de-de/footer/datenschutz.html",
+    "https://www.fairtrade.net/de-de/footer/Compliance.html",
+    "https://www.fairtrade.net/de-de/footer/beschwerde-oder-hinweise-einreichen-nach-dem-hinweisgeberschutzg.html",
+    "https://www.instagram.com/fairtradede/",
+    "https://www.linkedin.com/company/12801728/",
+    "https://www.facebook.com/fairtrade.deutschland",
+    "https://www.tiktok.com/@fairtradegermany",
+    "https://www.youtube.com/user/FairtradeDeutschland",
+    "https://www.fairtrade.net/de-de/footer/Newsletter-Anmeldung.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-germany/logos-und-siegel/Fairtrade%20Deutschland%20Logo_schwarz-grau.png",
+        "alt": "",
+        "w": 795,
+        "h": 971
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_171947_245438.JPG",
+        "alt": "",
+        "w": 3958,
+        "h": 4900
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170800_387230.jpg",
+        "alt": "",
+        "w": 1181,
+        "h": 2067
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170802_552665.jpg",
+        "alt": "",
+        "w": 1181,
+        "h": 3839
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_168970_220263.jpg",
+        "alt": "",
+        "w": 705,
+        "h": 427
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_168116_861004.jpg",
+        "alt": "",
+        "w": 1685,
+        "h": 876
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170471_133730.jpg",
+        "alt": "",
+        "w": 1661,
+        "h": 2848
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_168354_132703.png",
+        "alt": "",
+        "w": 1833,
+        "h": 976
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_164877_50982.jpg",
+        "alt": "",
+        "w": 1753,
+        "h": 668
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_166180_359941.png",
+        "alt": "",
+        "w": 378,
+        "h": 533
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_168515_435496.png",
+        "alt": "",
+        "w": 1024,
+        "h": 571
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170577_385375.png",
+        "alt": "",
+        "w": 386,
+        "h": 1278
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170493_203725.png",
+        "alt": "",
+        "w": 1162,
+        "h": 3399
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170494_270360.png",
+        "alt": "",
+        "w": 1232,
+        "h": 3631
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_167149_225043.png",
+        "alt": "",
+        "w": 854,
+        "h": 746
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170318_550150.png",
+        "alt": "",
+        "w": 835,
+        "h": 1580
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_165822_743361.png",
+        "alt": "",
+        "w": 437,
+        "h": 375
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_164473_281125.jpg",
+        "alt": "",
+        "w": 1082,
+        "h": 418
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_170320_369041.png",
+        "alt": "",
+        "w": 835,
+        "h": 1580
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_145417_764228.png",
+        "alt": "",
+        "w": 280,
+        "h": 280
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_165824_695153.png",
+        "alt": "",
+        "w": 354,
+        "h": 468
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_165825_363436.png",
+        "alt": "",
+        "w": 354,
+        "h": 468
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_166586_811816.png",
+        "alt": "",
+        "w": 343,
+        "h": 496
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_166435_643544.png",
+        "alt": "",
+        "w": 402,
+        "h": 414
+      },
+      {
+        "src": "https://images.connectfairtrade.org/Products/visibility_164883_615289.jpg",
+        "alt": "",
+        "w": 883,
+        "h": 309
+      }
+    ],
+    "allImgCount": 29,
+    "cssBackgrounds": [],
+    "modals": [
+      "Schließen Sie den Sprachauswahl. Gehe zu einer lokalen Webseite Wählen Sie ein Land oder eine Region und eine Sprache Fairtrade International Suche nach einem Land, einer Region oder einer Sprache Wert des Eingabefeldes löschen Africa English Austria Deutsch Belgium Français Nederlands Bulgaria Bulgarian Canada English French CLAC Spanish Croatia Croatian France Français Germany Deutsch Greece Greek Hungary Hungarian Iberica Español Português Ireland Fairtrade Ireland Italy Italiano Japan 日本語 Korea 한국어 Malta English Maltese NAPP English Netherlands Dutch Norway Norsk Poland Polski Romania Romanian Slovenia Slovenian Sweden Svensk Switzerland Deutsch Français United Kingdom English United States english Cyprus Entschuldigung, kein Treffer gefunden!"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--topbar-height": "104px",
+    "--swiper-theme-color": "#007aff"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 12392,
+    "realImageCount": 25,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.fairtrade.net",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.fairtrade.net/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/lV6MBy4S36YZ05/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 73,
+        "hits": 1,
+        "example": "https://api.usercentrics.eu/settings/lV6MBy4S36YZ05/latest/languages.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/lV6MBy4S36YZ05/latest/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 9918,
+        "hits": 1,
+        "example": "https://api.usercentrics.eu/settings/lV6MBy4S36YZ05/latest/de.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 5792,
+        "hits": 1,
+        "example": "https://api.usercentrics.eu/translations/translations-de.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/de",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 16189,
+        "hits": 1,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/de",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "consent-api.service.consent.usercentrics.eu",
+        "path": "/consent/uw/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 201,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "app.usercentrics.eu",
+        "count": 13
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [
+      {
+        "action": "https://www.fairtrade.net/de-de/produkte/Produktfinder.html",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 752,
+        "fieldNames": [
+          "search",
+          "facet-brand",
+          "facet-deMainCategory",
+          "facet-organic"
+        ],
+        "search": true
+      }
+    ],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 5,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 1,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/de-de-produkte-produktfinder.png",
+  "renderedHtml": "pages/de-de-produkte-produktfinder.html",
+  "slots": {
+    "pageType": "search",
+    "breadcrumbs": [
+      "Home"
+    ],
+    "headline": "Fairtrade Produkt-Finder",
+    "intro": "Welche Fairtrade-Produkte gibt es und wo kann man Fairtrade-Produkte kaufen? Auf dieser Seite findest du sie, nach Produktkategorie und Hersteller sortiert.",
+    "query": null,
+    "search-form": {
+      "action": "https://www.fairtrade.net/de-de/produkte/Produktfinder.html",
+      "method": "get",
+      "fields": [
+        "search",
+        "facet-brand",
+        "facet-deMainCategory",
+        "facet-organic"
+      ]
+    },
+    "filter-controls": [
+      "facet-brand",
+      "facet-deMainCategory",
+      "facet-organic"
+    ],
+    "results": {
+      "itemSlots": [
+        "brand",
+        "product-name",
+        "cta"
+      ],
+      "sample": [
+        "BAD BOYZ SOCCER Merchandising 841-843 Mehr erfahren",
+        "Aqua Verde Aqua Verde Coconutwater 0,33L DE/EN/FR/NL/PL Mehr erfahren",
+        "Aqua Verde Aqua Verde Coconutwater 1L DE/EN/FR/NL/PL/SE/DK/ES Mehr erfahren"
+      ]
+    },
+    "_source": "derived from headings[], body[], ctas[] of this file"
+  }
+}

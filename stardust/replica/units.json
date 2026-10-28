@@ -1,0 +1,146 @@
+{
+  "news-card": {
+    "origin": ".TeaserGrid--item .InfoTeaser",
+    "build": ".teaser-grid-item .info-teaser",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "number-fact": {
+    "origin": ".NumberFactTeaser--item .NumberFact",
+    "build": ".nft-item .number-fact",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "en"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "accordion-row": {
+    "origin": ".AccordionSection--item .Accordion",
+    "build": ".accordion-item .accordion-panel",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "en"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "footer-link-list": {
+    "origin": ".Footer--linkList",
+    "build": ".ft-footer-link-list",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "product-card": {
+    "origin": ".TeaserGrid--item .InfoTeaser",
+    "build": ".teaser-grid-item .info-teaser",
+    "n": 16,
+    "required": true,
+    "pages": [
+      "en-products-fairtrade_products"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "single-image": {
+    "origin": ".SingleImage--figure",
+    "build": ".single-image-figure",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "en-why-fairtrade-what-we-do-key-benefits"
+    ],
+    "templates": [
+      "static"
+    ]
+  },
+  "richtext-section": {
+    "origin": ".RichtextSection",
+    "build": "main > .section > .default-content-wrapper",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "en-why-fairtrade-what-we-do-key-benefits"
+    ],
+    "templates": [
+      "static"
+    ]
+  },
+  "program-number-fact": {
+    "origin": ".NumberFactTeaser--item .NumberFact",
+    "build": ".nft-item .number-fact",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-products-fairtrade_products-cocoa"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "program-text-image": {
+    "origin": ".TextImage--wrapper .TextImage--inner",
+    "build": ".text-image .text-image-inner",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-products-fairtrade_products-cocoa"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "program-richtext-section": {
+    "origin": ".RichtextSection",
+    "build": "main > .section > .default-content-wrapper",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "en-products-fairtrade_products-cocoa"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "search-result": {
+    "origin": ".SearchResults--list .SearchResult",
+    "build": ".search-results-list .search-result",
+    "n": 49,
+    "required": true,
+    "pages": [
+      "en-search-results"
+    ],
+    "templates": [
+      "search"
+    ]
+  },
+  "product-teaser": {
+    "origin": ".ProductTeaserGrid--card .ProductTeaser",
+    "build": ".pf-product-teaser-grid-card .pf-product-teaser",
+    "n": 24,
+    "required": true,
+    "pages": [
+      "de-de-produkte-produktfinder"
+    ],
+    "templates": [
+      "search"
+    ]
+  }
+}

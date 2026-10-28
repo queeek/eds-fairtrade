@@ -1,0 +1,443 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 9,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/favicon.svg",
+    "file": "assets/favicon.svg"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 9,
+    "pagesWithSameSiteData": 9,
+    "pagesWithSearchForm": 2,
+    "pagesHydrated": 9,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.fairtrade.net",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fairtrade.net/libs/granite/csrf/token.json",
+        "pages": 9,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/eFjo_1PKCmgDC9/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/eFjo_1PKCmgDC9/latest/languages.json",
+        "pages": 6,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/eFjo_1PKCmgDC9/latest/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/eFjo_1PKCmgDC9/latest/en.json",
+        "pages": 6,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-en.json",
+        "pages": 6,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/en",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/en",
+        "pages": 6,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "consent-api.service.consent.usercentrics.eu",
+        "path": "/consent/uw/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "pages": 5,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fairtrade.net",
+        "path": "/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg",
+        "query": [
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/svg+xml",
+        "sameSite": true,
+        "example": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg",
+        "pages": 3,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/lV6MBy4S36YZ05/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/lV6MBy4S36YZ05/latest/languages.json",
+        "pages": 2,
+        "examples": [
+          "de-de",
+          "de-de-produkte-produktfinder"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/lV6MBy4S36YZ05/latest/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/lV6MBy4S36YZ05/latest/de.json",
+        "pages": 2,
+        "examples": [
+          "de-de",
+          "de-de-produkte-produktfinder"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-de.json",
+        "pages": 2,
+        "examples": [
+          "de-de",
+          "de-de-produkte-produktfinder"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/de",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/de",
+        "pages": 2,
+        "examples": [
+          "de-de",
+          "de-de-produkte-produktfinder"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "apvc",
+          "did",
+          "dl",
+          "dma",
+          "dma_cps",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/ccm/collect",
+        "pages": 1,
+        "examples": [
+          "ch-de"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_fv",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 1,
+        "examples": [
+          "ch-de"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 9,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      },
+      {
+        "host": "app.usercentrics.eu",
+        "pages": 8,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      },
+      {
+        "host": "web.cmp.usercentrics.eu",
+        "pages": 1,
+        "examples": [
+          "ch-de"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 9,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 9,
+        "examples": [
+          "en",
+          "en-why-fairtrade-what-we-do-key-benefits",
+          "en-products-fairtrade_products"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.fairtrade.net/en/search-results.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "search"
+        ],
+        "pages": 1,
+        "examples": [
+          "en-search-results"
+        ]
+      },
+      {
+        "action": "https://www.fairtrade.net/de-de.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "select-name-teasergrid"
+        ],
+        "pages": 1,
+        "examples": [
+          "de-de"
+        ]
+      },
+      {
+        "action": "https://www.fairtrade.net/de-de/produkte/Produktfinder.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "search",
+          "facet-brand",
+          "facet-deMainCategory",
+          "facet-organic"
+        ],
+        "pages": 1,
+        "examples": [
+          "de-de-produkte-produktfinder"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "en",
+      "verdict": "recaptured",
+      "notes": "content-fader sections (opacity:0 until in view) blank in crawl shot; reshot with 500px scroll steps \u2014 all 11 sections visible"
+    },
+    {
+      "slug": "en-why-fairtrade-what-we-do-key-benefits",
+      "verdict": "recaptured",
+      "notes": "numbered benefits section blank (content-fader); reshot with fine scroll"
+    },
+    {
+      "slug": "en-products-fairtrade_products",
+      "verdict": "ok",
+      "notes": "card grid, images loaded"
+    },
+    {
+      "slug": "en-products-fairtrade_products-cocoa",
+      "verdict": "recaptured",
+      "notes": "content-fader gaps; reshot"
+    },
+    {
+      "slug": "en-get-involved-press-centre",
+      "verdict": "ok",
+      "notes": "one pale card image (source asset)"
+    },
+    {
+      "slug": "en-search-results",
+      "verdict": "ok",
+      "notes": "search results list for q=coffee"
+    },
+    {
+      "slug": "de-de",
+      "verdict": "recaptured",
+      "notes": "content-fader gaps; reshot"
+    },
+    {
+      "slug": "de-de-produkte-produktfinder",
+      "verdict": "recaptured",
+      "notes": "Usercentrics consent dialog over hero; reshot after [data-testid=uc-accept-all-button]"
+    },
+    {
+      "slug": "ch-de",
+      "verdict": "recaptured",
+      "notes": "minor content-fader gap; reshot"
+    }
+  ],
+  "captureNotes": {
+    "contentFader": "[data-module~=content-fader]>* get .is-visible via IntersectionObserver; coarse 4-step scroll misses them \u2014 scroll in <=600px steps",
+    "consent": "Usercentrics (shadow DOM); accept: [data-testid=uc-accept-all-button]",
+    "screenshotsRetakenBy": "stardust/.work/reshot.mjs (1440, DPR1, fine scroll, consent accepted)"
+  }
+}

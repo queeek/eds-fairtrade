@@ -1,0 +1,83 @@
+{
+  "/en": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T19:42:19.395Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch-de": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T19:42:35.170Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de-de/produkte/produktfinder": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T19:42:35.171Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de-de": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T19:42:43.285Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/en/get-involved/press-centre": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T19:42:44.543Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/en/products/fairtrade-products/cocoa": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T19:42:52.211Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/en/products/fairtrade-products": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T19:42:53.235Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/en/search-results": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T19:42:59.193Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/en/why-fairtrade/what-we-do/key-benefits": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T19:43:00.194Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

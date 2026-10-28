@@ -1,0 +1,134 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-10-28T19:39:23.837Z"
+  },
+  "method": "curated stardust/dynamic-features.md rows replayed on the published origin; search + product finder are widgets over captured snapshots (interim, owner decisions S / L)",
+  "features": [
+    {
+      "id": "m-header",
+      "feature": "header mega menu, search overlay, locale selector, mobile drawer",
+      "class": "M",
+      "pages": 9,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en",
+          "selector": "header [aria-controls=\"topbar-search\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/en",
+          "selector": "header [aria-controls=\"locale-selector\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/en",
+          "selector": "header [aria-controls^=\"flyout-\"]",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "s-search",
+      "feature": "site search results page (?q=)",
+      "class": "S",
+      "pages": 9,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "checks": [
+        {
+          "type": "search-query",
+          "path": "/en/search-results",
+          "param": "q",
+          "term": "coffee",
+          "resultSelector": ".search-results-item",
+          "titleSelector": ".search-result-title",
+          "expectCount": 49,
+          "expectTitles": [
+            "Coffee Tree Management - Climate Academy 2020",
+            "Monitoring the scope and benefits of Fairtrade: Coffee – Monitoring report, 10th Edition",
+            "Fairtrade increases coffee Minimum Price as farmers face mounting economic and climate pressures"
+          ],
+          "expectIncludes": "Six facts you did not know about (Fairtrade) coffee"
+        }
+      ],
+      "owner": "decision S: full-site search backend",
+      "snapshot": "2026-10-28"
+    },
+    {
+      "id": "l-product-finder",
+      "feature": "DE Produkt-Finder filters + product grid",
+      "class": "L",
+      "pages": 1,
+      "disposition": "client-only",
+      "reproducibility": "self",
+      "status": "interim",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/de-de/produkte/produktfinder",
+          "selector": ".pf-product-teaser-grid-card",
+          "min": 24
+        }
+      ],
+      "owner": "decision L: live product catalogue feed",
+      "snapshot": "2026-10-28"
+    },
+    {
+      "id": "l-teasers",
+      "feature": "news / press / product teaser grids and carousels",
+      "class": "L",
+      "pages": 6,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "interim",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/en",
+          "selector": ".teaser-grid",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/en",
+          "selector": ".page-hero-carousel",
+          "min": 1
+        }
+      ],
+      "owner": "decision L: index-driven listings"
+    },
+    {
+      "id": "pages",
+      "feature": "all delivered pages run without script errors",
+      "class": "A",
+      "pages": 9,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/en",
+            "/en/why-fairtrade/what-we-do/key-benefits",
+            "/en/products/fairtrade-products",
+            "/en/products/fairtrade-products/cocoa",
+            "/en/get-involved/press-centre",
+            "/en/search-results",
+            "/de-de",
+            "/de-de/produkte/produktfinder",
+            "/ch-de"
+          ]
+        }
+      ]
+    }
+  ]
+}

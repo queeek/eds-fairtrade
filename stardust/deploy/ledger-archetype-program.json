@@ -1,0 +1,11 @@
+{
+  "/en/products/fairtrade-products/cocoa": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-28T16:43:56.571Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

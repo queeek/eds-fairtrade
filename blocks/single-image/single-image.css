@@ -1,0 +1,97 @@
+/* single-image — live SingleImage size-content (values lifted, key-benefits prototype CSS) */
+.single-image {
+  padding-block: 64px;
+}
+
+.single-image .single-image-figure {
+  margin: 0;
+}
+
+.single-image .image {
+  background-color: var(--ft-skyblue-25);
+  border-radius: var(--radius);
+  overflow: hidden;
+  position: relative;
+}
+
+.single-image .image::before {
+  aspect-ratio: 4 / 3;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.single-image .image :is(picture, img) {
+  display: block;
+  height: 100%;
+  inset: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.single-image .image img {
+  object-fit: cover;
+}
+
+.single-image .image-desktop {
+  display: none;
+}
+
+.single-image .single-image-caption {
+  align-items: normal;
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  gap: 2px;
+  line-height: 1.6;
+  margin-top: 12px;
+}
+
+.single-image .single-image-caption-icon {
+  color: var(--ft-skyblue);
+  display: inline-grid;
+  flex: 0 0 auto;
+  height: 24px;
+  place-items: center;
+  width: 24px;
+}
+
+.single-image .single-image-caption-icon svg {
+  height: 100%;
+  width: 100%;
+}
+
+.single-image .single-image-caption-text :is(p, ul, ol) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .single-image .image-mobile {
+    display: none;
+  }
+
+  .single-image .image-desktop {
+    display: block;
+  }
+
+  .single-image .image-desktop::before,
+  .single-image .image-single::before {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .single-image {
+    padding-block: 80px;
+  }
+
+  .single-image .single-image-figure {
+    grid-column: 2 / -2;
+  }
+
+  .single-image .single-image-caption {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "types": {
+    "landing": {
+      "archetype": "en",
+      "url": "https://www.fairtrade.net/en.html",
+      "prototype": "stardust/prototypes/en-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/en.css"
+      ],
+      "iterations": {
+        "360": 2,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.64%",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (7 advisory)",
+          "visualDiff": "2 advisory flags justified: FLUSH-LEFT on the looped hero slide 3 parked off-canvas left (x-338) exactly as live swiper loop",
+          "clip": 0,
+          "overflow": "ok (360=360)",
+          "unitGeometry": "PASS 12 units",
+          "chromeCrop": {
+            "header": "0.00%",
+            "footer": "0.55%"
+          },
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": "0.20%",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (7 advisory)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok (1440=1440)",
+          "unitGeometry": "PASS 14 units",
+          "chromeCrop": {
+            "header": "0.00%",
+            "footer": "0.34%"
+          },
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS (2560, 0 of 12 rows failed)",
+      "residuals": [
+        {
+          "area": "live capture",
+          "kind": "capture-state",
+          "detail": "Usercentrics privacy fingerprint button (fixed, bottom-left) repeats in every live stitched chunk; not part of the site design, not replicated (consent manager handled by the martech layer)."
+        },
+        {
+          "area": "chrome-parity footer",
+          "kind": "accepted",
+          "detail": "REGION STYLE backgroundColor on footer root is a root-resolution artefact (build resolves to single-child .Footer band); recorded in stardust/replica/accepted.json."
+        },
+        {
+          "area": "content-diff advisories",
+          "kind": "advisory",
+          "detail": "hidden TeaserGrid wave svgs (display:none on live) and lazysizes 1x1 placeholder gifs not reproduced; empty accordion <h4> replaced by equivalent 16px padding; editable count 19 vs 20."
+        }
+      ],
+      "portations": [
+        {
+          "section": "PageHeroSlide desktop image",
+          "why": "live quirk lifted: stray text line inside .Image makes the cover box 28.8px taller than the clipped media (measured 656.5 vs 627.75)"
+        }
+      ],
+      "captureState": [],
+      "motion": {
+        "observed": [
+          "content-fader .is-visible on scroll (opacity .5s)",
+          "hero carousel slide change via controls/bullets (600ms transform)",
+          "accordion open (grid-template-rows .3s, chevron rotate .3s)",
+          "header hide on scroll down / show on scroll up (.is-hidden, translate .3s)",
+          "hover: InfoTeaser colour + image scale 1.05 (300ms)",
+          "hover: main-nav button colour (200ms)",
+          "hover: footer link colour (200ms)",
+          "header contract: click flyouts x4, search overlay, locale selector, meta menu, mobile drawer with sub-menus"
+        ],
+        "implemented": [
+          "content-fader",
+          "hero carousel controls/bullets/slide-click (no autoplay observed)",
+          "accordion toggle",
+          "header hide/show on scroll",
+          "InfoTeaser hover",
+          "nav hover",
+          "footer link hover",
+          "flyouts/search/locale selector+filter/meta menu/mobile drawer (scroll-lock, Escape closes)",
+          "number-fact mobile prev/next scroll"
+        ],
+        "dead": [
+          "hover .Button.variant-primary (no measured diff)",
+          "hover .Accordion--toggle (no measured diff)",
+          "hover .PageHeroCarousel controls reveal (no measured diff)",
+          "hero autoplay (no unpoked mutations)",
+          "lazysizes loader classes (replaced by native loading=lazy)"
+        ]
+      }
+    },
+    "listing": {
+      "archetype": "en-products-fairtrade_products",
+      "url": "https://www.fairtrade.net/en/products/Fairtrade_products.html",
+      "prototype": "stardust/prototypes/en-products-fairtrade_products-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/en-products-fairtrade_products.css"
+      ],
+      "generator": "stardust/.work/assemble-products.cjs",
+      "iterations": {
+        "360": 1,
+        "1440": 1
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.89%",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (3 advisory: hidden 0x0 Wave svgs, display:none on live via .TeaserGrid:not(.hasHighlights) .Wave)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "unitGeometry": "PASS 16 product cards",
+          "chromeCrop": {
+            "header": "0.00%"
+          },
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": "0.71%",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (3 advisory: hidden 0x0 Wave svgs, display:none on live via .TeaserGrid:not(.hasHighlights) .Wave)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "unitGeometry": "PASS (16 product cards + 3 crumbs)",
+          "chromeCrop": {
+            "header": "0.00%"
+          },
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS (2560, 0 of 3 rows failed)",
+      "residuals": [],
+      "canonChanges": [
+        "Breadcrumbs--desktop/--mobile shell + visibility rules lifted (identical block also added by key-benefits agent; duplicate removed)",
+        "TeaserGrid + InfoTeaser promoted from en.css to canon.css (+ lifted --teaser-grid-item-size:3 @1024, .TeaserGrid:not(.hasHighlights) .Wave display:none)"
+      ],
+      "enRecheck": "1440 0.20% (no regression)",
+      "notes": "1 pixel-identical static round per width; confirmation --full rounds (1440 iter2, 360 iter4) re-run only for units.json; 16/16 cards; no fixes needed",
+      "motion": {
+        "observed": [
+          "hover .InfoTeaser (color, img scale 300ms)",
+          "hover breadcrumb link color 200ms",
+          "content-fader translate/opacity"
+        ],
+        "implemented": [
+          "all observed — parity (7 parity, 0 extra)"
+        ],
+        "dead": [
+          "lazysizes classes lazyautosizes/lazyloaded/lazyloading/ls-is-cached — replaced by native loading=lazy",
+          "header scroll-morph dead on live"
+        ]
+      }
+    },
+    "static": {
+      "archetype": "en-why-fairtrade-what-we-do-key-benefits",
+      "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+      "prototype": "stardust/prototypes/en-why-fairtrade-what-we-do-key-benefits-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/en.css",
+        "stardust/prototypes/en-why-fairtrade-what-we-do-key-benefits.css"
+      ],
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.44%",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (3 advisory)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "units": "PASS (7 units, 58 elements)",
+          "verdict": "PASS",
+          "round": "iter3 --full"
+        },
+        "1440": {
+          "pixel": "0.22%",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (3 advisory)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "units": "PASS (7 units, 58 elements)",
+          "verdict": "PASS",
+          "round": "iter3b --full"
+        }
+      },
+      "capProbe": "PASS at 2560 (0 of 10 rows failed)",
+      "residuals": [],
+      "notes": [
+        "live quirk lifted: .TextImage--text white-space:pre-line + newline after <p> = one extra 27px line box (assemble-kb.cjs)",
+        "instrument: unit-geometry origin cache stardust/current/measure/<slug>-units.json is not width-keyed — a 360 run poisoned the parallel 1440 iter3 (false 58 off); re-run iter3b alone after moving the cache aside → PASS",
+        "canon.css: PageLead--image/imageGrid/imageMobile/imageDesktop + Breadcrumbs--desktop/--mobile shells added; en recheck 1440 0.20% Δ0"
+      ],
+      "motion": {
+        "observed": 13,
+        "implemented": 13,
+        "dead": [
+          "header scroll-morph (static on live across traversal)"
+        ]
+      }
+    },
+    "program": {
+      "archetype": "en-products-fairtrade_products-cocoa",
+      "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+      "prototype": "stardust/prototypes/en-products-fairtrade_products-cocoa-proposed.html",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.48%",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (2 advisory: live lazysizes 1x1 data:gif placeholders in PageLead)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "unitGeometry": "PASS",
+          "chromeCrop": "header 100% / footer >=99.66%",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": "0.22%",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (2 advisory: live lazysizes 1x1 data:gif placeholders in PageLead)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "unitGeometry": "PASS",
+          "chromeCrop": "header 100% / footer >=99.66%",
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS (0/13 rows failed)",
+      "residuals": [],
+      "motion": {
+        "observed": "2 hover probes (TextImage CTA, CTASection button) + fader transitions; 11 parity",
+        "implemented": [],
+        "dead": [
+          "header scroll-morph (static on both)"
+        ]
+      },
+      "canon": {
+        "change": "Breadcrumbs dark theme also on body:has(.PageLead/.PageHeroCarousel.theme-nightsky) (lifted live selector)",
+        "enRecheck1440": "0.20%"
+      }
+    },
+    "search": {
+      "archetype": "en-search-results",
+      "url": "https://www.fairtrade.net/en/search-results.html?q=coffee",
+      "prototype": "stardust/prototypes/en-search-results-proposed.html?q=coffee",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/en-search-results.css"
+      ],
+      "assembler": "stardust/.work/assemble-search.cjs",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.46%",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (0 advisory)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok (360=360)",
+          "unitGeometry": "49 units all Δ0 within 4px; 5 highlighted terms reported hidden — clipped by the lifted -webkit-line-clamp:2 on .SearchResult--description, identical on live (measure: rects + props equal) — justified",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": "0.22%",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (0 advisory)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok (1440=1440)",
+          "unitGeometry": "PASS 49 units (search-result), all Δ0",
+          "verdict": "PASS",
+          "chromeCrop": {
+            "header": "0.00%",
+            "footer": "0.34%"
+          }
+        }
+      },
+      "capProbe": "PASS (2560, 0 of 4 rows failed)",
+      "residuals": [
+        {
+          "area": "live capture",
+          "kind": "capture-state",
+          "detail": "Usercentrics privacy fingerprint button (fixed, bottom-left) repeats in every live stitched chunk (periodic 0.8–0.9% bands @360); not replicated (martech layer)."
+        },
+        {
+          "area": "unit-geometry 360",
+          "kind": "justified",
+          "detail": "search-result units 21,22,38,43,48: a highlighted <strong>coffee</strong> past line 2 of the clamped description is hidden on both sides (source line-clamp lifted verbatim); geometry Δ0."
+        },
+        {
+          "area": "motion",
+          "kind": "advisory",
+          "detail": "Input--fieldWrapper border-color transition reads 0s on live vs 200ms on build (live animates the ::after pseudo; sampler reads the element) and submit hover background reported extra on build (canon Button hover, same chrome button as header) — reporter only."
+        }
+      ],
+      "portations": [],
+      "captureState": [
+        {
+          "area": "SearchResults",
+          "detail": "captured result state for q=coffee (49 results, single page, no pagination/load-more on live) recreated statically; delivered as the search widget (stardust/dynamic-features.md row 5, probe stardust/dynamics/search-probe.json)",
+          "restoreAtDelivery": "search widget"
+        }
+      ],
+      "motion": {
+        "observed": [
+          "clear button click empties the field; clear control fades out (opacity/visibility .2s)",
+          "hover: SearchResult--link colour (200ms)",
+          "header hide on scroll (.is-hidden, translate .3s — chrome, already implemented)"
+        ],
+        "implemented": [
+          "SearchResults clear-button handler (empties + focuses field; canon :placeholder-shown fade)",
+          "SearchResult--link hover colour (lifted CSS)"
+        ],
+        "dead": [
+          "header scroll-morph (static on both)",
+          "clear widget frame sampling (no track/box change)"
+        ]
+      }
+    }
+  },
+  "siblings": {},
+  "migrate": {
+    "at": "2026-10-28T13:45:11.832Z",
+    "pages": 5,
+    "archetypes": 5,
+    "siblings": 0,
+    "thin": 0,
+    "gates": {
+      "content-fidelity": 5,
+      "pixel-gate-1440": 5,
+      "pixel-gate-360": 4,
+      "content-count": 5,
+      "delivery-lint": 1
+    },
+    "missing": {}
+  }
+}
