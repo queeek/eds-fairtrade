@@ -1,0 +1,469 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-28T19:36:46Z",
+    "stardustVersion": "0.36.0"
+  },
+  "site": {
+    "originUrl": "https://www.fairtrade.net",
+    "deployUrl": null,
+    "extractedAt": "2026-10-28T11:57:52.650Z",
+    "pageCap": null,
+    "totalDiscovered": 9,
+    "crawled": 9,
+    "captureGaps": []
+  },
+  "direction": {
+    "resolvedAt": "2026-10-28T12:18:43Z",
+    "phrase": "replica --hands-off (keep the design)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-28T11:57:52.650Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "en",
+      "url": "https://www.fairtrade.net/en.html",
+      "title": "English",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T11:55:56.133Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T12:18:47Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-28T12:47:15Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-28T12:47:15Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T19:36:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en.json",
+      "prototypePath": "stardust/prototypes/en-proposed.html",
+      "migratedPath": "stardust/migrated/en.html"
+    },
+    {
+      "slug": "en-why-fairtrade-what-we-do-key-benefits",
+      "url": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html",
+      "title": "Key benefits of Fairtrade",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T11:55:57.723Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T12:18:47Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-28T13:07:07Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-28T13:07:07Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T19:36:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-why-fairtrade-what-we-do-key-benefits.json",
+      "prototypePath": "stardust/prototypes/en-why-fairtrade-what-we-do-key-benefits-proposed.html",
+      "migratedPath": "stardust/migrated/en/why-fairtrade/what-we-do/key-benefits.html"
+    },
+    {
+      "slug": "en-products-fairtrade_products",
+      "url": "https://www.fairtrade.net/en/products/Fairtrade_products.html",
+      "title": "Fairtrade products",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T11:55:57.723Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T12:18:47Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-28T13:05:11Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-28T13:05:11Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T19:36:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-products-fairtrade_products.json",
+      "prototypePath": "stardust/prototypes/en-products-fairtrade_products-proposed.html",
+      "migratedPath": "stardust/migrated/en/products/Fairtrade_products.html"
+    },
+    {
+      "slug": "en-products-fairtrade_products-cocoa",
+      "url": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html",
+      "title": "Cocoa",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T11:56:03.488Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T12:18:47Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-28T13:13:19Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-28T13:13:19Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T19:36:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-products-fairtrade_products-cocoa.json",
+      "prototypePath": "stardust/prototypes/en-products-fairtrade_products-cocoa-proposed.html",
+      "migratedPath": "stardust/migrated/en/products/Fairtrade_products/cocoa.html"
+    },
+    {
+      "slug": "en-get-involved-press-centre",
+      "url": "https://www.fairtrade.net/en/get-involved/Press-centre.html",
+      "title": "Press centre",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T11:56:05.815Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T12:18:47Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T19:36:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-get-involved-press-centre.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/en/get-involved/Press-centre.html"
+    },
+    {
+      "slug": "en-search-results",
+      "url": "https://www.fairtrade.net/en/search-results.html?q=coffee",
+      "title": "Search results",
+      "type": "search",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T11:56:05.810Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T12:18:47Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-28T13:25:02Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-28T13:25:02Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T19:36:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-search-results.json",
+      "prototypePath": "stardust/prototypes/en-search-results-proposed.html",
+      "migratedPath": "stardust/migrated/en/search-results.html"
+    },
+    {
+      "slug": "de-de",
+      "url": "https://www.fairtrade.net/de-de.html",
+      "title": "Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T11:56:09.760Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T12:18:47Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T19:36:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-de.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de-de.html"
+    },
+    {
+      "slug": "de-de-produkte-produktfinder",
+      "url": "https://www.fairtrade.net/de-de/produkte/Produktfinder.html",
+      "title": "Fairtrade Produktfinder | Fairtrade Deutschland",
+      "type": "search",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T11:56:14.022Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T12:18:47Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T19:36:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-de-produkte-produktfinder.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de-de/produkte/Produktfinder.html"
+    },
+    {
+      "slug": "ch-de",
+      "url": "https://www.fairtrade.net/ch-de.html",
+      "title": "Fairtrade Max Havelaar Schweiz",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-28T11:56:13.147Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-28T12:18:47Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-28T19:36:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ch-de.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/ch-de.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-28T17:36:59Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/en.html",
+        "outputPath": "en.html",
+        "slug": "en",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/en/why-fairtrade/what-we-do/key-benefits.html",
+        "outputPath": "en/why-fairtrade/what-we-do/key-benefits.html",
+        "slug": "en-why-fairtrade-what-we-do-key-benefits",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/en/products/Fairtrade_products.html",
+        "outputPath": "en/products/Fairtrade_products.html",
+        "slug": "en-products-fairtrade_products",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/en/products/Fairtrade_products/cocoa.html",
+        "outputPath": "en/products/Fairtrade_products/cocoa.html",
+        "slug": "en-products-fairtrade_products-cocoa",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/en/get-involved/Press-centre.html",
+        "outputPath": "en/get-involved/Press-centre.html",
+        "slug": "en-get-involved-press-centre",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/en/search-results.html",
+        "outputPath": "en/search-results.html",
+        "slug": "en-search-results",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de-de.html",
+        "outputPath": "de-de.html",
+        "slug": "de-de",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de-de/produkte/Produktfinder.html",
+        "outputPath": "de-de/produkte/Produktfinder.html",
+        "slug": "de-de-produkte-produktfinder",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ch-de.html",
+        "outputPath": "ch-de.html",
+        "slug": "ch-de",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 40,
+    "bundledAssets": [
+      "canon.css",
+      "en-products-fairtrade_products-cocoa.css",
+      "en-products-fairtrade_products.css",
+      "en-search-results.css",
+      "en-why-fairtrade-what-we-do-key-benefits.css",
+      "en.css",
+      "fonts/alegreya-sans-latin-100-italic.woff2",
+      "fonts/alegreya-sans-latin-100-normal.woff2",
+      "fonts/alegreya-sans-latin-300-italic.woff2",
+      "fonts/alegreya-sans-latin-300-normal.woff2",
+      "fonts/alegreya-sans-latin-400-italic.woff2",
+      "fonts/alegreya-sans-latin-400-normal.woff2",
+      "fonts/alegreya-sans-latin-500-italic.woff2",
+      "fonts/alegreya-sans-latin-500-normal.woff2",
+      "fonts/alegreya-sans-latin-700-italic.woff2",
+      "fonts/alegreya-sans-latin-700-normal.woff2",
+      "fonts/alegreya-sans-latin-800-italic.woff2",
+      "fonts/alegreya-sans-latin-800-normal.woff2",
+      "fonts/alegreya-sans-latin-900-italic.woff2",
+      "fonts/alegreya-sans-latin-900-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-100-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-100-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-300-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-300-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-400-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-400-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-500-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-500-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-700-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-700-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-800-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-800-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-900-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-900-normal.woff2",
+      "fonts/exo-2-latin-ext-wght-italic.woff2",
+      "fonts/exo-2-latin-ext-wght-normal.woff2",
+      "fonts/exo-2-latin-wght-italic.woff2",
+      "fonts/exo-2-latin-wght-normal.woff2",
+      "media/fairtrade-international.svg",
+      "media/favicon.svg"
+    ],
+    "pages": [
+      {
+        "slug": "en",
+        "file": "stardust/migrated/en.html",
+        "assetsBundled": 36
+      },
+      {
+        "slug": "en-why-fairtrade-what-we-do-key-benefits",
+        "file": "stardust/migrated/en/why-fairtrade/what-we-do/key-benefits.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "en-products-fairtrade_products",
+        "file": "stardust/migrated/en/products/Fairtrade_products.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "en-products-fairtrade_products-cocoa",
+        "file": "stardust/migrated/en/products/Fairtrade_products/cocoa.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "en-search-results",
+        "file": "stardust/migrated/en/search-results.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "de-de-produkte-produktfinder",
+        "file": "stardust/migrated/de-de/produkte/Produktfinder.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "en-get-involved-press-centre",
+        "file": "stardust/migrated/en/get-involved/Press-centre.html",
+        "assetsBundled": 37
+      },
+      {
+        "slug": "de-de",
+        "file": "stardust/migrated/de-de.html",
+        "assetsBundled": 36
+      },
+      {
+        "slug": "ch-de",
+        "file": "stardust/migrated/ch-de.html",
+        "assetsBundled": 6
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-28T17:36:59Z",
+      "rendered": [
+        "de-de-produkte-produktfinder"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

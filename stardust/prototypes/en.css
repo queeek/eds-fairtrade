@@ -1,0 +1,206 @@
+/*
+ * en.css — landing-page modules (archetype `en`). Imports nothing; load after canon.css.
+ * Values lifted from the live clientlib-site stylesheet; breakpoints are the source steps.
+ * Modules: PageHeroCarousel/PageHeroSlide · NumberFactTeaser/NumberFact/Bubble ·
+ * RichtextSection · TeaserGrid/InfoTeaser · CTASection · TextImage · AccordionSection/Accordion.
+ */
+
+/* shared shell for this page's grid modules */
+.PageHeroCarousel--grid, .NumberFactTeaser, .RichtextSection, .TextImage--grid, .AccordionSection {
+  column-gap: var(--grid-gap);
+  display: grid;
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  margin-inline: auto;
+  padding-inline: var(--grid-pad);
+  width: min(100%, var(--shell-max));
+}
+:is(.PageHeroCarousel--grid, .NumberFactTeaser, .RichtextSection, .TextImage--grid, .AccordionSection) > * { grid-column: 1 / -1; min-width: 0; }
+
+/* ---------------------------------------------------------------- PageHeroCarousel */
+.PageHeroCarousel {
+  --background-color: var(--ft-leafgreen); --pagination-bullet-color: rgba(30, 30, 30, .25);
+  background-color: var(--background-color); overflow: hidden; padding-block: 64px;
+}
+.PageHeroCarousel.theme-skyblue { --background-color: var(--ft-skyblue); }
+.PageHeroCarousel.theme-nightsky { --background-color: var(--ft-nightsky); --pagination-bullet-color: hsla(0, 0%, 100%, .25); color: #fff; }
+@media (width >= 1024px) {
+  .PageHeroCarousel { padding-block: 80px; }
+  .PageHeroCarousel--grid > * { grid-column: 2 / -2; }
+}
+.PageHeroCarousel--grid { position: relative; }
+.PageHeroCarousel--grid::before, .PageHeroCarousel--grid::after { content: ""; height: 100%; pointer-events: none; position: absolute; top: 0; width: 50vw; z-index: 2; }
+.PageHeroCarousel--grid::before { background: linear-gradient(270deg, transparent 0, var(--background-color) 200px); right: 100%; }
+.PageHeroCarousel--grid::after { background: linear-gradient(90deg, transparent 0, var(--background-color) 200px); left: 100%; }
+.PageHeroCarousel--inner { position: relative; }
+.PageHeroCarousel--carousel { position: relative; z-index: 1; }
+.PageHeroCarousel--track { align-items: flex-start; display: flex; position: relative; transition: transform .6s ease-in-out; }
+/* below 1024 the live swiper is a looped plain slider: slide 3 sits left of slide 1 */
+.PageHeroSlide { border-radius: var(--radius); flex: 0 0 100%; margin-right: 32px; overflow: hidden; position: relative; transition: transform .6s ease-in-out; }
+@media (width < 1024px) {
+  .PageHeroCarousel:not(.is-moved) .PageHeroCarousel--track { transform: translateX(calc(-100% - 32px)); }
+  .PageHeroCarousel:not(.is-moved) .PageHeroSlide.is-loop { order: -1; }
+}
+.PageHeroCarousel.is-moved .PageHeroCarousel--track { transform: translateX(calc(var(--hero-index, 0) * (-100% - 32px))); }
+/* 1024+: creative effect — active slide, next slide at half scale peeking right, the rest collapsed */
+@media (width >= 1024px) {
+  .PageHeroSlide.is-active { z-index: 3; }
+  .PageHeroSlide.is-next { cursor: pointer; transform: translateX(-25%) scale(.5); transform-origin: center top; z-index: 2; }
+  .PageHeroSlide:is(.is-prev, .is-after) { transform: translateX(-50%) scale(0); transform-origin: center top; z-index: 1; }
+}
+.PageHeroSlide--media { aspect-ratio: 1; border-radius: var(--radius); overflow: hidden; position: relative; transition: opacity .4s ease-in; }
+@media (width >= 768px) { .PageHeroSlide--media { aspect-ratio: 16 / 9; } }
+@media (width >= 1024px) {
+  .PageHeroSlide--media::after { background: linear-gradient(60deg, rgba(0, 0, 0, .5) 35%, transparent 75%); content: ""; inset: 0; opacity: 0; position: absolute; transition: opacity .4s ease-in-out; }
+  .PageHeroSlide.is-active .PageHeroSlide--media::after { opacity: 1; }
+}
+.PageHeroSlide--media .Image { height: 100%; }
+.PageHeroSlide--imageDesktop { display: none; }
+@media (width >= 768px) { .PageHeroSlide--imageMobile { display: none; } .PageHeroSlide--imageDesktop { display: block; } }
+.PageHeroSlide--content { transition: opacity .4s ease-in-out; }
+@media (width >= 1024px) {
+  .PageHeroSlide--content { bottom: 0; color: #fff; left: 0; opacity: 0; padding: 32px; position: absolute; width: 100%; }
+  .PageHeroSlide.is-active .PageHeroSlide--content { opacity: 1; }
+}
+@media (width >= 1280px) { .PageHeroSlide--content { padding: 48px; } }
+.PageHeroSlide--content-inner { align-items: flex-start; display: flex; flex-direction: column; gap: 24px; margin-top: 24px; }
+@media (width >= 1280px) { .PageHeroSlide--content-inner { max-width: max(80%, 860px); } }
+@media (width >= 1440px) { .PageHeroSlide--content-inner { max-width: max(50%, 612px); } }
+.PageHeroSlide--title { font-family: var(--ft-font-head); font-size: 40px; font-weight: 900; line-height: 1.1; }
+@media (width >= 1024px) { .PageHeroSlide--title { font-size: clamp(40px, 4vw, 64px); } }
+@media (width >= 1280px) { .PageHeroSlide--title { font-size: 64px; } }
+.PageHeroSlide--text { font-size: 17px; line-height: 1.6; }
+@media (width >= 1024px) { .PageHeroSlide--text { font-size: 18px; } }
+
+.PageHeroCarousel--pagination { display: none; }
+@media (width >= 1024px) {
+  .PageHeroCarousel--pagination { display: flex; gap: 16px; margin: 32px auto 0; max-width: 540px; }
+  .PageHeroCarousel--bullet { cursor: pointer; display: block; flex: 1 1 auto; margin-block: -16px; padding-block: 16px; }
+  .PageHeroCarousel--bullet::before { background-color: var(--pagination-bullet-color); border-radius: 100px; content: ""; display: block; height: 4px; }
+  .PageHeroCarousel--bullet.is-active::before { background-color: var(--ft-eggplant); }
+}
+.PageHeroCarousel--controls {
+  display: flex; justify-content: space-between; left: 0; pointer-events: none; position: absolute; right: 0;
+  top: calc(50vw - 24px); transform: translateY(-50%); z-index: 1;
+}
+@media (width >= 768px) { .PageHeroCarousel--controls { top: calc(28.125vw - 18px); } }
+@media (width >= 1024px) {
+  .PageHeroCarousel--controls { left: -5vw; opacity: 0; right: -5vw; top: 50%; transition: opacity var(--ease), visibility var(--ease); visibility: hidden; }
+  .PageHeroCarousel:hover .PageHeroCarousel--controls { opacity: 1; visibility: visible; }
+}
+.PageHeroCarousel--control-previous, .PageHeroCarousel--control-next { pointer-events: auto; }
+.PageHeroCarousel--control-previous { transform: translateX(-25%); }
+.PageHeroCarousel--control-next { transform: translateX(25%); }
+@media (width >= 768px) {
+  .PageHeroCarousel--control-previous { transform: translateX(-50%); }
+  .PageHeroCarousel--control-next { transform: translateX(50%); }
+}
+
+/* ---------------------------------------------------------------- NumberFactTeaser */
+.NumberFactTeaser { padding-block: 64px; row-gap: 48px; }
+@media (width >= 768px) { .NumberFactTeaser { column-gap: 24px; } }
+@media (width >= 1024px) { .NumberFactTeaser { padding-block: 80px; } }
+.NumberFactTeaser--slider { display: grid; position: relative; }
+@media (width >= 768px) { .NumberFactTeaser--slider { grid-column: span 6; } }
+@media (width >= 1024px) { .NumberFactTeaser--slider { grid-column: span 7; } }
+.NumberFactTeaser--slider--prev, .NumberFactTeaser--slider--next { position: absolute; }
+.NumberFactTeaser--slider--prev { left: -12px; place-self: center start; }
+.NumberFactTeaser--slider--next { place-self: center end; right: -12px; }
+@media (width >= 768px) { .NumberFactTeaser--slider--prev, .NumberFactTeaser--slider--next { display: none; } }
+.NumberFactTeaser--items {
+  align-items: center; display: flex; flex-direction: row; gap: 36px; overflow-x: scroll;
+  scroll-behavior: smooth; scroll-snap-type: x mandatory; scrollbar-width: none;
+}
+.NumberFactTeaser--items::-webkit-scrollbar { display: none; }
+@media (width >= 768px) { .NumberFactTeaser--items { align-items: stretch; flex-direction: column; gap: 120px; } }
+.NumberFactTeaser--item { min-width: 100%; scroll-snap-align: start; }
+.NumberFactTeaser--content { align-items: center; display: flex; flex-direction: column; gap: 24px; }
+@media (width >= 768px) {
+  .NumberFactTeaser--content {
+    align-items: start; aspect-ratio: 5 / 7; grid-column: span 6; justify-content: center; max-height: 612px;
+    padding: 8px; position: sticky; top: 0;
+  }
+}
+@media (width >= 1024px) { .NumberFactTeaser--content { grid-column: span 5; padding: 16px; } }
+.NumberFactTeaser--label { color: var(--ft-label); font-size: 17px; font-weight: 700; line-height: 1.6; }
+.NumberFactTeaser--title { font-family: var(--ft-font-head); font-size: 32px; font-weight: 900; line-height: 1.1; text-align: center; }
+.NumberFactTeaser--text { font-size: 17px; line-height: 1.6; }
+@media (width >= 768px) { .NumberFactTeaser--title { text-align: left; } }
+@media (width >= 1024px) {
+  .NumberFactTeaser--label, .NumberFactTeaser--text { font-size: 18px; }
+  .NumberFactTeaser--title { font-size: 48px; }
+}
+.NumberFactTeaser--cta { margin-top: 8px; }
+
+.NumberFact { display: grid; margin: 0 auto; max-width: 612px; position: relative; }
+.NumberFact.color-eggplant { color: #fff; }
+.Bubble.color-flower { color: var(--ft-flower); }
+.Bubble.color-eggplant { color: var(--ft-eggplant); }
+.NumberFact--bubble svg { display: block; height: auto; width: 100%; }
+.NumberFact--content { display: grid; gap: 12px; inset: 0; padding: 16px 32px; place-content: center; position: absolute; text-align: center; }
+@media (width >= 1024px) { .NumberFact--content { gap: 24px; padding: 24px 64px; } }
+.NumberFact--number { font-family: var(--ft-font-head); font-size: clamp(72px, 20.61vw, 136px); font-weight: 900; line-height: .875; margin-bottom: .15em; }
+.NumberFact--fact { font-family: var(--ft-font-head); font-size: clamp(24px, 4.85vw, 32px); font-weight: 900; line-height: 1.1; padding-inline: 12px; }
+@media (width >= 768px) {
+  .NumberFact--number { font-size: clamp(72px, 11.93vw, 136px); }
+  .NumberFact--fact { font-size: clamp(24px, 2.81vw, 32px); }
+}
+
+/* ---------------------------------------------------------------- RichtextSection */
+.RichtextSection { padding-block: 32px; }
+@media (width >= 768px) { .RichtextSection > * { grid-column: 2 / -2; } }
+@media (width >= 1024px) { .RichtextSection { padding-block: 40px; } .RichtextSection > * { grid-column: 4 / -4; } }
+
+/* TeaserGrid + InfoTeaser moved to canon.css (shared with the listing archetype) */
+
+/* ---------------------------------------------------------------- CTASection */
+.CTASection { display: grid; padding-block: 32px; place-items: center; }
+@media (width >= 1024px) { .CTASection { padding-block: 40px; } }
+
+/* ---------------------------------------------------------------- TextImage */
+.TextImage--wrapper.has-wave { padding-block: 64px; }
+@media (width >= 1024px) { .TextImage--wrapper.has-wave { padding-block: 80px; } }
+.TextImage { padding-block: 64px; position: relative; }
+@media (width >= 1024px) { .TextImage { padding-block: 80px; } }
+.TextImage.theme-grey { background: var(--ft-grey-100); }
+.TextImage--inner { display: grid; gap: 24px; grid-template-areas: "image" "content"; position: relative; }
+@media (width >= 768px) {
+  .TextImage--inner { align-items: center; gap: 32px; grid-template-areas: "content image"; grid-template-columns: 1fr 1fr; }
+  .order-reverse .TextImage--inner { grid-template-areas: "image content"; }
+}
+@media (width >= 1280px) { .TextImage--grid > .TextImage--inner { gap: 40px; grid-column: 2 / span 10; } }
+.TextImage--content { grid-area: content; }
+.TextImage--image { grid-area: image; }
+.TextImage--title { font-family: var(--ft-font-head); font-size: 32px; font-weight: 900; line-height: 1.1; }
+.TextImage--text { font-size: 17px; line-height: 1.6; margin-top: 24px; white-space: pre-line; }
+@media (width >= 1024px) { .TextImage--title { font-size: 48px; } .TextImage--text { font-size: 18px; } }
+.TextImage--cta { margin-top: 32px; }
+
+/* ---------------------------------------------------------------- AccordionSection */
+.AccordionSection { padding-block: 64px; }
+@media (width >= 768px) { .AccordionSection > * { grid-column: 2 / -2; } }
+@media (width >= 1024px) { .AccordionSection { padding-block: 80px; } .AccordionSection > * { grid-column: 4 / -4; } }
+.AccordionSection--title { font-family: var(--ft-font-head); font-size: 24px; font-weight: 900; line-height: 1.1; margin-bottom: 24px; }
+@media (width >= 1024px) { .AccordionSection--title { font-size: 32px; margin-bottom: 32px; } }
+.Accordion { --header-gap: 12px; --header-padding: 16px 8px; overflow: hidden; position: relative; }
+.Accordion::after { background-color: rgba(30, 30, 30, .1); content: ""; height: 2px; inset: auto 0 0; position: absolute; }
+.Accordion--header {
+  align-items: center; box-shadow: 0 4px 8px rgba(30, 30, 30, .1); display: flex; flex-direction: row;
+  gap: var(--header-gap); padding: var(--header-padding); position: relative; width: 100%;
+}
+.Accordion--toggle { height: 100%; inset: 0 auto auto 0; position: absolute; width: 100%; z-index: 1; }
+.Button.Accordion--button { align-self: start; flex: 0 0 auto; transform-origin: center; transition: rotate .3s ease-in-out, background-color var(--ease), border-color var(--ease); }
+.Accordion--toggle:is(:hover, :focus-visible) ~ .Button.Accordion--button { background-color: var(--ft-skyblue-hover); border-color: var(--ft-petrol); }
+.Accordion.is-open .Button.Accordion--button { rotate: .5turn; }
+.Accordion--title { font-family: var(--ft-font-body); font-size: 20px; font-weight: 800; line-height: 1.1; transition: color var(--ease); }
+.Accordion--toggle:is(:hover, :focus-visible) ~ .Accordion--title { color: var(--ft-petrol); }
+.Accordion--body { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .3s ease-in-out; }
+.Accordion.is-open .Accordion--body { grid-template-rows: 1fr; }
+.Accordion--content--wrapper { overflow: hidden; transition: visibility .3s ease-in-out; visibility: hidden; }
+.Accordion.is-open .Accordion--content--wrapper { visibility: visible; }
+.Accordion--content--padding-box { padding: 16px 16px 32px; }
+@media (width >= 1024px) { .Accordion--content--padding-box { padding: 24px 16px 40px; } }
+.Accordion--content--padding-box > .Richtext { padding-top: 16px; } /* the live box opens with an empty h4 (0 height + 16px margin) */
+
+/* live quirk, lifted: the desktop hero Image carries a stray text line (one 18px/1.6 line box)
+   below its 16:9 spacer, so the cover-fitted photo box is 28.8px taller than the clipped media. */
+@media (width >= 768px) { .PageHeroSlide--imageDesktop > img { height: calc(100% + 28.8px); } }

@@ -1,0 +1,21 @@
+/* cta-section — live CTASection (values lifted, en.css): Button variant-primary size-large */
+.cta-section .cta-section-actions {
+  display: grid;
+  padding-block: 32px;
+  place-items: center;
+}
+
+@media (width >= 1024px) {
+  .cta-section .cta-section-actions {
+    padding-block: 40px;
+  }
+}
+
+/* the live button is the grid item itself (no line box) */
+.cta-section .cta-section-actions p {
+  display: flex;
+}
+
+.cta-section a.button {
+  height: 60px;
+}

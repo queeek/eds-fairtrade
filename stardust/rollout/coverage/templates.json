@@ -1,0 +1,155 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-28T13:46:36.283Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-28T20:45:26.535Z",
+  "templates": [
+    {
+      "id": "en",
+      "representativeSlug": "en",
+      "pages": [
+        "en"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accordion",
+        "cta-section",
+        "number-fact-teaser",
+        "page-hero-carousel",
+        "teaser-grid",
+        "text-image"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en-products-fairtrade_products",
+      "representativeSlug": "en-products-fairtrade_products",
+      "pages": [
+        "en-products-fairtrade_products"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "page-lead",
+        "teaser-grid"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en-products-fairtrade_products-cocoa",
+      "representativeSlug": "en-products-fairtrade_products-cocoa",
+      "pages": [
+        "en-products-fairtrade_products-cocoa"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cta-section",
+        "number-fact-teaser",
+        "page-lead",
+        "text-image"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en-search-results",
+      "representativeSlug": "en-search-results",
+      "pages": [
+        "en-search-results"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "search"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en-why-fairtrade-what-we-do-key-benefits",
+      "representativeSlug": "en-why-fairtrade-what-we-do-key-benefits",
+      "pages": [
+        "en-why-fairtrade-what-we-do-key-benefits"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "page-lead",
+        "text-image"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "landing",
+      "representativeSlug": "ch-de",
+      "pages": [
+        "ch-de",
+        "de-de"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "listing",
+      "representativeSlug": "en-get-involved-press-centre",
+      "pages": [
+        "en-get-involved-press-centre"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "search",
+      "representativeSlug": "de-de-produkte-produktfinder",
+      "pages": [
+        "de-de-produkte-produktfinder"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "accepted": [
+    {
+      "probe": "chrome-parity",
+      "kind": "REGION STYLE",
+      "root": "footer",
+      "reason": "Region-root resolution artefact: the build footer root resolves to the single-child .Footer band (#001b6e) while the live root resolves to the transparent AEM experience-fragment wrapper; the painted band (.Footer, background #001b6e, same rect y7913 h555 @1440) is identical on both sides."
+    }
+  ]
+}

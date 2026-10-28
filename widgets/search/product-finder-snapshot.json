@@ -1,0 +1,3930 @@
+{
+ "source": "https://www.fairtrade.net/de-de/produkte/Produktfinder.html",
+ "capturedAt": "2026-10-28T11:56:14.022Z",
+ "note": "Page 1 of the live ProductFinder (server API /de-de/produkte/Produktfinder.product.json, not reachable cross-origin); facets with their captured counts.",
+ "total": 7176,
+ "pageSize": 24,
+ "facets": {
+  "brand": {
+   "name": "facet-brand",
+   "options": [
+    {
+     "value": "3FREUNDE|",
+     "label": "3FREUNDE",
+     "count": 3
+    },
+    {
+     "value": "49354 - A.D.A. srl - Caffé Mokarico|",
+     "label": "49354 - A.D.A. srl - Caffé Mokarico",
+     "count": 1
+    },
+    {
+     "value": "49999 - RICO CAFFFE’ SRL|",
+     "label": "49999 - RICO CAFFFE’ SRL",
+     "count": 1
+    },
+    {
+     "value": "5 Cups|",
+     "label": "5 Cups",
+     "count": 2
+    },
+    {
+     "value": "ADESSE Kaffeerösterei Bamberg|Brands/brand_10470_614471.PNG",
+     "label": "ADESSE Kaffeerösterei Bamberg",
+     "count": 5
+    },
+    {
+     "value": "AIKYOU|",
+     "label": "AIKYOU",
+     "count": 1
+    },
+    {
+     "value": "ALTOMAYO|",
+     "label": "ALTOMAYO",
+     "count": 1
+    },
+    {
+     "value": "ARGENTO|",
+     "label": "ARGENTO",
+     "count": 7
+    },
+    {
+     "value": "AWO International|",
+     "label": "AWO International",
+     "count": 1
+    },
+    {
+     "value": "Abtswinder|",
+     "label": "Abtswinder",
+     "count": 13
+    },
+    {
+     "value": "Ada Cosmetics|",
+     "label": "Ada Cosmetics",
+     "count": 8
+    },
+    {
+     "value": "Adobe Reserva|Brands/brand_4845_282312.jpg",
+     "label": "Adobe Reserva",
+     "count": 12
+    },
+    {
+     "value": "African Rock Selection|",
+     "label": "African Rock Selection",
+     "count": 1
+    },
+    {
+     "value": "Afro Coffee|Brands/brand_5273_271836.png",
+     "label": "Afro Coffee",
+     "count": 8
+    },
+    {
+     "value": "Aiko|Brands/brand_8156_155125.png",
+     "label": "Aiko",
+     "count": 3
+    },
+    {
+     "value": "Aktionsartikel|",
+     "label": "Aktionsartikel",
+     "count": 1
+    },
+    {
+     "value": "Albona|",
+     "label": "Albona",
+     "count": 6
+    },
+    {
+     "value": "Alce Nero|",
+     "label": "Alce Nero",
+     "count": 29
+    },
+    {
+     "value": "Alder Rum|",
+     "label": "Alder Rum",
+     "count": 2
+    },
+    {
+     "value": "Aldi Süd|",
+     "label": "Aldi Süd",
+     "count": 1
+    },
+    {
+     "value": "Aldi|",
+     "label": "Aldi",
+     "count": 1
+    },
+    {
+     "value": "Alessio|",
+     "label": "Alessio",
+     "count": 1
+    },
+    {
+     "value": "Alesto|",
+     "label": "Alesto",
+     "count": 1
+    },
+    {
+     "value": "Alfredo Espresso|",
+     "label": "Alfredo Espresso",
+     "count": 1
+    },
+    {
+     "value": "Allegretto|",
+     "label": "Allegretto",
+     "count": 2
+    },
+    {
+     "value": "Allfair|",
+     "label": "Allfair",
+     "count": 10
+    },
+    {
+     "value": "Alprose|",
+     "label": "Alprose",
+     "count": 28
+    },
+    {
+     "value": "Alps Coffee|",
+     "label": "Alps Coffee",
+     "count": 21
+    },
+    {
+     "value": "Alternativa 3|",
+     "label": "Alternativa 3",
+     "count": 13
+    },
+    {
+     "value": "Alva|",
+     "label": "Alva",
+     "count": 1
+    },
+    {
+     "value": "Amann Kaffee|Brands/brand_5269_307103.png",
+     "label": "Amann Kaffee",
+     "count": 9
+    },
+    {
+     "value": "Anda|",
+     "label": "Anda",
+     "count": 2
+    },
+    {
+     "value": "Angelique's Finest|",
+     "label": "Angelique's Finest",
+     "count": 6
+    },
+    {
+     "value": "Aponatur|",
+     "label": "Aponatur",
+     "count": 2
+    },
+    {
+     "value": "Aqua Verde|",
+     "label": "Aqua Verde",
+     "count": 2
+    },
+    {
+     "value": "Ariens |",
+     "label": "Ariens ",
+     "count": 2
+    },
+    {
+     "value": "Aromas y sabores del Norte Grande|",
+     "label": "Aromas y sabores del Norte Grande",
+     "count": 3
+    },
+    {
+     "value": "Arvid Nordquist, Selection|",
+     "label": "Arvid Nordquist, Selection",
+     "count": 3
+    },
+    {
+     "value": "Aurhen|",
+     "label": "Aurhen",
+     "count": 2
+    },
+    {
+     "value": "Auricher|",
+     "label": "Auricher",
+     "count": 2
+    },
+    {
+     "value": "Aus Liebe…|",
+     "label": "Aus Liebe…",
+     "count": 2
+    },
+    {
+     "value": "Avelines|",
+     "label": "Avelines",
+     "count": 24
+    },
+    {
+     "value": "Avoury|",
+     "label": "Avoury",
+     "count": 10
+    },
+    {
+     "value": "Azuco|",
+     "label": "Azuco",
+     "count": 1
+    },
+    {
+     "value": "Azul|",
+     "label": "Azul",
+     "count": 11
+    },
+    {
+     "value": "BAD BOYZ SOCCER|",
+     "label": "BAD BOYZ SOCCER",
+     "count": 40
+    },
+    {
+     "value": "BARISSIMO|",
+     "label": "BARISSIMO",
+     "count": 1
+    },
+    {
+     "value": "BIO PLANETE|Brands/brand_4532_283645.jpg",
+     "label": "BIO PLANETE",
+     "count": 2
+    },
+    {
+     "value": "BIOVEGAN|",
+     "label": "BIOVEGAN",
+     "count": 1
+    },
+    {
+     "value": "BIO|",
+     "label": "BIO",
+     "count": 1
+    },
+    {
+     "value": "BLACK FOREST COFFEE®|",
+     "label": "BLACK FOREST COFFEE®",
+     "count": 6
+    },
+    {
+     "value": "BLACK HILL|",
+     "label": "BLACK HILL",
+     "count": 1
+    },
+    {
+     "value": "BLCK|",
+     "label": "BLCK",
+     "count": 1
+    },
+    {
+     "value": "BOVETTI|Brands/brand_6271_375260.jpg",
+     "label": "BOVETTI",
+     "count": 7
+    },
+    {
+     "value": "BRDS|Brands/1eed454a-74f1-4482-8d66-942c513010a1",
+     "label": "BRDS",
+     "count": 5
+    },
+    {
+     "value": "Bachhalm Schokolade|Brands/brand_5242_953917.png",
+     "label": "Bachhalm Schokolade",
+     "count": 2
+    },
+    {
+     "value": "Back Family|",
+     "label": "Back Family",
+     "count": 7
+    },
+    {
+     "value": "Bader kommt|",
+     "label": "Bader kommt",
+     "count": 1
+    },
+    {
+     "value": "Balldesigner|Brands/brand_7332_842623.gif",
+     "label": "Balldesigner",
+     "count": 40
+    },
+    {
+     "value": "Barnhouse|",
+     "label": "Barnhouse",
+     "count": 4
+    },
+    {
+     "value": "Bart & Bastian|",
+     "label": "Bart & Bastian",
+     "count": 25
+    },
+    {
+     "value": "Bazzar Caffè|",
+     "label": "Bazzar Caffè",
+     "count": 2
+    },
+    {
+     "value": "Beanarella|",
+     "label": "Beanarella",
+     "count": 23
+    },
+    {
+     "value": "Becks Cocoa \"100%\"|",
+     "label": "Becks Cocoa \"100%\"",
+     "count": 23
+    },
+    {
+     "value": "Becks Cocoa|",
+     "label": "Becks Cocoa",
+     "count": 47
+    },
+    {
+     "value": "Bee Natural|",
+     "label": "Bee Natural",
+     "count": 9
+    },
+    {
+     "value": "Bel & Bio|Brands/brand_5163_854870.jpg",
+     "label": "Bel & Bio",
+     "count": 10
+    },
+    {
+     "value": "Belfi Fair|",
+     "label": "Belfi Fair",
+     "count": 1
+    },
+    {
+     "value": "Belizean Blue|",
+     "label": "Belizean Blue",
+     "count": 1
+    },
+    {
+     "value": "Belvas|Brands/brand_24_138391.jpg",
+     "label": "Belvas",
+     "count": 71
+    },
+    {
+     "value": "Ben & Jerry's|Brands/brand_25_991421.png",
+     "label": "Ben & Jerry's",
+     "count": 17
+    },
+    {
+     "value": "Benslips Bester|",
+     "label": "Benslips Bester",
+     "count": 1
+    },
+    {
+     "value": "Benslips Kaffee|",
+     "label": "Benslips Kaffee",
+     "count": 6
+    },
+    {
+     "value": "Benz|",
+     "label": "Benz",
+     "count": 25
+    },
+    {
+     "value": "Bergland|",
+     "label": "Bergland",
+     "count": 2
+    },
+    {
+     "value": "Best Moments|",
+     "label": "Best Moments",
+     "count": 2
+    },
+    {
+     "value": "Better Merchandising|",
+     "label": "Better Merchandising",
+     "count": 10
+    },
+    {
+     "value": "Bidges&Sons|",
+     "label": "Bidges&Sons",
+     "count": 11
+    },
+    {
+     "value": "Bihophar|",
+     "label": "Bihophar",
+     "count": 2
+    },
+    {
+     "value": "Billa Bio|Brands/brand_9676_279249.jpg",
+     "label": "Billa Bio",
+     "count": 1
+    },
+    {
+     "value": "Bio Primo|",
+     "label": "Bio Primo",
+     "count": 4
+    },
+    {
+     "value": "Bio Sonne|",
+     "label": "Bio Sonne",
+     "count": 4
+    },
+    {
+     "value": "BioArt|Brands/brand_5289_372269.jpg",
+     "label": "BioArt",
+     "count": 7
+    },
+    {
+     "value": "BioBio|",
+     "label": "BioBio",
+     "count": 1
+    },
+    {
+     "value": "BioeCacao|",
+     "label": "BioeCacao",
+     "count": 1
+    },
+    {
+     "value": "Biossom|",
+     "label": "Biossom",
+     "count": 8
+    },
+    {
+     "value": "Bio|Brands/64b94678-1956-4065-a77c-b4b162af64da",
+     "label": "Bio",
+     "count": 1
+    },
+    {
+     "value": "Birkengold|Brands/brand_5263_571827.png",
+     "label": "Birkengold",
+     "count": 4
+    },
+    {
+     "value": "Bistrozucker|",
+     "label": "Bistrozucker",
+     "count": 7
+    },
+    {
+     "value": "Blanche|",
+     "label": "Blanche",
+     "count": 34
+    },
+    {
+     "value": "Bloom & Wild|",
+     "label": "Bloom & Wild",
+     "count": 8
+    },
+    {
+     "value": "Bloomon|",
+     "label": "Bloomon",
+     "count": 14
+    },
+    {
+     "value": "Blue Chili Promotions|",
+     "label": "Blue Chili Promotions",
+     "count": 1
+    },
+    {
+     "value": "Blume 2000|",
+     "label": "Blume 2000",
+     "count": 3
+    },
+    {
+     "value": "Blumen Hagedorn|",
+     "label": "Blumen Hagedorn",
+     "count": 1
+    },
+    {
+     "value": "Bode Naturkost|",
+     "label": "Bode Naturkost",
+     "count": 1
+    },
+    {
+     "value": "Bohne 7|",
+     "label": "Bohne 7",
+     "count": 1
+    },
+    {
+     "value": "Bonga Red Mountain|",
+     "label": "Bonga Red Mountain",
+     "count": 9
+    },
+    {
+     "value": "Bouquetnet|",
+     "label": "Bouquetnet",
+     "count": 1
+    },
+    {
+     "value": "Bradleys|",
+     "label": "Bradleys",
+     "count": 58
+    },
+    {
+     "value": "Brands Fashion|",
+     "label": "Brands Fashion",
+     "count": 4
+    },
+    {
+     "value": "Breitsamer|",
+     "label": "Breitsamer",
+     "count": 7
+    },
+    {
+     "value": "Brennpunkt|",
+     "label": "Brennpunkt",
+     "count": 1
+    },
+    {
+     "value": "Buhle|",
+     "label": "Buhle",
+     "count": 1
+    },
+    {
+     "value": "Burkhardt Fruchtsäfte|",
+     "label": "Burkhardt Fruchtsäfte",
+     "count": 2
+    },
+    {
+     "value": "Bursting Berries|",
+     "label": "Bursting Berries",
+     "count": 2
+    },
+    {
+     "value": "Büntig|",
+     "label": "Büntig",
+     "count": 1
+    },
+    {
+     "value": "CAFES SATI|Brands/brand_4466_574027.png",
+     "label": "CAFES SATI",
+     "count": 3
+    },
+    {
+     "value": "CGG. Tee Initiative®|",
+     "label": "CGG. Tee Initiative®",
+     "count": 4
+    },
+    {
+     "value": "COCAYA|",
+     "label": "COCAYA",
+     "count": 5
+    },
+    {
+     "value": "CUP&CINO|",
+     "label": "CUP&CINO",
+     "count": 2
+    },
+    {
+     "value": "Cabana FT|",
+     "label": "Cabana FT",
+     "count": 1
+    },
+    {
+     "value": "Cafe Forestal|",
+     "label": "Cafe Forestal",
+     "count": 1
+    },
+    {
+     "value": "Cafe Natura|",
+     "label": "Cafe Natura",
+     "count": 7
+    },
+    {
+     "value": "Cafe de Maraba|",
+     "label": "Cafe de Maraba",
+     "count": 3
+    },
+    {
+     "value": "Cafema|",
+     "label": "Cafema",
+     "count": 3
+    },
+    {
+     "value": "Caffe Costadoro Respecto|",
+     "label": "Caffe Costadoro Respecto",
+     "count": 5
+    },
+    {
+     "value": "Caffe Haiti Roma|",
+     "label": "Caffe Haiti Roma",
+     "count": 8
+    },
+    {
+     "value": "Caffe' Carraro|",
+     "label": "Caffe' Carraro",
+     "count": 1
+    },
+    {
+     "value": "Caffe' Morganti Aequobio|",
+     "label": "Caffe' Morganti Aequobio",
+     "count": 1
+    },
+    {
+     "value": "Caffe' Musetti Mio Espresso|",
+     "label": "Caffe' Musetti Mio Espresso",
+     "count": 1
+    },
+    {
+     "value": "Caffe' River|",
+     "label": "Caffe' River",
+     "count": 2
+    },
+    {
+     "value": "Caffè Chicco d'Oro|",
+     "label": "Caffè Chicco d'Oro",
+     "count": 8
+    },
+    {
+     "value": "Caffè Musetti|",
+     "label": "Caffè Musetti",
+     "count": 1
+    },
+    {
+     "value": "Caffè Spettacolo|",
+     "label": "Caffè Spettacolo",
+     "count": 6
+    },
+    {
+     "value": "Cafissimo|",
+     "label": "Cafissimo",
+     "count": 1
+    },
+    {
+     "value": "Cafè Badilatti|",
+     "label": "Cafè Badilatti",
+     "count": 4
+    },
+    {
+     "value": "Café Intención|",
+     "label": "Café Intención",
+     "count": 22
+    },
+    {
+     "value": "Café Progreso|",
+     "label": "Café Progreso",
+     "count": 1
+    },
+    {
+     "value": "Café Royal|",
+     "label": "Café Royal",
+     "count": 11
+    },
+    {
+     "value": "Café Salento|",
+     "label": "Café Salento",
+     "count": 2
+    },
+    {
+     "value": "Café Sophie|",
+     "label": "Café Sophie",
+     "count": 4
+    },
+    {
+     "value": "Café de la vida|",
+     "label": "Café de la vida",
+     "count": 1
+    },
+    {
+     "value": "California Pops|",
+     "label": "California Pops",
+     "count": 19
+    },
+    {
+     "value": "Callebaut|Brands/brand_43_304868.png",
+     "label": "Callebaut",
+     "count": 4
+    },
+    {
+     "value": "Camino Verde|",
+     "label": "Camino Verde",
+     "count": 2
+    },
+    {
+     "value": "Caprimo|",
+     "label": "Caprimo",
+     "count": 2
+    },
+    {
+     "value": "Cardinahl Caffè|",
+     "label": "Cardinahl Caffè",
+     "count": 3
+    },
+    {
+     "value": "Caroma|",
+     "label": "Caroma",
+     "count": 9
+    },
+    {
+     "value": "Carribean Exotics|",
+     "label": "Carribean Exotics",
+     "count": 1
+    },
+    {
+     "value": "Carstens|",
+     "label": "Carstens",
+     "count": 4
+    },
+    {
+     "value": "Casali|Brands/brand_5324_789214.png",
+     "label": "Casali",
+     "count": 15
+    },
+    {
+     "value": "Caventura|",
+     "label": "Caventura",
+     "count": 2
+    },
+    {
+     "value": "Cawila|",
+     "label": "Cawila",
+     "count": 7
+    },
+    {
+     "value": "Chaqwa|",
+     "label": "Chaqwa",
+     "count": 2
+    },
+    {
+     "value": "ChariTea|Brands/brand_6879_54132.jpg",
+     "label": "ChariTea",
+     "count": 26
+    },
+    {
+     "value": "Charles Liégeois|Brands/brand_42_102462.png",
+     "label": "Charles Liégeois",
+     "count": 3
+    },
+    {
+     "value": "Choceur|Brands/brand_5127_993808.png",
+     "label": "Choceur",
+     "count": 1
+    },
+    {
+     "value": "Choceur|Brands/brand_8330_855121.jpg",
+     "label": "Choceur",
+     "count": 1
+    },
+    {
+     "value": "Choco Moment|",
+     "label": "Choco Moment",
+     "count": 10
+    },
+    {
+     "value": "Choco'là|",
+     "label": "Choco'là",
+     "count": 2
+    },
+    {
+     "value": "ChocoChanger|",
+     "label": "ChocoChanger",
+     "count": 3
+    },
+    {
+     "value": "Chocolat Ammann|",
+     "label": "Chocolat Ammann",
+     "count": 6
+    },
+    {
+     "value": "Chocolat Bernrain|",
+     "label": "Chocolat Bernrain",
+     "count": 4
+    },
+    {
+     "value": "Chocolates Sole|",
+     "label": "Chocolates Sole",
+     "count": 33
+    },
+    {
+     "value": "Chocolates Torras|",
+     "label": "Chocolates Torras",
+     "count": 2
+    },
+    {
+     "value": "Chocolates from heaven|",
+     "label": "Chocolates from heaven",
+     "count": 1
+    },
+    {
+     "value": "Chocola|",
+     "label": "Chocola",
+     "count": 3
+    },
+    {
+     "value": "Choco´la|",
+     "label": "Choco´la",
+     "count": 1
+    },
+    {
+     "value": "Chocóla|",
+     "label": "Chocóla",
+     "count": 14
+    },
+    {
+     "value": "Chokay|",
+     "label": "Chokay",
+     "count": 2
+    },
+    {
+     "value": "Christmas Moments|",
+     "label": "Christmas Moments",
+     "count": 1
+    },
+    {
+     "value": "Chronic|",
+     "label": "Chronic",
+     "count": 5
+    },
+    {
+     "value": "Clarysse|Brands/brand_52_633346.jpg",
+     "label": "Clarysse",
+     "count": 4
+    },
+    {
+     "value": "Clasen Bio|",
+     "label": "Clasen Bio",
+     "count": 1
+    },
+    {
+     "value": "Cocoa Fantasy|",
+     "label": "Cocoa Fantasy",
+     "count": 1
+    },
+    {
+     "value": "Collection Ruesch|Brands/brand_5237_494672.jpg",
+     "label": "Collection Ruesch",
+     "count": 1
+    },
+    {
+     "value": "Comazo Earth|",
+     "label": "Comazo Earth",
+     "count": 4
+    },
+    {
+     "value": "Comcafé|",
+     "label": "Comcafé",
+     "count": 3
+    },
+    {
+     "value": "Community Cola|",
+     "label": "Community Cola",
+     "count": 1
+    },
+    {
+     "value": "Compass Group|",
+     "label": "Compass Group",
+     "count": 1
+    },
+    {
+     "value": "Condor Kaffee|",
+     "label": "Condor Kaffee",
+     "count": 1
+    },
+    {
+     "value": "Cottover|",
+     "label": "Cottover",
+     "count": 38
+    },
+    {
+     "value": "Covo|",
+     "label": "Covo",
+     "count": 13
+    },
+    {
+     "value": "Crefelder Kaffeerösterei|",
+     "label": "Crefelder Kaffeerösterei",
+     "count": 17
+    },
+    {
+     "value": "Crownfield Linessa|",
+     "label": "Crownfield Linessa",
+     "count": 1
+    },
+    {
+     "value": "Crownfield|",
+     "label": "Crownfield",
+     "count": 16
+    },
+    {
+     "value": "DAMIANO|",
+     "label": "DAMIANO",
+     "count": 3
+    },
+    {
+     "value": "DECATHLON|",
+     "label": "DECATHLON",
+     "count": 4
+    },
+    {
+     "value": "DEDICATED|",
+     "label": "DEDICATED",
+     "count": 2
+    },
+    {
+     "value": "DER MOSHI KAFFEE|",
+     "label": "DER MOSHI KAFFEE",
+     "count": 1
+    },
+    {
+     "value": "DON PEDRO|",
+     "label": "DON PEDRO",
+     "count": 6
+    },
+    {
+     "value": "DUCHESSE|",
+     "label": "DUCHESSE",
+     "count": 1
+    },
+    {
+     "value": "DUNKIN|Brands/brand_5999_975072.PNG",
+     "label": "DUNKIN",
+     "count": 5
+    },
+    {
+     "value": "Dallmayr Café und Bar|Brands/brand_6754_493238.jpg",
+     "label": "Dallmayr Café und Bar",
+     "count": 2
+    },
+    {
+     "value": "Dallmayr|",
+     "label": "Dallmayr",
+     "count": 4
+    },
+    {
+     "value": "Dallmeyers Backhus|",
+     "label": "Dallmeyers Backhus",
+     "count": 1
+    },
+    {
+     "value": "DankE|",
+     "label": "DankE",
+     "count": 5
+    },
+    {
+     "value": "Das Exquisite|",
+     "label": "Das Exquisite",
+     "count": 2
+    },
+    {
+     "value": "Davert|",
+     "label": "Davert",
+     "count": 13
+    },
+    {
+     "value": "DeBeukelaer|",
+     "label": "DeBeukelaer",
+     "count": 1
+    },
+    {
+     "value": "Decorum|",
+     "label": "Decorum",
+     "count": 1
+    },
+    {
+     "value": "Dekene|",
+     "label": "Dekene",
+     "count": 11
+    },
+    {
+     "value": "Delicia|",
+     "label": "Delicia",
+     "count": 3
+    },
+    {
+     "value": "Delta Cafes|",
+     "label": "Delta Cafes",
+     "count": 2
+    },
+    {
+     "value": "Deluxe (Lidl)|",
+     "label": "Deluxe (Lidl)",
+     "count": 2
+    },
+    {
+     "value": "Deluxe|",
+     "label": "Deluxe",
+     "count": 1
+    },
+    {
+     "value": "Denke's Lösmich|",
+     "label": "Denke's Lösmich",
+     "count": 8
+    },
+    {
+     "value": "Der Beck|",
+     "label": "Der Beck",
+     "count": 2
+    },
+    {
+     "value": "Der Bielefeld Kaffee|",
+     "label": "Der Bielefeld Kaffee",
+     "count": 4
+    },
+    {
+     "value": "Derbystar|",
+     "label": "Derbystar",
+     "count": 49
+    },
+    {
+     "value": "Destination|",
+     "label": "Destination",
+     "count": 23
+    },
+    {
+     "value": "Die faire Milch |",
+     "label": "Die faire Milch ",
+     "count": 1
+    },
+    {
+     "value": "Dietz|",
+     "label": "Dietz",
+     "count": 3
+    },
+    {
+     "value": "Dinzler|",
+     "label": "Dinzler",
+     "count": 11
+    },
+    {
+     "value": "Diverse|",
+     "label": "Diverse",
+     "count": 2
+    },
+    {
+     "value": "Don Limon|",
+     "label": "Don Limon",
+     "count": 9
+    },
+    {
+     "value": "Dorweiler|",
+     "label": "Dorweiler",
+     "count": 1
+    },
+    {
+     "value": "Douceur|",
+     "label": "Douceur",
+     "count": 129
+    },
+    {
+     "value": "Douwe Egberts|Brands/brand_313_902765.jpg",
+     "label": "Douwe Egberts",
+     "count": 2
+    },
+    {
+     "value": "Dr. Antonio Martins|",
+     "label": "Dr. Antonio Martins",
+     "count": 10
+    },
+    {
+     "value": "Drago Mocambo|",
+     "label": "Drago Mocambo",
+     "count": 6
+    },
+    {
+     "value": "Dressmann XL|",
+     "label": "Dressmann XL",
+     "count": 17
+    },
+    {
+     "value": "Dressmann|Brands/07c854a4-bfc8-44c5-bd0c-c62d83e1cce1",
+     "label": "Dressmann",
+     "count": 79
+    },
+    {
+     "value": "Dreyer|",
+     "label": "Dreyer",
+     "count": 2
+    },
+    {
+     "value": "Délices|",
+     "label": "Délices",
+     "count": 1
+    },
+    {
+     "value": "Döbbe|",
+     "label": "Döbbe",
+     "count": 2
+    },
+    {
+     "value": "E + G|",
+     "label": "E + G",
+     "count": 1
+    },
+    {
+     "value": "EDEKA Bio|",
+     "label": "EDEKA Bio",
+     "count": 6
+    },
+    {
+     "value": "EDEKA|",
+     "label": "EDEKA",
+     "count": 2
+    },
+    {
+     "value": "EDEN|",
+     "label": "EDEN",
+     "count": 1
+    },
+    {
+     "value": "ELECTRIC ESPRESSO|",
+     "label": "ELECTRIC ESPRESSO",
+     "count": 2
+    },
+    {
+     "value": "ERIMA|",
+     "label": "ERIMA",
+     "count": 1
+    },
+    {
+     "value": "EZA|Brands/brand_5340_193365.jpg",
+     "label": "EZA",
+     "count": 154
+    },
+    {
+     "value": "Easter moments|",
+     "label": "Easter moments",
+     "count": 7
+    },
+    {
+     "value": "Edeka|",
+     "label": "Edeka",
+     "count": 1
+    },
+    {
+     "value": "Edelmond|",
+     "label": "Edelmond",
+     "count": 45
+    },
+    {
+     "value": "Eduscho|Brands/brand_6554_146913.jpg",
+     "label": "Eduscho",
+     "count": 2
+    },
+    {
+     "value": "Eilles Tee|",
+     "label": "Eilles Tee",
+     "count": 26
+    },
+    {
+     "value": "Ekoplaza|",
+     "label": "Ekoplaza",
+     "count": 18
+    },
+    {
+     "value": "El Criollo|",
+     "label": "El Criollo",
+     "count": 2
+    },
+    {
+     "value": "El Puente|",
+     "label": "El Puente",
+     "count": 9
+    },
+    {
+     "value": "Elemental|",
+     "label": "Elemental",
+     "count": 2
+    },
+    {
+     "value": "Emiliana|",
+     "label": "Emiliana",
+     "count": 1
+    },
+    {
+     "value": "English Tea Shop UK Limited|",
+     "label": "English Tea Shop UK Limited",
+     "count": 62
+    },
+    {
+     "value": "Espressone|",
+     "label": "Espressone",
+     "count": 17
+    },
+    {
+     "value": "Espresto|",
+     "label": "Espresto",
+     "count": 1
+    },
+    {
+     "value": "Ethiquable|Brands/brand_74_704938.jpg",
+     "label": "Ethiquable",
+     "count": 1
+    },
+    {
+     "value": "Ethletic|",
+     "label": "Ethletic",
+     "count": 3
+    },
+    {
+     "value": "Excelcium|",
+     "label": "Excelcium",
+     "count": 4
+    },
+    {
+     "value": "Excelsior|",
+     "label": "Excelsior",
+     "count": 6
+    },
+    {
+     "value": "Exquisit|",
+     "label": "Exquisit",
+     "count": 9
+    },
+    {
+     "value": "F&F Verpakkingen|",
+     "label": "F&F Verpakkingen",
+     "count": 4
+    },
+    {
+     "value": "FAIR CARE|",
+     "label": "FAIR CARE",
+     "count": 26
+    },
+    {
+     "value": "FAIR|",
+     "label": "FAIR",
+     "count": 6
+    },
+    {
+     "value": "FEBIO|",
+     "label": "FEBIO",
+     "count": 1
+    },
+    {
+     "value": "FRUTEE|",
+     "label": "FRUTEE",
+     "count": 1
+    },
+    {
+     "value": "FaRev|Brands/brand_9106_189242.png",
+     "label": "FaRev",
+     "count": 1
+    },
+    {
+     "value": "Fair Squared|Brands/brand_6616_70670.jpg",
+     "label": "Fair Squared",
+     "count": 74
+    },
+    {
+     "value": "Fair Towel|",
+     "label": "Fair Towel",
+     "count": 9
+    },
+    {
+     "value": "Fair gehandelt|",
+     "label": "Fair gehandelt",
+     "count": 11
+    },
+    {
+     "value": "Fairbags|",
+     "label": "Fairbags",
+     "count": 12
+    },
+    {
+     "value": "Fairever|",
+     "label": "Fairever",
+     "count": 3
+    },
+    {
+     "value": "Fairglobe|",
+     "label": "Fairglobe",
+     "count": 28
+    },
+    {
+     "value": "Fairtrade Original|",
+     "label": "Fairtrade Original",
+     "count": 42
+    },
+    {
+     "value": "Fairtrasa|Brands/brand_3545_347364.jpg",
+     "label": "Fairtrasa",
+     "count": 3
+    },
+    {
+     "value": "Fat Fig|",
+     "label": "Fat Fig",
+     "count": 1
+    },
+    {
+     "value": "Favarger|",
+     "label": "Favarger",
+     "count": 2
+    },
+    {
+     "value": "Favorina Weihnachten|",
+     "label": "Favorina Weihnachten",
+     "count": 4
+    },
+    {
+     "value": "Favorina chocolats de tradition|",
+     "label": "Favorina chocolats de tradition",
+     "count": 5
+    },
+    {
+     "value": "Favorina|",
+     "label": "Favorina",
+     "count": 3
+    },
+    {
+     "value": "Feiny Biscuits|Brands/brand_8470_319173.jpg",
+     "label": "Feiny Biscuits",
+     "count": 15
+    },
+    {
+     "value": "Filicori Zecchini|",
+     "label": "Filicori Zecchini",
+     "count": 1
+    },
+    {
+     "value": "Fin Carré|",
+     "label": "Fin Carré",
+     "count": 2
+    },
+    {
+     "value": "Finlayson|",
+     "label": "Finlayson",
+     "count": 2
+    },
+    {
+     "value": "Finton's|",
+     "label": "Finton's",
+     "count": 2
+    },
+    {
+     "value": "FloraPrima|",
+     "label": "FloraPrima",
+     "count": 2
+    },
+    {
+     "value": "Floragold|",
+     "label": "Floragold",
+     "count": 3
+    },
+    {
+     "value": "Florapharm|",
+     "label": "Florapharm",
+     "count": 4
+    },
+    {
+     "value": "Flower Arts|",
+     "label": "Flower Arts",
+     "count": 2
+    },
+    {
+     "value": "Fountain|Brands/brand_83_444218.jpg",
+     "label": "Fountain",
+     "count": 1
+    },
+    {
+     "value": "Frank|",
+     "label": "Frank",
+     "count": 8
+    },
+    {
+     "value": "Franz Josef Rauch|Brands/brand_8860_850262.jpg",
+     "label": "Franz Josef Rauch",
+     "count": 1
+    },
+    {
+     "value": "Freche Freunde|",
+     "label": "Freche Freunde",
+     "count": 2
+    },
+    {
+     "value": "Fresh Solutions Flowers|",
+     "label": "Fresh Solutions Flowers",
+     "count": 1
+    },
+    {
+     "value": "Freudenberg |",
+     "label": "Freudenberg ",
+     "count": 2
+    },
+    {
+     "value": "Friedel|",
+     "label": "Friedel",
+     "count": 4
+    },
+    {
+     "value": "Frucht & Sinne|Brands/brand_5352_559311.jpg",
+     "label": "Frucht & Sinne",
+     "count": 10
+    },
+    {
+     "value": "Fröhliche Osterzeit|",
+     "label": "Fröhliche Osterzeit",
+     "count": 1
+    },
+    {
+     "value": "Fyffes|",
+     "label": "Fyffes",
+     "count": 1
+    },
+    {
+     "value": "G!na|",
+     "label": "G!na",
+     "count": 4
+    },
+    {
+     "value": "G.C. Breiger|",
+     "label": "G.C. Breiger",
+     "count": 3
+    },
+    {
+     "value": "GAASTRA|",
+     "label": "GAASTRA",
+     "count": 3
+    },
+    {
+     "value": "GF Textiles|",
+     "label": "GF Textiles",
+     "count": 5
+    },
+    {
+     "value": "GO BIO|",
+     "label": "GO BIO",
+     "count": 1
+    },
+    {
+     "value": "GOLDAFFAIRS|",
+     "label": "GOLDAFFAIRS",
+     "count": 4
+    },
+    {
+     "value": "GREIFF|",
+     "label": "GREIFF",
+     "count": 79
+    },
+    {
+     "value": "Galifera|",
+     "label": "Galifera",
+     "count": 1
+    },
+    {
+     "value": "Garden Series|",
+     "label": "Garden Series",
+     "count": 10
+    },
+    {
+     "value": "Gary Mash|Brands/brand_5262_205408.png",
+     "label": "Gary Mash",
+     "count": 1
+    },
+    {
+     "value": "Gepa|",
+     "label": "Gepa",
+     "count": 14
+    },
+    {
+     "value": "Gildo Rachelli  -Demeter|",
+     "label": "Gildo Rachelli  -Demeter",
+     "count": 1
+    },
+    {
+     "value": "Gina Benotti|",
+     "label": "Gina Benotti",
+     "count": 3
+    },
+    {
+     "value": "Go Caffè|",
+     "label": "Go Caffè",
+     "count": 3
+    },
+    {
+     "value": "Go Öko|",
+     "label": "Go Öko",
+     "count": 1
+    },
+    {
+     "value": "Goki|",
+     "label": "Goki",
+     "count": 10
+    },
+    {
+     "value": "Golden Bridge|",
+     "label": "Golden Bridge",
+     "count": 1
+    },
+    {
+     "value": "Goldmännchen-TEE|",
+     "label": "Goldmännchen-TEE",
+     "count": 4
+    },
+    {
+     "value": "Goldora|",
+     "label": "Goldora",
+     "count": 34
+    },
+    {
+     "value": "Goldsucher|",
+     "label": "Goldsucher",
+     "count": 1
+    },
+    {
+     "value": "Goppion|Brands/brand_7072_845882.jpg",
+     "label": "Goppion",
+     "count": 6
+    },
+    {
+     "value": "Goya|",
+     "label": "Goya",
+     "count": 8
+    },
+    {
+     "value": "Green Promotion|",
+     "label": "Green Promotion",
+     "count": 1
+    },
+    {
+     "value": "Grower's Cup|",
+     "label": "Grower's Cup",
+     "count": 1
+    },
+    {
+     "value": "Grüne Erde|Brands/brand_5250_164723.png",
+     "label": "Grüne Erde",
+     "count": 13
+    },
+    {
+     "value": "Grüner Finger|",
+     "label": "Grüner Finger",
+     "count": 2
+    },
+    {
+     "value": "Grüngold|",
+     "label": "Grüngold",
+     "count": 3
+    },
+    {
+     "value": "GuG Naturschönheit|",
+     "label": "GuG Naturschönheit",
+     "count": 1
+    },
+    {
+     "value": "Gubor|",
+     "label": "Gubor",
+     "count": 2
+    },
+    {
+     "value": "GuntiAroma|",
+     "label": "GuntiAroma",
+     "count": 2
+    },
+    {
+     "value": "GutBio|",
+     "label": "GutBio",
+     "count": 2
+    },
+    {
+     "value": "Gütersloher Stadtkaffee|",
+     "label": "Gütersloher Stadtkaffee",
+     "count": 2
+    },
+    {
+     "value": "H & S|",
+     "label": "H & S",
+     "count": 3
+    },
+    {
+     "value": "HALFAR®|",
+     "label": "HALFAR®",
+     "count": 1
+    },
+    {
+     "value": "HAPPY BRANDS|",
+     "label": "HAPPY BRANDS",
+     "count": 2
+    },
+    {
+     "value": "HELLMA|Brands/brand_5291_80828.jpg",
+     "label": "HELLMA",
+     "count": 1
+    },
+    {
+     "value": "HEMA|Brands/brand_267_121244.jpg",
+     "label": "HEMA",
+     "count": 5
+    },
+    {
+     "value": "HIT|",
+     "label": "HIT",
+     "count": 1
+    },
+    {
+     "value": "Haeberlein & Metzger|",
+     "label": "Haeberlein & Metzger",
+     "count": 22
+    },
+    {
+     "value": "Hagen Kaffee|Brands/brand_8961_401759.jpg",
+     "label": "Hagen Kaffee",
+     "count": 9
+    },
+    {
+     "value": "Halba|",
+     "label": "Halba",
+     "count": 27
+    },
+    {
+     "value": "Halloren|",
+     "label": "Halloren",
+     "count": 13
+    },
+    {
+     "value": "Handle|",
+     "label": "Handle",
+     "count": 2
+    },
+    {
+     "value": "Hannoversche Kaffeemanufaktur GmbH & Co. KG|",
+     "label": "Hannoversche Kaffeemanufaktur GmbH & Co. KG",
+     "count": 2
+    },
+    {
+     "value": "Happy Harvest|Brands/brand_6432_138884.jpg",
+     "label": "Happy Harvest",
+     "count": 1
+    },
+    {
+     "value": "Happy Hours en Biovallée|Brands/brand_10731_156351.jpg",
+     "label": "Happy Hours en Biovallée",
+     "count": 2
+    },
+    {
+     "value": "HappyNaps|",
+     "label": "HappyNaps",
+     "count": 12
+    },
+    {
+     "value": "Happy|",
+     "label": "Happy",
+     "count": 1
+    },
+    {
+     "value": "Harry´s Kaffeerösterei|",
+     "label": "Harry´s Kaffeerösterei",
+     "count": 10
+    },
+    {
+     "value": "Heimbs|",
+     "label": "Heimbs",
+     "count": 15
+    },
+    {
+     "value": "Heindl|Brands/brand_5245_288106.png",
+     "label": "Heindl",
+     "count": 1
+    },
+    {
+     "value": "Henry Lambertz|",
+     "label": "Henry Lambertz",
+     "count": 4
+    },
+    {
+     "value": "Hensler Kaffee|",
+     "label": "Hensler Kaffee",
+     "count": 9
+    },
+    {
+     "value": "Hesselink|",
+     "label": "Hesselink",
+     "count": 8
+    },
+    {
+     "value": "Heyl|",
+     "label": "Heyl",
+     "count": 1
+    },
+    {
+     "value": "Hofgenuss fair in aller Munde|",
+     "label": "Hofgenuss fair in aller Munde",
+     "count": 12
+    },
+    {
+     "value": "Hofgenuss|",
+     "label": "Hofgenuss",
+     "count": 1
+    },
+    {
+     "value": "Holle|",
+     "label": "Holle",
+     "count": 1
+    },
+    {
+     "value": "Hollicher Hofkaffee|",
+     "label": "Hollicher Hofkaffee",
+     "count": 1
+    },
+    {
+     "value": "Honest Clothing UG|",
+     "label": "Honest Clothing UG",
+     "count": 1
+    },
+    {
+     "value": "Hoppe|Brands/brand_94_621274.jpg",
+     "label": "Hoppe",
+     "count": 11
+    },
+    {
+     "value": "Humbel|",
+     "label": "Humbel",
+     "count": 7
+    },
+    {
+     "value": "Hämmerle Kaffee|Brands/brand_5270_380970.jpg",
+     "label": "Hämmerle Kaffee",
+     "count": 7
+    },
+    {
+     "value": "IDorganics|",
+     "label": "IDorganics",
+     "count": 15
+    },
+    {
+     "value": "IQ Kaffee Fairtrade Bohnen|",
+     "label": "IQ Kaffee Fairtrade Bohnen",
+     "count": 1
+    },
+    {
+     "value": "IQ Kaffee Fairtrade Filterkaffee|",
+     "label": "IQ Kaffee Fairtrade Filterkaffee",
+     "count": 1
+    },
+    {
+     "value": "ISA|",
+     "label": "ISA",
+     "count": 3
+    },
+    {
+     "value": "Inkoop|",
+     "label": "Inkoop",
+     "count": 4
+    },
+    {
+     "value": "InterVanilla|",
+     "label": "InterVanilla",
+     "count": 6
+    },
+    {
+     "value": "J. Hornig|Brands/brand_5321_325022.jpg",
+     "label": "J. Hornig",
+     "count": 1
+    },
+    {
+     "value": "J.D. Gross|",
+     "label": "J.D. Gross",
+     "count": 4
+    },
+    {
+     "value": "J.D.GROSS|",
+     "label": "J.D.GROSS",
+     "count": 1
+    },
+    {
+     "value": "Ja!|",
+     "label": "Ja!",
+     "count": 13
+    },
+    {
+     "value": "Jacoby|",
+     "label": "Jacoby",
+     "count": 1
+    },
+    {
+     "value": "Jan Spille|",
+     "label": "Jan Spille",
+     "count": 6
+    },
+    {
+     "value": "Java Coffee|Brands/brand_100_913643.jpg",
+     "label": "Java Coffee",
+     "count": 4
+    },
+    {
+     "value": "JeKue|",
+     "label": "JeKue",
+     "count": 2
+    },
+    {
+     "value": "Jeden Tag|",
+     "label": "Jeden Tag",
+     "count": 6
+    },
+    {
+     "value": "Johan & Nyström|",
+     "label": "Johan & Nyström",
+     "count": 1
+    },
+    {
+     "value": "Johnny Doodle|",
+     "label": "Johnny Doodle",
+     "count": 1
+    },
+    {
+     "value": "Joliente Respect|",
+     "label": "Joliente Respect",
+     "count": 3
+    },
+    {
+     "value": "Jomo - der Kuchenbäcker|Brands/brand_9979_712043.png",
+     "label": "Jomo - der Kuchenbäcker",
+     "count": 26
+    },
+    {
+     "value": "Josten Top Line|",
+     "label": "Josten Top Line",
+     "count": 4
+    },
+    {
+     "value": "Jukumu|",
+     "label": "Jukumu",
+     "count": 5
+    },
+    {
+     "value": "Julius Meinl|Brands/brand_5319_404465.png",
+     "label": "Julius Meinl",
+     "count": 11
+    },
+    {
+     "value": "Jung since 1828 GmbH & Co.KG|",
+     "label": "Jung since 1828 GmbH & Co.KG",
+     "count": 2
+    },
+    {
+     "value": "Juno|",
+     "label": "Juno",
+     "count": 9
+    },
+    {
+     "value": "Jura|",
+     "label": "Jura",
+     "count": 2
+    },
+    {
+     "value": "Jute-statt-Plastik|",
+     "label": "Jute-statt-Plastik",
+     "count": 10
+    },
+    {
+     "value": "K Take it Veggie|",
+     "label": "K Take it Veggie",
+     "count": 6
+    },
+    {
+     "value": "K-Bio|",
+     "label": "K-Bio",
+     "count": 12
+    },
+    {
+     "value": "K-Classic|",
+     "label": "K-Classic",
+     "count": 224
+    },
+    {
+     "value": "K-Favourites|",
+     "label": "K-Favourites",
+     "count": 46
+    },
+    {
+     "value": "K-Free|",
+     "label": "K-Free",
+     "count": 1
+    },
+    {
+     "value": "KALANI|Brands/brand_5174_644428.jpg",
+     "label": "KALANI",
+     "count": 14
+    },
+    {
+     "value": "KHK|",
+     "label": "KHK",
+     "count": 1
+    },
+    {
+     "value": "KOKOworld|",
+     "label": "KOKOworld",
+     "count": 8
+    },
+    {
+     "value": "Kaffee Partner|",
+     "label": "Kaffee Partner",
+     "count": 3
+    },
+    {
+     "value": "Kaffeewelt Eisbrenner|",
+     "label": "Kaffeewelt Eisbrenner",
+     "count": 7
+    },
+    {
+     "value": "Kalman Hafner|",
+     "label": "Kalman Hafner",
+     "count": 1
+    },
+    {
+     "value": "Kambly|",
+     "label": "Kambly",
+     "count": 7
+    },
+    {
+     "value": "Karl Schmidt|",
+     "label": "Karl Schmidt",
+     "count": 2
+    },
+    {
+     "value": "Kater Kaffee Pablo|",
+     "label": "Kater Kaffee Pablo",
+     "count": 4
+    },
+    {
+     "value": "Kater Kaffee Weltenbummler Nicaragua|",
+     "label": "Kater Kaffee Weltenbummler Nicaragua",
+     "count": 1
+    },
+    {
+     "value": "Kater Kaffee|",
+     "label": "Kater Kaffee",
+     "count": 14
+    },
+    {
+     "value": "Kaufland|",
+     "label": "Kaufland",
+     "count": 3
+    },
+    {
+     "value": "Kaya|",
+     "label": "Kaya",
+     "count": 1
+    },
+    {
+     "value": "Keli|Brands/brand_6434_279330.jpg",
+     "label": "Keli",
+     "count": 9
+    },
+    {
+     "value": "Kericho Gold|",
+     "label": "Kericho Gold",
+     "count": 13
+    },
+    {
+     "value": "Kimbo|",
+     "label": "Kimbo",
+     "count": 2
+    },
+    {
+     "value": "Kinkartz|",
+     "label": "Kinkartz",
+     "count": 1
+    },
+    {
+     "value": "Kleine Freunde|",
+     "label": "Kleine Freunde",
+     "count": 1
+    },
+    {
+     "value": "Kleine Rust|",
+     "label": "Kleine Rust",
+     "count": 3
+    },
+    {
+     "value": "Klett Schokolade|",
+     "label": "Klett Schokolade",
+     "count": 4
+    },
+    {
+     "value": "Klett|",
+     "label": "Klett",
+     "count": 4
+    },
+    {
+     "value": "Knusperone|",
+     "label": "Knusperone",
+     "count": 3
+    },
+    {
+     "value": "KoRo|",
+     "label": "KoRo",
+     "count": 10
+    },
+    {
+     "value": "KollektivCafé|",
+     "label": "KollektivCafé",
+     "count": 9
+    },
+    {
+     "value": "KollektivTee|",
+     "label": "KollektivTee",
+     "count": 2
+    },
+    {
+     "value": "Konings|",
+     "label": "Konings",
+     "count": 4
+    },
+    {
+     "value": "L'Antico|",
+     "label": "L'Antico",
+     "count": 2
+    },
+    {
+     "value": "LA CAFETERIE|Brands/brand_9785_888632.JPG",
+     "label": "LA CAFETERIE",
+     "count": 1
+    },
+    {
+     "value": "LANGENBERG|",
+     "label": "LANGENBERG",
+     "count": 5
+    },
+    {
+     "value": "LEMONAID|Brands/brand_6880_948027.jpg",
+     "label": "LEMONAID",
+     "count": 8
+    },
+    {
+     "value": "LES CHEVALIERS D'ARGOUGES|Brands/brand_6274_94842.jpg",
+     "label": "LES CHEVALIERS D'ARGOUGES",
+     "count": 6
+    },
+    {
+     "value": "LOBODIS|Brands/brand_7378_619645.jpg",
+     "label": "LOBODIS",
+     "count": 17
+    },
+    {
+     "value": "La Chocolaterie|",
+     "label": "La Chocolaterie",
+     "count": 1
+    },
+    {
+     "value": "La Semeuse|",
+     "label": "La Semeuse",
+     "count": 5
+    },
+    {
+     "value": "La Vida Vegan|",
+     "label": "La Vida Vegan",
+     "count": 2
+    },
+    {
+     "value": "LaSelva|",
+     "label": "LaSelva",
+     "count": 3
+    },
+    {
+     "value": "Lambertz|",
+     "label": "Lambertz",
+     "count": 37
+    },
+    {
+     "value": "Landgarten|Brands/brand_5281_832509.png",
+     "label": "Landgarten",
+     "count": 33
+    },
+    {
+     "value": "Langnese Honig|",
+     "label": "Langnese Honig",
+     "count": 1
+    },
+    {
+     "value": "Lanwehr|",
+     "label": "Lanwehr",
+     "count": 30
+    },
+    {
+     "value": "Laqtia|",
+     "label": "Laqtia",
+     "count": 1
+    },
+    {
+     "value": "Le Piantagioni Del Caffe'|",
+     "label": "Le Piantagioni Del Caffe'",
+     "count": 4
+    },
+    {
+     "value": "Le Royal|",
+     "label": "Le Royal",
+     "count": 2
+    },
+    {
+     "value": "Lebensbaum|",
+     "label": "Lebensbaum",
+     "count": 2
+    },
+    {
+     "value": "Leeuwenburgh|",
+     "label": "Leeuwenburgh",
+     "count": 1
+    },
+    {
+     "value": "Legends|",
+     "label": "Legends",
+     "count": 10
+    },
+    {
+     "value": "Les Chocolats de Pauline|",
+     "label": "Les Chocolats de Pauline",
+     "count": 39
+    },
+    {
+     "value": "Libertas|",
+     "label": "Libertas",
+     "count": 2
+    },
+    {
+     "value": "Lidl|",
+     "label": "Lidl",
+     "count": 96
+    },
+    {
+     "value": "Liix|",
+     "label": "Liix",
+     "count": 1
+    },
+    {
+     "value": "Little Green Radicals|",
+     "label": "Little Green Radicals",
+     "count": 18
+    },
+    {
+     "value": "Luigi Zaini|",
+     "label": "Luigi Zaini",
+     "count": 1
+    },
+    {
+     "value": "Lukas Bäcker|",
+     "label": "Lukas Bäcker",
+     "count": 6
+    },
+    {
+     "value": "Luxlait|Brands/brand_10415_485646.jpg",
+     "label": "Luxlait",
+     "count": 6
+    },
+    {
+     "value": "Löwen Kaffee|",
+     "label": "Löwen Kaffee",
+     "count": 4
+    },
+    {
+     "value": "MAL Organic|",
+     "label": "MAL Organic",
+     "count": 15
+    },
+    {
+     "value": "MAMAJU|",
+     "label": "MAMAJU",
+     "count": 3
+    },
+    {
+     "value": "MELAWEAR|",
+     "label": "MELAWEAR",
+     "count": 28
+    },
+    {
+     "value": "MIA BELLA|",
+     "label": "MIA BELLA",
+     "count": 8
+    },
+    {
+     "value": "MIKE MITCHELL'S|",
+     "label": "MIKE MITCHELL'S",
+     "count": 1
+    },
+    {
+     "value": "MKTO CATAL IMPORTACIONES S.L.|",
+     "label": "MKTO CATAL IMPORTACIONES S.L.",
+     "count": 23
+    },
+    {
+     "value": "Madame Butterfly|",
+     "label": "Madame Butterfly",
+     "count": 1
+    },
+    {
+     "value": "Maestrani|",
+     "label": "Maestrani",
+     "count": 4
+    },
+    {
+     "value": "Maison Bonange|Brands/brand_10059_687699.jpg",
+     "label": "Maison Bonange",
+     "count": 1
+    },
+    {
+     "value": "Mandoi|",
+     "label": "Mandoi",
+     "count": 1
+    },
+    {
+     "value": "Manner|",
+     "label": "Manner",
+     "count": 3
+    },
+    {
+     "value": "Manner|Brands/brand_7792_453976.jpg",
+     "label": "Manner",
+     "count": 41
+    },
+    {
+     "value": "Manuel Caffe'|",
+     "label": "Manuel Caffe'",
+     "count": 3
+    },
+    {
+     "value": "Mare Kaffee|",
+     "label": "Mare Kaffee",
+     "count": 3
+    },
+    {
+     "value": "Martermühle|",
+     "label": "Martermühle",
+     "count": 2
+    },
+    {
+     "value": "Maître Truffout|Brands/brand_6430_19734.jpg",
+     "label": "Maître Truffout",
+     "count": 133
+    },
+    {
+     "value": "McEnnedy|",
+     "label": "McEnnedy",
+     "count": 2
+    },
+    {
+     "value": "Meister Moulin|",
+     "label": "Meister Moulin",
+     "count": 3
+    },
+    {
+     "value": "Meisterland|",
+     "label": "Meisterland",
+     "count": 2
+    },
+    {
+     "value": "Melange D'Or|",
+     "label": "Melange D'Or",
+     "count": 1
+    },
+    {
+     "value": "Melitta|",
+     "label": "Melitta",
+     "count": 5
+    },
+    {
+     "value": "Menz&Gasser|",
+     "label": "Menz&Gasser",
+     "count": 13
+    },
+    {
+     "value": "Merkle|",
+     "label": "Merkle",
+     "count": 1
+    },
+    {
+     "value": "Meybona|",
+     "label": "Meybona",
+     "count": 28
+    },
+    {
+     "value": "Meyer-Hosen|",
+     "label": "Meyer-Hosen",
+     "count": 1
+    },
+    {
+     "value": "Milana|",
+     "label": "Milana",
+     "count": 7
+    },
+    {
+     "value": "Miners Mate|",
+     "label": "Miners Mate",
+     "count": 2
+    },
+    {
+     "value": "Minor|",
+     "label": "Minor",
+     "count": 41
+    },
+    {
+     "value": "Miofino|",
+     "label": "Miofino",
+     "count": 2
+    },
+    {
+     "value": "Mister Bags|Brands/brand_8719_721925.PNG",
+     "label": "Mister Bags",
+     "count": 36
+    },
+    {
+     "value": "Mokito|",
+     "label": "Mokito",
+     "count": 2
+    },
+    {
+     "value": "Morandini Caffe'|",
+     "label": "Morandini Caffe'",
+     "count": 4
+    },
+    {
+     "value": "More Presents|Brands/brand_9366_32920.png",
+     "label": "More Presents",
+     "count": 8
+    },
+    {
+     "value": "Moser Roth|",
+     "label": "Moser Roth",
+     "count": 16
+    },
+    {
+     "value": "Mount Hagen|",
+     "label": "Mount Hagen",
+     "count": 22
+    },
+    {
+     "value": "Mr. Jones|",
+     "label": "Mr. Jones",
+     "count": 6
+    },
+    {
+     "value": "Munz|",
+     "label": "Munz",
+     "count": 99
+    },
+    {
+     "value": "My E. Bio|Brands/brand_5240_403997.png",
+     "label": "My E. Bio",
+     "count": 1
+    },
+    {
+     "value": "Mäder|Brands/brand_6932_545379.jpg",
+     "label": "Mäder",
+     "count": 1
+    },
+    {
+     "value": "Mövenpick|",
+     "label": "Mövenpick",
+     "count": 3
+    },
+    {
+     "value": "Müller&Müller|",
+     "label": "Müller&Müller",
+     "count": 2
+    },
+    {
+     "value": "Naber|Brands/brand_10699_783501.png",
+     "label": "Naber",
+     "count": 1
+    },
+    {
+     "value": "Napier Winery|",
+     "label": "Napier Winery",
+     "count": 1
+    },
+    {
+     "value": "Napoli|Brands/36689f6a-32fe-478b-8416-89aea5afebd5",
+     "label": "Napoli",
+     "count": 6
+    },
+    {
+     "value": "Naturata|",
+     "label": "Naturata",
+     "count": 29
+    },
+    {
+     "value": "Naturgut|",
+     "label": "Naturgut",
+     "count": 1
+    },
+    {
+     "value": "Naturwert|",
+     "label": "Naturwert",
+     "count": 1
+    },
+    {
+     "value": "Natürlich für uns|Brands/brand_5277_839297.jpg",
+     "label": "Natürlich für uns",
+     "count": 1
+    },
+    {
+     "value": "Nescafé|Brands/brand_248_229102.png",
+     "label": "Nescafé",
+     "count": 2
+    },
+    {
+     "value": "Nespresso|",
+     "label": "Nespresso",
+     "count": 4
+    },
+    {
+     "value": "Netto|",
+     "label": "Netto",
+     "count": 1
+    },
+    {
+     "value": "Neutral|",
+     "label": "Neutral",
+     "count": 2
+    },
+    {
+     "value": "Niehoffs Kaffeerösterei|Brands/brand_6728_765693.jpg",
+     "label": "Niehoffs Kaffeerösterei",
+     "count": 4
+    },
+    {
+     "value": "Niehoffs-Vaihinger|",
+     "label": "Niehoffs-Vaihinger",
+     "count": 2
+    },
+    {
+     "value": "Nielsen-Massey|",
+     "label": "Nielsen-Massey",
+     "count": 2
+    },
+    {
+     "value": "Nivona Bergamo|",
+     "label": "Nivona Bergamo",
+     "count": 1
+    },
+    {
+     "value": "Norma|",
+     "label": "Norma",
+     "count": 1
+    },
+    {
+     "value": "Nostos|",
+     "label": "Nostos",
+     "count": 37
+    },
+    {
+     "value": "Novas Gran Reserva|",
+     "label": "Novas Gran Reserva",
+     "count": 2
+    },
+    {
+     "value": "Nudie Jeans|",
+     "label": "Nudie Jeans",
+     "count": 28
+    },
+    {
+     "value": "Nueva Armonia|",
+     "label": "Nueva Armonia",
+     "count": 3
+    },
+    {
+     "value": "Nusskati|",
+     "label": "Nusskati",
+     "count": 1
+    },
+    {
+     "value": "ORA Caffé|",
+     "label": "ORA Caffé",
+     "count": 2
+    },
+    {
+     "value": "Odylique|",
+     "label": "Odylique",
+     "count": 1
+    },
+    {
+     "value": "Omniflora|",
+     "label": "Omniflora",
+     "count": 20
+    },
+    {
+     "value": "Only|Brands/brand_7364_349001.jpg",
+     "label": "Only",
+     "count": 80
+    },
+    {
+     "value": "Oro de Cacao|",
+     "label": "Oro de Cacao",
+     "count": 10
+    },
+    {
+     "value": "Oronda|",
+     "label": "Oronda",
+     "count": 4
+    },
+    {
+     "value": "Overige|",
+     "label": "Overige",
+     "count": 3
+    },
+    {
+     "value": "Oxfam fair trade|",
+     "label": "Oxfam fair trade",
+     "count": 42
+    },
+    {
+     "value": "PACHECO PEREDA|",
+     "label": "PACHECO PEREDA",
+     "count": 2
+    },
+    {
+     "value": "PALAIS D'EBENE|Brands/brand_6272_719937.jpg",
+     "label": "PALAIS D'EBENE",
+     "count": 19
+    },
+    {
+     "value": "PENNY|",
+     "label": "PENNY",
+     "count": 6
+    },
+    {
+     "value": "Pakka|",
+     "label": "Pakka",
+     "count": 96
+    },
+    {
+     "value": "Papa Inti|",
+     "label": "Papa Inti",
+     "count": 4
+    },
+    {
+     "value": "Paradies|",
+     "label": "Paradies",
+     "count": 3
+    },
+    {
+     "value": "Pelican Rouge|Brands/brand_3635_304787.png",
+     "label": "Pelican Rouge",
+     "count": 40
+    },
+    {
+     "value": "Penny|",
+     "label": "Penny",
+     "count": 31
+    },
+    {
+     "value": "Perky Pear|",
+     "label": "Perky Pear",
+     "count": 1
+    },
+    {
+     "value": "Peter Larsen Kaffe|",
+     "label": "Peter Larsen Kaffe",
+     "count": 1
+    },
+    {
+     "value": "Pfanner|Brands/brand_5318_631072.png",
+     "label": "Pfanner",
+     "count": 6
+    },
+    {
+     "value": "Piacelli - Haselnusscremeaufstriche|",
+     "label": "Piacelli - Haselnusscremeaufstriche",
+     "count": 1
+    },
+    {
+     "value": "Piacelli|Brands/brand_9240_791048.jpg",
+     "label": "Piacelli",
+     "count": 6
+    },
+    {
+     "value": "Pickwick|",
+     "label": "Pickwick",
+     "count": 3
+    },
+    {
+     "value": "Plant-for-the-planet|",
+     "label": "Plant-for-the-planet",
+     "count": 3
+    },
+    {
+     "value": "Portion Pack|Brands/brand_397_326457.png",
+     "label": "Portion Pack",
+     "count": 2
+    },
+    {
+     "value": "Pralin Art|",
+     "label": "Pralin Art",
+     "count": 1
+    },
+    {
+     "value": "Primark|",
+     "label": "Primark",
+     "count": 5
+    },
+    {
+     "value": "ProPlanet|",
+     "label": "ProPlanet",
+     "count": 1
+    },
+    {
+     "value": "Proviant|",
+     "label": "Proviant",
+     "count": 1
+    },
+    {
+     "value": "Pural|",
+     "label": "Pural",
+     "count": 2
+    },
+    {
+     "value": "Pure Fine Selection|",
+     "label": "Pure Fine Selection",
+     "count": 2
+    },
+    {
+     "value": "Puro|Brands/brand_121_840224.jpg",
+     "label": "Puro",
+     "count": 54
+    },
+    {
+     "value": "Qbo|",
+     "label": "Qbo",
+     "count": 4
+    },
+    {
+     "value": "Quite Quiet|",
+     "label": "Quite Quiet",
+     "count": 5
+    },
+    {
+     "value": "RAAVI BIO|Brands/brand_9996_98287.png",
+     "label": "RAAVI BIO",
+     "count": 1
+    },
+    {
+     "value": "REWE Beste Wahl|",
+     "label": "REWE Beste Wahl",
+     "count": 61
+    },
+    {
+     "value": "REWE Bio|",
+     "label": "REWE Bio",
+     "count": 10
+    },
+    {
+     "value": "REWE Feine Welt|",
+     "label": "REWE Feine Welt",
+     "count": 10
+    },
+    {
+     "value": "REWE frei von|",
+     "label": "REWE frei von",
+     "count": 2
+    },
+    {
+     "value": "RUF|",
+     "label": "RUF",
+     "count": 1
+    },
+    {
+     "value": "Rasenreich|Brands/brand_5278_874694.png",
+     "label": "Rasenreich",
+     "count": 28
+    },
+    {
+     "value": "Rauschmayer Green Line|",
+     "label": "Rauschmayer Green Line",
+     "count": 1
+    },
+    {
+     "value": "Red Cherry  |",
+     "label": "Red Cherry  ",
+     "count": 2
+    },
+    {
+     "value": "Red Pelican|",
+     "label": "Red Pelican",
+     "count": 1
+    },
+    {
+     "value": "Redbeans|",
+     "label": "Redbeans",
+     "count": 4
+    },
+    {
+     "value": "Rehorik Heritage|",
+     "label": "Rehorik Heritage",
+     "count": 1
+    },
+    {
+     "value": "Reintüten|",
+     "label": "Reintüten",
+     "count": 1
+    },
+    {
+     "value": "Reismühle Brunnen|",
+     "label": "Reismühle Brunnen",
+     "count": 10
+    },
+    {
+     "value": "Reismühle Nutrex|",
+     "label": "Reismühle Nutrex",
+     "count": 1
+    },
+    {
+     "value": "Reubel|",
+     "label": "Reubel",
+     "count": 4
+    },
+    {
+     "value": "Revilo Guapa|",
+     "label": "Revilo Guapa",
+     "count": 1
+    },
+    {
+     "value": "Rewe|",
+     "label": "Rewe",
+     "count": 7
+    },
+    {
+     "value": "Richie's|",
+     "label": "Richie's",
+     "count": 5
+    },
+    {
+     "value": "Ridiculously Good|",
+     "label": "Ridiculously Good",
+     "count": 4
+    },
+    {
+     "value": "Riegelein Confiserie|",
+     "label": "Riegelein Confiserie",
+     "count": 15
+    },
+    {
+     "value": "Riegelein|",
+     "label": "Riegelein",
+     "count": 53
+    },
+    {
+     "value": "Rii Jii|",
+     "label": "Rii Jii",
+     "count": 5
+    },
+    {
+     "value": "Rioba|",
+     "label": "Rioba",
+     "count": 1
+    },
+    {
+     "value": "Risos Fair|",
+     "label": "Risos Fair",
+     "count": 1
+    },
+    {
+     "value": "Roastelier by Zoegas|",
+     "label": "Roastelier by Zoegas",
+     "count": 1
+    },
+    {
+     "value": "Roggenbruck|",
+     "label": "Roggenbruck",
+     "count": 1
+    },
+    {
+     "value": "Rosengarten|",
+     "label": "Rosengarten",
+     "count": 1
+    },
+    {
+     "value": "Rottaler |",
+     "label": "Rottaler ",
+     "count": 1
+    },
+    {
+     "value": "Royal Mints|",
+     "label": "Royal Mints",
+     "count": 4
+    },
+    {
+     "value": "Rösterei Laufenmühle|",
+     "label": "Rösterei Laufenmühle",
+     "count": 1
+    },
+    {
+     "value": "SOC|",
+     "label": "SOC",
+     "count": 14
+    },
+    {
+     "value": "SPAR Natur*pur|Brands/brand_9044_571563.jpg",
+     "label": "SPAR Natur*pur",
+     "count": 8
+    },
+    {
+     "value": "STAMINA|",
+     "label": "STAMINA",
+     "count": 5
+    },
+    {
+     "value": "Sander|",
+     "label": "Sander",
+     "count": 2
+    },
+    {
+     "value": "Santa Claus in Town|",
+     "label": "Santa Claus in Town",
+     "count": 2
+    },
+    {
+     "value": "Saquella 1856 Srl|",
+     "label": "Saquella 1856 Srl",
+     "count": 1
+    },
+    {
+     "value": "Saveurs & Nature|Brands/brand_9876_848537.jpg",
+     "label": "Saveurs & Nature",
+     "count": 70
+    },
+    {
+     "value": "Schenke|",
+     "label": "Schenke",
+     "count": 2
+    },
+    {
+     "value": "Schirmer Kaffee|",
+     "label": "Schirmer Kaffee",
+     "count": 5
+    },
+    {
+     "value": "Schmitz-Mertens Kaffee|",
+     "label": "Schmitz-Mertens Kaffee",
+     "count": 4
+    },
+    {
+     "value": "SchokoSchatz|",
+     "label": "SchokoSchatz",
+     "count": 5
+    },
+    {
+     "value": "Schuler Gourmet|",
+     "label": "Schuler Gourmet",
+     "count": 1
+    },
+    {
+     "value": "Schweitzer|",
+     "label": "Schweitzer",
+     "count": 26
+    },
+    {
+     "value": "Schäfers Kaffeeoase|",
+     "label": "Schäfers Kaffeeoase",
+     "count": 1
+    },
+    {
+     "value": "Seattle's Best Coffee|",
+     "label": "Seattle's Best Coffee",
+     "count": 1
+    },
+    {
+     "value": "Seeberger GREEN Confianza Espresso|",
+     "label": "Seeberger GREEN Confianza Espresso",
+     "count": 3
+    },
+    {
+     "value": "Seeberger|",
+     "label": "Seeberger",
+     "count": 11
+    },
+    {
+     "value": "Segafredo|",
+     "label": "Segafredo",
+     "count": 1
+    },
+    {
+     "value": "Selecta|",
+     "label": "Selecta",
+     "count": 2
+    },
+    {
+     "value": "Select|",
+     "label": "Select",
+     "count": 11
+    },
+    {
+     "value": "Senesto|",
+     "label": "Senesto",
+     "count": 3
+    },
+    {
+     "value": "Sense Organics|",
+     "label": "Sense Organics",
+     "count": 2
+    },
+    {
+     "value": "Senso|",
+     "label": "Senso",
+     "count": 3
+    },
+    {
+     "value": "Sir Charles|Brands/brand_7370_77189.jpg",
+     "label": "Sir Charles",
+     "count": 8
+    },
+    {
+     "value": "Sister Series|",
+     "label": "Sister Series",
+     "count": 3
+    },
+    {
+     "value": "Sjöstrand|",
+     "label": "Sjöstrand",
+     "count": 8
+    },
+    {
+     "value": "Skee Is|",
+     "label": "Skee Is",
+     "count": 7
+    },
+    {
+     "value": "Smaakt|",
+     "label": "Smaakt",
+     "count": 4
+    },
+    {
+     "value": "Smikkelhuys|",
+     "label": "Smikkelhuys",
+     "count": 5
+    },
+    {
+     "value": "So Vegan So Fine|",
+     "label": "So Vegan So Fine",
+     "count": 6
+    },
+    {
+     "value": "Spice Box|",
+     "label": "Spice Box",
+     "count": 2
+    },
+    {
+     "value": "Sport Thieme|",
+     "label": "Sport Thieme",
+     "count": 10
+    },
+    {
+     "value": "Sportastic|Brands/brand_5258_818011.jpg",
+     "label": "Sportastic",
+     "count": 8
+    },
+    {
+     "value": "St. Benno|",
+     "label": "St. Benno",
+     "count": 4
+    },
+    {
+     "value": "Stainless|",
+     "label": "Stainless",
+     "count": 1
+    },
+    {
+     "value": "Steenbergs|",
+     "label": "Steenbergs",
+     "count": 1
+    },
+    {
+     "value": "Steinecke|",
+     "label": "Steinecke",
+     "count": 4
+    },
+    {
+     "value": "Steinfurter Kaffee|",
+     "label": "Steinfurter Kaffee",
+     "count": 2
+    },
+    {
+     "value": "Stella|",
+     "label": "Stella",
+     "count": 34
+    },
+    {
+     "value": "Stellenrust Block 28|",
+     "label": "Stellenrust Block 28",
+     "count": 1
+    },
+    {
+     "value": "Stellenrust Reserve|",
+     "label": "Stellenrust Reserve",
+     "count": 2
+    },
+    {
+     "value": "Stern|",
+     "label": "Stern",
+     "count": 3
+    },
+    {
+     "value": "Stiegl|",
+     "label": "Stiegl",
+     "count": 2
+    },
+    {
+     "value": "Stop Café|",
+     "label": "Stop Café",
+     "count": 3
+    },
+    {
+     "value": "Storyfabrics|",
+     "label": "Storyfabrics",
+     "count": 13
+    },
+    {
+     "value": "Stutz & Fischer GmbH|",
+     "label": "Stutz & Fischer GmbH",
+     "count": 3
+    },
+    {
+     "value": "Suki Tea|",
+     "label": "Suki Tea",
+     "count": 2
+    },
+    {
+     "value": "Suma|",
+     "label": "Suma",
+     "count": 12
+    },
+    {
+     "value": "Suwi Werbetextilien Import GmbH|",
+     "label": "Suwi Werbetextilien Import GmbH",
+     "count": 1
+    },
+    {
+     "value": "SweetFamily|",
+     "label": "SweetFamily",
+     "count": 2
+    },
+    {
+     "value": "Sí, Claro!|",
+     "label": "Sí, Claro!",
+     "count": 3
+    },
+    {
+     "value": "Südzucker|",
+     "label": "Südzucker",
+     "count": 4
+    },
+    {
+     "value": "TANTO|",
+     "label": "TANTO",
+     "count": 1
+    },
+    {
+     "value": "TATE & LYLE|",
+     "label": "TATE & LYLE",
+     "count": 5
+    },
+    {
+     "value": "TB Brown|",
+     "label": "TB Brown",
+     "count": 3
+    },
+    {
+     "value": "TEAMTEX|",
+     "label": "TEAMTEX",
+     "count": 3
+    },
+    {
+     "value": "TEEKANNE|Brands/brand_6599_181488.jpg",
+     "label": "TEEKANNE",
+     "count": 8
+    },
+    {
+     "value": "TEMINISTERIET|",
+     "label": "TEMINISTERIET",
+     "count": 1
+    },
+    {
+     "value": "TERRES DE CAFE|",
+     "label": "TERRES DE CAFE",
+     "count": 1
+    },
+    {
+     "value": "TEXXILLA|",
+     "label": "TEXXILLA",
+     "count": 16
+    },
+    {
+     "value": "THINK FAIR|",
+     "label": "THINK FAIR",
+     "count": 2
+    },
+    {
+     "value": "THOKKTHOKK|Brands/brand_6763_167777.jpg",
+     "label": "THOKKTHOKK",
+     "count": 12
+    },
+    {
+     "value": "TOUCHORGANIC|Brands/brand_7389_79141.jpg",
+     "label": "TOUCHORGANIC",
+     "count": 1
+    },
+    {
+     "value": "TRUE Coffee|",
+     "label": "TRUE Coffee",
+     "count": 6
+    },
+    {
+     "value": "Tatico|",
+     "label": "Tatico",
+     "count": 20
+    },
+    {
+     "value": "Tchibo BARISTA|Brands/brand_6550_69456.jpg",
+     "label": "Tchibo BARISTA",
+     "count": 5
+    },
+    {
+     "value": "Tchibo Coffee Service Individuell|Brands/brand_9143_718641.jpg",
+     "label": "Tchibo Coffee Service Individuell",
+     "count": 5
+    },
+    {
+     "value": "Tchibo|",
+     "label": "Tchibo",
+     "count": 9
+    },
+    {
+     "value": "Tea Cultures|",
+     "label": "Tea Cultures",
+     "count": 2
+    },
+    {
+     "value": "Tea Quiero|",
+     "label": "Tea Quiero",
+     "count": 10
+    },
+    {
+     "value": "Tea-Friends|",
+     "label": "Tea-Friends",
+     "count": 1
+    },
+    {
+     "value": "Tee Blatt|",
+     "label": "Tee Blatt",
+     "count": 2
+    },
+    {
+     "value": "TeeGschwendner|",
+     "label": "TeeGschwendner",
+     "count": 2
+    },
+    {
+     "value": "Teekampagne|",
+     "label": "Teekampagne",
+     "count": 24
+    },
+    {
+     "value": "Tempelmann's|",
+     "label": "Tempelmann's",
+     "count": 2
+    },
+    {
+     "value": "Terra Naturi|",
+     "label": "Terra Naturi",
+     "count": 3
+    },
+    {
+     "value": "The Good Chocolatier|",
+     "label": "The Good Chocolatier",
+     "count": 5
+    },
+    {
+     "value": "Theater zum Anbeißen|",
+     "label": "Theater zum Anbeißen",
+     "count": 1
+    },
+    {
+     "value": "Thiele Tee|",
+     "label": "Thiele Tee",
+     "count": 1
+    },
+    {
+     "value": "Thurson|",
+     "label": "Thurson",
+     "count": 1
+    },
+    {
+     "value": "Tiktak|Brands/brand_160_429153.jpg",
+     "label": "Tiktak",
+     "count": 2
+    },
+    {
+     "value": "Tilbecks|",
+     "label": "Tilbecks",
+     "count": 1
+    },
+    {
+     "value": "Tioba|",
+     "label": "Tioba",
+     "count": 2
+    },
+    {
+     "value": "Tiroler Röstung|",
+     "label": "Tiroler Röstung",
+     "count": 1
+    },
+    {
+     "value": "Tohi|Brands/brand_161_381068.jpg",
+     "label": "Tohi",
+     "count": 10
+    },
+    {
+     "value": "Tony's Chocolonely|",
+     "label": "Tony's Chocolonely",
+     "count": 21
+    },
+    {
+     "value": "Tonys Factory|Brands/brand_163_58958.jpg",
+     "label": "Tonys Factory",
+     "count": 94
+    },
+    {
+     "value": "Topolino|",
+     "label": "Topolino",
+     "count": 481
+    },
+    {
+     "value": "Topomini|",
+     "label": "Topomini",
+     "count": 166
+    },
+    {
+     "value": "Transgourmet|",
+     "label": "Transgourmet",
+     "count": 14
+    },
+    {
+     "value": "Treets|",
+     "label": "Treets",
+     "count": 6
+    },
+    {
+     "value": "Troxlers- Momente|",
+     "label": "Troxlers- Momente",
+     "count": 12
+    },
+    {
+     "value": "Turm Kaffee|",
+     "label": "Turm Kaffee",
+     "count": 6
+    },
+    {
+     "value": "Udea|",
+     "label": "Udea",
+     "count": 1
+    },
+    {
+     "value": "Uhlsport|",
+     "label": "Uhlsport",
+     "count": 4
+    },
+    {
+     "value": "Uurú|",
+     "label": "Uurú",
+     "count": 1
+    },
+    {
+     "value": "VIRUNGA COFFEE|",
+     "label": "VIRUNGA COFFEE",
+     "count": 20
+    },
+    {
+     "value": "VISTA|Brands/brand_7671_122153.jpg",
+     "label": "VISTA",
+     "count": 1
+    },
+    {
+     "value": "VOSSEN|Brands/brand_5267_541975.jpg",
+     "label": "VOSSEN",
+     "count": 2
+    },
+    {
+     "value": "Van Dyck|",
+     "label": "Van Dyck",
+     "count": 1
+    },
+    {
+     "value": "Van Houten|",
+     "label": "Van Houten",
+     "count": 11
+    },
+    {
+     "value": "VanVaan|",
+     "label": "VanVaan",
+     "count": 4
+    },
+    {
+     "value": "Vanillekiste|Brands/brand_10548_977355.png",
+     "label": "Vanillekiste",
+     "count": 8
+    },
+    {
+     "value": "Vego|Brands/brand_6762_470187.jpg",
+     "label": "Vego",
+     "count": 7
+    },
+    {
+     "value": "Vertuzzi|",
+     "label": "Vertuzzi",
+     "count": 4
+    },
+    {
+     "value": "ViaVerde|Brands/brand_6755_830343.jpg",
+     "label": "ViaVerde",
+     "count": 2
+    },
+    {
+     "value": "Victor Schmidt|Brands/brand_9262_943352.jpg",
+     "label": "Victor Schmidt",
+     "count": 12
+    },
+    {
+     "value": "Viessmann|",
+     "label": "Viessmann",
+     "count": 1
+    },
+    {
+     "value": "Viva|",
+     "label": "Viva",
+     "count": 2
+    },
+    {
+     "value": "Vogeley|",
+     "label": "Vogeley",
+     "count": 51
+    },
+    {
+     "value": "VollCorner|",
+     "label": "VollCorner",
+     "count": 1
+    },
+    {
+     "value": "Vollmer|",
+     "label": "Vollmer",
+     "count": 2
+    },
+    {
+     "value": "Vonatur|Brands/brand_7210_996616.jpg",
+     "label": "Vonatur",
+     "count": 5
+    },
+    {
+     "value": "W Choco Chalet|",
+     "label": "W Choco Chalet",
+     "count": 1
+    },
+    {
+     "value": "WEISS|Brands/brand_6277_274508.png",
+     "label": "WEISS",
+     "count": 4
+    },
+    {
+     "value": "WIEBOLD|",
+     "label": "WIEBOLD",
+     "count": 1
+    },
+    {
+     "value": "Watzmann Qualitätsgetränke|",
+     "label": "Watzmann Qualitätsgetränke",
+     "count": 5
+    },
+    {
+     "value": "Western Cape|",
+     "label": "Western Cape",
+     "count": 1
+    },
+    {
+     "value": "Westhoff|",
+     "label": "Westhoff",
+     "count": 4
+    },
+    {
+     "value": "Wicklein|",
+     "label": "Wicklein",
+     "count": 1
+    },
+    {
+     "value": "Wikana|",
+     "label": "Wikana",
+     "count": 1
+    },
+    {
+     "value": "Wild Strawberry|",
+     "label": "Wild Strawberry",
+     "count": 1
+    },
+    {
+     "value": "Winemakers Selection|",
+     "label": "Winemakers Selection",
+     "count": 3
+    },
+    {
+     "value": "Wish4 Fair Trade|",
+     "label": "Wish4 Fair Trade",
+     "count": 4
+    },
+    {
+     "value": "With a touch of Rose|Brands/brand_254_904455.png",
+     "label": "With a touch of Rose",
+     "count": 5
+    },
+    {
+     "value": "Witor's|",
+     "label": "Witor's",
+     "count": 6
+    },
+    {
+     "value": "Woogie|",
+     "label": "Woogie",
+     "count": 1
+    },
+    {
+     "value": "Würzburger Partner Kaffee|",
+     "label": "Würzburger Partner Kaffee",
+     "count": 3
+    },
+    {
+     "value": "YiGGA|",
+     "label": "YiGGA",
+     "count": 143
+    },
+    {
+     "value": "Yigga|",
+     "label": "Yigga",
+     "count": 34
+    },
+    {
+     "value": "Zaytoun|",
+     "label": "Zaytoun",
+     "count": 2
+    },
+    {
+     "value": "Zentis|",
+     "label": "Zentis",
+     "count": 2
+    },
+    {
+     "value": "biozentrale BioKids|",
+     "label": "biozentrale BioKids",
+     "count": 1
+    },
+    {
+     "value": "biozentrale|",
+     "label": "biozentrale",
+     "count": 3
+    },
+    {
+     "value": "bo&button|",
+     "label": "bo&button",
+     "count": 18
+    },
+    {
+     "value": "borchers|",
+     "label": "borchers",
+     "count": 5
+    },
+    {
+     "value": "café+co|Brands/brand_5296_732164.png",
+     "label": "café+co",
+     "count": 1
+    },
+    {
+     "value": "chicco di caffe|",
+     "label": "chicco di caffe",
+     "count": 3
+    },
+    {
+     "value": "choco'la|",
+     "label": "choco'la",
+     "count": 2
+    },
+    {
+     "value": "coepto|",
+     "label": "coepto",
+     "count": 1
+    },
+    {
+     "value": "coffee perfect|",
+     "label": "coffee perfect",
+     "count": 3
+    },
+    {
+     "value": "de Origen|Brands/brand_250_195164.gif",
+     "label": "de Origen",
+     "count": 13
+    },
+    {
+     "value": "dennree|",
+     "label": "dennree",
+     "count": 1
+    },
+    {
+     "value": "der Kaffeebaron|",
+     "label": "der Kaffeebaron",
+     "count": 2
+    },
+    {
+     "value": "derkaffee|",
+     "label": "derkaffee",
+     "count": 11
+    },
+    {
+     "value": "dmBio|",
+     "label": "dmBio",
+     "count": 7
+    },
+    {
+     "value": "enerBio|",
+     "label": "enerBio",
+     "count": 15
+    },
+    {
+     "value": "fabia|Brands/87402bee-55fa-4ce7-b958-b743bf79d83d",
+     "label": "fabia",
+     "count": 1
+    },
+    {
+     "value": "fairfood Freiburg|",
+     "label": "fairfood Freiburg",
+     "count": 34
+    },
+    {
+     "value": "fairstärkung|",
+     "label": "fairstärkung",
+     "count": 2
+    },
+    {
+     "value": "fairwine|",
+     "label": "fairwine",
+     "count": 3
+    },
+    {
+     "value": "foodloose|",
+     "label": "foodloose",
+     "count": 3
+    },
+    {
+     "value": "graf kaffee|",
+     "label": "graf kaffee",
+     "count": 4
+    },
+    {
+     "value": "i+m Naturkosmetik Berlin GmbH|",
+     "label": "i+m Naturkosmetik Berlin GmbH",
+     "count": 2
+    },
+    {
+     "value": "iChoc|",
+     "label": "iChoc",
+     "count": 7
+    },
+    {
+     "value": "keo|",
+     "label": "keo",
+     "count": 11
+    },
+    {
+     "value": "koawach|",
+     "label": "koawach",
+     "count": 85
+    },
+    {
+     "value": "mela wear Meldung|",
+     "label": "mela wear Meldung",
+     "count": 3
+    },
+    {
+     "value": "memo|",
+     "label": "memo",
+     "count": 17
+    },
+    {
+     "value": "midocean|",
+     "label": "midocean",
+     "count": 9
+    },
+    {
+     "value": "naturwunder|",
+     "label": "naturwunder",
+     "count": 2
+    },
+    {
+     "value": "palatina|",
+     "label": "palatina",
+     "count": 2
+    },
+    {
+     "value": "printwear|",
+     "label": "printwear",
+     "count": 10
+    },
+    {
+     "value": "puda|",
+     "label": "puda",
+     "count": 1
+    },
+    {
+     "value": "punero|",
+     "label": "punero",
+     "count": 3
+    },
+    {
+     "value": "tentree|",
+     "label": "tentree",
+     "count": 12
+    },
+    {
+     "value": "tg natura|",
+     "label": "tg natura",
+     "count": 8
+    },
+    {
+     "value": "toom|",
+     "label": "toom",
+     "count": 5
+    },
+    {
+     "value": "van Strien|Brands/brand_3578_870602.jpg",
+     "label": "van Strien",
+     "count": 2
+    },
+    {
+     "value": "world of textiles|",
+     "label": "world of textiles",
+     "count": 1
+    },
+    {
+     "value": "yumeko|",
+     "label": "yumeko",
+     "count": 6
+    },
+    {
+     "value": "|",
+     "label": "",
+     "count": 28
+    },
+    {
+     "value": "Ökotopia|",
+     "label": "Ökotopia",
+     "count": 41
+    },
+    {
+     "value": "Ökovital|",
+     "label": "Ökovital",
+     "count": 3
+    },
+    {
+     "value": "Ölz|Brands/brand_9867_965609.png",
+     "label": "Ölz",
+     "count": 9
+    }
+   ]
+  },
+  "deMainCategory": {
+   "name": "facet-deMainCategory",
+   "options": [
+    {
+     "value": "10|Textilien|Katoen.jpg",
+     "label": "Textilien",
+     "count": 1581
+    },
+    {
+     "value": "11|Eis und Desserts|ijs en dessert.jpg",
+     "label": "Eis und Desserts",
+     "count": 63
+    },
+    {
+     "value": "12|Reis und Quinoa|rijst en quinoa.jpg",
+     "label": "Reis und Quinoa",
+     "count": 69
+    },
+    {
+     "value": "13|Gewürze und Öle|kruidenCat.jpg",
+     "label": "Gewürze und Öle",
+     "count": 94
+    },
+    {
+     "value": "14|Rohrzucker|rietsuiker.jpg",
+     "label": "Rohrzucker",
+     "count": 51
+    },
+    {
+     "value": "15|Alkoholische Getränke|Wine.jpg",
+     "label": "Alkoholische Getränke",
+     "count": 96
+    },
+    {
+     "value": "16|Gold & Schmuck|Sieraden.jpg",
+     "label": "Gold & Schmuck",
+     "count": 30
+    },
+    {
+     "value": "17|Gebäck und Süßigkeiten|snoep.jpg",
+     "label": "Gebäck und Süßigkeiten",
+     "count": 445
+    },
+    {
+     "value": "1|Kaffee|koffieCat.jpg",
+     "label": "Kaffee",
+     "count": 1105
+    },
+    {
+     "value": "21|Andere|logo.jpg",
+     "label": "Andere",
+     "count": 242
+    },
+    {
+     "value": "2|Kakao/Schokolade|chocolade.jpg",
+     "label": "Kakao/Schokolade",
+     "count": 2332
+    },
+    {
+     "value": "3|Tee|thee.jpg",
+     "label": "Tee",
+     "count": 437
+    },
+    {
+     "value": "4|Säfte und kühle Getränke|Juices.jpg",
+     "label": "Säfte und kühle Getränke",
+     "count": 80
+    },
+    {
+     "value": "5|Kosmetika|cosmetica.jpg",
+     "label": "Kosmetika",
+     "count": 118
+    },
+    {
+     "value": "6|Blumen und Pflanzen|Bloemen.jpg",
+     "label": "Blumen und Pflanzen",
+     "count": 105
+    },
+    {
+     "value": "7|Früchte und Gemüse|Fruit en groente.jpg",
+     "label": "Früchte und Gemüse",
+     "count": 38
+    },
+    {
+     "value": "8|Nüsse, Chips und Trockenfrüchte|NotenCat.jpg",
+     "label": "Nüsse, Chips und Trockenfrüchte",
+     "count": 118
+    },
+    {
+     "value": "9|Aufstriche und Müsli|Broodbeleg en muesli.jpg",
+     "label": "Aufstriche und Müsli",
+     "count": 171
+    },
+    {
+     "value": "||",
+     "label": "||",
+     "count": 1
+    }
+   ]
+  },
+  "organic": {
+   "name": "facet-organic",
+   "options": [
+    {
+     "value": "false",
+     "label": "Nicht biologisch",
+     "count": 4085
+    },
+    {
+     "value": "true",
+     "label": "Biologisch",
+     "count": 3090
+    }
+   ]
+  }
+ },
+ "products": [
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.171947.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_171947_245438.JPG",
+   "merchant": "BAD BOYZ SOCCER",
+   "title": "Merchandising 841-843"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170800.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_170800_387230.jpg",
+   "merchant": "Aqua Verde",
+   "title": "Aqua Verde Coconutwater 0,33L DE/EN/FR/NL/PL"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170802.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_170802_552665.jpg",
+   "merchant": "Aqua Verde",
+   "title": "Aqua Verde Coconutwater 1L DE/EN/FR/NL/PL/SE/DK/ES"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168970.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_168970_220263.jpg",
+   "merchant": "Topolino",
+   "title": "Kinder Mädchen T-shirt 876545"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168116.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_168116_861004.jpg",
+   "merchant": "Oro de Cacao",
+   "title": "Napolitains dark, 100 Pzt Cacao Fruit, 1kg"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170471.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_170471_133730.jpg",
+   "merchant": "Vogeley",
+   "title": "Bio Kochpudding Schokolade FT"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168354.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_168354_132703.png",
+   "merchant": "Minor",
+   "title": "Original Tafel"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.164877.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_164877_50982.jpg",
+   "merchant": "YiGGA",
+   "title": "Kinder Jungen Sweatshirt 875331"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.166180.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_166180_359941.png",
+   "merchant": "Yigga",
+   "title": "Kinder Jungen Sweatshirt 875337"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.168515.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_168515_435496.png",
+   "merchant": "Minor",
+   "title": "Merry Christmas Box"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170577.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_170577_385375.png",
+   "merchant": "Novas Gran Reserva",
+   "title": "Novas Chardonnay 2025"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170493.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_170493_203725.png",
+   "merchant": "Adobe Reserva",
+   "title": "Adobe Sauvignon Blanc 2026"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170494.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_170494_270360.png",
+   "merchant": "Adobe Reserva",
+   "title": "Adobe Chardonnay 2026"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.167149.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_167149_225043.png",
+   "merchant": "Minor",
+   "title": "Himbeere (5 x 22g)"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170318.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_170318_550150.png",
+   "merchant": "Munz",
+   "title": "Munz Glückskäfer Bottle 150g"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.165822.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_165822_743361.png",
+   "merchant": "REWE Beste Wahl",
+   "title": "RBW Massive Kugeln AVM 180g im Netz"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.164473.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_164473_281125.jpg",
+   "merchant": "Topolino",
+   "title": "Kinder Mädchen T-Shirt_875016"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.170320.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_170320_369041.png",
+   "merchant": "Minor",
+   "title": "Original Bottle 150g"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.145417.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_145417_764228.png",
+   "merchant": "REWE Bio",
+   "title": "Rewe Bio Kakao Nibs"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.165824.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_165824_695153.png",
+   "merchant": "REWE Beste Wahl",
+   "title": "RBW Schoko Kugeln mit Pistazien Creme 100g"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.165825.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_165825_363436.png",
+   "merchant": "REWE Beste Wahl",
+   "title": "RBW Schoko Kugeln mit Speculoo Creme 100g"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.166586.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_166586_811816.png",
+   "merchant": "Douceur",
+   "title": "Douceur Weihnachtsfiguren Reiterbeutel Herz"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.166435.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_166435_643544.png",
+   "merchant": "Douceur",
+   "title": "Douceur Kugeln mit Milchcreme 180g im Netz"
+  },
+  {
+   "href": "https://www.fairtrade.net/de-de/produkte/Produktfinder/product-detail-page.164883.html",
+   "image": "https://images.connectfairtrade.org/Products/visibility_164883_615289.jpg",
+   "merchant": "Yigga",
+   "title": "Kinder Mädchen Sweatshirt 875380"
+  }
+ ],
+ "labels": {
+  "more": "Mehr erfahren",
+  "currentPage": "Aktuelle Seite, Seite  ",
+  "goToPage": "Gehe zu Seite "
+ }
+}

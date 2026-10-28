@@ -1,0 +1,475 @@
+{
+ "source": "http://localhost:8771/en-products-fairtrade_products-cocoa-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "PageLead",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Cocoa"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Cocoa is the product behind the sweetest of treats: chocolate. Except there’s a bitter reality at the heart of this highly prized commodity – the cocoa farmers around the world who often struggle to make a living."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The cocoa industry"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Some six million people worldwide depend on cocoa farming for their livelihood. Cocoa is farmed in hot and humid parts of the world, predominantly West Africa, Latin America and South-East Asia. Côte d’Ivoire is the largest producer and exporter globally."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Cocoa farming is hard work. The ripe cocoa pods are harvested from the tree and split open to reveal the wet beans inside. These are then fermented for up to seven days, and then carefully dried. The beans are cleaned, packed and transported. Despite all this effort, many cocoa farmers live in poverty despite the cocoa sector being a billion-dollar industry."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "TextImage--wrapper",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our interactive cocoa dashboard"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Browse this set of Fairtrade cocoa data to learn more about cooperatives, farmers, production and sales, and how the Fairtrade Premium is benefitting almost half a million Fairtrade cocoa farmers around the world."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore the Cocoa Dashboard",
+     "href": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa/fairtrade-cocoa-dashboard.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "NumberFactTeaser",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "+711K MT"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "of Fairtrade cocoa was produced in 2023"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "398"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Fairtrade certified cocoa producer organisations in 2023"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€57 million"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "in Fairtrade Premium earned by cocoa producers in 2023"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Go to the previous fact"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Go to the next fact"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Cocoa"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Fast facts"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Here are a few facts about Fairtrade cocoa you should know."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "BUTTON.Button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.NumberFactTeaser--item",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Current challenges"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "There are many hurdles facing the long-term sustainability of the cocoa sector. That includes widespread poverty, deforestation, gender inequality, child labour and forced labour. This prevents farmers from investing in and developing their farms, continuing the cycle of poverty."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Low incomes."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Women cocoa farmers in some producer countries often have limited access to resources and are discriminated against."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gender inequality."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "According to a 2020 report, more than 1.5 million children aged five to 17 have been found to be working on cocoa farms in Côte d'Ivoire and Ghana."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Child labour has increased."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "That means cocoa farmers have little influence on the price they are paid for what they grow."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Power in the chocolate industry is highly concentrated."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Unpredictable weather patterns, along with diseases and pests, are impacting cocoa production."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "The climate crisis is affecting cocoa farms."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": ", which can see farms expand into forested areas. The industry's imbalance exacerbates environmental and economic strains for farmers. Deforestation also further contributes to the climate crisis."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Deforestation due to limited control over pricing and the need for cocoa"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "“Cocoa is very important for me and my family. For me, Fairtrade ensures fair trade in cocoa. The goal is to create a win-win situation for all sides.”"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dah Oho, cocoa farmer at ECAKOG, Ivory Coast"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "H3.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "SingleImage",
+   "items": [],
+   "imgCount": 2,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "TextImage--wrapper",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade West Africa Cocoa Programme dashboard"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The Fairtrade West Africa Cocoa Programme seeks to build strong and resilient small-scale producer organisations that are responsive to their members’ and their business partners’ needs. It covers Côte d'Ivoire, Ghana and Sierra Leone."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore the West Africa Cocoa Programme dashboard",
+     "href": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa/west-africa-cocoa-programme-dashboard.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How Fairtrade makes a difference"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "If we want to enjoy a future where chocolate isn’t just a rare luxury, the cocoa business needs to change. There are over 450,000 Fairtrade cocoa farmers representing almost a quarter of all farmers and workers."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Fairtrade’s living income strategy is pushing for a livelihood that covers cocoa farmers’ business costs and enough for basic human rights, such as nutritious food and education for their children. Fairtrade cocoa farmers have the security net of the for what they grow, for when market prices drop. Organic production is incentivised with a higher Minimum Price. Farmers also receive the , which they choose how to invest, for example replacing old cocoa trees."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Decent livelihoods."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Fairtrade Minimum Price"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Fairtrade Premium"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "A programme is supporting Fairtrade certified cocoa cooperatives in Côte d'Ivoire and Ghana to strengthen prevention and remediation of child labour and forced labour."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Protecting young people."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Fairtrade works with key industry players so that they can source large volumes of sustainably produced cocoa. This means more benefits for farmers."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Sourcing."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "This recognises that greater opportunities for women benefit everyone. Fairtrade Africa’s Women’s School of Leadership has seen young women promoted as leaders in cocoa cooperatives."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Gender equity."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "By supporting smallholder farmers to join together into cooperatives and associations, farmers can negotiate better terms of trade and reach more markets. An evaluation of our West African cooperative support programme found partcipating coopatives had increased professionalisation, accountability and transparency."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Stronger together."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "The Fairtrade Standards for cocoa align with requirements in the EUDR, including a cut-off date that exceeds the EUDR requirement, requiring geolocation data, and risk assessments and mitigation requirements."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Protecting forests:"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Read more.",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/deforestation.html"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Via specific programmes and standards criteria Fairtrade works with farmers to adapt to unpredictable weather patterns, mitigate environmental risks, and build a more resilient cocoa industry."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Climate resilience."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "TextImage--wrapper",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Sankofa - Where Forest Restoration and Farmer Prosperity Grow Together"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sankofa promotes cocoa farming that regenerates forest ecosystems while strengthening farmers’ livelihoods. Launched in 2019 in partnership with the Kuapa Kokoo Farmers Union—one of Ghana’s largest Fairtrade-certified cocoa cooperatives with 105,000 members—Sankofa focuses on the promotion of Dynamic Agroforestry (DAF) as a sustainable alternative to conventional cocoa farming. DAF involves combining cocoa with a diverse mix of crops and tree species with different life cycles to create a self-sustaining, productive ecosystem that mimics the natural succession and biodiversity of a forest. This approach not only enhances soil health and climate resilience but also generates year-round harvests, contributing to food security and diversified household incomes. By the end of 2025, the project aims to reach around 1,400 farmers, each cultivating at least 0.25 hectares of land using DAF practices."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Fairtrade cocoa is good for people, planet and business."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

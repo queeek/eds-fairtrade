@@ -1,0 +1,459 @@
+{
+ "source": "http://127.0.0.1:8771/en-why-fairtrade-what-we-do-key-benefits-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "PageLead",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Key benefits of Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade is a better way of shopping and doing business – uniting farmers, shoppers, businesses and governments to co-create a world that is fair to people and the planet."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Here is what makes us stand out:"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "1.An equal say"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The only global sustainability standard where farmers and workers have representation at all levels of governance, including 50 percent of decision-making power in the general assembly."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "2. Priority on Price"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "We’re the only certification system to set minimum prices for all major commodities - an essential safety net for producers. We’re also leading the way on , setting reference prices that companies can choose to pay, to do their part towards fair incomes."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "living income and living wage",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/decent-livelihoods.html"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "3. Fixed Fairtrade Premium"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "The unique Fairtrade Premium is an extra sum of money which farmers and workers receive from companies on top of the Fairtrade Minimum Price, to invest in community or business projects of their choice."
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "4. Strong Standards"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Fairtrade Standards are continuously updated to match new realities that farmers face. Rigorous Standards support farmers and workers to protect their land, health and livelihoods. They also promote environmentally sustainable practices, and support compliance with HREDD regulation, guiding businesses to prevent and mitigate human rights and environmental risks."
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "5. Democratic and inclusive"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Fairtrade requires farmers and workers to organise collectively, for example in cooperatives, with democratic and transparent structures, so they have greater bargaining power and control over their businesses. Our Standards promote equality and have zero tolerance of discrimination."
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "6. Local experts – local support"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Fairtrade provides support and expertise through the producer networks in Africa, Asia and Pacific, and Latin America and the Caribbean – run for and by farmers and workers. We also have offices in many major consumer markets and a strong grassroots network of local supporters and campaigners."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 13,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "SingleImage",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "\"Since we started working with Fairtrade, the economy has improved despite the costs involved in certifications and legal status. Over the years, we have been able to sell our production, and we are proud. Being part of Fairtrade is wonderful. It strengthens us.\" says Germán Antonio Mendoza, President of the APRAVI organization"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "No matter who you are, Fairtrade brings you an opportunity to positively impact people and planet – and is good for you as well."
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Good for farmers and workers"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Small-scale farmers and plantation workers are among the most disadvantaged by the global trade system. At Fairtrade, they are at the heart of everything we do. Unique among certification schemes, farmers and workers have equal representation in how Fairtrade is run."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "For farmers and workers, Fairtrade means:"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Better prices and the Fairtrade Premium to invest in their businesses and communities"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "An equal say in how Fairtrade is run"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Decent working conditions and a ban on discrimination, forced labour and child labour"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Support on implementing environmentally friendly farming practices and adapting to climate change"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Being able to plan more for the future"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Read about"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Fairtrade’s impact for farmers and workers .",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/impact.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Good for business"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sustainable consumption and business has become the expectation rather than the exception. Fairtrade helps businesses of all sizes meet their sustainability and supply chain needs. For businesses, Fairtrade means:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Consumers know and trust Fairtrade – the most widely recognised ethical label in the world"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Recognition:"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Fairtrade offers different approaches that enable companies to make their supply chains sustainable and transparent."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Sourcing models that meet your needs:"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Whether you’re a business taking the first steps on your human rights and environmental due diligence (HREDD) journey or looking for more in-depth risk assessments and action plans, Fairtrade is your partner."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Due diligence expertise:"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Fairtrade’s certification system is rigorous, independent and aligned with best-in-class practice, involving regular on-site visits by trained auditors."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "A certification and assurance system you can trust:"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Find out how to"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "trade or retail Fairtrade certified products.",
+     "href": "https://www.fairtrade.net/en/for-business.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "SingleImage",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Nearly nine in ten people who recognize the Fairtrade label trust it, compared with much lower trust in companies’ self-reported sustainability performance according to the 2023 Globescan study"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Good for shoppers"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The FAIRTRADE Mark is a trusted symbol for shoppers looking to make a real impact. In a world cluttered with confusing claims and greenwashing, this mark assures consumers that specific products meet high environmental, social, and economic standards."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "By choosing Fairtrade certified products, you make an ethical purchase but also become part of a movement that supports fair wages, sustainable farming practices, and community development."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "There is an extensive range of Fairtrade products available."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "RichtextSection",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Good for the planet"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Farmers are on the frontline of climate change. This is apparent in changing weather patterns, shifting harvest seasons and countless other indicators of this devastating shift. For years, Fairtrade has worked to protect the environment through measures such as:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Banning toxic pesticides and GMO seeds"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Protecting biodiversity and responsible water use"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Incentivising organic farming practices"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Training and programmes on adapting to climate change"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Incorporating climate criteria into our standards"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Read more",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/climate-and-the-environment.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "TextImage--wrapper",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Testimonials"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "\"Fairtrade helps our community become more autonomous and stronger. It allows us to invest money and energy in projects that support our real needs.\" says Leonardo Mena Arias, worker and mechanic at UBPC Bermejal."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "More producer stories",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

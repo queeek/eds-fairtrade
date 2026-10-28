@@ -1,0 +1,196 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-28T13:46:54.190Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-28T13:46:54.190Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "ch-de",
+    "de-de",
+    "en",
+    "en-products-fairtrade_products",
+    "en-products-fairtrade_products-cocoa",
+    "en-search-results",
+    "en-why-fairtrade-what-we-do-key-benefits",
+    "en-get-involved-press-centre",
+    "de-de-produkte-produktfinder"
+  ],
+  "steps": [
+    {
+      "slug": "ch-de",
+      "path": "/ch-de",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [
+        "product-teaser-carousel"
+      ],
+      "reuse": [
+        "page-lead",
+        "page-hero-carousel",
+        "number-fact-teaser",
+        "accordion",
+        "teaser-grid",
+        "cta-section",
+        "text-image"
+      ]
+    },
+    {
+      "slug": "de-de",
+      "path": "/de-de",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        "page-lead",
+        "page-hero-carousel",
+        "number-fact-teaser",
+        "text-image",
+        "accordion",
+        "teaser-grid"
+      ]
+    },
+    {
+      "slug": "en",
+      "path": "/en",
+      "templateId": "en",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "page-hero-carousel",
+          "edsBlockName": "page-hero-carousel"
+        },
+        {
+          "id": "number-fact-teaser",
+          "edsBlockName": "number-fact-teaser"
+        },
+        {
+          "id": "teaser-grid",
+          "edsBlockName": "teaser-grid"
+        },
+        {
+          "id": "cta-section",
+          "edsBlockName": "cta-section"
+        },
+        {
+          "id": "text-image",
+          "edsBlockName": "text-image"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "en-products-fairtrade_products",
+      "path": "/en/products/Fairtrade_products",
+      "templateId": "en-products-fairtrade_products",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "page-lead",
+          "edsBlockName": "page-lead"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "teaser-grid",
+          "edsBlockName": "teaser-grid",
+          "convertedBy": "en"
+        }
+      ]
+    },
+    {
+      "slug": "en-products-fairtrade_products-cocoa",
+      "path": "/en/products/Fairtrade_products/cocoa",
+      "templateId": "en-products-fairtrade_products-cocoa",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "page-lead",
+          "edsBlockName": "page-lead",
+          "convertedBy": "en-products-fairtrade_products"
+        },
+        {
+          "id": "text-image",
+          "edsBlockName": "text-image",
+          "convertedBy": "en"
+        },
+        {
+          "id": "number-fact-teaser",
+          "edsBlockName": "number-fact-teaser",
+          "convertedBy": "en"
+        },
+        {
+          "id": "cta-section",
+          "edsBlockName": "cta-section",
+          "convertedBy": "en"
+        }
+      ]
+    },
+    {
+      "slug": "en-search-results",
+      "path": "/en/search-results",
+      "templateId": "en-search-results",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "search",
+          "edsBlockName": "search"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "en-why-fairtrade-what-we-do-key-benefits",
+      "path": "/en/why-fairtrade/what-we-do/key-benefits",
+      "templateId": "en-why-fairtrade-what-we-do-key-benefits",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "page-lead",
+          "edsBlockName": "page-lead",
+          "convertedBy": "en-products-fairtrade_products"
+        },
+        {
+          "id": "text-image",
+          "edsBlockName": "text-image",
+          "convertedBy": "en"
+        }
+      ]
+    },
+    {
+      "slug": "en-get-involved-press-centre",
+      "path": "/en/get-involved/Press-centre",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-de-produkte-produktfinder",
+      "path": "/de-de/produkte/Produktfinder",
+      "templateId": "search",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    }
+  ]
+}

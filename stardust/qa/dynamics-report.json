@@ -1,0 +1,119 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-28T19:40:11.528Z",
+  "origin": "https://main--bdafc086--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "header mega menu, search overlay, locale selector, mobile drawer",
+   "id": "m-header",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header [aria-controls=\"topbar-search\"] (min 1)",
+   "thirdParty": "",
+   "ms": 3559,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header mega menu, search overlay, locale selector, mobile drawer",
+   "id": "m-header",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × header [aria-controls=\"locale-selector\"] (min 1)",
+   "thirdParty": "",
+   "ms": 2202,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header mega menu, search overlay, locale selector, mobile drawer",
+   "id": "m-header",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × header [aria-controls^=\"flyout-\"] (min 3)",
+   "thirdParty": "",
+   "ms": 2192,
+   "environmentLimit": null
+  },
+  {
+   "feature": "site search results page (?q=)",
+   "id": "s-search",
+   "class": "S",
+   "status": "interim",
+   "type": "search-query",
+   "pass": true,
+   "detail": "49 results (source 49) · first: coffee tree management - climate academy 2020 · matches the source",
+   "thirdParty": "",
+   "ms": 2783,
+   "environmentLimit": null
+  },
+  {
+   "feature": "DE Produkt-Finder filters + product grid",
+   "id": "l-product-finder",
+   "class": "L",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "24 × .pf-product-teaser-grid-card (min 24)",
+   "thirdParty": "images.connectfairtrade.org:200×12",
+   "ms": 4768,
+   "environmentLimit": null
+  },
+  {
+   "feature": "news / press / product teaser grids and carousels",
+   "id": "l-teasers",
+   "class": "L",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .teaser-grid (min 1)",
+   "thirdParty": "",
+   "ms": 2230,
+   "environmentLimit": null
+  },
+  {
+   "feature": "news / press / product teaser grids and carousels",
+   "id": "l-teasers",
+   "class": "L",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .page-hero-carousel (min 1)",
+   "thirdParty": "",
+   "ms": 2229,
+   "environmentLimit": null
+  },
+  {
+   "feature": "all delivered pages run without script errors",
+   "id": "pages",
+   "class": "A",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 9 page(s)",
+   "thirdParty": "",
+   "ms": 20410,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (1 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6308,
+   "environmentLimit": null
+  }
+ ]
+}

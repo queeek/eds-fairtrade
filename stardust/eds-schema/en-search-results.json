@@ -1,0 +1,971 @@
+{
+ "source": "http://localhost:8795/en-search-results-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "search-results",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Search Results"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Clear the value of the input"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Submit the form to perform a search"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "49"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "results for"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "results for"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Tree Management - Climate Academy 2020"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "https://www.fairtrade.net/en/get-involved/library/coffee-tree-management---climate-academy-2020.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/coffee-tree-management---climate-academy-2020.html"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Monitoring the scope and benefits of Fairtrade: – Monitoring report, 10th Edition"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--coffee---monitor.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--coffee---monitor.html"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Fairtrade increases Minimum Price as farmers face mounting economic and climate pressures"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "https://www.fairtrade.net/en/get-involved/news/fairtrade-increases-coffee-minimum-price-as-farmers-face-mountin.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/fairtrade-increases-coffee-minimum-price-as-farmers-face-mountin.html"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Realistic and fair prices for farmers are a non-negotiable for the future of"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "https://www.fairtrade.net/en/get-involved/news/realistic-and-fair-prices-for-coffee-farmers-are-a-non-negotiabl.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/realistic-and-fair-prices-for-coffee-farmers-are-a-non-negotiabl.html"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Fairtrade Standard update expands deforestation prevention"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "https://www.fairtrade.net/en/get-involved/news/fairtrade-coffee-standard-update-expands-deforestation-preventio.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/fairtrade-coffee-standard-update-expands-deforestation-preventio.html"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Honduran farmers hope for a brighter future"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "https://www.fairtrade.net/en/get-involved/news/honduran-coffee-farmers-hope-for-a-brighter-future.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/honduran-coffee-farmers-hope-for-a-brighter-future.html"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Listen up Fairtrade enthusiasts"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "https://www.fairtrade.net/en/get-involved/news/listen-up-fairtrade-coffee-enthusiasts.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/listen-up-fairtrade-coffee-enthusiasts.html"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Fairtrade Standard update expands deforestation prevention"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "https://www.fairtrade.net/en/get-involved/news/fairtrade-coffee-standard-update-expands-deforestation-preventio0.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/fairtrade-coffee-standard-update-expands-deforestation-preventio0.html"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Six facts you did not know about (Fairtrade)"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "https://www.fairtrade.net/en/get-involved/news/six-facts-you-did-not-know-about--fairtrade--coffee.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/six-facts-you-did-not-know-about--fairtrade--coffee.html"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "With a new Living Income Reference Price for coffee from Uganda, some reflections on what we've learned"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "https://www.fairtrade.net/en/get-involved/news/with-a-new-living-income-reference-price-for-coffee-from-uganda-.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/with-a-new-living-income-reference-price-for-coffee-from-uganda-.html"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "With a new Living Income Reference Price for from Uganda, some reflections on what we've learned"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "What’s the future of ? A living income for farmers."
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "https://www.fairtrade.net/en/get-involved/news/what-s-the-future-of-coffee--a-living-income-for-farmers-.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/what-s-the-future-of-coffee--a-living-income-for-farmers-.html"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "How Fairtrade cooperative Red Ecolsierra is strengthening deforestation prevention"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "https://www.fairtrade.net/en/get-involved/news/how-coffee-cooperative-red-ecolsierra-is-strengthening-deforestation-protection.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/how-coffee-cooperative-red-ecolsierra-is-strengthening-deforestation-protection.html"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Sowing the seeds of child protection on Honduras’s farms"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-/sowing-the-seeds-of-child-protection-on-honduras-s-coffee-farms.html",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-/sowing-the-seeds-of-child-protection-on-honduras-s-coffee-farms.html"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Heroes - Alessandro and the solar park on the mountain"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-/Alessandro-and-the-solar-park-on-the-mountain.html",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-/Alessandro-and-the-solar-park-on-the-mountain.html"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Heroes - Ana Christina and shade trees"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-/Coffee-Heroes-Ana-Christina-and-shade-trees.html",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-/Coffee-Heroes-Ana-Christina-and-shade-trees.html"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Coffee Heroes - Paulos' vision for the future of coffee"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-/Coffee-Heroes-Paulos-vision-for-the-future-of-coffee.html",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-/Coffee-Heroes-Paulos-vision-for-the-future-of-coffee.html"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Heroes - Paulos' vision for the future of"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Coffee"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Finding new markets for Rwandan"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-/Finding-new-markets-for-Rwandan-coffee.html",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/impact/impact-stories-/Finding-new-markets-for-Rwandan-coffee.html"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "https://www.fairtrade.net/en/products/Fairtrade_products/coffee.html",
+     "href": "https://www.fairtrade.net/en/products/Fairtrade_products/coffee.html"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards/who-we-have-standards-for/standards-for-small-scale-producer-organisations/coffee.html",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards/who-we-have-standards-for/standards-for-small-scale-producer-organisations/coffee.html"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Fairtrade International secures a stronger safety net for farmers with new minimum prices"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "https://www.fairtrade.net/en/get-involved/Press-centre/fairtrade-international-secures-a-stronger-safety-net-for-coffee.html",
+     "href": "https://www.fairtrade.net/en/get-involved/Press-centre/fairtrade-international-secures-a-stronger-safety-net-for-coffee.html"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Fairtrade International and the initiative for coffee&climate partner to build a more sustainable future for coffee farmers throughout the world"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "https://www.fairtrade.net/en/get-involved/Press-centre/fairtrade-international-and-the-initiative-for-coffee-climate-pa.html",
+     "href": "https://www.fairtrade.net/en/get-involved/Press-centre/fairtrade-international-and-the-initiative-for-coffee-climate-pa.html"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Fairtrade International and the initiative for &climate partner to build a more sustainable future for farmers throughout the world"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Fairtrade International and the initiative for coffee&climate partner to build a more sustainable future for coffee farmers throughout the world"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "https://www.fairtrade.net/en/fairtrade-international-and-the-initiative-for-coffee-climate-pa.html",
+     "href": "https://www.fairtrade.net/en/fairtrade-international-and-the-initiative-for-coffee-climate-pa.html"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Fairtrade International and the initiative for &climate partner to build a more sustainable future for farmers throughout the world"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "High prices and Fairtrade value"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "https://www.fairtrade.net/en/high-coffee-prices-and-fairtrade-value.html",
+     "href": "https://www.fairtrade.net/en/high-coffee-prices-and-fairtrade-value.html"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "High prices and Fairtrade value"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "https://www.fairtrade.net/en/get-involved/news/high-coffee-prices-and-fairtrade-value.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/high-coffee-prices-and-fairtrade-value.html"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Meet Colleen Anunu, Fairtrade’s Senior Advisor for"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "https://www.fairtrade.net/en/get-involved/news/meet-colleen-anunu.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/meet-colleen-anunu.html"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "Five Fairtrade facts"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "https://www.fairtrade.net/en/get-involved/news/five-fairtrade-coffee-facts.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/five-fairtrade-coffee-facts.html"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Five Fairtrade facts"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "https://www.fairtrade.net/en/five-fairtrade-coffee-facts.html",
+     "href": "https://www.fairtrade.net/en/five-fairtrade-coffee-facts.html"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Four insights about preparing for EUDR from a producer and importer"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "https://www.fairtrade.net/en/get-involved/news/four-insights-about-preparing-for-eudr.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/four-insights-about-preparing-for-eudr.html"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Four insights about preparing for EUDR from a producer and importer"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "https://www.fairtrade.net/en/four-insights-about-preparing-for-eudr.html",
+     "href": "https://www.fairtrade.net/en/four-insights-about-preparing-for-eudr.html"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "Fairtrade Dashboard"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "https://www.fairtrade.net/en/products/Fairtrade_products/coffee/fairtrade-coffee-dashboard.html",
+     "href": "https://www.fairtrade.net/en/products/Fairtrade_products/coffee/fairtrade-coffee-dashboard.html"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "EUDR solutions for partners"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "coffee"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "https://www.fairtrade.net/en/products/Fairtrade_products/coffee/eudr-solutions-for-coffee-partners.html",
+     "href": "https://www.fairtrade.net/en/products/Fairtrade_products/coffee/eudr-solutions-for-coffee-partners.html"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "Fairtrade International’s response to the Barometer 2026"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "https://www.fairtrade.net/en/get-involved/Press-centre/fairtrade-international-response-to-the-coffee-barometer-2026.html",
+     "href": "https://www.fairtrade.net/en/get-involved/Press-centre/fairtrade-international-response-to-the-coffee-barometer-2026.html"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "Price review:"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 113,
+     "text": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards/standards-work-in-progress/price-review-coffee.html",
+     "href": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards/standards-work-in-progress/price-review-coffee.html"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "“Coffee is like raising a child,\" how Mrs. Rizkani nurtures her crops and her community"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "https://www.fairtrade.net/en/get-involved/news/coffee-is-like-raising-a-child-how-mrs-rizkani-nurtures-her-crops-and-her-community.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/coffee-is-like-raising-a-child-how-mrs-rizkani-nurtures-her-crops-and-her-community.html"
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "“ is like raising a child,\" how Mrs. Rizkani nurtures her crops and her community"
+    },
+    {
+     "role": "body",
+     "order": 117,
+     "text": "Coffee"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "sector resilience requires economic protection for farmers"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "Coffee"
+    },
+    {
+     "role": "cta",
+     "order": 120,
+     "text": "https://www.fairtrade.net/en/get-involved/news/coffee-sector-resilience-requires-economic-protection-for-farmer.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/coffee-sector-resilience-requires-economic-protection-for-farmer.html"
+    },
+    {
+     "role": "body",
+     "order": 121,
+     "text": "Importing cocoa and coffee into the EU will soon get more complicated."
+    },
+    {
+     "role": "cta",
+     "order": 122,
+     "text": "https://www.fairtrade.net/en/get-involved/news/heres-how-fairtrade-is-supporting-farmers-and-businesses-eudr.html",
+     "href": "https://www.fairtrade.net/en/get-involved/news/heres-how-fairtrade-is-supporting-farmers-and-businesses-eudr.html"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "New deforestation-free requirements for seven products – including and cocoa – are part of the EU Deforestation Requirement. Here’s how ..."
+    },
+    {
+     "role": "body",
+     "order": 124,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "Importing cocoa and coffee into the EU will soon get more complicated."
+    },
+    {
+     "role": "cta",
+     "order": 126,
+     "text": "https://www.fairtrade.net/en/heres-how-fairtrade-is-supporting-farmers-and-businesses-eudr.html",
+     "href": "https://www.fairtrade.net/en/heres-how-fairtrade-is-supporting-farmers-and-businesses-eudr.html"
+    },
+    {
+     "role": "body",
+     "order": 127,
+     "text": "New deforestation-free requirements for seven products – including and cocoa – are going into effect in the European Union as of the end of ..."
+    },
+    {
+     "role": "body",
+     "order": 128,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "Farm Forestry - Climate Academy 2020"
+    },
+    {
+     "role": "cta",
+     "order": 130,
+     "text": "https://www.fairtrade.net/en/get-involved/library/farm-forestry---climate-academy-2020.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/farm-forestry---climate-academy-2020.html"
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "Video part of a training series based on the Climate Guide Academy 2020. They will be made available to producer organizations in Ethiopia, ..."
+    },
+    {
+     "role": "body",
+     "order": 132,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 133,
+     "text": "How does Fairtrade mitigate violations in global supply chains?"
+    },
+    {
+     "role": "cta",
+     "order": 134,
+     "text": "https://www.fairtrade.net/en/get-involved/library/how-does-fairtrade-mitigate-violations-in-global-supply-chains-.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/how-does-fairtrade-mitigate-violations-in-global-supply-chains-.html"
+    },
+    {
+     "role": "body",
+     "order": 135,
+     "text": "Addressing the implications of climate change in production in Central America. It also reflects on Fairtrade’s alignment with the human rights ..."
+    },
+    {
+     "role": "body",
+     "order": 136,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 137,
+     "text": "Monitoring the scope and benefits of Fairtrade: Latin America and the Caribbean region - Monitoring report, 11th Edition"
+    },
+    {
+     "role": "cta",
+     "order": 138,
+     "text": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--latin-america-an0.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--latin-america-an0.html"
+    },
+    {
+     "role": "body",
+     "order": 139,
+     "text": "Premium in 2018 to spend on projects of their choice. and bananas are the highest selling Fairtrade products in the region, followed by cane ..."
+    },
+    {
+     "role": "body",
+     "order": 140,
+     "text": "Coffee"
+    },
+    {
+     "role": "body",
+     "order": 141,
+     "text": "Monitoring the scope and benefits of Fairtrade: Latin American and Caribbean region - Monitoring report, 14th Edition"
+    },
+    {
+     "role": "cta",
+     "order": 142,
+     "text": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--latin-american-a.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--latin-american-a.html"
+    },
+    {
+     "role": "body",
+     "order": 143,
+     "text": "Premium in 2021 to spend on projects of their choice. and bananas are the highest selling Fairtrade products in the region and making up almost ..."
+    },
+    {
+     "role": "body",
+     "order": 144,
+     "text": "Coffee"
+    },
+    {
+     "role": "body",
+     "order": 145,
+     "text": "Monitoring the scope and benefits of Fairtrade: Latin American and Caribbean region - Monitoring report, 13th Edition"
+    },
+    {
+     "role": "cta",
+     "order": 146,
+     "text": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--latin-american-a0.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--latin-american-a0.html"
+    },
+    {
+     "role": "body",
+     "order": 147,
+     "text": "Premium in 2020 to spend on projects of their choice. and bananas are the highest selling Fairtrade products in the region, followed by cane ..."
+    },
+    {
+     "role": "body",
+     "order": 148,
+     "text": "Coffee"
+    },
+    {
+     "role": "body",
+     "order": 149,
+     "text": "Water Management - Climate Academy 2020"
+    },
+    {
+     "role": "cta",
+     "order": 150,
+     "text": "https://www.fairtrade.net/en/get-involved/library/water-management---climate-academy-2020.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/water-management---climate-academy-2020.html"
+    },
+    {
+     "role": "body",
+     "order": 151,
+     "text": "Video part of a training series based on the Climate Guide Academy 2020. They will be made available to producer organizations in Ethiopia, ..."
+    },
+    {
+     "role": "body",
+     "order": 152,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 153,
+     "text": "Women's access, equity and empowerment: Progress and uptake of the Fairtrade gender strategy"
+    },
+    {
+     "role": "cta",
+     "order": 154,
+     "text": "https://www.fairtrade.net/en/get-involved/library/women-s-access--equity-and-empowerment--progress-and-uptake-of-t.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/women-s-access--equity-and-empowerment--progress-and-uptake-of-t.html"
+    },
+    {
+     "role": "body",
+     "order": 155,
+     "text": "chains. The study includes case study analysis of six cooperatives to explore how Fairtrade Standards and programmes such as women's schools of ..."
+    },
+    {
+     "role": "body",
+     "order": 156,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 157,
+     "text": "Monitoring the scope and benefits of Fairtrade: Asia and Pacific region - Monitoring report, 10th Edition"
+    },
+    {
+     "role": "cta",
+     "order": 158,
+     "text": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--asia-and-pacific0.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--asia-and-pacific0.html"
+    },
+    {
+     "role": "body",
+     "order": 159,
+     "text": "Premium in 2017 to spend on projects of their choice. , tea, cane sugar and cotton are the highest selling Fairtrade products in the region, ..."
+    },
+    {
+     "role": "body",
+     "order": 160,
+     "text": "Coffee"
+    },
+    {
+     "role": "body",
+     "order": 161,
+     "text": "Monitoring the scope and benefits of Fairtrade: Asia and Pacific region - Monitoring report, 11th Edition"
+    },
+    {
+     "role": "cta",
+     "order": 162,
+     "text": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--asia-and-pacific.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--asia-and-pacific.html"
+    },
+    {
+     "role": "body",
+     "order": 163,
+     "text": "Premium in 2018 to spend on projects of their choice. , can sugar, tea and cotton are the highest selling Fairtrade products in the region, ..."
+    },
+    {
+     "role": "body",
+     "order": 164,
+     "text": "Coffee"
+    },
+    {
+     "role": "body",
+     "order": 165,
+     "text": "Monitoring the scope and benefits of Fairtrade: Latin America and the Caribbean region - Monitoring report, 10th Edition"
+    },
+    {
+     "role": "cta",
+     "order": 166,
+     "text": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--latin-america-an1.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--latin-america-an1.html"
+    },
+    {
+     "role": "body",
+     "order": 167,
+     "text": "Premium in 2017 to spend on projects of their choice. and bananas are the highest selling Fairtrade products in the region, followed by cane ..."
+    },
+    {
+     "role": "body",
+     "order": 168,
+     "text": "Coffee"
+    },
+    {
+     "role": "body",
+     "order": 169,
+     "text": "A Fair Price for Human Rights Due Diligence"
+    },
+    {
+     "role": "cta",
+     "order": 170,
+     "text": "https://www.fairtrade.net/en/get-involved/library/a-fair-price-for-human-rights-due-diligence.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/a-fair-price-for-human-rights-due-diligence.html"
+    },
+    {
+     "role": "body",
+     "order": 171,
+     "text": "Fairtrade commissioned the Vrije Universiteit Amsterdam and DIMES Consultancy to undertake the study, focusing on farmers from Ethiopia and ..."
+    },
+    {
+     "role": "body",
+     "order": 172,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 173,
+     "text": "Monitoring the scope and benefits of Fairtrade: Africa and Middle East region, 15th Edition"
+    },
+    {
+     "role": "cta",
+     "order": 174,
+     "text": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--africa-and-middl.html",
+     "href": "https://www.fairtrade.net/en/get-involved/library/monitoring-the-scope-and-benefits-of-fairtrade--africa-and-middl.html"
+    },
+    {
+     "role": "body",
+     "order": 175,
+     "text": "earned in 2022, followed by flowers and plants (10%), (8%), and bananas (4%)."
+    },
+    {
+     "role": "body",
+     "order": 176,
+     "text": "coffee"
+    },
+    {
+     "role": "body",
+     "order": 177,
+     "text": "Sorry, no result found"
+    },
+    {
+     "role": "body",
+     "order": 178,
+     "text": "Unfortunately we don't seem to have any content related to that search term. Perhaps try another search using a related term, or one that's a little more general."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.SearchResults--item",
+     "count": 49,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

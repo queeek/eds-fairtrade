@@ -1,0 +1,410 @@
+/* teaser-grid — live TeaserGrid / InfoTeaser / Tag / Image (values lifted, canon.css) */
+
+/* the section head (default content before the block) is the live centred RichtextSection */
+.teaser-grid-container .default-content-wrapper :is(h2, h3) {
+  text-align: center;
+}
+
+.teaser-grid {
+  --teaser-grid-item-size: 6;
+
+  padding-block: 64px;
+}
+
+@media (width >= 768px) {
+  .teaser-grid.small {
+    --teaser-grid-item-size: 3;
+  }
+}
+
+@media (width >= 1024px) {
+  .teaser-grid {
+    --teaser-grid-item-size: 3;
+
+    padding-block: 80px;
+  }
+
+  .teaser-grid.small {
+    --teaser-grid-item-size: 2;
+  }
+}
+
+.teaser-grid .teaser-grid-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(6, 1fr);
+  margin-inline: auto;
+  padding-inline: var(--grid-pad);
+  width: min(100%, var(--shell-max));
+}
+
+@media (width >= 1024px) {
+  .teaser-grid .teaser-grid-grid {
+    gap: 40px;
+  }
+}
+
+.teaser-grid .teaser-grid-item {
+  grid-column: span var(--teaser-grid-item-size);
+}
+
+.teaser-grid .info-teaser {
+  --text-color: var(--ft-text);
+
+  color: var(--text-color);
+  display: block;
+  text-decoration: none;
+}
+
+.teaser-grid .info-teaser:is(:hover, :focus-visible) {
+  --text-color: var(--ft-petrol);
+}
+
+.teaser-grid .info-teaser-inner {
+  display: grid;
+  gap: 16px;
+  grid-template: repeat(2, auto) / 1fr;
+  margin-bottom: 12px;
+}
+
+@media (width >= 1024px) {
+  .teaser-grid .info-teaser-inner {
+    gap: 16px 24px;
+  }
+}
+
+.teaser-grid :is(.info-teaser-image, .info-teaser-tags) {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.teaser-grid .info-teaser-content {
+  align-items: flex-start;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  grid-area: 2 / 1 / 3 / 2;
+  transition: color var(--ease);
+}
+
+/* live Image (rectangular 4:3) */
+.teaser-grid .image {
+  background-color: var(--ft-skyblue-25);
+  border: 1px solid #dadada;
+  border-radius: var(--radius);
+  line-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.teaser-grid .image::before {
+  aspect-ratio: 4 / 3;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.teaser-grid .image img {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  transition: scale 0.3s ease-in-out;
+  width: 100%;
+}
+
+.teaser-grid .info-teaser:is(:hover, :focus-visible) .image img {
+  scale: 1.05;
+}
+
+.teaser-grid .info-teaser-tags {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-self: flex-end;
+  padding: 8px;
+  z-index: 1;
+}
+
+/* live Tag: the box sits on the authored paragraph itself (one box per tag, as live) */
+.teaser-grid .tag {
+  display: flex;
+}
+
+.teaser-grid .tag p {
+  align-items: center;
+  background: rgb(30 30 30 / 75%);
+  border-radius: 16px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 600;
+  gap: 8px;
+  line-height: 1.6;
+  padding: 4px 12px;
+}
+
+.teaser-grid .info-teaser-header {
+  font-family: var(--ft-font-head);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.teaser-grid .info-teaser-header :is(h2, h3, h4) {
+  font: inherit;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* the authored pretitle: <strong> leading the card heading */
+.teaser-grid .info-teaser-header strong {
+  display: block;
+  font-family: var(--ft-font-body);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.teaser-grid .info-teaser-title {
+  display: block;
+  overflow: hidden;
+}
+
+.teaser-grid .info-teaser-text {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  font-size: 17px;
+  -webkit-line-clamp: 5;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+/* live Button variant-tertiary (presentational inside the card link) */
+.teaser-grid .info-teaser-cta {
+  align-items: center;
+  color: inherit;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 700;
+  gap: 8px;
+  line-height: 1;
+}
+
+.teaser-grid .info-teaser-cta-inner p::after {
+  background-color: var(--ft-skyblue);
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  scale: 1 0.5;
+  transform-origin: bottom;
+  transition: background-color var(--ease), scale var(--ease);
+}
+
+.teaser-grid .info-teaser:is(:hover, :focus-visible) .info-teaser-cta-inner p::after {
+  background-color: var(--text-color);
+  scale: 1;
+}
+
+@media (width >= 1024px) {
+  .teaser-grid .info-teaser-content {
+    gap: 16px;
+  }
+
+  .teaser-grid .info-teaser-header {
+    font-size: 32px;
+    margin-bottom: -4px;
+  }
+
+  .teaser-grid .info-teaser-header strong {
+    margin-bottom: 16px;
+  }
+
+  .teaser-grid .tag p {
+    font-size: 16px;
+    padding: 4px 16px;
+  }
+
+  .teaser-grid .info-teaser-text {
+    font-size: 18px;
+    margin-top: -4px;
+  }
+}
+
+/* variant filter: live FilteredTeaserGrid--selectWrapper + Select (above the padded grid) */
+.teaser-grid.has-filter {
+  padding-top: 0;
+}
+
+.teaser-grid.has-filter .teaser-grid-inner {
+  padding-top: 64px;
+}
+
+.teaser-grid .teaser-grid-filter {
+  margin-inline: auto;
+  padding-inline: var(--grid-pad);
+  width: min(100%, var(--shell-max));
+}
+
+.teaser-grid .teaser-grid-select {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 40px 0;
+}
+
+.teaser-grid .select {
+  position: relative;
+  width: 100%;
+}
+
+.teaser-grid .select-field {
+  position: relative;
+}
+
+.teaser-grid .select-fake {
+  appearance: none;
+  background-color: #fff;
+  border: 0;
+  border-radius: 120px;
+  color: var(--ft-text);
+  cursor: pointer;
+  font: inherit;
+  font-size: 16px;
+  height: 56px;
+  line-height: 24px;
+  overflow: hidden;
+  padding: 16px 64px 16px 24px;
+  position: relative;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.teaser-grid .select-fake::after {
+  border: 2px solid var(--ft-skyblue-light, #6fd9fd);
+  border-radius: inherit;
+  content: "";
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.teaser-grid .select-fake:is(:hover, :focus-visible, :active)::after,
+.teaser-grid .select.is-open .select-fake::after {
+  opacity: 1;
+}
+
+.teaser-grid .select.is-open .select-fake::after {
+  border-color: var(--ft-skyblue);
+}
+
+.teaser-grid .select-icon {
+  inset: 4px 4px auto auto;
+  pointer-events: none;
+  position: absolute;
+  transition: rotate 0.3s ease-in-out;
+}
+
+.teaser-grid .select.is-open .select-icon {
+  rotate: 0.5turn;
+}
+
+.teaser-grid .select-options {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px rgb(30 30 30 / 15%);
+  margin-top: 16px;
+  max-height: 320px;
+  opacity: 0;
+  overflow-y: auto;
+  position: absolute;
+  scale: 0.95;
+  transform-origin: top center;
+  transition: opacity 0.3s ease-in-out, scale 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  visibility: hidden;
+  width: max(320px, 100%);
+  z-index: 10;
+}
+
+.teaser-grid .select.is-open .select-options {
+  opacity: 1;
+  scale: 1;
+  visibility: visible;
+}
+
+.teaser-grid .select-options :is(ul, ol) {
+  display: grid;
+  list-style: none;
+  margin: 0;
+  padding: 24px 12px;
+  row-gap: 32px;
+}
+
+.teaser-grid .select-options li {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 2px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.teaser-grid .select-options li:is(:hover, :focus-visible) {
+  background-color: var(--ft-grey-100);
+}
+
+@media (width >= 640px) {
+  .teaser-grid .select-options {
+    width: 320px;
+  }
+}
+
+@media (width >= 768px) {
+  .teaser-grid .teaser-grid-filter {
+    align-items: center;
+    display: flex;
+  }
+
+  .teaser-grid .teaser-grid-select {
+    flex-direction: row;
+  }
+
+  .teaser-grid .select {
+    width: auto;
+  }
+
+  .teaser-grid.has-filter .teaser-grid-inner {
+    padding-top: 0;
+  }
+
+  .teaser-grid.has-filter {
+    padding-top: 0;
+  }
+
+  .teaser-grid.has-filter .teaser-grid-grid {
+    padding-top: 64px;
+  }
+}
+
+@media (width >= 1024px) {
+  .teaser-grid .select-options :is(ul, ol) {
+    row-gap: 24px;
+  }
+
+  .teaser-grid.has-filter .teaser-grid-grid {
+    padding-top: 80px;
+  }
+}
+
+/* live InfoTeaser--image placeholder (an article without a teaser image): the decorative
+   Fairtrade figure on the light grey box (live inline PNG, lifted as a block asset) */
+.teaser-grid .image:empty {
+  background: url('placeholder.png') no-repeat 50% / cover;
+}

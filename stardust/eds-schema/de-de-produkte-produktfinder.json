@@ -1,0 +1,4336 @@
+{
+ "source": "http://localhost:8794/stardust/migrated/de-de/produkte/Produktfinder.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade Produkt-Finder"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Welche Fairtrade-Produkte gibt es und wo kann man Fairtrade-Produkte kaufen? Auf dieser Seite findest du sie, nach Produktkategorie und Hersteller sortiert."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Den Wert des Eingabefelds löschen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Toggle false"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Filter schließen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Filter öffnen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Marke"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "3FREUNDE"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "49354 - A.D.A. srl - Caffé Mokarico"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "49999 - RICO CAFFFE’ SRL"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "5 Cups"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "ADESSE Kaffeerösterei Bamberg"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "AIKYOU"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "ALTOMAYO"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "ARGENTO"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "AWO International"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Abtswinder"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Ada Cosmetics"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Adobe Reserva"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "African Rock Selection"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Afro Coffee"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Aiko"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Aktionsartikel"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Albona"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Alce Nero"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Alder Rum"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Aldi Süd"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Aldi"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Alessio"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Alesto"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Alfredo Espresso"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Allegretto"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Allfair"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Alprose"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Alps Coffee"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Alternativa 3"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Alva"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Amann Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Anda"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Angelique's Finest"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Aponatur"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Aqua Verde"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Ariens"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Aromas y sabores del Norte Grande"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Arvid Nordquist, Selection"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Aurhen"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Auricher"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Aus Liebe…"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Avelines"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Avoury"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Azuco"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Azul"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "BAD BOYZ SOCCER"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "BARISSIMO"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "BIO PLANETE"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "BIOVEGAN"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "BIO"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "BLACK FOREST COFFEE®"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "BLACK HILL"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "BLCK"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "BOVETTI"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "BRDS"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Bachhalm Schokolade"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Back Family"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Bader kommt"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Balldesigner"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Barnhouse"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Bart & Bastian"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Bazzar Caffè"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Beanarella"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Becks Cocoa \"100%\""
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Becks Cocoa"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Bee Natural"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Bel & Bio"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Belfi Fair"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Belizean Blue"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Belvas"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Ben & Jerry's"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Benslips Bester"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Benslips Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Benz"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Bergland"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Best Moments"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Better Merchandising"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Bidges&Sons"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Bihophar"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Billa Bio"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Bio Primo"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Bio Sonne"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "BioArt"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "BioBio"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "BioeCacao"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Biossom"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Bio"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "Birkengold"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "Bistrozucker"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Blanche"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Bloom & Wild"
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "Bloomon"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Blue Chili Promotions"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Blume 2000"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Blumen Hagedorn"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "Bode Naturkost"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "Bohne 7"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "Bonga Red Mountain"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "Bouquetnet"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "Bradleys"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "Brands Fashion"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "Breitsamer"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "Brennpunkt"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "Buhle"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "Burkhardt Fruchtsäfte"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Bursting Berries"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "Büntig"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "CAFES SATI"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "CGG. Tee Initiative®"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "COCAYA"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "CUP&CINO"
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "Cabana FT"
+    },
+    {
+     "role": "body",
+     "order": 117,
+     "text": "Cafe Forestal"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "Cafe Natura"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "Cafe de Maraba"
+    },
+    {
+     "role": "body",
+     "order": 120,
+     "text": "Cafema"
+    },
+    {
+     "role": "body",
+     "order": 121,
+     "text": "Caffe Costadoro Respecto"
+    },
+    {
+     "role": "body",
+     "order": 122,
+     "text": "Caffe Haiti Roma"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "Caffe' Carraro"
+    },
+    {
+     "role": "body",
+     "order": 124,
+     "text": "Caffe' Morganti Aequobio"
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "Caffe' Musetti Mio Espresso"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "Caffe' River"
+    },
+    {
+     "role": "body",
+     "order": 127,
+     "text": "Caffè Chicco d'Oro"
+    },
+    {
+     "role": "body",
+     "order": 128,
+     "text": "Caffè Musetti"
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "Caffè Spettacolo"
+    },
+    {
+     "role": "body",
+     "order": 130,
+     "text": "Cafissimo"
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "Cafè Badilatti"
+    },
+    {
+     "role": "body",
+     "order": 132,
+     "text": "Café Intención"
+    },
+    {
+     "role": "body",
+     "order": 133,
+     "text": "Café Progreso"
+    },
+    {
+     "role": "body",
+     "order": 134,
+     "text": "Café Royal"
+    },
+    {
+     "role": "body",
+     "order": 135,
+     "text": "Café Salento"
+    },
+    {
+     "role": "body",
+     "order": 136,
+     "text": "Café Sophie"
+    },
+    {
+     "role": "body",
+     "order": 137,
+     "text": "Café de la vida"
+    },
+    {
+     "role": "body",
+     "order": 138,
+     "text": "California Pops"
+    },
+    {
+     "role": "body",
+     "order": 139,
+     "text": "Callebaut"
+    },
+    {
+     "role": "body",
+     "order": 140,
+     "text": "Camino Verde"
+    },
+    {
+     "role": "body",
+     "order": 141,
+     "text": "Caprimo"
+    },
+    {
+     "role": "body",
+     "order": 142,
+     "text": "Cardinahl Caffè"
+    },
+    {
+     "role": "body",
+     "order": 143,
+     "text": "Caroma"
+    },
+    {
+     "role": "body",
+     "order": 144,
+     "text": "Carribean Exotics"
+    },
+    {
+     "role": "body",
+     "order": 145,
+     "text": "Carstens"
+    },
+    {
+     "role": "body",
+     "order": 146,
+     "text": "Casali"
+    },
+    {
+     "role": "body",
+     "order": 147,
+     "text": "Caventura"
+    },
+    {
+     "role": "body",
+     "order": 148,
+     "text": "Cawila"
+    },
+    {
+     "role": "body",
+     "order": 149,
+     "text": "Chaqwa"
+    },
+    {
+     "role": "body",
+     "order": 150,
+     "text": "ChariTea"
+    },
+    {
+     "role": "body",
+     "order": 151,
+     "text": "Charles Liégeois"
+    },
+    {
+     "role": "body",
+     "order": 152,
+     "text": "Choceur"
+    },
+    {
+     "role": "body",
+     "order": 153,
+     "text": "Choceur"
+    },
+    {
+     "role": "body",
+     "order": 154,
+     "text": "Choco Moment"
+    },
+    {
+     "role": "body",
+     "order": 155,
+     "text": "Choco'là"
+    },
+    {
+     "role": "body",
+     "order": 156,
+     "text": "ChocoChanger"
+    },
+    {
+     "role": "body",
+     "order": 157,
+     "text": "Chocolat Ammann"
+    },
+    {
+     "role": "body",
+     "order": 158,
+     "text": "Chocolat Bernrain"
+    },
+    {
+     "role": "body",
+     "order": 159,
+     "text": "Chocolates Sole"
+    },
+    {
+     "role": "body",
+     "order": 160,
+     "text": "Chocolates Torras"
+    },
+    {
+     "role": "body",
+     "order": 161,
+     "text": "Chocolates from heaven"
+    },
+    {
+     "role": "body",
+     "order": 162,
+     "text": "Chocola"
+    },
+    {
+     "role": "body",
+     "order": 163,
+     "text": "Choco´la"
+    },
+    {
+     "role": "body",
+     "order": 164,
+     "text": "Chocóla"
+    },
+    {
+     "role": "body",
+     "order": 165,
+     "text": "Chokay"
+    },
+    {
+     "role": "body",
+     "order": 166,
+     "text": "Christmas Moments"
+    },
+    {
+     "role": "body",
+     "order": 167,
+     "text": "Chronic"
+    },
+    {
+     "role": "body",
+     "order": 168,
+     "text": "Clarysse"
+    },
+    {
+     "role": "body",
+     "order": 169,
+     "text": "Clasen Bio"
+    },
+    {
+     "role": "body",
+     "order": 170,
+     "text": "Cocoa Fantasy"
+    },
+    {
+     "role": "body",
+     "order": 171,
+     "text": "Collection Ruesch"
+    },
+    {
+     "role": "body",
+     "order": 172,
+     "text": "Comazo Earth"
+    },
+    {
+     "role": "body",
+     "order": 173,
+     "text": "Comcafé"
+    },
+    {
+     "role": "body",
+     "order": 174,
+     "text": "Community Cola"
+    },
+    {
+     "role": "body",
+     "order": 175,
+     "text": "Compass Group"
+    },
+    {
+     "role": "body",
+     "order": 176,
+     "text": "Condor Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 177,
+     "text": "Cottover"
+    },
+    {
+     "role": "body",
+     "order": 178,
+     "text": "Covo"
+    },
+    {
+     "role": "body",
+     "order": 179,
+     "text": "Crefelder Kaffeerösterei"
+    },
+    {
+     "role": "body",
+     "order": 180,
+     "text": "Crownfield Linessa"
+    },
+    {
+     "role": "body",
+     "order": 181,
+     "text": "Crownfield"
+    },
+    {
+     "role": "body",
+     "order": 182,
+     "text": "DAMIANO"
+    },
+    {
+     "role": "body",
+     "order": 183,
+     "text": "DECATHLON"
+    },
+    {
+     "role": "body",
+     "order": 184,
+     "text": "DEDICATED"
+    },
+    {
+     "role": "body",
+     "order": 185,
+     "text": "DER MOSHI KAFFEE"
+    },
+    {
+     "role": "body",
+     "order": 186,
+     "text": "DON PEDRO"
+    },
+    {
+     "role": "body",
+     "order": 187,
+     "text": "DUCHESSE"
+    },
+    {
+     "role": "body",
+     "order": 188,
+     "text": "DUNKIN"
+    },
+    {
+     "role": "body",
+     "order": 189,
+     "text": "Dallmayr Café und Bar"
+    },
+    {
+     "role": "body",
+     "order": 190,
+     "text": "Dallmayr"
+    },
+    {
+     "role": "body",
+     "order": 191,
+     "text": "Dallmeyers Backhus"
+    },
+    {
+     "role": "body",
+     "order": 192,
+     "text": "DankE"
+    },
+    {
+     "role": "body",
+     "order": 193,
+     "text": "Das Exquisite"
+    },
+    {
+     "role": "body",
+     "order": 194,
+     "text": "Davert"
+    },
+    {
+     "role": "body",
+     "order": 195,
+     "text": "DeBeukelaer"
+    },
+    {
+     "role": "body",
+     "order": 196,
+     "text": "Decorum"
+    },
+    {
+     "role": "body",
+     "order": 197,
+     "text": "Dekene"
+    },
+    {
+     "role": "body",
+     "order": 198,
+     "text": "Delicia"
+    },
+    {
+     "role": "body",
+     "order": 199,
+     "text": "Delta Cafes"
+    },
+    {
+     "role": "body",
+     "order": 200,
+     "text": "Deluxe (Lidl)"
+    },
+    {
+     "role": "body",
+     "order": 201,
+     "text": "Deluxe"
+    },
+    {
+     "role": "body",
+     "order": 202,
+     "text": "Denke's Lösmich"
+    },
+    {
+     "role": "body",
+     "order": 203,
+     "text": "Der Beck"
+    },
+    {
+     "role": "body",
+     "order": 204,
+     "text": "Der Bielefeld Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 205,
+     "text": "Derbystar"
+    },
+    {
+     "role": "body",
+     "order": 206,
+     "text": "Destination"
+    },
+    {
+     "role": "body",
+     "order": 207,
+     "text": "Die faire Milch"
+    },
+    {
+     "role": "body",
+     "order": 208,
+     "text": "Dietz"
+    },
+    {
+     "role": "body",
+     "order": 209,
+     "text": "Dinzler"
+    },
+    {
+     "role": "body",
+     "order": 210,
+     "text": "Diverse"
+    },
+    {
+     "role": "body",
+     "order": 211,
+     "text": "Don Limon"
+    },
+    {
+     "role": "body",
+     "order": 212,
+     "text": "Dorweiler"
+    },
+    {
+     "role": "body",
+     "order": 213,
+     "text": "Douceur"
+    },
+    {
+     "role": "body",
+     "order": 214,
+     "text": "Douwe Egberts"
+    },
+    {
+     "role": "body",
+     "order": 215,
+     "text": "Dr. Antonio Martins"
+    },
+    {
+     "role": "body",
+     "order": 216,
+     "text": "Drago Mocambo"
+    },
+    {
+     "role": "body",
+     "order": 217,
+     "text": "Dressmann XL"
+    },
+    {
+     "role": "body",
+     "order": 218,
+     "text": "Dressmann"
+    },
+    {
+     "role": "body",
+     "order": 219,
+     "text": "Dreyer"
+    },
+    {
+     "role": "body",
+     "order": 220,
+     "text": "Délices"
+    },
+    {
+     "role": "body",
+     "order": 221,
+     "text": "Döbbe"
+    },
+    {
+     "role": "body",
+     "order": 222,
+     "text": "E + G"
+    },
+    {
+     "role": "body",
+     "order": 223,
+     "text": "EDEKA Bio"
+    },
+    {
+     "role": "body",
+     "order": 224,
+     "text": "EDEKA"
+    },
+    {
+     "role": "body",
+     "order": 225,
+     "text": "EDEN"
+    },
+    {
+     "role": "body",
+     "order": 226,
+     "text": "ELECTRIC ESPRESSO"
+    },
+    {
+     "role": "body",
+     "order": 227,
+     "text": "ERIMA"
+    },
+    {
+     "role": "body",
+     "order": 228,
+     "text": "EZA"
+    },
+    {
+     "role": "body",
+     "order": 229,
+     "text": "Easter moments"
+    },
+    {
+     "role": "body",
+     "order": 230,
+     "text": "Edeka"
+    },
+    {
+     "role": "body",
+     "order": 231,
+     "text": "Edelmond"
+    },
+    {
+     "role": "body",
+     "order": 232,
+     "text": "Eduscho"
+    },
+    {
+     "role": "body",
+     "order": 233,
+     "text": "Eilles Tee"
+    },
+    {
+     "role": "body",
+     "order": 234,
+     "text": "Ekoplaza"
+    },
+    {
+     "role": "body",
+     "order": 235,
+     "text": "El Criollo"
+    },
+    {
+     "role": "body",
+     "order": 236,
+     "text": "El Puente"
+    },
+    {
+     "role": "body",
+     "order": 237,
+     "text": "Elemental"
+    },
+    {
+     "role": "body",
+     "order": 238,
+     "text": "Emiliana"
+    },
+    {
+     "role": "body",
+     "order": 239,
+     "text": "English Tea Shop UK Limited"
+    },
+    {
+     "role": "body",
+     "order": 240,
+     "text": "Espressone"
+    },
+    {
+     "role": "body",
+     "order": 241,
+     "text": "Espresto"
+    },
+    {
+     "role": "body",
+     "order": 242,
+     "text": "Ethiquable"
+    },
+    {
+     "role": "body",
+     "order": 243,
+     "text": "Ethletic"
+    },
+    {
+     "role": "body",
+     "order": 244,
+     "text": "Excelcium"
+    },
+    {
+     "role": "body",
+     "order": 245,
+     "text": "Excelsior"
+    },
+    {
+     "role": "body",
+     "order": 246,
+     "text": "Exquisit"
+    },
+    {
+     "role": "body",
+     "order": 247,
+     "text": "F&F Verpakkingen"
+    },
+    {
+     "role": "body",
+     "order": 248,
+     "text": "FAIR CARE"
+    },
+    {
+     "role": "body",
+     "order": 249,
+     "text": "FAIR"
+    },
+    {
+     "role": "body",
+     "order": 250,
+     "text": "FEBIO"
+    },
+    {
+     "role": "body",
+     "order": 251,
+     "text": "FRUTEE"
+    },
+    {
+     "role": "body",
+     "order": 252,
+     "text": "FaRev"
+    },
+    {
+     "role": "body",
+     "order": 253,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 254,
+     "text": "Fair Towel"
+    },
+    {
+     "role": "body",
+     "order": 255,
+     "text": "Fair gehandelt"
+    },
+    {
+     "role": "body",
+     "order": 256,
+     "text": "Fairbags"
+    },
+    {
+     "role": "body",
+     "order": 257,
+     "text": "Fairever"
+    },
+    {
+     "role": "body",
+     "order": 258,
+     "text": "Fairglobe"
+    },
+    {
+     "role": "body",
+     "order": 259,
+     "text": "Fairtrade Original"
+    },
+    {
+     "role": "body",
+     "order": 260,
+     "text": "Fairtrasa"
+    },
+    {
+     "role": "body",
+     "order": 261,
+     "text": "Fat Fig"
+    },
+    {
+     "role": "body",
+     "order": 262,
+     "text": "Favarger"
+    },
+    {
+     "role": "body",
+     "order": 263,
+     "text": "Favorina Weihnachten"
+    },
+    {
+     "role": "body",
+     "order": 264,
+     "text": "Favorina chocolats de tradition"
+    },
+    {
+     "role": "body",
+     "order": 265,
+     "text": "Favorina"
+    },
+    {
+     "role": "body",
+     "order": 266,
+     "text": "Feiny Biscuits"
+    },
+    {
+     "role": "body",
+     "order": 267,
+     "text": "Filicori Zecchini"
+    },
+    {
+     "role": "body",
+     "order": 268,
+     "text": "Fin Carré"
+    },
+    {
+     "role": "body",
+     "order": 269,
+     "text": "Finlayson"
+    },
+    {
+     "role": "body",
+     "order": 270,
+     "text": "Finton's"
+    },
+    {
+     "role": "body",
+     "order": 271,
+     "text": "FloraPrima"
+    },
+    {
+     "role": "body",
+     "order": 272,
+     "text": "Floragold"
+    },
+    {
+     "role": "body",
+     "order": 273,
+     "text": "Florapharm"
+    },
+    {
+     "role": "body",
+     "order": 274,
+     "text": "Flower Arts"
+    },
+    {
+     "role": "body",
+     "order": 275,
+     "text": "Fountain"
+    },
+    {
+     "role": "body",
+     "order": 276,
+     "text": "Frank"
+    },
+    {
+     "role": "body",
+     "order": 277,
+     "text": "Franz Josef Rauch"
+    },
+    {
+     "role": "body",
+     "order": 278,
+     "text": "Freche Freunde"
+    },
+    {
+     "role": "body",
+     "order": 279,
+     "text": "Fresh Solutions Flowers"
+    },
+    {
+     "role": "body",
+     "order": 280,
+     "text": "Freudenberg"
+    },
+    {
+     "role": "body",
+     "order": 281,
+     "text": "Friedel"
+    },
+    {
+     "role": "body",
+     "order": 282,
+     "text": "Frucht & Sinne"
+    },
+    {
+     "role": "body",
+     "order": 283,
+     "text": "Fröhliche Osterzeit"
+    },
+    {
+     "role": "body",
+     "order": 284,
+     "text": "Fyffes"
+    },
+    {
+     "role": "body",
+     "order": 285,
+     "text": "G!na"
+    },
+    {
+     "role": "body",
+     "order": 286,
+     "text": "G.C. Breiger"
+    },
+    {
+     "role": "body",
+     "order": 287,
+     "text": "GAASTRA"
+    },
+    {
+     "role": "body",
+     "order": 288,
+     "text": "GF Textiles"
+    },
+    {
+     "role": "body",
+     "order": 289,
+     "text": "GO BIO"
+    },
+    {
+     "role": "body",
+     "order": 290,
+     "text": "GOLDAFFAIRS"
+    },
+    {
+     "role": "body",
+     "order": 291,
+     "text": "GREIFF"
+    },
+    {
+     "role": "body",
+     "order": 292,
+     "text": "Galifera"
+    },
+    {
+     "role": "body",
+     "order": 293,
+     "text": "Garden Series"
+    },
+    {
+     "role": "body",
+     "order": 294,
+     "text": "Gary Mash"
+    },
+    {
+     "role": "body",
+     "order": 295,
+     "text": "Gepa"
+    },
+    {
+     "role": "body",
+     "order": 296,
+     "text": "Gildo Rachelli -Demeter"
+    },
+    {
+     "role": "body",
+     "order": 297,
+     "text": "Gina Benotti"
+    },
+    {
+     "role": "body",
+     "order": 298,
+     "text": "Go Caffè"
+    },
+    {
+     "role": "body",
+     "order": 299,
+     "text": "Go Öko"
+    },
+    {
+     "role": "body",
+     "order": 300,
+     "text": "Goki"
+    },
+    {
+     "role": "body",
+     "order": 301,
+     "text": "Golden Bridge"
+    },
+    {
+     "role": "body",
+     "order": 302,
+     "text": "Goldmännchen-TEE"
+    },
+    {
+     "role": "body",
+     "order": 303,
+     "text": "Goldora"
+    },
+    {
+     "role": "body",
+     "order": 304,
+     "text": "Goldsucher"
+    },
+    {
+     "role": "body",
+     "order": 305,
+     "text": "Goppion"
+    },
+    {
+     "role": "body",
+     "order": 306,
+     "text": "Goya"
+    },
+    {
+     "role": "body",
+     "order": 307,
+     "text": "Green Promotion"
+    },
+    {
+     "role": "body",
+     "order": 308,
+     "text": "Grower's Cup"
+    },
+    {
+     "role": "body",
+     "order": 309,
+     "text": "Grüne Erde"
+    },
+    {
+     "role": "body",
+     "order": 310,
+     "text": "Grüner Finger"
+    },
+    {
+     "role": "body",
+     "order": 311,
+     "text": "Grüngold"
+    },
+    {
+     "role": "body",
+     "order": 312,
+     "text": "GuG Naturschönheit"
+    },
+    {
+     "role": "body",
+     "order": 313,
+     "text": "Gubor"
+    },
+    {
+     "role": "body",
+     "order": 314,
+     "text": "GuntiAroma"
+    },
+    {
+     "role": "body",
+     "order": 315,
+     "text": "GutBio"
+    },
+    {
+     "role": "body",
+     "order": 316,
+     "text": "Gütersloher Stadtkaffee"
+    },
+    {
+     "role": "body",
+     "order": 317,
+     "text": "H & S"
+    },
+    {
+     "role": "body",
+     "order": 318,
+     "text": "HALFAR®"
+    },
+    {
+     "role": "body",
+     "order": 319,
+     "text": "HAPPY BRANDS"
+    },
+    {
+     "role": "body",
+     "order": 320,
+     "text": "HELLMA"
+    },
+    {
+     "role": "body",
+     "order": 321,
+     "text": "HEMA"
+    },
+    {
+     "role": "body",
+     "order": 322,
+     "text": "HIT"
+    },
+    {
+     "role": "body",
+     "order": 323,
+     "text": "Haeberlein & Metzger"
+    },
+    {
+     "role": "body",
+     "order": 324,
+     "text": "Hagen Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 325,
+     "text": "Halba"
+    },
+    {
+     "role": "body",
+     "order": 326,
+     "text": "Halloren"
+    },
+    {
+     "role": "body",
+     "order": 327,
+     "text": "Handle"
+    },
+    {
+     "role": "body",
+     "order": 328,
+     "text": "Hannoversche Kaffeemanufaktur GmbH & Co. KG"
+    },
+    {
+     "role": "body",
+     "order": 329,
+     "text": "Happy Harvest"
+    },
+    {
+     "role": "body",
+     "order": 330,
+     "text": "Happy Hours en Biovallée"
+    },
+    {
+     "role": "body",
+     "order": 331,
+     "text": "HappyNaps"
+    },
+    {
+     "role": "body",
+     "order": 332,
+     "text": "Happy"
+    },
+    {
+     "role": "body",
+     "order": 333,
+     "text": "Harry´s Kaffeerösterei"
+    },
+    {
+     "role": "body",
+     "order": 334,
+     "text": "Heimbs"
+    },
+    {
+     "role": "body",
+     "order": 335,
+     "text": "Heindl"
+    },
+    {
+     "role": "body",
+     "order": 336,
+     "text": "Henry Lambertz"
+    },
+    {
+     "role": "body",
+     "order": 337,
+     "text": "Hensler Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 338,
+     "text": "Hesselink"
+    },
+    {
+     "role": "body",
+     "order": 339,
+     "text": "Heyl"
+    },
+    {
+     "role": "body",
+     "order": 340,
+     "text": "Hofgenuss fair in aller Munde"
+    },
+    {
+     "role": "body",
+     "order": 341,
+     "text": "Hofgenuss"
+    },
+    {
+     "role": "body",
+     "order": 342,
+     "text": "Holle"
+    },
+    {
+     "role": "body",
+     "order": 343,
+     "text": "Hollicher Hofkaffee"
+    },
+    {
+     "role": "body",
+     "order": 344,
+     "text": "Honest Clothing UG"
+    },
+    {
+     "role": "body",
+     "order": 345,
+     "text": "Hoppe"
+    },
+    {
+     "role": "body",
+     "order": 346,
+     "text": "Humbel"
+    },
+    {
+     "role": "body",
+     "order": 347,
+     "text": "Hämmerle Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 348,
+     "text": "IDorganics"
+    },
+    {
+     "role": "body",
+     "order": 349,
+     "text": "IQ Kaffee Fairtrade Bohnen"
+    },
+    {
+     "role": "body",
+     "order": 350,
+     "text": "IQ Kaffee Fairtrade Filterkaffee"
+    },
+    {
+     "role": "body",
+     "order": 351,
+     "text": "ISA"
+    },
+    {
+     "role": "body",
+     "order": 352,
+     "text": "Inkoop"
+    },
+    {
+     "role": "body",
+     "order": 353,
+     "text": "InterVanilla"
+    },
+    {
+     "role": "body",
+     "order": 354,
+     "text": "J. Hornig"
+    },
+    {
+     "role": "body",
+     "order": 355,
+     "text": "J.D. Gross"
+    },
+    {
+     "role": "body",
+     "order": 356,
+     "text": "J.D.GROSS"
+    },
+    {
+     "role": "body",
+     "order": 357,
+     "text": "Ja!"
+    },
+    {
+     "role": "body",
+     "order": 358,
+     "text": "Jacoby"
+    },
+    {
+     "role": "body",
+     "order": 359,
+     "text": "Jan Spille"
+    },
+    {
+     "role": "body",
+     "order": 360,
+     "text": "Java Coffee"
+    },
+    {
+     "role": "body",
+     "order": 361,
+     "text": "JeKue"
+    },
+    {
+     "role": "body",
+     "order": 362,
+     "text": "Jeden Tag"
+    },
+    {
+     "role": "body",
+     "order": 363,
+     "text": "Johan & Nyström"
+    },
+    {
+     "role": "body",
+     "order": 364,
+     "text": "Johnny Doodle"
+    },
+    {
+     "role": "body",
+     "order": 365,
+     "text": "Joliente Respect"
+    },
+    {
+     "role": "body",
+     "order": 366,
+     "text": "Jomo - der Kuchenbäcker"
+    },
+    {
+     "role": "body",
+     "order": 367,
+     "text": "Josten Top Line"
+    },
+    {
+     "role": "body",
+     "order": 368,
+     "text": "Jukumu"
+    },
+    {
+     "role": "body",
+     "order": 369,
+     "text": "Julius Meinl"
+    },
+    {
+     "role": "body",
+     "order": 370,
+     "text": "Jung since 1828 GmbH & Co.KG"
+    },
+    {
+     "role": "body",
+     "order": 371,
+     "text": "Juno"
+    },
+    {
+     "role": "body",
+     "order": 372,
+     "text": "Jura"
+    },
+    {
+     "role": "body",
+     "order": 373,
+     "text": "Jute-statt-Plastik"
+    },
+    {
+     "role": "body",
+     "order": 374,
+     "text": "K Take it Veggie"
+    },
+    {
+     "role": "body",
+     "order": 375,
+     "text": "K-Bio"
+    },
+    {
+     "role": "body",
+     "order": 376,
+     "text": "K-Classic"
+    },
+    {
+     "role": "body",
+     "order": 377,
+     "text": "K-Favourites"
+    },
+    {
+     "role": "body",
+     "order": 378,
+     "text": "K-Free"
+    },
+    {
+     "role": "body",
+     "order": 379,
+     "text": "KALANI"
+    },
+    {
+     "role": "body",
+     "order": 380,
+     "text": "KHK"
+    },
+    {
+     "role": "body",
+     "order": 381,
+     "text": "KOKOworld"
+    },
+    {
+     "role": "body",
+     "order": 382,
+     "text": "Kaffee Partner"
+    },
+    {
+     "role": "body",
+     "order": 383,
+     "text": "Kaffeewelt Eisbrenner"
+    },
+    {
+     "role": "body",
+     "order": 384,
+     "text": "Kalman Hafner"
+    },
+    {
+     "role": "body",
+     "order": 385,
+     "text": "Kambly"
+    },
+    {
+     "role": "body",
+     "order": 386,
+     "text": "Karl Schmidt"
+    },
+    {
+     "role": "body",
+     "order": 387,
+     "text": "Kater Kaffee Pablo"
+    },
+    {
+     "role": "body",
+     "order": 388,
+     "text": "Kater Kaffee Weltenbummler Nicaragua"
+    },
+    {
+     "role": "body",
+     "order": 389,
+     "text": "Kater Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 390,
+     "text": "Kaufland"
+    },
+    {
+     "role": "body",
+     "order": 391,
+     "text": "Kaya"
+    },
+    {
+     "role": "body",
+     "order": 392,
+     "text": "Keli"
+    },
+    {
+     "role": "body",
+     "order": 393,
+     "text": "Kericho Gold"
+    },
+    {
+     "role": "body",
+     "order": 394,
+     "text": "Kimbo"
+    },
+    {
+     "role": "body",
+     "order": 395,
+     "text": "Kinkartz"
+    },
+    {
+     "role": "body",
+     "order": 396,
+     "text": "Kleine Freunde"
+    },
+    {
+     "role": "body",
+     "order": 397,
+     "text": "Kleine Rust"
+    },
+    {
+     "role": "body",
+     "order": 398,
+     "text": "Klett Schokolade"
+    },
+    {
+     "role": "body",
+     "order": 399,
+     "text": "Klett"
+    },
+    {
+     "role": "body",
+     "order": 400,
+     "text": "Knusperone"
+    },
+    {
+     "role": "body",
+     "order": 401,
+     "text": "KoRo"
+    },
+    {
+     "role": "body",
+     "order": 402,
+     "text": "KollektivCafé"
+    },
+    {
+     "role": "body",
+     "order": 403,
+     "text": "KollektivTee"
+    },
+    {
+     "role": "body",
+     "order": 404,
+     "text": "Konings"
+    },
+    {
+     "role": "body",
+     "order": 405,
+     "text": "L'Antico"
+    },
+    {
+     "role": "body",
+     "order": 406,
+     "text": "LA CAFETERIE"
+    },
+    {
+     "role": "body",
+     "order": 407,
+     "text": "LANGENBERG"
+    },
+    {
+     "role": "body",
+     "order": 408,
+     "text": "LEMONAID"
+    },
+    {
+     "role": "body",
+     "order": 409,
+     "text": "LES CHEVALIERS D'ARGOUGES"
+    },
+    {
+     "role": "body",
+     "order": 410,
+     "text": "LOBODIS"
+    },
+    {
+     "role": "body",
+     "order": 411,
+     "text": "La Chocolaterie"
+    },
+    {
+     "role": "body",
+     "order": 412,
+     "text": "La Semeuse"
+    },
+    {
+     "role": "body",
+     "order": 413,
+     "text": "La Vida Vegan"
+    },
+    {
+     "role": "body",
+     "order": 414,
+     "text": "LaSelva"
+    },
+    {
+     "role": "body",
+     "order": 415,
+     "text": "Lambertz"
+    },
+    {
+     "role": "body",
+     "order": 416,
+     "text": "Landgarten"
+    },
+    {
+     "role": "body",
+     "order": 417,
+     "text": "Langnese Honig"
+    },
+    {
+     "role": "body",
+     "order": 418,
+     "text": "Lanwehr"
+    },
+    {
+     "role": "body",
+     "order": 419,
+     "text": "Laqtia"
+    },
+    {
+     "role": "body",
+     "order": 420,
+     "text": "Le Piantagioni Del Caffe'"
+    },
+    {
+     "role": "body",
+     "order": 421,
+     "text": "Le Royal"
+    },
+    {
+     "role": "body",
+     "order": 422,
+     "text": "Lebensbaum"
+    },
+    {
+     "role": "body",
+     "order": 423,
+     "text": "Leeuwenburgh"
+    },
+    {
+     "role": "body",
+     "order": 424,
+     "text": "Legends"
+    },
+    {
+     "role": "body",
+     "order": 425,
+     "text": "Les Chocolats de Pauline"
+    },
+    {
+     "role": "body",
+     "order": 426,
+     "text": "Libertas"
+    },
+    {
+     "role": "body",
+     "order": 427,
+     "text": "Lidl"
+    },
+    {
+     "role": "body",
+     "order": 428,
+     "text": "Liix"
+    },
+    {
+     "role": "body",
+     "order": 429,
+     "text": "Little Green Radicals"
+    },
+    {
+     "role": "body",
+     "order": 430,
+     "text": "Luigi Zaini"
+    },
+    {
+     "role": "body",
+     "order": 431,
+     "text": "Lukas Bäcker"
+    },
+    {
+     "role": "body",
+     "order": 432,
+     "text": "Luxlait"
+    },
+    {
+     "role": "body",
+     "order": 433,
+     "text": "Löwen Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 434,
+     "text": "MAL Organic"
+    },
+    {
+     "role": "body",
+     "order": 435,
+     "text": "MAMAJU"
+    },
+    {
+     "role": "body",
+     "order": 436,
+     "text": "MELAWEAR"
+    },
+    {
+     "role": "body",
+     "order": 437,
+     "text": "MIA BELLA"
+    },
+    {
+     "role": "body",
+     "order": 438,
+     "text": "MIKE MITCHELL'S"
+    },
+    {
+     "role": "body",
+     "order": 439,
+     "text": "MKTO CATAL IMPORTACIONES S.L."
+    },
+    {
+     "role": "body",
+     "order": 440,
+     "text": "Madame Butterfly"
+    },
+    {
+     "role": "body",
+     "order": 441,
+     "text": "Maestrani"
+    },
+    {
+     "role": "body",
+     "order": 442,
+     "text": "Maison Bonange"
+    },
+    {
+     "role": "body",
+     "order": 443,
+     "text": "Mandoi"
+    },
+    {
+     "role": "body",
+     "order": 444,
+     "text": "Manner"
+    },
+    {
+     "role": "body",
+     "order": 445,
+     "text": "Manner"
+    },
+    {
+     "role": "body",
+     "order": 446,
+     "text": "Manuel Caffe'"
+    },
+    {
+     "role": "body",
+     "order": 447,
+     "text": "Mare Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 448,
+     "text": "Martermühle"
+    },
+    {
+     "role": "body",
+     "order": 449,
+     "text": "Maître Truffout"
+    },
+    {
+     "role": "body",
+     "order": 450,
+     "text": "McEnnedy"
+    },
+    {
+     "role": "body",
+     "order": 451,
+     "text": "Meister Moulin"
+    },
+    {
+     "role": "body",
+     "order": 452,
+     "text": "Meisterland"
+    },
+    {
+     "role": "body",
+     "order": 453,
+     "text": "Melange D'Or"
+    },
+    {
+     "role": "body",
+     "order": 454,
+     "text": "Melitta"
+    },
+    {
+     "role": "body",
+     "order": 455,
+     "text": "Menz&Gasser"
+    },
+    {
+     "role": "body",
+     "order": 456,
+     "text": "Merkle"
+    },
+    {
+     "role": "body",
+     "order": 457,
+     "text": "Meybona"
+    },
+    {
+     "role": "body",
+     "order": 458,
+     "text": "Meyer-Hosen"
+    },
+    {
+     "role": "body",
+     "order": 459,
+     "text": "Milana"
+    },
+    {
+     "role": "body",
+     "order": 460,
+     "text": "Miners Mate"
+    },
+    {
+     "role": "body",
+     "order": 461,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 462,
+     "text": "Miofino"
+    },
+    {
+     "role": "body",
+     "order": 463,
+     "text": "Mister Bags"
+    },
+    {
+     "role": "body",
+     "order": 464,
+     "text": "Mokito"
+    },
+    {
+     "role": "body",
+     "order": 465,
+     "text": "Morandini Caffe'"
+    },
+    {
+     "role": "body",
+     "order": 466,
+     "text": "More Presents"
+    },
+    {
+     "role": "body",
+     "order": 467,
+     "text": "Moser Roth"
+    },
+    {
+     "role": "body",
+     "order": 468,
+     "text": "Mount Hagen"
+    },
+    {
+     "role": "body",
+     "order": 469,
+     "text": "Mr. Jones"
+    },
+    {
+     "role": "body",
+     "order": 470,
+     "text": "Munz"
+    },
+    {
+     "role": "body",
+     "order": 471,
+     "text": "My E. Bio"
+    },
+    {
+     "role": "body",
+     "order": 472,
+     "text": "Mäder"
+    },
+    {
+     "role": "body",
+     "order": 473,
+     "text": "Mövenpick"
+    },
+    {
+     "role": "body",
+     "order": 474,
+     "text": "Müller&Müller"
+    },
+    {
+     "role": "body",
+     "order": 475,
+     "text": "Naber"
+    },
+    {
+     "role": "body",
+     "order": 476,
+     "text": "Napier Winery"
+    },
+    {
+     "role": "body",
+     "order": 477,
+     "text": "Napoli"
+    },
+    {
+     "role": "body",
+     "order": 478,
+     "text": "Naturata"
+    },
+    {
+     "role": "body",
+     "order": 479,
+     "text": "Naturgut"
+    },
+    {
+     "role": "body",
+     "order": 480,
+     "text": "Naturwert"
+    },
+    {
+     "role": "body",
+     "order": 481,
+     "text": "Natürlich für uns"
+    },
+    {
+     "role": "body",
+     "order": 482,
+     "text": "Nescafé"
+    },
+    {
+     "role": "body",
+     "order": 483,
+     "text": "Nespresso"
+    },
+    {
+     "role": "body",
+     "order": 484,
+     "text": "Netto"
+    },
+    {
+     "role": "body",
+     "order": 485,
+     "text": "Neutral"
+    },
+    {
+     "role": "body",
+     "order": 486,
+     "text": "Niehoffs Kaffeerösterei"
+    },
+    {
+     "role": "body",
+     "order": 487,
+     "text": "Niehoffs-Vaihinger"
+    },
+    {
+     "role": "body",
+     "order": 488,
+     "text": "Nielsen-Massey"
+    },
+    {
+     "role": "body",
+     "order": 489,
+     "text": "Nivona Bergamo"
+    },
+    {
+     "role": "body",
+     "order": 490,
+     "text": "Norma"
+    },
+    {
+     "role": "body",
+     "order": 491,
+     "text": "Nostos"
+    },
+    {
+     "role": "body",
+     "order": 492,
+     "text": "Novas Gran Reserva"
+    },
+    {
+     "role": "body",
+     "order": 493,
+     "text": "Nudie Jeans"
+    },
+    {
+     "role": "body",
+     "order": 494,
+     "text": "Nueva Armonia"
+    },
+    {
+     "role": "body",
+     "order": 495,
+     "text": "Nusskati"
+    },
+    {
+     "role": "body",
+     "order": 496,
+     "text": "ORA Caffé"
+    },
+    {
+     "role": "body",
+     "order": 497,
+     "text": "Odylique"
+    },
+    {
+     "role": "body",
+     "order": 498,
+     "text": "Omniflora"
+    },
+    {
+     "role": "body",
+     "order": 499,
+     "text": "Only"
+    },
+    {
+     "role": "body",
+     "order": 500,
+     "text": "Oro de Cacao"
+    },
+    {
+     "role": "body",
+     "order": 501,
+     "text": "Oronda"
+    },
+    {
+     "role": "body",
+     "order": 502,
+     "text": "Overige"
+    },
+    {
+     "role": "body",
+     "order": 503,
+     "text": "Oxfam fair trade"
+    },
+    {
+     "role": "body",
+     "order": 504,
+     "text": "PACHECO PEREDA"
+    },
+    {
+     "role": "body",
+     "order": 505,
+     "text": "PALAIS D'EBENE"
+    },
+    {
+     "role": "body",
+     "order": 506,
+     "text": "PENNY"
+    },
+    {
+     "role": "body",
+     "order": 507,
+     "text": "Pakka"
+    },
+    {
+     "role": "body",
+     "order": 508,
+     "text": "Papa Inti"
+    },
+    {
+     "role": "body",
+     "order": 509,
+     "text": "Paradies"
+    },
+    {
+     "role": "body",
+     "order": 510,
+     "text": "Pelican Rouge"
+    },
+    {
+     "role": "body",
+     "order": 511,
+     "text": "Penny"
+    },
+    {
+     "role": "body",
+     "order": 512,
+     "text": "Perky Pear"
+    },
+    {
+     "role": "body",
+     "order": 513,
+     "text": "Peter Larsen Kaffe"
+    },
+    {
+     "role": "body",
+     "order": 514,
+     "text": "Pfanner"
+    },
+    {
+     "role": "body",
+     "order": 515,
+     "text": "Piacelli - Haselnusscremeaufstriche"
+    },
+    {
+     "role": "body",
+     "order": 516,
+     "text": "Piacelli"
+    },
+    {
+     "role": "body",
+     "order": 517,
+     "text": "Pickwick"
+    },
+    {
+     "role": "body",
+     "order": 518,
+     "text": "Plant-for-the-planet"
+    },
+    {
+     "role": "body",
+     "order": 519,
+     "text": "Portion Pack"
+    },
+    {
+     "role": "body",
+     "order": 520,
+     "text": "Pralin Art"
+    },
+    {
+     "role": "body",
+     "order": 521,
+     "text": "Primark"
+    },
+    {
+     "role": "body",
+     "order": 522,
+     "text": "ProPlanet"
+    },
+    {
+     "role": "body",
+     "order": 523,
+     "text": "Proviant"
+    },
+    {
+     "role": "body",
+     "order": 524,
+     "text": "Pural"
+    },
+    {
+     "role": "body",
+     "order": 525,
+     "text": "Pure Fine Selection"
+    },
+    {
+     "role": "body",
+     "order": 526,
+     "text": "Puro"
+    },
+    {
+     "role": "body",
+     "order": 527,
+     "text": "Qbo"
+    },
+    {
+     "role": "body",
+     "order": 528,
+     "text": "Quite Quiet"
+    },
+    {
+     "role": "body",
+     "order": 529,
+     "text": "RAAVI BIO"
+    },
+    {
+     "role": "body",
+     "order": 530,
+     "text": "REWE Beste Wahl"
+    },
+    {
+     "role": "body",
+     "order": 531,
+     "text": "REWE Bio"
+    },
+    {
+     "role": "body",
+     "order": 532,
+     "text": "REWE Feine Welt"
+    },
+    {
+     "role": "body",
+     "order": 533,
+     "text": "REWE frei von"
+    },
+    {
+     "role": "body",
+     "order": 534,
+     "text": "RUF"
+    },
+    {
+     "role": "body",
+     "order": 535,
+     "text": "Rasenreich"
+    },
+    {
+     "role": "body",
+     "order": 536,
+     "text": "Rauschmayer Green Line"
+    },
+    {
+     "role": "body",
+     "order": 537,
+     "text": "Red Cherry"
+    },
+    {
+     "role": "body",
+     "order": 538,
+     "text": "Red Pelican"
+    },
+    {
+     "role": "body",
+     "order": 539,
+     "text": "Redbeans"
+    },
+    {
+     "role": "body",
+     "order": 540,
+     "text": "Rehorik Heritage"
+    },
+    {
+     "role": "body",
+     "order": 541,
+     "text": "Reintüten"
+    },
+    {
+     "role": "body",
+     "order": 542,
+     "text": "Reismühle Brunnen"
+    },
+    {
+     "role": "body",
+     "order": 543,
+     "text": "Reismühle Nutrex"
+    },
+    {
+     "role": "body",
+     "order": 544,
+     "text": "Reubel"
+    },
+    {
+     "role": "body",
+     "order": 545,
+     "text": "Revilo Guapa"
+    },
+    {
+     "role": "body",
+     "order": 546,
+     "text": "Rewe"
+    },
+    {
+     "role": "body",
+     "order": 547,
+     "text": "Richie's"
+    },
+    {
+     "role": "body",
+     "order": 548,
+     "text": "Ridiculously Good"
+    },
+    {
+     "role": "body",
+     "order": 549,
+     "text": "Riegelein Confiserie"
+    },
+    {
+     "role": "body",
+     "order": 550,
+     "text": "Riegelein"
+    },
+    {
+     "role": "body",
+     "order": 551,
+     "text": "Rii Jii"
+    },
+    {
+     "role": "body",
+     "order": 552,
+     "text": "Rioba"
+    },
+    {
+     "role": "body",
+     "order": 553,
+     "text": "Risos Fair"
+    },
+    {
+     "role": "body",
+     "order": 554,
+     "text": "Roastelier by Zoegas"
+    },
+    {
+     "role": "body",
+     "order": 555,
+     "text": "Roggenbruck"
+    },
+    {
+     "role": "body",
+     "order": 556,
+     "text": "Rosengarten"
+    },
+    {
+     "role": "body",
+     "order": 557,
+     "text": "Rottaler"
+    },
+    {
+     "role": "body",
+     "order": 558,
+     "text": "Royal Mints"
+    },
+    {
+     "role": "body",
+     "order": 559,
+     "text": "Rösterei Laufenmühle"
+    },
+    {
+     "role": "body",
+     "order": 560,
+     "text": "SOC"
+    },
+    {
+     "role": "body",
+     "order": 561,
+     "text": "SPAR Natur*pur"
+    },
+    {
+     "role": "body",
+     "order": 562,
+     "text": "STAMINA"
+    },
+    {
+     "role": "body",
+     "order": 563,
+     "text": "Sander"
+    },
+    {
+     "role": "body",
+     "order": 564,
+     "text": "Santa Claus in Town"
+    },
+    {
+     "role": "body",
+     "order": 565,
+     "text": "Saquella 1856 Srl"
+    },
+    {
+     "role": "body",
+     "order": 566,
+     "text": "Saveurs & Nature"
+    },
+    {
+     "role": "body",
+     "order": 567,
+     "text": "Schenke"
+    },
+    {
+     "role": "body",
+     "order": 568,
+     "text": "Schirmer Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 569,
+     "text": "Schmitz-Mertens Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 570,
+     "text": "SchokoSchatz"
+    },
+    {
+     "role": "body",
+     "order": 571,
+     "text": "Schuler Gourmet"
+    },
+    {
+     "role": "body",
+     "order": 572,
+     "text": "Schweitzer"
+    },
+    {
+     "role": "body",
+     "order": 573,
+     "text": "Schäfers Kaffeeoase"
+    },
+    {
+     "role": "body",
+     "order": 574,
+     "text": "Seattle's Best Coffee"
+    },
+    {
+     "role": "body",
+     "order": 575,
+     "text": "Seeberger GREEN Confianza Espresso"
+    },
+    {
+     "role": "body",
+     "order": 576,
+     "text": "Seeberger"
+    },
+    {
+     "role": "body",
+     "order": 577,
+     "text": "Segafredo"
+    },
+    {
+     "role": "body",
+     "order": 578,
+     "text": "Selecta"
+    },
+    {
+     "role": "body",
+     "order": 579,
+     "text": "Select"
+    },
+    {
+     "role": "body",
+     "order": 580,
+     "text": "Senesto"
+    },
+    {
+     "role": "body",
+     "order": 581,
+     "text": "Sense Organics"
+    },
+    {
+     "role": "body",
+     "order": 582,
+     "text": "Senso"
+    },
+    {
+     "role": "body",
+     "order": 583,
+     "text": "Sir Charles"
+    },
+    {
+     "role": "body",
+     "order": 584,
+     "text": "Sister Series"
+    },
+    {
+     "role": "body",
+     "order": 585,
+     "text": "Sjöstrand"
+    },
+    {
+     "role": "body",
+     "order": 586,
+     "text": "Skee Is"
+    },
+    {
+     "role": "body",
+     "order": 587,
+     "text": "Smaakt"
+    },
+    {
+     "role": "body",
+     "order": 588,
+     "text": "Smikkelhuys"
+    },
+    {
+     "role": "body",
+     "order": 589,
+     "text": "So Vegan So Fine"
+    },
+    {
+     "role": "body",
+     "order": 590,
+     "text": "Spice Box"
+    },
+    {
+     "role": "body",
+     "order": 591,
+     "text": "Sport Thieme"
+    },
+    {
+     "role": "body",
+     "order": 592,
+     "text": "Sportastic"
+    },
+    {
+     "role": "body",
+     "order": 593,
+     "text": "St. Benno"
+    },
+    {
+     "role": "body",
+     "order": 594,
+     "text": "Stainless"
+    },
+    {
+     "role": "body",
+     "order": 595,
+     "text": "Steenbergs"
+    },
+    {
+     "role": "body",
+     "order": 596,
+     "text": "Steinecke"
+    },
+    {
+     "role": "body",
+     "order": 597,
+     "text": "Steinfurter Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 598,
+     "text": "Stella"
+    },
+    {
+     "role": "body",
+     "order": 599,
+     "text": "Stellenrust Block 28"
+    },
+    {
+     "role": "body",
+     "order": 600,
+     "text": "Stellenrust Reserve"
+    },
+    {
+     "role": "body",
+     "order": 601,
+     "text": "Stern"
+    },
+    {
+     "role": "body",
+     "order": 602,
+     "text": "Stiegl"
+    },
+    {
+     "role": "body",
+     "order": 603,
+     "text": "Stop Café"
+    },
+    {
+     "role": "body",
+     "order": 604,
+     "text": "Storyfabrics"
+    },
+    {
+     "role": "body",
+     "order": 605,
+     "text": "Stutz & Fischer GmbH"
+    },
+    {
+     "role": "body",
+     "order": 606,
+     "text": "Suki Tea"
+    },
+    {
+     "role": "body",
+     "order": 607,
+     "text": "Suma"
+    },
+    {
+     "role": "body",
+     "order": 608,
+     "text": "Suwi Werbetextilien Import GmbH"
+    },
+    {
+     "role": "body",
+     "order": 609,
+     "text": "SweetFamily"
+    },
+    {
+     "role": "body",
+     "order": 610,
+     "text": "Sí, Claro!"
+    },
+    {
+     "role": "body",
+     "order": 611,
+     "text": "Südzucker"
+    },
+    {
+     "role": "body",
+     "order": 612,
+     "text": "TANTO"
+    },
+    {
+     "role": "body",
+     "order": 613,
+     "text": "TATE & LYLE"
+    },
+    {
+     "role": "body",
+     "order": 614,
+     "text": "TB Brown"
+    },
+    {
+     "role": "body",
+     "order": 615,
+     "text": "TEAMTEX"
+    },
+    {
+     "role": "body",
+     "order": 616,
+     "text": "TEEKANNE"
+    },
+    {
+     "role": "body",
+     "order": 617,
+     "text": "TEMINISTERIET"
+    },
+    {
+     "role": "body",
+     "order": 618,
+     "text": "TERRES DE CAFE"
+    },
+    {
+     "role": "body",
+     "order": 619,
+     "text": "TEXXILLA"
+    },
+    {
+     "role": "body",
+     "order": 620,
+     "text": "THINK FAIR"
+    },
+    {
+     "role": "body",
+     "order": 621,
+     "text": "THOKKTHOKK"
+    },
+    {
+     "role": "body",
+     "order": 622,
+     "text": "TOUCHORGANIC"
+    },
+    {
+     "role": "body",
+     "order": 623,
+     "text": "TRUE Coffee"
+    },
+    {
+     "role": "body",
+     "order": 624,
+     "text": "Tatico"
+    },
+    {
+     "role": "body",
+     "order": 625,
+     "text": "Tchibo BARISTA"
+    },
+    {
+     "role": "body",
+     "order": 626,
+     "text": "Tchibo Coffee Service Individuell"
+    },
+    {
+     "role": "body",
+     "order": 627,
+     "text": "Tchibo"
+    },
+    {
+     "role": "body",
+     "order": 628,
+     "text": "Tea Cultures"
+    },
+    {
+     "role": "body",
+     "order": 629,
+     "text": "Tea Quiero"
+    },
+    {
+     "role": "body",
+     "order": 630,
+     "text": "Tea-Friends"
+    },
+    {
+     "role": "body",
+     "order": 631,
+     "text": "Tee Blatt"
+    },
+    {
+     "role": "body",
+     "order": 632,
+     "text": "TeeGschwendner"
+    },
+    {
+     "role": "body",
+     "order": 633,
+     "text": "Teekampagne"
+    },
+    {
+     "role": "body",
+     "order": 634,
+     "text": "Tempelmann's"
+    },
+    {
+     "role": "body",
+     "order": 635,
+     "text": "Terra Naturi"
+    },
+    {
+     "role": "body",
+     "order": 636,
+     "text": "The Good Chocolatier"
+    },
+    {
+     "role": "body",
+     "order": 637,
+     "text": "Theater zum Anbeißen"
+    },
+    {
+     "role": "body",
+     "order": 638,
+     "text": "Thiele Tee"
+    },
+    {
+     "role": "body",
+     "order": 639,
+     "text": "Thurson"
+    },
+    {
+     "role": "body",
+     "order": 640,
+     "text": "Tiktak"
+    },
+    {
+     "role": "body",
+     "order": 641,
+     "text": "Tilbecks"
+    },
+    {
+     "role": "body",
+     "order": 642,
+     "text": "Tioba"
+    },
+    {
+     "role": "body",
+     "order": 643,
+     "text": "Tiroler Röstung"
+    },
+    {
+     "role": "body",
+     "order": 644,
+     "text": "Tohi"
+    },
+    {
+     "role": "body",
+     "order": 645,
+     "text": "Tony's Chocolonely"
+    },
+    {
+     "role": "body",
+     "order": 646,
+     "text": "Tonys Factory"
+    },
+    {
+     "role": "body",
+     "order": 647,
+     "text": "Topolino"
+    },
+    {
+     "role": "body",
+     "order": 648,
+     "text": "Topomini"
+    },
+    {
+     "role": "body",
+     "order": 649,
+     "text": "Transgourmet"
+    },
+    {
+     "role": "body",
+     "order": 650,
+     "text": "Treets"
+    },
+    {
+     "role": "body",
+     "order": 651,
+     "text": "Troxlers- Momente"
+    },
+    {
+     "role": "body",
+     "order": 652,
+     "text": "Turm Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 653,
+     "text": "Udea"
+    },
+    {
+     "role": "body",
+     "order": 654,
+     "text": "Uhlsport"
+    },
+    {
+     "role": "body",
+     "order": 655,
+     "text": "Uurú"
+    },
+    {
+     "role": "body",
+     "order": 656,
+     "text": "VIRUNGA COFFEE"
+    },
+    {
+     "role": "body",
+     "order": 657,
+     "text": "VISTA"
+    },
+    {
+     "role": "body",
+     "order": 658,
+     "text": "VOSSEN"
+    },
+    {
+     "role": "body",
+     "order": 659,
+     "text": "Van Dyck"
+    },
+    {
+     "role": "body",
+     "order": 660,
+     "text": "Van Houten"
+    },
+    {
+     "role": "body",
+     "order": 661,
+     "text": "VanVaan"
+    },
+    {
+     "role": "body",
+     "order": 662,
+     "text": "Vanillekiste"
+    },
+    {
+     "role": "body",
+     "order": 663,
+     "text": "Vego"
+    },
+    {
+     "role": "body",
+     "order": 664,
+     "text": "Vertuzzi"
+    },
+    {
+     "role": "body",
+     "order": 665,
+     "text": "ViaVerde"
+    },
+    {
+     "role": "body",
+     "order": 666,
+     "text": "Victor Schmidt"
+    },
+    {
+     "role": "body",
+     "order": 667,
+     "text": "Viessmann"
+    },
+    {
+     "role": "body",
+     "order": 668,
+     "text": "Viva"
+    },
+    {
+     "role": "body",
+     "order": 669,
+     "text": "Vogeley"
+    },
+    {
+     "role": "body",
+     "order": 670,
+     "text": "VollCorner"
+    },
+    {
+     "role": "body",
+     "order": 671,
+     "text": "Vollmer"
+    },
+    {
+     "role": "body",
+     "order": 672,
+     "text": "Vonatur"
+    },
+    {
+     "role": "body",
+     "order": 673,
+     "text": "W Choco Chalet"
+    },
+    {
+     "role": "body",
+     "order": 674,
+     "text": "WEISS"
+    },
+    {
+     "role": "body",
+     "order": 675,
+     "text": "WIEBOLD"
+    },
+    {
+     "role": "body",
+     "order": 676,
+     "text": "Watzmann Qualitätsgetränke"
+    },
+    {
+     "role": "body",
+     "order": 677,
+     "text": "Western Cape"
+    },
+    {
+     "role": "body",
+     "order": 678,
+     "text": "Westhoff"
+    },
+    {
+     "role": "body",
+     "order": 679,
+     "text": "Wicklein"
+    },
+    {
+     "role": "body",
+     "order": 680,
+     "text": "Wikana"
+    },
+    {
+     "role": "body",
+     "order": 681,
+     "text": "Wild Strawberry"
+    },
+    {
+     "role": "body",
+     "order": 682,
+     "text": "Winemakers Selection"
+    },
+    {
+     "role": "body",
+     "order": 683,
+     "text": "Wish4 Fair Trade"
+    },
+    {
+     "role": "body",
+     "order": 684,
+     "text": "With a touch of Rose"
+    },
+    {
+     "role": "body",
+     "order": 685,
+     "text": "Witor's"
+    },
+    {
+     "role": "body",
+     "order": 686,
+     "text": "Woogie"
+    },
+    {
+     "role": "body",
+     "order": 687,
+     "text": "Würzburger Partner Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 688,
+     "text": "YiGGA"
+    },
+    {
+     "role": "body",
+     "order": 689,
+     "text": "Yigga"
+    },
+    {
+     "role": "body",
+     "order": 690,
+     "text": "Zaytoun"
+    },
+    {
+     "role": "body",
+     "order": 691,
+     "text": "Zentis"
+    },
+    {
+     "role": "body",
+     "order": 692,
+     "text": "biozentrale BioKids"
+    },
+    {
+     "role": "body",
+     "order": 693,
+     "text": "biozentrale"
+    },
+    {
+     "role": "body",
+     "order": 694,
+     "text": "bo&button"
+    },
+    {
+     "role": "body",
+     "order": 695,
+     "text": "borchers"
+    },
+    {
+     "role": "body",
+     "order": 696,
+     "text": "café+co"
+    },
+    {
+     "role": "body",
+     "order": 697,
+     "text": "chicco di caffe"
+    },
+    {
+     "role": "body",
+     "order": 698,
+     "text": "choco'la"
+    },
+    {
+     "role": "body",
+     "order": 699,
+     "text": "coepto"
+    },
+    {
+     "role": "body",
+     "order": 700,
+     "text": "coffee perfect"
+    },
+    {
+     "role": "body",
+     "order": 701,
+     "text": "de Origen"
+    },
+    {
+     "role": "body",
+     "order": 702,
+     "text": "dennree"
+    },
+    {
+     "role": "body",
+     "order": 703,
+     "text": "der Kaffeebaron"
+    },
+    {
+     "role": "body",
+     "order": 704,
+     "text": "derkaffee"
+    },
+    {
+     "role": "body",
+     "order": 705,
+     "text": "dmBio"
+    },
+    {
+     "role": "body",
+     "order": 706,
+     "text": "enerBio"
+    },
+    {
+     "role": "body",
+     "order": 707,
+     "text": "fabia"
+    },
+    {
+     "role": "body",
+     "order": 708,
+     "text": "fairfood Freiburg"
+    },
+    {
+     "role": "body",
+     "order": 709,
+     "text": "fairstärkung"
+    },
+    {
+     "role": "body",
+     "order": 710,
+     "text": "fairwine"
+    },
+    {
+     "role": "body",
+     "order": 711,
+     "text": "foodloose"
+    },
+    {
+     "role": "body",
+     "order": 712,
+     "text": "graf kaffee"
+    },
+    {
+     "role": "body",
+     "order": 713,
+     "text": "i+m Naturkosmetik Berlin GmbH"
+    },
+    {
+     "role": "body",
+     "order": 714,
+     "text": "iChoc"
+    },
+    {
+     "role": "body",
+     "order": 715,
+     "text": "keo"
+    },
+    {
+     "role": "body",
+     "order": 716,
+     "text": "koawach"
+    },
+    {
+     "role": "body",
+     "order": 717,
+     "text": "mela wear Meldung"
+    },
+    {
+     "role": "body",
+     "order": 718,
+     "text": "memo"
+    },
+    {
+     "role": "body",
+     "order": 719,
+     "text": "midocean"
+    },
+    {
+     "role": "body",
+     "order": 720,
+     "text": "naturwunder"
+    },
+    {
+     "role": "body",
+     "order": 721,
+     "text": "palatina"
+    },
+    {
+     "role": "body",
+     "order": 722,
+     "text": "printwear"
+    },
+    {
+     "role": "body",
+     "order": 723,
+     "text": "puda"
+    },
+    {
+     "role": "body",
+     "order": 724,
+     "text": "punero"
+    },
+    {
+     "role": "body",
+     "order": 725,
+     "text": "tentree"
+    },
+    {
+     "role": "body",
+     "order": 726,
+     "text": "tg natura"
+    },
+    {
+     "role": "body",
+     "order": 727,
+     "text": "toom"
+    },
+    {
+     "role": "body",
+     "order": 728,
+     "text": "van Strien"
+    },
+    {
+     "role": "body",
+     "order": 729,
+     "text": "world of textiles"
+    },
+    {
+     "role": "body",
+     "order": 730,
+     "text": "yumeko"
+    },
+    {
+     "role": "body",
+     "order": 731,
+     "text": "Ökotopia"
+    },
+    {
+     "role": "body",
+     "order": 732,
+     "text": "Ökovital"
+    },
+    {
+     "role": "body",
+     "order": 733,
+     "text": "Ölz"
+    },
+    {
+     "role": "body",
+     "order": 734,
+     "text": "Kategorie"
+    },
+    {
+     "role": "body",
+     "order": 735,
+     "text": "Textilien"
+    },
+    {
+     "role": "body",
+     "order": 736,
+     "text": "Eis und Desserts"
+    },
+    {
+     "role": "body",
+     "order": 737,
+     "text": "Reis und Quinoa"
+    },
+    {
+     "role": "body",
+     "order": 738,
+     "text": "Gewürze und Öle"
+    },
+    {
+     "role": "body",
+     "order": 739,
+     "text": "Rohrzucker"
+    },
+    {
+     "role": "body",
+     "order": 740,
+     "text": "Alkoholische Getränke"
+    },
+    {
+     "role": "body",
+     "order": 741,
+     "text": "Gold & Schmuck"
+    },
+    {
+     "role": "body",
+     "order": 742,
+     "text": "Gebäck und Süßigkeiten"
+    },
+    {
+     "role": "body",
+     "order": 743,
+     "text": "Kaffee"
+    },
+    {
+     "role": "body",
+     "order": 744,
+     "text": "Andere"
+    },
+    {
+     "role": "body",
+     "order": 745,
+     "text": "Kakao/Schokolade"
+    },
+    {
+     "role": "body",
+     "order": 746,
+     "text": "Tee"
+    },
+    {
+     "role": "body",
+     "order": 747,
+     "text": "Säfte und kühle Getränke"
+    },
+    {
+     "role": "body",
+     "order": 748,
+     "text": "Kosmetika"
+    },
+    {
+     "role": "body",
+     "order": 749,
+     "text": "Blumen und Pflanzen"
+    },
+    {
+     "role": "body",
+     "order": 750,
+     "text": "Früchte und Gemüse"
+    },
+    {
+     "role": "body",
+     "order": 751,
+     "text": "Nüsse, Chips und Trockenfrüchte"
+    },
+    {
+     "role": "body",
+     "order": 752,
+     "text": "Aufstriche und Müsli"
+    },
+    {
+     "role": "body",
+     "order": 753,
+     "text": "||"
+    },
+    {
+     "role": "body",
+     "order": 754,
+     "text": "Bio"
+    },
+    {
+     "role": "body",
+     "order": 755,
+     "text": "Nicht biologisch"
+    },
+    {
+     "role": "body",
+     "order": 756,
+     "text": "Biologisch"
+    },
+    {
+     "role": "body",
+     "order": 757,
+     "text": "7176"
+    },
+    {
+     "role": "body",
+     "order": 758,
+     "text": "Ergebnisse"
+    },
+    {
+     "role": "body",
+     "order": 759,
+     "text": "Ergebnisse"
+    },
+    {
+     "role": "body",
+     "order": 760,
+     "text": "Alles löschen"
+    },
+    {
+     "role": "body",
+     "order": 761,
+     "text": "BAD BOYZ SOCCER"
+    },
+    {
+     "role": "body",
+     "order": 762,
+     "text": "Merchandising 841-843"
+    },
+    {
+     "role": "body",
+     "order": 763,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 764,
+     "text": "Aqua Verde"
+    },
+    {
+     "role": "body",
+     "order": 765,
+     "text": "Aqua Verde Coconutwater 0,33L DE/EN/FR/NL/PL"
+    },
+    {
+     "role": "body",
+     "order": 766,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 767,
+     "text": "Aqua Verde"
+    },
+    {
+     "role": "body",
+     "order": 768,
+     "text": "Aqua Verde Coconutwater 1L DE/EN/FR/NL/PL/SE/DK/ES"
+    },
+    {
+     "role": "body",
+     "order": 769,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 770,
+     "text": "Topolino"
+    },
+    {
+     "role": "body",
+     "order": 771,
+     "text": "Kinder Mädchen T-shirt 876545"
+    },
+    {
+     "role": "body",
+     "order": 772,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 773,
+     "text": "Oro de Cacao"
+    },
+    {
+     "role": "body",
+     "order": 774,
+     "text": "Napolitains dark, 100 Pzt Cacao Fruit, 1kg"
+    },
+    {
+     "role": "body",
+     "order": 775,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 776,
+     "text": "Vogeley"
+    },
+    {
+     "role": "body",
+     "order": 777,
+     "text": "Bio Kochpudding Schokolade FT"
+    },
+    {
+     "role": "body",
+     "order": 778,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 779,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 780,
+     "text": "Original Tafel"
+    },
+    {
+     "role": "body",
+     "order": 781,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 782,
+     "text": "YiGGA"
+    },
+    {
+     "role": "body",
+     "order": 783,
+     "text": "Kinder Jungen Sweatshirt 875331"
+    },
+    {
+     "role": "body",
+     "order": 784,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 785,
+     "text": "Yigga"
+    },
+    {
+     "role": "body",
+     "order": 786,
+     "text": "Kinder Jungen Sweatshirt 875337"
+    },
+    {
+     "role": "body",
+     "order": 787,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 788,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 789,
+     "text": "Merry Christmas Box"
+    },
+    {
+     "role": "body",
+     "order": 790,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 791,
+     "text": "Novas Gran Reserva"
+    },
+    {
+     "role": "body",
+     "order": 792,
+     "text": "Novas Chardonnay 2025"
+    },
+    {
+     "role": "body",
+     "order": 793,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 794,
+     "text": "Adobe Reserva"
+    },
+    {
+     "role": "body",
+     "order": 795,
+     "text": "Adobe Sauvignon Blanc 2026"
+    },
+    {
+     "role": "body",
+     "order": 796,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 797,
+     "text": "Adobe Reserva"
+    },
+    {
+     "role": "body",
+     "order": 798,
+     "text": "Adobe Chardonnay 2026"
+    },
+    {
+     "role": "body",
+     "order": 799,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 800,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 801,
+     "text": "Himbeere (5 x 22g)"
+    },
+    {
+     "role": "body",
+     "order": 802,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 803,
+     "text": "Munz"
+    },
+    {
+     "role": "body",
+     "order": 804,
+     "text": "Munz Glückskäfer Bottle 150g"
+    },
+    {
+     "role": "body",
+     "order": 805,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 806,
+     "text": "REWE Beste Wahl"
+    },
+    {
+     "role": "body",
+     "order": 807,
+     "text": "RBW Massive Kugeln AVM 180g im Netz"
+    },
+    {
+     "role": "body",
+     "order": 808,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 809,
+     "text": "Topolino"
+    },
+    {
+     "role": "body",
+     "order": 810,
+     "text": "Kinder Mädchen T-Shirt_875016"
+    },
+    {
+     "role": "body",
+     "order": 811,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 812,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 813,
+     "text": "Original Bottle 150g"
+    },
+    {
+     "role": "body",
+     "order": 814,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 815,
+     "text": "REWE Bio"
+    },
+    {
+     "role": "body",
+     "order": 816,
+     "text": "Rewe Bio Kakao Nibs"
+    },
+    {
+     "role": "body",
+     "order": 817,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 818,
+     "text": "REWE Beste Wahl"
+    },
+    {
+     "role": "body",
+     "order": 819,
+     "text": "RBW Schoko Kugeln mit Pistazien Creme 100g"
+    },
+    {
+     "role": "body",
+     "order": 820,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 821,
+     "text": "REWE Beste Wahl"
+    },
+    {
+     "role": "body",
+     "order": 822,
+     "text": "RBW Schoko Kugeln mit Speculoo Creme 100g"
+    },
+    {
+     "role": "body",
+     "order": 823,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 824,
+     "text": "Douceur"
+    },
+    {
+     "role": "body",
+     "order": 825,
+     "text": "Douceur Weihnachtsfiguren Reiterbeutel Herz"
+    },
+    {
+     "role": "body",
+     "order": 826,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 827,
+     "text": "Douceur"
+    },
+    {
+     "role": "body",
+     "order": 828,
+     "text": "Douceur Kugeln mit Milchcreme 180g im Netz"
+    },
+    {
+     "role": "body",
+     "order": 829,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 830,
+     "text": "Yigga"
+    },
+    {
+     "role": "body",
+     "order": 831,
+     "text": "Kinder Mädchen Sweatshirt 875380"
+    },
+    {
+     "role": "body",
+     "order": 832,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "cta",
+     "order": 833,
+     "text": "1",
+     "href": "#1"
+    },
+    {
+     "role": "cta",
+     "order": 834,
+     "text": "2",
+     "href": "#2"
+    },
+    {
+     "role": "cta",
+     "order": 835,
+     "text": "3",
+     "href": "#3"
+    },
+    {
+     "role": "cta",
+     "order": 836,
+     "text": "4",
+     "href": "#4"
+    },
+    {
+     "role": "cta",
+     "order": 837,
+     "text": "5",
+     "href": "#5"
+    },
+    {
+     "role": "body",
+     "order": 838,
+     "text": "..."
+    },
+    {
+     "role": "cta",
+     "order": 839,
+     "text": "299",
+     "href": "#299"
+    },
+    {
+     "role": "body",
+     "order": 840,
+     "text": "Vorherige"
+    },
+    {
+     "role": "body",
+     "order": 841,
+     "text": "Nächste"
+    },
+    {
+     "role": "body",
+     "order": 842,
+     "text": "Entschuldigung, kein Ergebnis gefunden"
+    },
+    {
+     "role": "body",
+     "order": 843,
+     "text": "Leider scheinen wir keine Inhalte zu diesem Suchbegriff zu haben. Versuchen Sie es vielleicht mit einem anderen Suchbegriff oder einem allgemeineren Begriff."
+    }
+   ],
+   "imgCount": 24,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.Select",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 730
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.ProductTeaserGrid--card",
+     "count": 24,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "BUTTON.Button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Bitte beachte, dass sich dieses Verzeichnis noch in der Entwicklung befindet und Daten aus verschiedenen internen Quellen miteinander verknüpft. Es ist noch nicht vollständig und kann in seltenen Fällen nicht korrekt sein. Nach der Löschung eines Zertifikats kann die Organisation noch eine Zeitlang im Verzeichnis bleiben."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Disclaimer:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Mehr Informationen zu Fairtrade-Produkten",
+     "href": "../../de-de/produkte/fairtrade_produkte.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+/* text-image — live TextImage--wrapper / TextImage / Wave (values lifted, en.css + canon.css) */
+.text-image.wave {
+  padding-block: 64px;
+}
+
+@media (width >= 1024px) {
+  .text-image.wave {
+    padding-block: 80px;
+  }
+}
+
+.text-image .text-image-band {
+  padding-block: 64px;
+  position: relative;
+}
+
+@media (width >= 1024px) {
+  .text-image .text-image-band {
+    padding-block: 80px;
+  }
+}
+
+.text-image.grey .text-image-band {
+  background: var(--ft-grey-100);
+}
+
+/* Wave divider (colour = the grey band below it) */
+.text-image .wave {
+  color: var(--ft-grey-100);
+}
+
+.text-image .wave svg {
+  display: block;
+}
+
+.text-image :is(.wave-mobile, .wave-tablet) {
+  height: 40px;
+  width: 100%;
+}
+
+.text-image .wave-desktop {
+  display: none;
+  height: 88px;
+  width: 100%;
+}
+
+.text-image .wave-tablet {
+  display: none;
+}
+
+@media (width >= 640px) {
+  .text-image .wave-mobile {
+    display: none;
+  }
+
+  .text-image .wave-tablet {
+    display: block;
+  }
+}
+
+@media (width >= 1024px) {
+  .text-image .wave-tablet {
+    display: none;
+  }
+
+  .text-image .wave-desktop {
+    display: block;
+  }
+}
+
+.text-image .text-image-inner {
+  display: grid;
+  gap: 24px;
+  grid-template-areas: "image" "content";
+  position: relative;
+}
+
+@media (width >= 768px) {
+  .text-image .text-image-inner {
+    align-items: center;
+    gap: 32px;
+    grid-template-areas: "content image";
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .text-image.reverse .text-image-inner {
+    grid-template-areas: "image content";
+  }
+}
+
+@media (width >= 1280px) {
+  .text-image .text-image-grid > .text-image-inner {
+    gap: 40px;
+    grid-column: 2 / span 10;
+  }
+}
+
+.text-image .text-image-content {
+  grid-area: content;
+}
+
+.text-image .text-image-image {
+  grid-area: image;
+}
+
+/* live Image (square) */
+.text-image .image {
+  background-color: var(--ft-skyblue-25);
+  border-radius: var(--radius);
+  line-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.text-image .image::before {
+  aspect-ratio: 1;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.text-image .image img {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.text-image .text-image-title {
+  font-family: var(--ft-font-head);
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.text-image .text-image-title :is(h2, h3) {
+  font: inherit;
+  margin: 0;
+}
+
+.text-image .text-image-text {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-top: 24px;
+  white-space: pre-line;
+}
+
+/* live: one pre-line text whose paragraph break renders as an empty line (1.6em) */
+.text-image .text-image-text:has(p) {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6em;
+}
+
+/* live: a Richtext <p> followed by a newline renders one empty pre-line line under the text */
+.text-image.trailing-break .text-image-text {
+  padding-bottom: 1.6em;
+}
+
+@media (width >= 1024px) {
+  .text-image .text-image-title {
+    font-size: 48px;
+  }
+
+  .text-image .text-image-text {
+    font-size: 18px;
+  }
+}
+
+.text-image .text-image-cta {
+  margin-top: 32px;
+}

@@ -1,0 +1,71 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-28T20:15:14.360Z",
+ "source": "https://www.fairtrade.net/en.html",
+ "build": "https://main--bdafc086--aemcoder.aem.live/en",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 6,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-href@390 Open Mobile Menu Close Mobile Menu > Products > Fairtrade products [click]",
+   "width": 390,
+   "path": "Open Mobile Menu Close Mobile Menu > Products > Fairtrade products",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "2 link(s) point elsewhere: Fairtrade products: /en/products/fairtrade_products → /en/products/fairtrade-products; Cocoa: /en/products/fairtrade_products/cocoa → /en/products/fairtrade-products/cocoa"
+  },
+  {
+   "key": "link-href@390 Open Mobile Menu Close Mobile Menu > GLOBAL • EN Open or close the locale selector. The currently selected locale is  [click]",
+   "width": 390,
+   "path": "Open Mobile Menu Close Mobile Menu > GLOBAL • EN Open or close the locale selector. The currently selected locale is ",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "9 link(s) point elsewhere: English: /africa-en → /us-en; Deutsch: /at-de → /ch-de; Français: /be-fr → /ch-fr; English: /ca-en → /us-en"
+  },
+  {
+   "key": "budget-truncated@390 (source)",
+   "width": 390,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at depth 4 at Open Mobile Menu Close Mobile Menu > Why Fairtrade > What we do > Go back: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@390 (build)",
+   "width": 390,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at depth 4 at Open Mobile Menu Close Mobile Menu > Why Fairtrade > What we do > Go back"
+  },
+  {
+   "key": "link-href@1440 Products [click]",
+   "width": 1440,
+   "path": "Products",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "2 link(s) point elsewhere: Fairtrade products: /en/products/fairtrade_products → /en/products/fairtrade-products; Cocoa: /en/products/fairtrade_products/cocoa → /en/products/fairtrade-products/cocoa"
+  },
+  {
+   "key": "link-href@1440 GLOBAL • EN Open or close the locale selector. The currently selected locale is  [click]",
+   "width": 1440,
+   "path": "GLOBAL • EN Open or close the locale selector. The currently selected locale is ",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "9 link(s) point elsewhere: English: /africa-en → /us-en; Deutsch: /at-de → /ch-de; Français: /be-fr → /ch-fr; English: /ca-en → /us-en"
+  }
+ ]
+}

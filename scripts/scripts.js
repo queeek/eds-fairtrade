@@ -143,6 +143,42 @@ function decorateButtons(main) {
 }
 
 /**
+ * Page language from the locale tree (/de-de/… → de-DE, /ch-de/… → de, global → en),
+ * matching the source's <html lang>.
+ * @returns {string}
+ */
+function pageLang() {
+  const seg = window.location.pathname.split('/')[1] || '';
+  const known = { 'de-de': 'de-DE', 'ch-de': 'de' };
+  if (known[seg]) return known[seg];
+  const m = seg.match(/^[a-z]{2}-([a-z]{2})$/);
+  return m ? m[1] : 'en';
+}
+
+/**
+ * Content fader (live: data-module=content-fader): every section after the first fades in
+ * once it enters the viewport. A section opts out with section metadata `Fader: off`.
+ * @param {Element} main The main element
+ */
+function initContentFader(main) {
+  if (!('IntersectionObserver' in window)) return;
+  const sections = [...main.querySelectorAll(':scope > .section')]
+    .slice(1)
+    .filter((s) => s.dataset.fader !== 'off');
+  if (!sections.length) return;
+  const io = new IntersectionObserver((entries) => entries.forEach((en) => {
+    if (!en.isIntersecting) return;
+    en.target.classList.add('is-visible');
+    io.unobserve(en.target);
+  }));
+  main.setAttribute('data-fader', '');
+  sections.forEach((s) => {
+    s.classList.add('fader');
+    io.observe(s);
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -160,7 +196,8 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  import('./martech.js').then((m) => m.loadConsent());
+  document.documentElement.lang = pageLang();
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
@@ -187,6 +224,7 @@ async function loadLazy(doc) {
   loadHeader(doc.querySelector('body > header'));
 
   const main = doc.querySelector('main');
+  initContentFader(main);
   await loadSections(main);
 
   const { hash } = window.location;
@@ -204,6 +242,7 @@ async function loadLazy(doc) {
  * without impacting the user experience.
  */
 function loadDelayed() {
+  import('./martech.js').then((m) => m.loadTags());
   import('./consent-check.js');
   // load anything that can be postponed to the latest here
 }

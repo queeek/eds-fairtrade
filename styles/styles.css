@@ -1,101 +1,179 @@
+/* stylelint-disable no-descending-specificity -- cascade order lifted verbatim from the canon */
+
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * fairtrade.net replica — foundation layer (EDS).
+ * Ported from the gated prototype canon (stardust/prototypes/canon.css), whose values are lifted
+ * from the live clientlib-site stylesheet. Source breakpoints: 640 / 768 / 1024 / 1280 / 1440
+ * (min-width). Contents: fallback faces · tokens · reset + base type · runtime gates · section
+ * scaffold · shell grid · icon · buttons · default content (Richtext) · content fader ·
+ * Experience Workspace edit-mode repaint.
+ * Brand faces (Alegreya Sans, Exo 2 — SIL OFL 1.1): self-hosted, /fonts via styles/fonts.css.
  */
 
+/* metric-matched local faces, available at first paint (computed from the woff2 with fontTools) */
+@font-face {
+  font-family: "exo-2-fallback";
+  size-adjust: 102.82%;
+  ascent-override: 97.16%;
+  descent-override: 19.55%;
+  line-gap-override: 0%;
+  src: local('Arial');
+}
+
+@font-face {
+  font-family: alegreya-sans-fallback;
+  size-adjust: 91.19%;
+  ascent-override: 98.69%;
+  descent-override: 32.9%;
+  line-gap-override: 0%;
+  src: local('Arial');
+}
+
+/* ---------------- tokens */
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* colour (lifted) */
+  --ft-text: #1e1e1e;
+  --ft-text-muted: #545454;
+  --ft-label: #787878;
+  --ft-white: #fff;
+  --ft-skyblue: #0fc0fc;
+  --ft-skyblue-hover: #0eade3;
+  --ft-skyblue-25: rgb(15 192 252 / 25%);
+  --ft-skyblue-light: #6fd9fd;
+  --ft-petrol: #035e7c;
+  --ft-leafgreen: #d4ff47;
+  --ft-leafgreen-hover: #aacc39;
+  --ft-leafgreen-border: #4f5d18;
+  --ft-leafgreen-25: rgb(212 255 71 / 25%);
+  --ft-nightsky: #001b6e;
+  --ft-flower: #ff4571;
+  --ft-eggplant: #7b1dab;
+  --ft-mint: #09fbd3;
+  --ft-grey-100: #f4f4f4;
+  --ft-grey-200: #e8e8e8;
+  --ft-grey-400: #a5a5a5;
+  --ft-shade: rgb(30 30 30 / 50%);
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* type */
+  --ft-font-head: 'Alegreya Sans', alegreya-sans-fallback, system-ui;
+  --ft-font-body: 'Exo 2', exo-2-fallback, system-ui;
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* layout: the site's 6/12-column shell */
+  --topbar-height: 72px;
+  --nav-height: var(--topbar-height);
+  --shell-max: 1920px;
+  --grid-pad: 18px;
+  --grid-gap: 16px;
+  --grid-cols: 6;
+  --radius: 12px;
+  --ease: 0.2s ease-in-out;
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
-}
-
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
-}
-
-@media (width >= 900px) {
+@media (width >= 640px) {
   :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    --topbar-height: 104px;
+    --grid-pad: 24px;
   }
 }
 
+@media (width >= 768px) {
+  :root {
+    --grid-pad: 32px;
+    --grid-cols: 12;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --grid-pad: 36px;
+    --grid-gap: 20px;
+  }
+}
+
+@media (width >= 1280px) {
+  :root {
+    --grid-pad: 40px;
+    --grid-gap: 24px;
+  }
+}
+
+@media (width >= 1440px) {
+  :root {
+    --grid-pad: 48px;
+  }
+}
+
+/* ---------------- reset + base (canon, verbatim) */
+* {
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: inherit;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+img,
+svg,
+video,
+canvas {
+  vertical-align: middle;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+button,
+input[type='button'],
+input[type='submit'] {
+  appearance: auto;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+button[disabled] {
+  cursor: default;
+}
+
+input[type='search'] {
+  appearance: textfield;
+}
+
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
+  appearance: none;
+}
+
+/* runtime body gate (the runtime adds .appear after decorateMain) */
 body {
   display: none;
-  margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  color: var(--ft-text);
+  font-family: var(--ft-font-body);
+  font-size: 18px;
   line-height: 1.6;
 }
 
 body.appear {
   display: block;
-}
-
-header {
-  height: var(--nav-height);
-}
-
-header .header,
-footer .footer {
-  visibility: hidden;
-}
-
-header .header[data-block-status="loaded"],
-footer .footer[data-block-status="loaded"] {
-  visibility: visible;
 }
 
 h1,
@@ -104,186 +182,82 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
+  font-family: var(--ft-font-head);
+  line-height: 1.1;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
-p,
-dl,
-ol,
-ul,
-pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+h1 {
+  hyphens: auto;
+  overflow-wrap: anywhere;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
-}
-
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
-}
-
-main > div {
-  margin: 40px 16px;
-}
-
-input,
-textarea,
-select,
-button {
-  font: inherit;
-}
-
-/* links */
-a:any-link {
-  color: var(--link-color);
-  text-decoration: none;
-  overflow-wrap: break-word;
-}
-
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-}
-
-/* buttons */
-p.button-wrapper {
-  margin: 12px 0;
-}
-
-a.button:any-link,
-button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
-  text-decoration: none;
-  cursor: pointer;
+.visuallyhidden {
+  clip-path: inset(0);
+  height: 0;
+  opacity: 0;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  position: absolute;
+  width: 0;
 }
 
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
+/* ---------------- chrome reservation */
+
+/* live: the fixed Topbar sits in a zero-height, relative header; main carries the offset
+   from first paint, so the late header load shifts nothing */
+body > header {
+  height: 0;
+  position: relative;
 }
 
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
+main {
+  margin-top: var(--topbar-height);
 }
 
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
+body > header .header,
+body > footer .footer {
+  visibility: hidden;
 }
 
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+body > header .header[data-block-status='loaded'],
+body > footer .footer[data-block-status='loaded'] {
+  visibility: visible;
 }
 
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
+/* ---------------- section scaffold */
+
+/* modules own their shell grid (width: min(100%, var(--shell-max)) + --grid-pad) */
+main > .section {
+  margin: 0;
 }
 
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
+:where(main > .section > div) {
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
 
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+main .section:empty {
+  display: none;
 }
 
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
+/* the shell grid every module sits on */
+.u-grid {
+  column-gap: var(--grid-gap);
+  display: grid;
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  margin-inline: auto;
+  padding-inline: var(--grid-pad);
+  width: min(100%, var(--shell-max));
 }
 
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
+.u-grid > * {
+  grid-column: 1 / -1;
+  min-width: 0;
 }
 
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
+/* ---------------- icons + Button (shared, canon) */
 
-main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
-
+/* EDS :icon: spans */
 .icon {
   display: inline-block;
   height: 24px;
@@ -295,31 +269,562 @@ main img {
   width: 100%;
 }
 
-/* sections */
-main > .section {
-  margin: 40px 0;
+.ft-icon {
+  display: grid;
+  height: 24px;
+  place-items: center;
+  width: 24px;
 }
 
-main > .section > div {
-  max-width: 1200px;
-  margin: auto;
+.ft-icon.size-small {
+  height: 16px;
+  width: 16px;
+}
+
+.ft-icon.is-inline {
+  display: inline-grid;
+}
+
+.ft-icon > svg {
+  height: 100%;
+  width: 100%;
+}
+
+/* ---------------- Button (block-built controls) */
+.ft-button {
+  align-items: center;
+  color: var(--ft-text);
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1;
+  text-align: center;
+  transition: color var(--ease), background-color var(--ease), border-color var(--ease);
+}
+
+.ft-button.theme-dark:not(:disabled) {
+  color: #fff;
+}
+
+.ft-button.color-leafgreen,
+.ft-button.variant-leafgreen {
+  --background-color: var(--ft-leafgreen);
+  --background-color-hover: var(--ft-leafgreen-hover);
+  --background-color-active: var(--ft-leafgreen-hover);
+  --background-color-disabled: var(--ft-leafgreen-25);
+  --border-color-hover: var(--ft-leafgreen-border);
+  --border-color-active: transparent;
+}
+
+.ft-button.color-skyblue {
+  --background-color: var(--ft-skyblue);
+  --background-color-hover: var(--ft-skyblue-hover);
+  --background-color-active: var(--ft-skyblue-hover);
+  --background-color-disabled: var(--ft-skyblue-25);
+  --border-color-hover: var(--ft-petrol);
+  --border-color-active: transparent;
+}
+
+.ft-button.variant-primary,
+.ft-button.variant-icon-primary {
+  background-color: var(--background-color);
+  border: 2px solid transparent;
+}
+
+.ft-button.variant-primary {
+  border-radius: 100px;
+  height: 48px;
+  padding: 0 32px;
+}
+
+.ft-button.variant-primary.size-small {
+  height: 36px;
   padding: 0 24px;
 }
 
-main > .section:first-of-type {
-  margin-top: 0;
+.ft-button.variant-primary.size-large {
+  height: 60px;
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
+.ft-button.variant-icon-primary {
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+}
+
+.ft-button.variant-icon-primary.size-small {
+  height: 32px;
+  width: 32px;
+}
+
+.ft-button.variant-primary:not(:disabled):is(:hover, :focus-visible),
+.ft-button.variant-icon-primary:not(:disabled):is(:hover, :focus-visible) {
+  background-color: var(--background-color-hover);
+  border-color: var(--border-color-hover);
+}
+
+.ft-button.variant-primary:not(:disabled):active,
+.ft-button.variant-icon-primary:not(:disabled):active {
+  background-color: var(--background-color-active);
+  border-color: var(--border-color-active);
+}
+
+.ft-button.variant-primary:disabled,
+.ft-button.variant-icon-primary:disabled {
+  background-color: var(--background-color-disabled);
+  color: var(--ft-grey-400);
+  pointer-events: none;
+}
+
+/* secondary (outline) — colour sets differ from primary */
+.ft-button.variant-secondary.color-skyblue,
+.ft-button.variant-icon-secondary.color-skyblue {
+  --background-color-hover: var(--ft-skyblue-25);
+  --background-color-active: transparent;
+  --border-color: var(--ft-skyblue);
+  --border-color-hover: var(--ft-skyblue-hover);
+  --border-color-active: var(--ft-petrol);
+  --border-color-active-dark-theme: #6fd9fd;
+  --border-color-disabled: var(--ft-skyblue-25);
+}
+
+.ft-button.variant-secondary.color-leafgreen,
+.ft-button.variant-icon-secondary.color-leafgreen {
+  --background-color-hover: var(--ft-leafgreen-25);
+  --background-color-active: transparent;
+  --border-color: var(--ft-leafgreen);
+  --border-color-hover: var(--ft-leafgreen-hover);
+  --border-color-active: var(--ft-leafgreen-border);
+  --border-color-active-dark-theme: #e5ff91;
+  --border-color-disabled: var(--ft-leafgreen-25);
+}
+
+.ft-button.variant-secondary.color-white,
+.ft-button.variant-icon-secondary.color-white {
+  --background-color-hover: hsl(0deg 0% 100% / 25%);
+  --background-color-active: transparent;
+  --border-color: #fff;
+  --border-color-hover: #fff;
+  --border-color-active: hsl(0deg 0% 100% / 50%);
+  --border-color-disabled: hsl(0deg 0% 100% / 25%);
+}
+
+.ft-button.variant-secondary,
+.ft-button.variant-icon-secondary {
+  border: 2px solid var(--border-color);
+}
+
+.ft-button.variant-secondary {
+  border-radius: 100px;
+  height: 48px;
+  padding: 0 32px;
+}
+
+.ft-button.variant-secondary.size-small {
+  height: 36px;
+  padding: 0 24px;
+}
+
+.ft-button.variant-secondary.size-large {
+  height: 60px;
+}
+
+.ft-button.variant-icon-secondary {
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+}
+
+.ft-button.variant-icon-secondary.size-small {
+  height: 32px;
+  width: 32px;
+}
+
+.ft-button.variant-secondary:not(:disabled):is(:hover, :focus-visible),
+.ft-button.variant-icon-secondary:not(:disabled):is(:hover, :focus-visible) {
+  background-color: var(--background-color-hover);
+  border-color: var(--border-color-hover);
+}
+
+.ft-button.variant-secondary:not(:disabled):active,
+.ft-button.variant-icon-secondary:not(:disabled):active {
+  background-color: var(--background-color-active);
+  border-color: var(--border-color-active);
+}
+
+.ft-button.variant-secondary.theme-dark:not(:disabled):active {
+  border-color: var(--border-color-active-dark-theme, var(--border-color-active));
+}
+
+/* tertiary (text + underline bar) */
+.ft-button.variant-tertiary {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.ft-button.variant-tertiary .ft-button-icon {
+  color: var(--ft-skyblue);
+  transition: color var(--ease);
+}
+
+.ft-button.variant-tertiary .ft-button-inner::after {
+  background-color: var(--ft-skyblue);
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  scale: 1 0.5;
+  transform-origin: bottom;
+  transition: background-color var(--ease), scale var(--ease);
+}
+
+.ft-button.variant-tertiary:is(:hover, :focus-visible) .ft-button-inner,
+.ft-button.variant-tertiary:is(:hover, :focus-visible) .ft-button-icon {
+  color: var(--ft-petrol);
+}
+
+.ft-button.variant-tertiary:is(:hover, :focus-visible) .ft-button-inner::after {
+  background-color: var(--ft-petrol);
+  scale: 1;
+}
+
+.ft-button.variant-tertiary:active .ft-button-inner::after {
+  scale: 1 0.5;
+}
+
+/* ---------------- locale selector trigger (header, mobile drawer, footer) */
+.locale-selector-trigger {
+  --color-default: var(--ft-text);
+  --color-interaction: var(--ft-petrol);
+
+  align-items: center;
+  color: var(--color-default);
+  display: flex;
+  gap: 4px;
+  transition: color var(--ease);
+}
+
+@media (hover: hover) {
+  .locale-selector-trigger:is(:hover, :focus-visible, :active) {
+    color: var(--color-interaction);
   }
 }
 
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
+.locale-selector-trigger.color-white {
+  --color-default: #fff;
+  --color-interaction: hsl(0deg 0% 100% / 75%);
+}
+
+.locale-selector-trigger.variant-mobile-menu {
+  padding: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.locale-selector-trigger.variant-mobile-menu::before {
+  background-color: var(--ft-grey-200);
+  content: "";
+  height: 1px;
+  inset: auto 0 0;
+  position: absolute;
+}
+
+.locale-selector-trigger-label {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* ---------------- authored buttons (decorateButtons)
+   strong → .button.primary  = Button variant-primary color-skyblue
+   em     → .button.secondary = Button variant-secondary color-skyblue
+   em+strong → .button.accent = Button variant-primary color-leafgreen */
+p.button-wrapper {
+  display: block;
+}
+
+a.button:any-link,
+button.button {
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  color: var(--ft-text);
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 8px;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  max-width: 100%;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: color var(--ease), background-color var(--ease), border-color var(--ease);
+}
+
+a.button.primary,
+button.button.primary {
+  --background-color: var(--ft-skyblue);
+  --background-color-hover: var(--ft-skyblue-hover);
+  --border-color-hover: var(--ft-petrol);
+
+  background-color: var(--background-color);
+}
+
+a.button.accent,
+button.button.accent {
+  --background-color: var(--ft-leafgreen);
+  --background-color-hover: var(--ft-leafgreen-hover);
+  --border-color-hover: var(--ft-leafgreen-border);
+
+  background-color: var(--background-color);
+}
+
+a.button:is(.primary, .accent):is(:hover, :focus-visible),
+button.button:is(.primary, .accent):not(:disabled):is(:hover, :focus-visible) {
+  background-color: var(--background-color-hover);
+  border-color: var(--border-color-hover);
+}
+
+a.button:is(.primary, .accent):active,
+button.button:is(.primary, .accent):not(:disabled):active {
+  background-color: var(--background-color-hover);
+  border-color: transparent;
+}
+
+a.button.secondary,
+button.button.secondary {
+  background-color: transparent;
+  border-color: var(--ft-skyblue);
+}
+
+a.button.secondary:is(:hover, :focus-visible),
+button.button.secondary:not(:disabled):is(:hover, :focus-visible) {
+  background-color: var(--ft-skyblue-25);
+  border-color: var(--ft-skyblue-hover);
+}
+
+a.button.secondary:active,
+button.button.secondary:not(:disabled):active {
+  background-color: transparent;
+  border-color: var(--ft-petrol);
+}
+
+/* ---------------- default content (live: RichtextSection + Richtext) */
+main .default-content-wrapper {
+  column-gap: var(--grid-gap);
+  display: grid;
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  margin-inline: auto;
+  padding-block: 32px;
+  padding-inline: var(--grid-pad);
+  width: min(100%, var(--shell-max));
+}
+
+main .default-content-wrapper > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+main .default-content-wrapper h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+main .default-content-wrapper h2 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+main .default-content-wrapper h3 {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+main .default-content-wrapper h4 {
+  font-family: var(--ft-font-body);
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+main .default-content-wrapper :is(p, ul, ol) {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+main .default-content-wrapper :is(ul, ol) {
+  display: grid;
+  gap: 12px;
+}
+
+main .default-content-wrapper :is(ul, ol) li {
+  padding-left: 16px;
+  position: relative;
+}
+
+main .default-content-wrapper ul li::before {
+  background-color: var(--ft-skyblue);
+  border-radius: 100%;
+  content: '';
+  display: inline-block;
+  height: 8px;
+  left: 0;
+  position: absolute;
+  translate: 0 135%;
+  width: 8px;
+}
+
+main .default-content-wrapper ol {
+  counter-reset: ol-counter;
+}
+
+main .default-content-wrapper ol li {
+  counter-increment: ol-counter;
+  padding-left: 28px;
+}
+
+main .default-content-wrapper ol li::before {
+  content: counter(ol-counter);
+  left: 0;
+  position: absolute;
+}
+
+main .default-content-wrapper :is(b, strong) {
+  font-weight: 700;
+}
+
+main .default-content-wrapper :is(i, em) {
+  font-style: italic;
+}
+
+main .default-content-wrapper a:any-link:not(.button) {
+  color: var(--ft-eggplant);
+  text-decoration: underline;
+  transition: color var(--ease);
+}
+
+main .default-content-wrapper a:any-link:not(.button):is(:hover, :focus-visible) {
+  color: var(--ft-petrol);
+}
+
+main .default-content-wrapper :not(h1, h2, h3, h4) + :is(h1, h2, h3, h4) {
+  margin-top: 40px;
+}
+
+/* the live Richtext is a block box, so a heading's 40px margin-top collapses with the previous
+   paragraph/list's margin-bottom (24px, 32px from 1024px); this wrapper is a grid, where
+   margins add. Net top margin = 40px - previous margin-bottom. */
+main .default-content-wrapper :is(p, ul, ol) + :is(h1, h2, h3, h4) {
+  margin-top: 16px;
+}
+
+@media (width >= 1024px) {
+  main .default-content-wrapper :is(p, ul, ol) + :is(h1, h2, h3, h4) {
+    margin-top: 8px;
+  }
+}
+
+main .default-content-wrapper > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  main .default-content-wrapper > * {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (width >= 1024px) {
+  main .default-content-wrapper {
+    padding-block: 40px;
+  }
+
+  main .default-content-wrapper > * {
+    grid-column: 4 / -4;
+  }
+
+  main .default-content-wrapper h1 {
+    font-size: 64px;
+    margin-bottom: 40px;
+  }
+
+  main .default-content-wrapper h2 {
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+
+  main .default-content-wrapper h3 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  main .default-content-wrapper :is(p, ul, ol) {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+/* ---------------- content fader
+   live: modules get .is-visible when scrolled into view (data-module=content-fader). Armed only
+   by scripts.js (main[data-fader] + .fader on each section after the lead), so no-JS shows all. */
+main[data-fader] > .section.fader {
+  opacity: 0;
+  transform: translate3d(0, 12px, 0);
+  transform-origin: bottom;
+  transition: opacity 0.5s ease-in-out, translate 0.5s ease-in-out;
+}
+
+main[data-fader] > .section.fader.is-visible {
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+/* ---------------- Experience Workspace edit mode */
+
+/* (a) repaint CTAs from their authored marks (classes die while editing) */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 700;
+  height: 48px;
+  line-height: 1;
+  padding: 0 32px;
+  text-decoration: none;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  background-color: var(--ft-skyblue);
+  color: var(--ft-text);
+}
+
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  background-color: transparent;
+  border-color: var(--ft-skyblue);
+  color: var(--ft-text);
+}
+
+/* (b) card-as-link inner anchor reads like the card text while editing */
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
 }

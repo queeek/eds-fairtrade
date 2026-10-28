@@ -1,0 +1,570 @@
+{
+ "source": "http://127.0.0.1:8811/stardust/migrated/de-de.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade: Fairness im Fokus!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade steht für fairen Handel, bessere Preise und menschenwürdige Arbeitsbedingungen. Wir setzen uns für eine gerechte Zukunft ein – für Bäuerinnen und Bauern, Arbeiterinnen und Arbeiter und für dich."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Das Fairtrade-Siegel"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Du suchst nach Produkten, die unter Einhaltung hoher Umwelt- und Sozialstandards hergestellt wurden? Dann achte auf das Fairtrade-Siegel"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Mehr erfahren",
+     "href": "./de-de/Was-ist-Fairtrade/der-fairtrade-ansatz/Fairtrade-Siegel.html"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Jahresthema 2026"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Unter dem Dach Fairness for Farmers - From fields to future setzt Fairtrade Deutschland ein bewusstes Zeichen für die Menschen hinter den Produkten."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Mehr erfahren",
+     "href": "./de-de/meta/Newsroom/News/fairness-for-farmers.html"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Was ist Fairtrade?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Wir setzen uns für eine gerechte Zukunft ein – für Bäuerinnen und Bauern, Arbeiterinnen und Arbeiter und für dich. Was heißt das genau?"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Darum geht's",
+     "href": "./de-de/Was-ist-Fairtrade/unsere-arbeit-im-ueberblick/das-ist-fairtrade.html"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Für Unternehmen"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Sie möchten Produkte aus Fairtrade-Zutaten herstellen oder mit ihnen handeln?"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "So geht's",
+     "href": "./de-de/fuer-unternehmen/Ihr-Weg-zum-Fairtrade-Siegel.html"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Fairtrade-Produkte"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Es gibt eine enorme Vielfalt an Produkten mit Fairtrade-Siegel: Von Kaffee und Kakao über Bananen und Blumen bis zu Baumwolle, Gold und Gewürze."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Mehr erfahren",
+     "href": "./de-de/produkte.html"
+    }
+   ],
+   "imgCount": 10,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.PageHeroSlide",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "1.824"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Produzentenorganisationen in 68 Ländern"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "über 37.000"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Produkte mit dem Fairtrade-Siegel, die in mehr als 140 Ländern verkauft werden"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gehe zum vorherigen Fakt"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Gehe zum nächsten Fakt"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Gut für Mensch und Umwelt"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Mehrwert durch Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Nachhaltiger Konsum und Produktion sind heute nicht mehr die Ausnahme, sondern die Regel. Fairtrade bietet Unternehmen und Produzent*innen Lösungen, um Fairness in den Mittelpunkt ihres Handelns zu stellen."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Mehr Infos zu Fairtrade",
+     "href": "./de-de/Was-ist-Fairtrade/unsere-arbeit-im-ueberblick.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "BUTTON.Button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.NumberFactTeaser--item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Für Konsument*innen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Produkte mit dem Fairtrade-Siegel stehen für stabile Preise und bessere Arbeitsbedingungen. Entdecke die große Vielfalt an Fairtrade-Produkten."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Alle Infos zum fairen Einkauf",
+     "href": "./de-de/fair-einkaufen.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Für Unternehmen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairer Konsum und nachhaltiges Wirtschaften sind nicht mehr die Ausnahme, sondern die Erwartung an Unternehmen. Erfahre hier, wie Fairtrade unterstützt, Produkte kennzeichnen und zertifizieren zu lassen und wie Unternehmen mitmachen können."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zum Unternehmensbereich",
+     "href": "./de-de/fuer-unternehmen.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "6",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Für Aktive"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade lebt vom Engagement vieler Menschen weltweit. Entdecke Aktionen und Möglichkeiten, dich für den fairen Handel zu engagieren."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zu den Mitmachmöglichkeiten",
+     "href": "./de-de/mach-mit.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "7",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade in Kürze"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wer wir sind"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Wer wir sind"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Wir stehen hinter dem weltweit bekannten Fairtrade-Siegel. Als Deutschlands führende entwicklungspolitische Organisation für fairen Handel fördern wir den Verkauf von Fairtrade-Produkten und mobilisieren gegen Handelsungerechtigkeit."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Mehr Infos",
+     "href": "./de-de/meta/ueber-fairtrade-deutschland.html"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Was wir tun"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Was wir tun"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Wir bieten Handels- und Industriepartnern sowie Konsument*innen mit Fairtrade konkrete Handlungsalternativen, damit Bauernfamilien und Arbeiter*innen in Ländern des globalen Südens bessere Lebensperspektiven erhalten."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Mehr Infos",
+     "href": "./de-de/Was-ist-Fairtrade/der-fairtrade-ansatz.html"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Wer uns trägt"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Wer uns trägt"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Organisationen aus den Bereichen Entwicklungszusammenarbeit, Verbraucherschutz, Politik und Umwelt sind engagierte Mitglieder unseres gemeinnützigen Vereins. Unterstützer*innen in Kommunen, Universitäten und Schulen verbreiten mit uns die Fairtrade-Idee."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Mehr Infos",
+     "href": "./de-de/meta/ueber-fairtrade-deutschland/Das-sind-wir.html"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Was wir fordern"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Was wir fordern"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Existenzsichernde Löhne und Einkommen, die Einhaltung von Arbeitsrechten, Schutz vor ausbeuterischer Kinderarbeit, Gleichstellung der Geschlechter, sowie Maßnahmen für mehr Umweltschutz und gegen den Klimawandel – kurz: einen gerechteren Welthandel."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Mehr Infos",
+     "href": "./de-de/Was-ist-Fairtrade/Arbeitsschwerpunkte.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.AccordionSection--item",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "8",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Schwerpunkte unserer Arbeit"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade steht für fairen Handel, den Schutz von Menschenrechten und Umwelt sowie bessere Lebens- und Arbeitsbedingungen weltweit. Dabei sehen wir die Zusammenhänge: Menschenrechte sind mit Umweltrechten verknüpft, Kinderschutz mit existenzsichernden Einkommen und Geschlechtergerechtigkeit mit Arbeitnehmerrechten. Unser ganzheitlicher Ansatz bringt diese Themen zusammen, um echte Wirkung und mehr Fairness zu schaffen."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zu den Arbeitsschwerpunkten",
+     "href": "./de-de/Was-ist-Fairtrade/Arbeitsschwerpunkte.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "9",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Aktuelles"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "10",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Alle"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Alle"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Lokal"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "24.09.26"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Pressemitteilungen"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "EmpCo tritt in Kraft: Fairtrade begrüßt strengere Regeln für Nachhaltigkeitskommunikation"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ab kommenden Sonntag, den 27. September 2026, gelten in Deutschland neue Regeln für Nachhaltigkeitskommunikation. Fairtrade sieht die neuen Vorgaben der EU-Richtlinie „Empowering Consumers for the Green Transition“ (EmpCo) als wichtigen Schritt für mehr Transparenz und Glaubwürdigkeit im Nachhaltigkeitsmarkt."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Mehr lesen"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "09.09.26"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "News"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Fairtrade-Mindestpreis greift und schafft zusätzliche Absicherung für Kakaobauern in Côte d‘Ivoire"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Zum Start der neuen Kakaoernte steht fest, wie das Fairtrade-Mindestpreis-Sicherheitsnetz in Côte d’Ivoire greift: Der von der Regierung festgelegte FOB-Referenzpreis liegt unter dem Fairtrade-Mindestpreis von 3.200 Euro pro Tonne. Fairtrade-Kooperativen erhalten deshalb ein zusätzliches Mindestpreis-Differential. Dieses Sicherheitsnetz trägt dazu bei, Einkommen zu stabilisieren und Produzent*innen mehr Planungssicherheit zu geben."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Mehr lesen"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "05.05.26"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Pressemitteilungen"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Umsatz mit Fairtrade-Produkten knackt 3-Milliarden-Grenze"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Der Umsatz von Fairtrade-Produkten wächst 2025 um knapp 9 Prozent Auch die Wirkung für Produzentinnen und Produzenten steigt mit 42 Millionen Euro Prämiengelder."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Mehr lesen"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.Select--option",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.TeaserGrid--item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "11",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Jahresthema 2026"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairness beginnt dort, wo unser Kaffee wächst, unsere Schokolade ihren Ursprung hat und Millionen von Menschen täglich arbeiten: auf den Feldern in den Produzentenländern. Mit dem Jahresthema „Fairness for Farmers – From fields to future“ setzt Fairtrade Deutschland 2026 ein bewusstes Zeichen. Ein Zeichen für die Menschen hinter den Produkten – für Landwirt*innen, Produzent*innen und Arbeiter*innen, ohne die Handel nicht denkbar wäre – und für die fairer Handel notwendig ist."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Fairness For Farmers",
+     "href": "./de-de/meta/Newsroom/News/fairness-for-farmers.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

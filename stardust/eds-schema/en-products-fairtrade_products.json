@@ -1,0 +1,285 @@
+{
+ "source": "http://localhost:8811/en-products-fairtrade_products-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "PageLead",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade Products"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Learn more about the wide variety of Fairtrade products available and find your favourites."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "TeaserGrid",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bananas"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gold"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Cocoa"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Coffee"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Cotton"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Flowers and plans"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Fruits and juices"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Herbs and spices"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Honey"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Nuts and oils"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Vegetables"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Tea"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Textiles"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Sports Balls"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Rice"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Product pages"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Quinoa"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Read more"
+    }
+   ],
+   "imgCount": 16,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.TeaserGrid--item",
+     "count": 16,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

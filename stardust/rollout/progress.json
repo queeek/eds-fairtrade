@@ -1,0 +1,314 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "static",
+        "listing",
+        "program",
+        "search"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-28T13:49:03Z",
+      "endedAt": "2026-10-28T14:50:36Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "chromeParity": "0 deltas"
+        },
+        "1440": {
+          "chromeParity": "0 deltas"
+        },
+        "chrome": "chrome-compare exit 2 on 1 finding: motion@1440 Search = hero-carousel controls fade (page content, absent on the shell) — re-checked at archetype-landing",
+        "plain": ".plain.html 200, 0 about:error on 6 chrome docs + /en shell; 0 pageerror 1440/360"
+      },
+      "verdict": "foundation: files 47, chrome docs 6 live, shell /en live, chrome-compare exit 2, chrome-parity 1440 0 / 360 0 deltas, lint ok"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "archetype": "en",
+      "startedAt": "2026-10-28T14:51:38Z",
+      "endedAt": "2026-10-28T15:34:46Z",
+      "blocks": 6,
+      "gates": {
+        "360": {
+          "archetype": "1.2%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "archetype": "0.23%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "chrome": "chrome-compare exit 2: header scroll-state root (fixed Topbar) — queued foundation request, applied at C-final"
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 6, gate 1440 0.23% / 360 1.2%, requests 1 chrome-compare exit 2"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "archetype": "en-products-fairtrade_products",
+      "endedAt": "2026-10-28T16:03:45Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "archetype": "0.95%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "archetype": "0.62%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "chrome": "chrome-compare exit 2: 8 header scroll-state errors (queued request from archetype-landing) + motion@1440 Search (contract recorded on /en hero carousel, absent on this page); new request: breadcrumbs in header (page-lead renders them meanwhile)"
+      },
+      "verdict": "archetype-listing: pages 1/1 live, blocks 2, gate 1440 0.62% / 360 0.95%, requests 1 chrome-compare exit 2"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "archetype": "en-why-fairtrade-what-we-do-key-benefits",
+      "endedAt": "2026-10-28T16:37:18Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "archetype": "2.12%",
+          "dh": 27,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "archetype": "0.54%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "chrome": "chrome-compare exit 2: known 8 header scroll-state + motion@1440 Search only; new request: default-content grid does not collapse heading margins (scoped override in single-image.css)"
+      },
+      "verdict": "archetype-static: pages 1/1 live, blocks 3, gate 1440 0.54% / 360 2.12%, requests 1 chrome-compare exit 2"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "archetype": "en-products-fairtrade_products-cocoa",
+      "endedAt": "2026-10-28T17:02:34Z",
+      "blocks": 0,
+      "gates": {
+        "360": {
+          "archetype": "0.72%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "archetype": "0.37%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "chrome": "chrome-compare exit 2: known 8 header scroll-state + motion@1440 Search only"
+      },
+      "verdict": "archetype-program: pages 1/1 live, blocks 0, gate 1440 0.37% / 360 0.72%, requests 0 chrome-compare exit 2"
+    },
+    "archetype-search": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "search"
+      ],
+      "pages": 1,
+      "archetype": "en-search-results",
+      "endedAt": "2026-10-28T17:29:21Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "archetype": "0.46%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS",
+          "override": "5 hidden highlight marks past the source line-clamp, same as source (all-360/overrides.json)"
+        },
+        "1440": {
+          "archetype": "0.22%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "chrome": "chrome-compare exit 2: known 8 header scroll-state + motion@1440 Search only"
+      },
+      "verdict": "archetype-search: pages 1/1 live, widget search, gate 1440 0.22% / 360 0.46%, requests 0 chrome-compare exit 2"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-10-28T17:37:58.173Z",
+      "endedAt": "2026-10-28T18:35:01Z",
+      "verdict": "cluster-landing: pages 2/2 live, gate de-de 1440 0.63% / 360 0.96%, ch-de 1440 3.21% (Δh override: live header scroll-arrow overflow) / 360 5.12%, requests 1",
+      "gates": {
+        "360": {
+          "de-de": "0.96%",
+          "ch-de": "5.12%",
+          "dh": {
+            "de-de": 0,
+            "ch-de": -39
+          },
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "de-de": "0.63%",
+          "ch-de": "3.21%",
+          "dh": {
+            "de-de": 0,
+            "ch-de": 387
+          },
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS (ch-de by documented override)"
+        },
+        "note": "origins retaken symmetric: ch-de with the Usercentrics accept (late banner), de-de with --locale de-DE (en-US unhyphenates the live h1); page-hero-carousel leafgreen band skyblue controls + loop past 3 slides (en 3 slides unaffected); text-image trailing-break variant; footer linked-title request queued"
+      }
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-28T17:36:29.694Z",
+      "endedAt": "2026-10-28T18:01:20.329Z",
+      "verdict": "cluster-listing: pages 1/1 live, blocks 4, gate 1440 1.09% / 360 1.21%, requests 0",
+      "gates": {
+        "360": {
+          "sibling": "1.21%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "sibling": "1.09%",
+          "dh": 0,
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "note": "shared blocks page-lead/teaser-grid/cta-section extended (no-gap variant, empty-image placeholder, em-button) — archetypes using them re-gated at gate-all"
+      }
+    },
+    "cluster-search": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "search"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-28T17:39:24.376Z",
+      "endedAt": "2026-10-28T18:35:27Z",
+      "verdict": "cluster-search: pages 1/1 live, widget product-finder, gate 1440 8.26% / 360 11.4% masked, both by documented override (live catalogue drift), requests 0",
+      "gates": {
+        "360": {
+          "sibling": "11.4%",
+          "dh": -53,
+          "clip": 0,
+          "missing": 3,
+          "masked": "1040:9480",
+          "verdict": "PASS (documented override: catalogue drift)"
+        },
+        "1440": {
+          "sibling": "8.26%",
+          "dh": -70,
+          "clip": 0,
+          "missing": 3,
+          "masked": "770:3300",
+          "verdict": "PASS (documented override: catalogue drift)"
+        },
+        "note": "search box kept its 56 px field at mobile (global .icon 24px box, fixed in widgets/search/product-finder.css); grid/count/pagination band masked both widths, the build serves the captured page-1 snapshot"
+      }
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 9,
+      "startedAt": "2026-10-28T18:37:28Z",
+      "endedAt": "2026-10-28T19:35:30Z",
+      "verdict": "gate-all: 9/9 delivered at 1440 and 360 (7 PASS + 2 documented overrides per width: ch-de Δh live header overflow @1440, produktfinder catalogue drift; ch-de @360 passes outright)",
+      "gates": {
+        "360": {
+          "pass": 7,
+          "override": 2,
+          "fail": 0,
+          "max": "11.4% (produktfinder, masked, override)"
+        },
+        "1440": {
+          "pass": 7,
+          "override": 2,
+          "fail": 0,
+          "max": "8.26% (produktfinder, masked)"
+        },
+        "note": "C-final requests applied first (heading margin collapse → styles.css, footer linked title), re-gated across the roster; unit-geometry origin cache is keyed by slug only (stardust/current/measure/<slug>-units.json) so the 1440 pass ran with a fresh cache and the 360 caches were restored after it"
+      }
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing",
+        "static",
+        "listing",
+        "program",
+        "search"
+      ],
+      "pages": 9,
+      "startedAt": "2026-10-28T18:40:00Z",
+      "endedAt": "2026-10-28T19:36:38.511Z",
+      "gates": {
+        "freeze": "check exit 0 (46 files)",
+        "coverage": "update-coverage --gate 1440 + 360: 9/9 rows matched, all pass"
+      },
+      "verdict": "final: freeze check clean, 4 foundation requests resolved (2 applied, 2 declined with reason), affected templates re-gated in gate-all, coverage 9/9 gate pass at 1440 and 360"
+    }
+  }
+}

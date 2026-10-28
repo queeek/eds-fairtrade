@@ -1,0 +1,100 @@
+{
+  "plan": {
+    "inScope": 9,
+    "pathA": [
+      "en",
+      "en-why-fairtrade-what-we-do-key-benefits",
+      "en-products-fairtrade_products",
+      "en-products-fairtrade_products-cocoa",
+      "en-search-results"
+    ],
+    "pathAPrime": {
+      "landing": [
+        "de-de",
+        "ch-de"
+      ],
+      "listing": [
+        "en-get-involved-press-centre"
+      ],
+      "search": [
+        "de-de-produkte-produktfinder"
+      ]
+    },
+    "pathB": [],
+    "order": "archetypes render first (encoder input for C-archetype); each template's siblings render only after its archetype unit is done in stardust/rollout/progress.json",
+    "collisions": 0
+  },
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "static",
+        "listing",
+        "program",
+        "search"
+      ],
+      "pages": 9,
+      "startedAt": "2026-10-28T13:44:39Z",
+      "endedAt": "2026-10-28T13:44:39Z",
+      "verdict": "plan: 5 Path A archetypes, 4 Path A′ siblings (landing 2, listing 1, search 1), 0 Path B, 0 collisions"
+    },
+    "archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing",
+        "static",
+        "listing",
+        "program",
+        "search"
+      ],
+      "pages": 5,
+      "startedAt": "2026-10-28T13:45:10Z",
+      "endedAt": "2026-10-28T13:45:15Z",
+      "verdict": "rendered 5, unchanged 0, refused 0, passthrough 0"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-10-28T17:30:41.017Z",
+      "endedAt": "2026-10-28T17:37:51.487Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-28T17:30:46.494Z",
+      "endedAt": "2026-10-28T17:36:19.949Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    },
+    "search": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "search"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-28T17:30:46.545Z",
+      "endedAt": "2026-10-28T17:39:17.383Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [],
+      "pages": 9,
+      "endedAt": "2026-10-28T19:36:54.288Z",
+      "verdict": "report: 9/9 rendered (5 Path A, 4 Path A′), 9/9 delivered live, state advanced to migrated"
+    }
+  }
+}

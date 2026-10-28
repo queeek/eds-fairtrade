@@ -1,0 +1,909 @@
+{
+ "source": "http://127.0.0.1:8811/stardust/migrated/ch-de.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade verbindet"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade steht für fairen Handel, bessere Preise und menschenwürdige Arbeitsbedingungen. Wir setzen uns für eine gerechte Zukunft ein – für Bäuer:innen, Arbeiter:innen und für dich."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Darum fair."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Faire Arbeit verdient faire Bedingungen. Fairtrade schafft bessere Einkommen, mehr Mitbestimmung und Perspektiven."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Mehr erfahren",
+     "href": "./ch-de/mach-mit/aktivitaeten/kampagnen/darum-fair.html"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Kakao-Preiseinbruch in Côte d'Ivoire"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Der Kakaopreis bricht zum Start der neuen Saison um 57 Prozent ein. Wir fordern die Schokoladenbranche auf, jetzt Verantwortung zu übernehmen!"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "News lesen",
+     "href": "./ch-de/mach-mit/news/kakaopreiseinbruch-elfenbeinkueste.html"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Neuer Fairtrade-Standard für Textilfabriken"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Höhere Löhne und stärkere Mitbestimmung für Arbeiter:innen"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "News lesen",
+     "href": "./ch-de/mach-mit/news/neuer-fairtrade-textile-factory-standard.html"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "TARZAN x Fairtrade Max Havelaar Schweiz"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Fair Vibes entdecken",
+     "href": "./ch-de/mach-mit/aktivitaeten/kampagnen/fair-vibes-merch.html"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Jahresbericht 2025"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Fairtrade Max Havelaar wächst trotz turbulenter Rohstoffmärkte weiter"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Zum Jahresbericht",
+     "href": "./ch-de/mach-mit/news/jahresbericht-2025-fairtrade-max-havelaar-waechst-weiter.html"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Was ist Fairtrade?"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Fairtrade – das bekannteste Nachhaltigkeitslabel der Welt"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Mehr erfahren",
+     "href": "./ch-de/was-ist-fairtrade/im-ueberblick/was-ist-fairtrade.html"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Fairtrade Partner werden"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Das Fairtrade-Label auf Ihrem Produkt macht Ihr Engagement für fairen Handel sichtbar."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Ihre Möglichkeiten",
+     "href": "./ch-de/fuer-unternehmen/partner-werden.html"
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "Unsere Fairtrade Produkte"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Jeder Kauf eines Fairtrade-Produkts macht für Bauern, Bäuerinnen und Arbeiter:innen einen echten Unterschied."
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Vielfalt entdecken",
+     "href": "./ch-de/produkte.html"
+    },
+    {
+     "role": "heading",
+     "order": 23,
+     "text": "Dein Einsatz für den fairen Handel zählt"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Es gibt zahlreiche Möglichkeiten, sich für Fairtrade stark zu machen."
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Mach mit!",
+     "href": "./ch-de/mach-mit.html"
+    }
+   ],
+   "imgCount": 17,
+   "editableTexts": 17,
+   "repeats": [
+    {
+     "unitSelector": "DIV.PageHeroSlide",
+     "count": 9,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "1'930"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Produzentenorganisationen in 70 Ländern"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": ">37'000"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Produkte mit dem Fairtrade-Label, die in mehr als 140 Ländern verkauft werden."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gehe zum vorherigen Fakt"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Gehe zum nächsten Fakt"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Gut für Mensch und Umwelt"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Mehrwert durch Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Nachhaltiger Konsum und Produktion sind heute nicht mehr die Ausnahme, sondern die Regel. Fairtrade bietet Unternehmen und Produzent:innen Lösungen, um Fairness in den Mittelpunkt ihres Handelns zu stellen."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Mehr Infos",
+     "href": "./ch-de/was-ist-fairtrade/im-ueberblick.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "BUTTON.Button",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.NumberFactTeaser--item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fairtrade in Kürze"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wer wir sind"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Wer wir sind"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Wir stehen hinter dem weltweit bekannten Fairtrade-Label. Fairtrade Max Havelaar wurde 1992 in der Schweiz gegründet, um Kleinbäuer:innen in Ländern des globalen Südens einen fairen Preis für ihren Kaffee zu bieten. Heute engagiert sich die Organisation als Teil von Fairtrade International für faire Handelsbedingungen, unabhängige Zertifizierungen und nachhaltige Entwicklung – mit wachsender Unterstützung von Konsument:innen, Unternehmen und der Gastronomie."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Mehr Infos",
+     "href": "./ch-de/ueber-fairtrade-schweiz.html"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Was wir tun"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Was wir tun"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Wir bieten Handels- und Industriepartnern sowie Konsument:innen mit Fairtrade konkrete Handlungsalternativen, damit Bauernfamilien und Arbeiter:innen in Ländern des globalen Südens bessere Lebensperspektiven erhalten."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Mehr Infos",
+     "href": "./ch-de/was-ist-fairtrade/fairtrade-ansatz.html"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Was wir fordern"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Was wir fordern"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Existenzsichernde Löhne und Einkommen, die Einhaltung von Arbeitsrechten, Schutz vor ausbeuterischer Kinderarbeit, Gleichstellung der Geschlechter, sowie Massnahmen für mehr Umweltschutz und gegen den Klimawandel – kurz: einen gerechteren Welthandel."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Mehr Infos",
+     "href": "./ch-de/was-ist-fairtrade/arbeitsschwerpunkte.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.AccordionSection--item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "5",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "11.09.26"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade-System"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "News"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Kakao-Preiseinbruch in Côte d’Ivoire: Schweizer Schokoladenbranche muss Verantwortung übernehmen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Der staatlich festgelegte Kakaopreis in Côte d’Ivoire bricht zum Start der neuen Haupterntesaison um 57 Prozent gegenüber dem Vorjahr ein. Für viele Kakaobauernfamilien bedeutet dies einen massiven Einkommensverlust. Fairtrade Max Havelaar fordert die Schweizer Schokoladebranche deshalb auf, ihre Verantwortung wahrzunehmen und freiwillig höhere Preise zu bezahlen."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Mehr lesen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "02.09.26"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Fairtrade-System"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "News"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Neuer Fairtrade Textile Factory Standard: höhere Löhne und stärkere Mitbestimmung für Arbeiter:innen"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Fairtrade hat seinen bisherigen Textilstandard grundlegend überarbeitet. Im Zentrum steht künftig die sogenannte Cut-Make-Trim-Phase – also das Zuschneiden, Nähen und Fertigstellen von Textilien – sowie ein neuer Mechanismus für höhere Löhne."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Mehr lesen"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "31.08.26"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Kinderarbeit"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "News"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Fairtrade-Programm zur Prävention und Abhilfe bei Kinderarbeit erreicht 5000 Kinder"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Das Fairtrade-Programm zur Prävention und Abhilfe bei Kinder- und Zwangsarbeit wächst weiter: Im dritten Jahr unterstützt es zwölf Kakaokooperativen in Westafrika bei der Umsetzung eigener Projekte und erreicht damit schätzungsweise 5000 Kinder."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Mehr lesen"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.TeaserGrid--item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 6
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Alle News entdecken",
+     "href": "./ch-de/mach-mit/news.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "7",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Fair leben ist Einstellungssache - aber nicht nur. In der Schweiz gibt es über 3'700 Fairtrade-Produkte."
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Fairtrade Produkte"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Nussmix Honig & Salz"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Pumpkin Flavour Kaffee (10 Kapseln)"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Migros"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Vanille Joghurt, ohne Zucker"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Snack Mix Chili Nuts"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Milky & Dark Fusion Choco Cubes"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Oro de Cacao"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Napolitains dark, 100 Pzt Cacao Fruit, 1kg"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Original Tafel"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Barista Bohnen"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Coop"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Crema Classico Bohnen, Honduras"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Merry Christmas Box"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Adobe Reserva"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Adobe Sauvignon Blanc 2026"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Adobe Reserva"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Adobe Chardonnay 2026"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Himbeere (5 x 22g)"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Munz"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Munz Glückskäfer Bottle 150g"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Minor"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Original Bottle 150g"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Halba"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Napolitains, assortiert"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "FAIR SQUARED Hand Cream Sensitive Almond"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "FAIR SQUARED Shampoo Apricot"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "FAIR SQUARED Hand Cream Intensive Olive"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "FAIR SQUARED Body Butter Shea"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "FAIR SQUARED Body Lotion Lime"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "FAIR SQUARED After Care Tattoo Cream"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Fair Squared"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "FAIR SQUARED Shower Gel Lime"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Adobe Reserva"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Adobe Chardonnay 2026"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Mehr erfahren"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "Alle Produkte entdecken",
+     "href": "./ch-de/produkte/produktfinder.html"
+    }
+   ],
+   "imgCount": 24,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ProductTeaserCarousel--grid",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.Carousel--item",
+     "count": 24,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "8",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Warum Fairtrade-Produkte kaufen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wir wollen eine Welt schaffen, in der jeder von Qualitätsprodukten profitiert und Lebensqualität geniesst. Von Menschen- und Umweltrechten über Kinderschutz bis hin zu existenzsichernden Einkommen - hier sind unsere Schwerpunkte."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Mehr Infos",
+     "href": "./ch-de/was-ist-fairtrade/arbeitsschwerpunkte.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

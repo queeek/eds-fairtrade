@@ -1,0 +1,373 @@
+/* page-hero-carousel — live PageHeroCarousel / PageHeroSlide (values lifted, prototype en.css) */
+.page-hero-carousel {
+  --background-color: var(--ft-skyblue);
+  --pagination-bullet-color: rgb(30 30 30 / 25%);
+
+  background-color: var(--background-color);
+  overflow: hidden;
+  padding-block: 64px;
+}
+
+.page-hero-carousel.leafgreen {
+  --background-color: var(--ft-leafgreen);
+}
+
+/* live theme-leafgreen: the slide controls switch to skyblue */
+.page-hero-carousel.leafgreen .ft-button.color-leafgreen {
+  --background-color: var(--ft-skyblue);
+  --background-color-hover: var(--ft-skyblue-hover);
+  --background-color-active: var(--ft-skyblue-hover);
+  --border-color-hover: var(--ft-petrol);
+}
+
+.page-hero-carousel.nightsky {
+  --background-color: var(--ft-nightsky);
+  --pagination-bullet-color: hsl(0deg 0% 100% / 25%);
+
+  color: #fff;
+}
+
+.page-hero-carousel .hero-grid {
+  position: relative;
+}
+
+@media (width >= 1024px) {
+  .page-hero-carousel {
+    padding-block: 80px;
+  }
+
+  .page-hero-carousel .hero-grid > .hero-inner {
+    grid-column: 2 / -2;
+  }
+}
+
+.page-hero-carousel .hero-grid::before,
+.page-hero-carousel .hero-grid::after {
+  content: "";
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 50vw;
+  z-index: 2;
+}
+
+.page-hero-carousel .hero-grid::before {
+  background: linear-gradient(270deg, transparent 0, var(--background-color) 200px);
+  right: 100%;
+}
+
+.page-hero-carousel .hero-grid::after {
+  background: linear-gradient(90deg, transparent 0, var(--background-color) 200px);
+  left: 100%;
+}
+
+.page-hero-carousel .hero-inner {
+  position: relative;
+}
+
+.page-hero-carousel .hero-carousel {
+  position: relative;
+  z-index: 1;
+}
+
+.page-hero-carousel .hero-track {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* below 1024 the live swiper is a looped plain slider: the last slide sits left of the first */
+.page-hero-carousel .slide {
+  border-radius: var(--radius);
+  flex: 0 0 100%;
+  margin-right: 32px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.6s ease-in-out;
+}
+
+@media (width < 1024px) {
+  .page-hero-carousel:not(.is-moved) .hero-track {
+    transform: translateX(calc(-100% - 32px));
+  }
+
+  .page-hero-carousel:not(.is-moved) .slide.is-loop {
+    order: -1;
+  }
+}
+
+.page-hero-carousel.is-moved .hero-track {
+  transform: translateX(calc(var(--hero-index, 0) * (-100% - 32px)));
+}
+
+/* 1024+: active slide, next slide at half scale peeking right, the rest collapsed */
+@media (width >= 1024px) {
+  .page-hero-carousel .slide.is-active {
+    z-index: 3;
+  }
+
+  .page-hero-carousel .slide.is-next {
+    cursor: pointer;
+    transform: translateX(-25%) scale(0.5);
+    transform-origin: center top;
+    z-index: 2;
+  }
+
+  .page-hero-carousel .slide:is(.is-prev, .is-after) {
+    transform: translateX(-50%) scale(0);
+    transform-origin: center top;
+    z-index: 1;
+  }
+}
+
+.page-hero-carousel .slide-media {
+  aspect-ratio: 1;
+  border-radius: var(--radius);
+  overflow: hidden;
+  position: relative;
+  transition: opacity 0.4s ease-in;
+}
+
+@media (width >= 768px) {
+  .page-hero-carousel .slide-media {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (width >= 1024px) {
+  .page-hero-carousel .slide-media::after {
+    background: linear-gradient(60deg, rgb(0 0 0 / 50%) 35%, transparent 75%);
+    content: "";
+    inset: 0;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.4s ease-in-out;
+  }
+
+  .page-hero-carousel .slide.is-active .slide-media::after {
+    opacity: 1;
+  }
+}
+
+/* live Image: skyblue-25 placeholder, radius, cover-fitted photo */
+.page-hero-carousel .image {
+  background-color: var(--ft-skyblue-25);
+  border-radius: var(--radius);
+  height: 100%;
+  line-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.page-hero-carousel .image img {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.page-hero-carousel .image-desktop {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .page-hero-carousel .image-mobile {
+    display: none;
+  }
+
+  .page-hero-carousel .image-desktop {
+    display: block;
+  }
+
+  /* live quirk, lifted: a stray text line inside the desktop Image makes the cover-fitted
+     photo box 28.8px taller than the clipped media */
+  .page-hero-carousel .image-desktop img {
+    height: calc(100% + 28.8px);
+  }
+}
+
+.page-hero-carousel .slide-content {
+  transition: opacity 0.4s ease-in-out;
+}
+
+@media (width >= 1024px) {
+  .page-hero-carousel .slide-content {
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    opacity: 0;
+    padding: 32px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .page-hero-carousel .slide.is-active .slide-content {
+    opacity: 1;
+  }
+}
+
+@media (width >= 1280px) {
+  .page-hero-carousel .slide-content {
+    padding: 48px;
+  }
+}
+
+.page-hero-carousel .slide-content-inner {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+@media (width >= 1280px) {
+  .page-hero-carousel .slide-content-inner {
+    max-width: max(80%, 860px);
+  }
+}
+
+@media (width >= 1440px) {
+  .page-hero-carousel .slide-content-inner {
+    max-width: max(50%, 612px);
+  }
+}
+
+.page-hero-carousel .slide-title {
+  color: inherit;
+  font-family: var(--ft-font-head);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.page-hero-carousel .slide-title :is(h1, h2, h3) {
+  color: inherit;
+  font: inherit;
+  hyphens: manual;
+  margin: 0;
+  overflow-wrap: normal;
+}
+
+@media (width >= 1024px) {
+  .page-hero-carousel .slide-title {
+    font-size: clamp(40px, 4vw, 64px);
+  }
+}
+
+@media (width >= 1280px) {
+  .page-hero-carousel .slide-title {
+    font-size: 64px;
+  }
+}
+
+.page-hero-carousel .slide-text {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+@media (width >= 1024px) {
+  .page-hero-carousel .slide-text {
+    font-size: 18px;
+  }
+}
+
+/* the live CTA is a flex item of the content column (no line box) */
+.page-hero-carousel .slide-actions p {
+  display: flex;
+}
+
+.page-hero-carousel .slide-actions a.button {
+  height: 60px;
+}
+
+.page-hero-carousel .hero-pagination {
+  display: none;
+}
+
+@media (width >= 1024px) {
+  .page-hero-carousel .hero-pagination {
+    display: flex;
+    gap: 16px;
+    margin: 32px auto 0;
+    max-width: 540px;
+  }
+
+  .page-hero-carousel .hero-bullet {
+    cursor: pointer;
+    display: block;
+    flex: 1 1 auto;
+    margin-block: -16px;
+    padding-block: 16px;
+  }
+
+  .page-hero-carousel .hero-bullet::before {
+    background-color: var(--pagination-bullet-color);
+    border-radius: 100px;
+    content: "";
+    display: block;
+    height: 4px;
+  }
+
+  .page-hero-carousel .hero-bullet.is-active::before {
+    background-color: var(--ft-eggplant);
+  }
+}
+
+.page-hero-carousel .hero-controls {
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: calc(50vw - 24px);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+@media (width >= 768px) {
+  .page-hero-carousel .hero-controls {
+    top: calc(28.125vw - 18px);
+  }
+}
+
+@media (width >= 1024px) {
+  .page-hero-carousel .hero-controls {
+    left: -5vw;
+    opacity: 0;
+    right: -5vw;
+    top: 50%;
+    transition: opacity var(--ease), visibility var(--ease);
+    visibility: hidden;
+  }
+
+  .page-hero-carousel:hover .hero-controls {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.page-hero-carousel .hero-controls .ft-button:not(:disabled) {
+  pointer-events: auto;
+}
+
+.page-hero-carousel .control-previous {
+  transform: translateX(-25%);
+}
+
+.page-hero-carousel .control-next {
+  transform: translateX(25%);
+}
+
+@media (width >= 768px) {
+  .page-hero-carousel .control-previous {
+    transform: translateX(-50%);
+  }
+
+  .page-hero-carousel .control-next {
+    transform: translateX(50%);
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-28T13:46:36.283Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-28T20:45:26.535Z",
+  "pages": [
+    {
+      "slug": "ch-de",
+      "path": "/ch-de",
+      "title": "Fairtrade Max Havelaar Schweiz",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0ee1391b41463a0f5ab92ad93b8386ab8468ec2bfe45bc70e2443711110f8158",
+        "currentStatePath": "stardust/current/pages/ch-de.json",
+        "sourceUrl": "https://www.fairtrade.net/ch-de.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--bdafc086--aemcoder.aem.page/ch-de",
+        "deployedAt": "2026-10-28T17:49:49.476Z",
+        "verifiedAt": "2026-10-28T19:40:31.446Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.66,
+          "heightDelta": 7,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T20:45:26.535Z"
+        }
+      }
+    },
+    {
+      "slug": "de-de",
+      "path": "/de-de",
+      "title": "Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:461477311ad3b821880e7084b0730964f1466c38865cb5b4c34dfa6e2989f6c3",
+        "currentStatePath": "stardust/current/pages/de-de.json",
+        "sourceUrl": "https://www.fairtrade.net/de-de.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--bdafc086--aemcoder.aem.page/de-de",
+        "deployedAt": "2026-10-28T17:49:49.318Z",
+        "verifiedAt": "2026-10-28T19:40:31.446Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.96,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T20:45:26.535Z"
+        }
+      }
+    },
+    {
+      "slug": "de-de-produkte-produktfinder",
+      "path": "/de-de/produkte/produktfinder",
+      "title": "Fairtrade Produktfinder | Fairtrade Deutschland",
+      "templateId": "search",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d82ac228ae59ed1988f81a39d1e61c7f7b2eb8273e1889762b08dcd06705f1b4",
+        "currentStatePath": "stardust/current/pages/de-de-produkte-produktfinder.json",
+        "sourceUrl": "https://www.fairtrade.net/de-de/produkte/Produktfinder.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--bdafc086--aemcoder.aem.page/de-de/produkte/produktfinder",
+        "deployedAt": "2026-10-28T17:49:06.308Z",
+        "verifiedAt": "2026-10-28T19:40:46.453Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.4,
+          "heightDelta": -53,
+          "clipped": 0,
+          "content": {
+            "missing": 3,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 11.4% > 10%",
+            "content MISSING 3 / HIDDEN 0",
+            "units off 32 hidden 0 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T20:45:26.535Z"
+        }
+      }
+    },
+    {
+      "slug": "en",
+      "path": "/en",
+      "title": "English",
+      "templateId": "en",
+      "source": {
+        "migratedHtml": "stardust/migrated/en.html",
+        "metaJson": "stardust/migrated/en._meta.json",
+        "sourceHash": "sha256:83e83bea90e66bf02d3f5fcbfa92746f1af6b9d11517743056550b8b9ea84369",
+        "sourceUrl": "https://www.fairtrade.net/en.html"
+      },
+      "blocks": [
+        "page-hero-carousel",
+        "number-fact-teaser",
+        "teaser-grid",
+        "cta-section",
+        "text-image",
+        "accordion"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--bdafc086--aemcoder.aem.page/en",
+        "deployedAt": "2026-10-28T15:05:55.341Z",
+        "verifiedAt": "2026-10-28T19:40:31.446Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.2,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T20:45:26.535Z"
+        }
+      }
+    },
+    {
+      "slug": "en-get-involved-press-centre",
+      "path": "/en/get-involved/press-centre",
+      "title": "Press centre",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:73512bbdc232e5ffa4c807c21416546957a4df40f884c883c148d306e94a51f3",
+        "currentStatePath": "stardust/current/pages/en-get-involved-press-centre.json",
+        "sourceUrl": "https://www.fairtrade.net/en/get-involved/Press-centre.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--bdafc086--aemcoder.aem.page/en/get-involved/press-centre",
+        "deployedAt": "2026-10-28T17:46:59.687Z",
+        "verifiedAt": "2026-10-28T19:40:31.446Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.21,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T20:45:26.535Z"
+        }
+      }
+    },
+    {
+      "slug": "en-products-fairtrade_products",
+      "path": "/en/products/fairtrade-products",
+      "title": "Fairtrade products",
+      "templateId": "en-products-fairtrade_products",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/products/Fairtrade_products.html",
+        "metaJson": "stardust/migrated/en/products/Fairtrade_products._meta.json",
+        "sourceHash": "sha256:d97d79fb8b72abf6fbc35c55414eee1db9f966bd9d6c5fcd50154aa25508ca3c",
+        "sourceUrl": "https://www.fairtrade.net/en/products/Fairtrade_products.html"
+      },
+      "blocks": [
+        "page-lead",
+        "teaser-grid"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--bdafc086--aemcoder.aem.page/en/products/fairtrade-products",
+        "deployedAt": "2026-10-28T15:41:08.265Z",
+        "verifiedAt": "2026-10-28T19:40:31.446Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.95,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T20:45:26.535Z"
+        }
+      }
+    },
+    {
+      "slug": "en-products-fairtrade_products-cocoa",
+      "path": "/en/products/fairtrade-products/cocoa",
+      "title": "Cocoa",
+      "templateId": "en-products-fairtrade_products-cocoa",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/products/Fairtrade_products/cocoa.html",
+        "metaJson": "stardust/migrated/en/products/Fairtrade_products/cocoa._meta.json",
+        "sourceHash": "sha256:ef8a88dc262e22cae7993eda2388a39099e95303710637629662ddb2c724eabb",
+        "sourceUrl": "https://www.fairtrade.net/en/products/Fairtrade_products/cocoa.html"
+      },
+      "blocks": [
+        "page-lead",
+        "text-image",
+        "number-fact-teaser",
+        "cta-section"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--bdafc086--aemcoder.aem.page/en/products/fairtrade-products/cocoa",
+        "deployedAt": "2026-10-28T16:40:37.234Z",
+        "verifiedAt": "2026-10-28T19:40:31.446Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.72,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T20:45:26.535Z"
+        }
+      }
+    },
+    {
+      "slug": "en-search-results",
+      "path": "/en/search-results",
+      "title": "Search results",
+      "templateId": "en-search-results",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/search-results.html",
+        "metaJson": "stardust/migrated/en/search-results._meta.json",
+        "sourceHash": "sha256:4681a58c327f07af86fd80aab33b5a01a018f1a67bd976d19fe3247707dc965b",
+        "sourceUrl": "https://www.fairtrade.net/en/search-results.html?q=coffee"
+      },
+      "blocks": [
+        "search"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--bdafc086--aemcoder.aem.page/en/search-results?q=coffee",
+        "deployedAt": "2026-10-28T17:08:02.627Z",
+        "verifiedAt": "2026-10-28T19:40:46.518Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.46,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 0 hidden 5 missing 0"
+          ],
+          "override": "pass",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T20:45:26.535Z"
+        }
+      }
+    },
+    {
+      "slug": "en-why-fairtrade-what-we-do-key-benefits",
+      "path": "/en/why-fairtrade/what-we-do/key-benefits",
+      "title": "Key benefits of Fairtrade",
+      "templateId": "en-why-fairtrade-what-we-do-key-benefits",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/why-fairtrade/what-we-do/key-benefits.html",
+        "metaJson": "stardust/migrated/en/why-fairtrade/what-we-do/key-benefits._meta.json",
+        "sourceHash": "sha256:5aecf14594c3322cf7745efa48c5ef589ce1ead1bd073bca47c430333e541c9b",
+        "sourceUrl": "https://www.fairtrade.net/en/why-fairtrade/what-we-do/key-benefits.html"
+      },
+      "blocks": [
+        "page-lead",
+        "text-image"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--bdafc086--aemcoder.aem.page/en/why-fairtrade/what-we-do/key-benefits",
+        "deployedAt": "2026-10-28T16:09:46.171Z",
+        "verifiedAt": "2026-10-28T19:40:31.446Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.12,
+          "heightDelta": 27,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-28T20:45:26.535Z"
+        }
+      }
+    }
+  ]
+}

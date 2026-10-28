@@ -1,0 +1,698 @@
+{
+ "source": "http://127.0.0.1:8793/migrated/en/get-involved/Press-centre.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Press centre"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "If you are a journalist looking for information about Fairtrade and our latest press announcements, this section has you covered."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Are you working on a story for a global media outlet or international trade press and are seeking more information? Or would you like to interview a Fairtrade International representative?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Please contact Fairtrade International via . Our communications team will be happy to assist you."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "press@fairtrade.net",
+     "href": "mailto:press@fairtrade.net"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "National or local media?"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "If your story is intended for national or local media and you are based in any of the highlighted countries on the map below, please contact your nearest"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Fairtrade organisation.",
+     "href": "../../en/about/fairtrade-global-network.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Press releases"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "05.10.26"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Fairtrade raises Minimum Price for bananas amid soaring costs for farmers"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Fairtrade International has increased its Minimum Prices for bananas in direct response to a combination of external pressures negatively impacting producers, including geopolitical instability, climate change, and rising input and logistics costs."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "15.09.26"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Four-Year EU Project Wraps Up After Advancing Sustainable Cotton and Textile Production in Tamil Nadu"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "The European Union-funded SWITCH-Asia project Switching to Green & Fair Fashion: Advancing Sustainable Production and Consumption in Cotton & Textile Value Chains has concluded after four years reaching more than 9,500 cotton farmers and 700 textile manufacturers in India."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "30.07.26"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Fairtrade International secures a stronger safety net for coffee farmers while considering market conditions in announcing new minimum prices"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "The new Fairtrade Minimum Prices for Arabica and Robusta coffee beans are the result of a year-long research and consultation process that included data collection, stakeholder consultations, market analysis, and democratic decision-making."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "16.06.26"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Fairtrade’s digital system Plot Insights gives Fairtrade co-ops an EUDR compliance edge"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Fairtrade International announced the launch of Plot Insights, a new digital tool designed to help coffee and cocoa cooperatives manage geolocation data for EU Deforestation Regulation compliance."
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "11.06.26"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Living income"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Fairtrade International highlights growing business commitment to living incomes and future vision in 2025 Annual Report"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "On the occasion of its annual General Assembly, Fairtrade International released its 2025 Annual Report highlighting its progress in advancing fairer trade and strengthening producer resilience."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "11.06.26"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Fairtrade International’s response to the Coffee Barometer 2026"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Fairtrade International welcomes the Coffee Barometer 2026 report and its assessment of the structural challenges facing the global coffee sector."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "30.04.26"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Living income"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Fairtrade announces new Living Income Reference Prices for cocoa after extensive industry review"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "New Living Income Reference Prices for cocoa from Côte d’Ivoire and Ghana are now available and will enter into force at the start of the harvest season in autumn 2026, according to Fairtrade International."
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "30.03.26"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Fairtrade system"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Fairtrade Global Strategy 2026 – 2028: Catalyst for Resilience"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Fairtrade International has launched its Global Strategy 2026 – 2028, a bold and innovative plan aimed at building farmer resilience and advancing fair and sustainable trade in the coming years."
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "20.02.26"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Living income"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Living income commitments have expanded despite a tough economy, reports Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Despite the economic challenges in the past few years – including the effects of inflation, conflict, and climate change on the cost of global commodities – Fairtrade and its partners have found success in new strategies to move towards living incomes for farmers, according to a recent report from Fairtrade International."
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "19.02.26"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Living income"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Better incomes for cocoa farmers"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Fairtrade launches Living Income West Africa Cocoa Programme in Germany with Lidl as its first partner."
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "26.01.26"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Living income"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Fairtrade puts Living Income into action with cocoa programme in Côte d’Ivoire"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Utrecht, 26 January 2026 - Fairtrade has started the on-the-ground implementation of its Living Income and Child Wellbeing Programme for cocoa in Côte d’Ivoire."
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "18.12.25"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Deforestation"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "EUDR one-year delay: Fairtrade calls for clear path forward and rejects any further weakening of the legislation"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "With confirmation today by the European Parliament that the EU Deforestation Regulation (EUDR) start date will be delayed by another year, Fairtrade International calls for a clear path forward."
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "11.12.25"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Smallholder farmers"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Fairtrade boosts support for cocoa farmers amid continuing market uncertainty"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Fairtrade cocoa farmers and cooperatives are set to benefit from increased premiums and a new safety net as they navigate the ‘perfect storm’ of challenges, including climate change, volatile markets, and rising costs, according to an announcement made today by Fairtrade International."
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "11.12.25"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Trilogue deal on CSDDD is a step backwards for responsible business conduct"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "The Fair Trade Movement expresses deep concern following today’s JURI Committee vote endorsing the trilogue agreement on the Corporate Sustainability Due Diligence Directive (CSDDD)."
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "25.11.25"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Change happens often; transformation doesn’t. Fairtrade Standards are evolving to support farmers, workers, and businesses thrive in a rapidly changing world."
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Fairtrade is excited to announce that its standards are evolving to make them more effective, while remaining practical to implement and firmly grounded in its core principles and values."
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "05.11.25"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Smallholder farmers"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Fairtrade West Africa Cocoa Programme supports farmer adaptation to changing cocoa landscape, evaluation finds"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "Fairtrade’s West Africa Cocoa Programme plays a key role in preparing cooperatives to navigate regulatory changes, economic fluctuations, climate change, and other pressures, according to a new evaluation from Fairtrade."
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "04.11.25"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Climate change"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "EU-funded project to support just transition for Indonesian smallholder farmers"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "A four-year EU-funded initiative will support Indonesian smallholder farmers and producer organisations to better adapt to climate change, access sustainable markets, and strengthen gender equality in agriculture."
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Read more"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "22.10.25"
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "Press releases"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Fair Trade Movement urges MEPs to seize the opportunity to strengthen CSDDD in upcoming plenary vote"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "After today’s decision at the European Parliament, the Fair Trade Movement sees some potential for improvements in the CSDDD. However, we are deeply worried that it could put smallholder farmers, artisans, workers and responsible businesses at serious risk."
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Read more"
+    }
+   ],
+   "imgCount": 15,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.TeaserGrid--item",
+     "count": 18,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "5",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Load more"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "6",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Useful resources"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fairtrade's key facts and figures"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Fairtrade's key facts and figures"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "This page presents an overview of our latest impact"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Here you can download our latest publications and studies"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Key issues for Fairtrade"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Key issues for Fairtrade"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "This section highlights what are our areas of focus"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "FAQs"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "FAQs"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Here you can visit our most frequently asked questions"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.AccordionSection--item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

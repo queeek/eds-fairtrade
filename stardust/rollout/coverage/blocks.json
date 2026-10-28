@@ -1,0 +1,187 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-28T13:46:54.118Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-28T19:43:45.223Z",
+  "blocks": [
+    {
+      "id": "accordion",
+      "label": "accordion",
+      "kind": "module",
+      "signature": "module:accordion",
+      "source": null,
+      "usedByTemplates": [
+        "en"
+      ],
+      "usedByPages": [
+        "en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta-section",
+      "label": "cta-section",
+      "kind": "module",
+      "signature": "module:cta-section",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-products-fairtrade_products-cocoa"
+      ],
+      "usedByPages": [
+        "en",
+        "en-products-fairtrade_products-cocoa"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "cta-section",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "number-fact-teaser",
+      "label": "number-fact-teaser",
+      "kind": "module",
+      "signature": "module:number-fact-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-products-fairtrade_products-cocoa"
+      ],
+      "usedByPages": [
+        "en",
+        "en-products-fairtrade_products-cocoa"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "number-fact-teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "page-hero-carousel",
+      "label": "page-hero-carousel",
+      "kind": "module",
+      "signature": "module:page-hero-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "en"
+      ],
+      "usedByPages": [
+        "en"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "page-hero-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "page-lead",
+      "label": "page-lead",
+      "kind": "module",
+      "signature": "module:page-lead",
+      "source": null,
+      "usedByTemplates": [
+        "en-products-fairtrade_products",
+        "en-products-fairtrade_products-cocoa",
+        "en-why-fairtrade-what-we-do-key-benefits"
+      ],
+      "usedByPages": [
+        "en-products-fairtrade_products",
+        "en-products-fairtrade_products-cocoa",
+        "en-why-fairtrade-what-we-do-key-benefits"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "page-lead",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "search",
+      "label": "search",
+      "kind": "module",
+      "signature": "module:search",
+      "source": null,
+      "usedByTemplates": [
+        "en-search-results"
+      ],
+      "usedByPages": [
+        "en-search-results"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "widgets/search",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "teaser-grid",
+      "label": "teaser-grid",
+      "kind": "module",
+      "signature": "module:teaser-grid",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-products-fairtrade_products"
+      ],
+      "usedByPages": [
+        "en",
+        "en-products-fairtrade_products"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "teaser-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "text-image",
+      "label": "text-image",
+      "kind": "module",
+      "signature": "module:text-image",
+      "source": null,
+      "usedByTemplates": [
+        "en",
+        "en-products-fairtrade_products-cocoa",
+        "en-why-fairtrade-what-we-do-key-benefits"
+      ],
+      "usedByPages": [
+        "en",
+        "en-products-fairtrade_products-cocoa",
+        "en-why-fairtrade-what-we-do-key-benefits"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "text-image",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

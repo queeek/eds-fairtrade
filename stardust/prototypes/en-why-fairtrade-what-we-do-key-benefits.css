@@ -1,0 +1,22 @@
+/*
+ * en-why-fairtrade-what-we-do-key-benefits.css — archetype `static` (article template), NEW modules only.
+ * Load after canon.css + en.css (RichtextSection, TextImage come from en.css).
+ * Values lifted from the live clientlib-site stylesheet; breakpoints are the source steps.
+ * Modules: SingleImage.
+ */
+
+/* ---------------------------------------------------------------- SingleImage */
+.SingleImage { padding-block: 64px; }
+@media (width >= 1024px) { .SingleImage { padding-block: 80px; } }
+.SingleImage.size-content {
+  column-gap: var(--grid-gap); display: grid; grid-template-columns: repeat(var(--grid-cols), 1fr);
+  margin-inline: auto; padding-inline: var(--grid-pad); width: min(100%, var(--shell-max));
+}
+.SingleImage.size-content > * { grid-column: 1 / -1; min-width: 0; }
+@media (width >= 1024px) { .size-content .SingleImage--figure { grid-column: 2 / -2; } }
+.SingleImage--image.desktop { display: none; }
+.SingleImage--image.mobile { display: block; }
+@media (width >= 768px) { .SingleImage--image.desktop { display: block; } .SingleImage--image.mobile { display: none; } }
+.SingleImage--caption { align-items: normal; display: flex; flex-direction: row; font-size: 13px; gap: 2px; line-height: 1.6; margin-top: 12px; }
+@media (width >= 1024px) { .SingleImage--caption { font-size: 14px; } }
+.SingleImage--caption--icon { color: var(--ft-skyblue); flex: 0 0 auto; }
